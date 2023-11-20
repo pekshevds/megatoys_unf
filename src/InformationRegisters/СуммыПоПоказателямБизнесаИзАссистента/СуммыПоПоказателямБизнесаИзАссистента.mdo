@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ede7c118-e2df-4a6a-aef1-43deaf253b4b">
+  <producedTypes>
+    <selectionType typeId="ce19528e-3978-4c9c-83c1-8d73e44508f1" valueTypeId="badb4a50-9694-4f6a-a854-f95665b5dee2"/>
+    <listType typeId="67bb3c2c-ca47-4d4e-b0b3-dbe2223fa58d" valueTypeId="bcc9829a-ae62-4173-811c-63860f535aa4"/>
+    <managerType typeId="e10c07df-e55c-4054-99ce-0816b0d6d8b3" valueTypeId="bda6d21b-fd2b-4520-9e45-f4e6c60318c1"/>
+    <recordSetType typeId="ad059dfd-029b-4be0-b8cd-8140091f5562" valueTypeId="35bb8d08-df00-4a53-8dc7-6f2334a87a50"/>
+    <recordKeyType typeId="40c5ee6d-d1e4-4b84-b34d-5a3fb22bf951" valueTypeId="1cac21d1-d7ab-41f6-9b55-7b629ca6e3b6"/>
+    <recordType typeId="e93b8417-9c05-45b7-9486-13046a715ce7" valueTypeId="ed113e83-eae4-499f-b0f8-92b7a87b13cd"/>
+    <recordManagerType typeId="cd63562e-434c-4e63-b102-60687298592b" valueTypeId="f1309e41-b418-4b12-be39-1adb7ccc51b1"/>
+  </producedTypes>
+  <name>СуммыПоПоказателямБизнесаИзАссистента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Суммы по показателям бизнеса из ассистента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4dad9572-daf5-4343-af98-4d8e646e998e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ff02b9a8-51b6-41ea-86a6-106688f1c330">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиАссистентаПоРаботеСПоказателямиБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="87a01d31-da9e-461c-a415-b4edc4de1b2a">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

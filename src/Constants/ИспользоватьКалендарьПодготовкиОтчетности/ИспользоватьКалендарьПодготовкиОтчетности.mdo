@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffed4f94-9add-4e01-aafd-7bffaf72e026">
+  <producedTypes>
+    <managerType typeId="c423f7fe-d1f5-4d0a-bddb-dafcbe063736" valueTypeId="3c9d355c-51d4-402a-9a4b-82bee603dcaa"/>
+    <valueManagerType typeId="989d5929-b7b5-4864-b661-22d853aee418" valueTypeId="12d19113-6f29-45f8-9121-ae816e52340c"/>
+    <valueKeyType typeId="b8e9fc50-ad8d-4e9a-9044-ee9570fd3997" valueTypeId="644de30f-bb9d-4d1e-bd8e-5eb3632b91d2"/>
+  </producedTypes>
+  <name>ИспользоватьКалендарьПодготовкиОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать календарь подготовки отчетности</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

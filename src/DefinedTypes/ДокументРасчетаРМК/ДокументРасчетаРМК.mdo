@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfe4e749-96e7-4d73-ab50-30d63aa5ca82">
+  <producedTypes>
+    <containerType typeId="26aad711-edd1-4319-91bf-c49d48482509" valueTypeId="7f2f94a5-89c7-4376-95cb-3d4086affdb1"/>
+  </producedTypes>
+  <name>ДокументРасчетаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ расчета РМК</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЧекККМВозврат</types>
+    <types>DocumentRef.РасходСоСчета</types>
+    <types>DocumentRef.ЧекККМ</types>
+    <types>DocumentRef.ПоступлениеВКассу</types>
+    <types>DocumentRef.РасходИзКассы</types>
+    <types>DocumentRef.ПоступлениеНаСчет</types>
+    <types>DocumentRef.ОперацияПоПлатежнымКартам</types>
+  </type>
+</mdclass:DefinedType>

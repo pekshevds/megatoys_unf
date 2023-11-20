@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="936e99fa-bd02-4a59-88b7-b03c13f3baeb">
+  <name>ЧтениеФактическоеРабочееВремяСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение фактическое рабочее время сотрудников</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b2f36b-adc9-458c-a537-4e334e005ff0">
+  <producedTypes>
+    <containerType typeId="4e5e70bb-44f2-42b6-b940-93b8800fcb2e" valueTypeId="f96ecdd7-23e1-422e-8153-4f605c1a1ac2"/>
+  </producedTypes>
+  <name>ОснованиеДляПолученияРНПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание для получения РНПТ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.ИнвентаризацияЗапасов</types>
+  </type>
+</mdclass:DefinedType>

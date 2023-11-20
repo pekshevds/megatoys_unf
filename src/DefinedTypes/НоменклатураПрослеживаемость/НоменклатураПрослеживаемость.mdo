@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce8681fa-4d9f-4912-884d-c859b9ca9908">
+  <producedTypes>
+    <containerType typeId="c8d2073f-2bb2-4a6a-8d40-bea7d7faf041" valueTypeId="9c1626dc-c23e-4ae1-8d31-b68a50ee5be9"/>
+  </producedTypes>
+  <name>НоменклатураПрослеживаемость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура прослеживаемость</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+</mdclass:DefinedType>

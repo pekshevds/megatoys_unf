@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0185191-f52f-425c-bb07-50c9d4617d2a">
+  <producedTypes>
+    <managerType typeId="b1bf87a6-9e02-4b62-bee4-0c1d25c8e85a" valueTypeId="21c880d2-18a8-4924-839c-189ab77c561f"/>
+    <valueManagerType typeId="f4171bb2-1d41-440f-b7d3-a5da72fce771" valueTypeId="fed064e4-c42a-45aa-8f17-25dd53829e41"/>
+    <valueKeyType typeId="cb97516e-04ed-4312-8dba-fecb9812b9fa" valueTypeId="596e9104-dfee-4d65-bffa-c64e6ccebc22"/>
+  </producedTypes>
+  <name>ЛокальноеХранениеДисконтныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальное хранение дисконтных карт</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

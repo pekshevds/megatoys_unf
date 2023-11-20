@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6812923-79e7-43ae-a7b0-0ece3c26b886">
+  <producedTypes>
+    <refType typeId="46bd40a2-6350-4929-bcc2-5e87f8d9a820" valueTypeId="c0de6dc1-5150-4ef3-91fc-fc98d7b46f4f"/>
+    <listType typeId="c124c46b-d389-4273-bb85-1180ed3c1ec1" valueTypeId="af4b9ad6-c17d-49d7-b90e-1ffa986799ac"/>
+    <managerType typeId="3c83cfe2-1710-4bac-b950-a8ff7ae701ff" valueTypeId="dac2d82d-4a4b-48fd-adb3-2d925a62a8f2"/>
+  </producedTypes>
+  <name>ВидыДоступовГруппАдреснойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доступов групп адресной книги</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a85bc46-e4b0-4052-aba1-435da4a3f064">
+    <name>МояГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моя группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4eaae169-1be9-45fe-9a82-37d4778c98af">
+    <name>ОбщаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая группа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

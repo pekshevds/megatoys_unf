@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0513f46-5a3e-4792-a2de-c68b673d8afc">
+  <name>МенеджерОбменаСПриложениемКладовщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер обмена с приложением 1С:Кладовщик</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

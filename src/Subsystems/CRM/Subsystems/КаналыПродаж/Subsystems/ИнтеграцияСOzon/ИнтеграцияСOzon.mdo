@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e435fba-c0d0-4d4d-9a14-c0f448e4dec4">
+  <name>ИнтеграцияСOzon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Ozon</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ОграниченияВыгрузкиОстатковМаркетплейсов</content>
+  <content>Enum.ВидыОбъектовМаркетплейсов</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсомOzonСервер</content>
+  <content>Enum.СтатусыОбъектовМаркетплейсаOzon</content>
+  <content>InformationRegister.СтатусыПубликацииОбъектовМаркетплейсаOzon</content>
+  <content>InformationRegister.СоответствияОбъектовМаркетплейсов</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсомOzonКлиент</content>
+  <content>Catalog.УчетныеЗаписиМаркетплейсов</content>
+  <content>InformationRegister.СоответствияАтрибутовМаркетплейсов</content>
+  <content>Enum.ВидыМаркетплейсов</content>
+  <content>InformationRegister.ОстаткиТоваровМаркетплейсов</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсамиСервер</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсомOzonВызовСервера</content>
+  <content>ScheduledJob.ОбновлениеТоварногоКаталогаOzon</content>
+  <content>Enum.ИсточникиКатегорийДляМаркетплейса</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсомOzonКлиентСервер</content>
+  <content>Role.ИспользованиеИнтеграцииСМаркетплейсомOzon</content>
+  <content>CommonPicture.ЛоготипOzon1</content>
+  <content>CommonPicture.ЛоготипOzon2</content>
+  <content>XDTOPackage.ЯндексАвторизация</content>
+  <content>XDTOPackage.ЯндексДиск</content>
+  <content>StyleItem.СерыйЦветТекста1</content>
+  <content>InformationRegister.СортировкаФайловДляСайта</content>
+  <content>CommonCommand.ИнтеграцияСOzon</content>
+  <content>CommonModule.ИнтеграцияСМаркетплейсамиВызовСервера</content>
+  <content>CommonPicture.ИнтеграцияСМаркетплейсомOzonЗаставка</content>
+  <content>EventSubscription.ИнтеграцияСМаркетплейсомOzonПриЗаписиСправочников</content>
+  <content>StyleItem.НадписьШрифтПолужирный8</content>
+  <content>DataProcessor.МаркетплейсOzon</content>
+  <content>CommonTemplate.ИнтеграцияССайтамиИМаркетплейсамиОшибкиРасшифровка</content>
+  <content>Role.ИспользованиеИнтеграцииСМаркетплейсомЯндексМаркет</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.КаналыПродаж</parentSubsystem>
+</mdclass:Subsystem>

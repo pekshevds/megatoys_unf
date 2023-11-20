@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb12d5d-9e18-4a15-850c-72d4782e0a30">
+  <producedTypes>
+    <containerType typeId="ebe68a00-91e6-43d3-82d2-69bf0cd7de08" valueTypeId="6097111c-bc20-48c6-9da7-8835e8952edd"/>
+  </producedTypes>
+  <name>ВладелецКартыЛояльностиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец карты лояльности РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ceb1f2c-819c-463d-a5f3-d39f9fc9f55e">
+  <producedTypes>
+    <containerType typeId="9e2c96d4-8913-41b3-8b29-76cb4175a353" valueTypeId="ae0164de-89c4-4e17-8346-a37afdf80b09"/>
+  </producedTypes>
+  <name>ХарактеристикаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристика РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

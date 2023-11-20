@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9faf450d-e871-45e8-a69f-6485ad27eeb8">
+  <name>СистемаБыстрыхПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система быстрых платежей</value>
+  </synonym>
+  <group>CommandGroup.НовостиСервис</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9af3ca5c-7146-4bfd-a146-a4be4d01420e">
+  <name>АктуализироватьСтруктуруПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализировать структуру предприятия</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ПодразделенияОрганизаций</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияБЗКБСлужебныйУНФ.ОбновитьЭлементСтруктурыПредприятия</handler>
+</mdclass:EventSubscription>

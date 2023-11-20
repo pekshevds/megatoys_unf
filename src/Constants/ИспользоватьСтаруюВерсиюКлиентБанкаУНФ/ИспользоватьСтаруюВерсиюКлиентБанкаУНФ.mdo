@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fad79026-cad5-48a0-923f-308d721cfd42">
+  <producedTypes>
+    <managerType typeId="5b2ce340-a878-4784-a8be-a02bebbc4ce1" valueTypeId="d0bb55be-b99c-4f06-9f67-cc7f3ac761b7"/>
+    <valueManagerType typeId="8167cee5-6055-4c54-9aef-37621a3351f4" valueTypeId="bd22cffc-a5df-46e5-b3d2-8bdf0060252e"/>
+    <valueKeyType typeId="b5882605-528d-4a43-81a2-cd1e427790ca" valueTypeId="c45adf32-be10-4f62-89e2-6615370a84c3"/>
+  </producedTypes>
+  <name>ИспользоватьСтаруюВерсиюКлиентБанкаУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать старую версию Клиент-банка</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

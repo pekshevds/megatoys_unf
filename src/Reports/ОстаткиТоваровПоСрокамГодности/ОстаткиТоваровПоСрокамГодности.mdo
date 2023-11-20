@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="735a1146-458c-46d0-89c5-5feba7e50b60">
+  <producedTypes>
+    <objectType typeId="ea8cd890-a1bc-4453-b3cd-833d93af4e23" valueTypeId="59833e11-095b-4667-af31-d9badf267e08"/>
+    <managerType typeId="22736b27-10f5-43c4-b7b4-cdf364a57e00" valueTypeId="7b7b9910-0e51-4afb-9e64-7485306b09dd"/>
+  </producedTypes>
+  <name>ОстаткиТоваровПоСрокамГодности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров по срокам годности</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОстаткиТоваровПоСрокамГодности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c8e791a9-58c7-46bc-bdb9-1d66e8f9d047">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="bc9e06f2-a13f-4fa1-a8c2-732639ff2c6f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="7cd1fff0-d82a-44d3-97d3-726b374f5e1d">
+    <name>ОбразецОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец остатки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

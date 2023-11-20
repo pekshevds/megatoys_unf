@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aae995a-e406-4523-835e-395c79263a7e">
+  <name>ДобавлениеИзменениеНастроекОбменаСМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек обмена с мобильными приложениями</value>
+  </synonym>
+</mdclass:Role>

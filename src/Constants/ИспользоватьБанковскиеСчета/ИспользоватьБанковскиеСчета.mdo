@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="818ca890-0985-4167-95b2-620546934d6d">
+  <producedTypes>
+    <managerType typeId="93591e54-ca8c-416a-b3ee-6bdaf8002ccb" valueTypeId="3825e31e-1fe5-4318-867f-ae610d505c34"/>
+    <valueManagerType typeId="6e739806-3304-4c94-ae72-55720b67f302" valueTypeId="3a2d71ae-2f7a-4890-877c-c7b423546e6a"/>
+    <valueKeyType typeId="300c7229-7824-43cd-a783-d40ab7732924" valueTypeId="37a25297-3003-4598-a933-5562df8012aa"/>
+  </producedTypes>
+  <name>ИспользоватьБанковскиеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать банковские счета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

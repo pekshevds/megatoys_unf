@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1114b1fa-62af-4bab-a078-6293438d7814">
+  <name>ДобавлениеИзменениеЗаявленийОПредоставленииСведенийОТрудовойДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение заявлений о предоставлении сведений о трудовой деятельности</value>
+  </synonym>
+</mdclass:Role>

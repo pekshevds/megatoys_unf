@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26885bef-013d-4323-a8f4-1063d4ab1320">
+  <name>УправлениеМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные приложения</value>
+  </synonym>
+  <content>Role.СозданиеУзлаОбменаДляМобильногоПриложения</content>
+  <content>Catalog.МобильныеПриложения</content>
+  <content>ExchangePlan.ОбменСМобильнымиПриложениями</content>
+  <content>XDTOPackage.Storekeeper</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениями</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениямиПереопределяемый</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениямиКлиентСервер</content>
+  <content>FunctionalOption.ИспользоватьОбменСМобильнымиПриложениями</content>
+  <content>Constant.ИспользоватьОбменСМобильнымиПриложениями</content>
+  <content>Role.ЧтениеНастроекОбменаСМобильнымиПриложениями</content>
+  <content>CommonPicture.СтатусыОбменаКоллекцияУправлениеМП</content>
+  <content>DataProcessor.УправлениеМобильнымиПриложениями</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениямиКлиентСерверПереопределяемый</content>
+  <content>Role.ДобавлениеИзменениеНастроекОбменаСМобильнымиПриложениями</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыУправлениеМП</content>
+  <content>EventSubscription.УправлениеМобильнымиПриложениямиЗарегистрироватьИзменениеДокумента</content>
+  <content>CommonPicture.ВажноУправлениеМП</content>
+  <content>CommonPicture.ЭлектронноеПисьмоУправлениеМП</content>
+  <content>DefinedType.ДокументыОбменаСМобильнымиПриложениями</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениямиУНФ</content>
+  <content>CommonModule.МенеджерОбменаСПриложениемКладовщик</content>
+  <content>CommonPicture.ПроверкаЦенниковQRКод</content>
+  <content>CommonPicture.МобильнаяКассаQRКод</content>
+  <content>CommonPicture.КладовщикQRКод</content>
+  <content>CommonModule.МенеджерОбменаСПриложениемЗаказы</content>
+  <content>CommonModule.УправлениеМобильнымиПриложениямиУНФПовтИсп</content>
+  <content>XDTOPackage.Orders</content>
+  <content>EventSubscription.УправлениеМобильнымиПриложениямиЗарегистрироватьИзменениеРегистра</content>
+  <content>DefinedType.СправочникиОбменаСМобильнымиПриложениями</content>
+  <content>EventSubscription.УправлениеМобильнымиПриложениямиЗарегистрироватьИзменениеСправочника</content>
+</mdclass:Subsystem>

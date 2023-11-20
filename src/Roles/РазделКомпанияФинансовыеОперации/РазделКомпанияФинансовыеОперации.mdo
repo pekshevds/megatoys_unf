@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3030c58-64ce-457a-92c1-3093e902ee0c">
+  <name>РазделКомпанияФинансовыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел компания финансовые операции</value>
+  </synonym>
+</mdclass:Role>

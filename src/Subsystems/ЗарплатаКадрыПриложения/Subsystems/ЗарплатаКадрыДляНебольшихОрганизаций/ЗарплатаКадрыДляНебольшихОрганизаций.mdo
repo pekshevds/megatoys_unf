@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e966457f-da3c-4bf5-b68d-e92a11abed50">
+  <name>ЗарплатаКадрыДляНебольшихОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата кадры для небольших организаций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.ЧтениеДокументовЗарплатаКадры</content>
+  <content>CommonModule.ЗарплатаКадрыДляНебольшихОрганизаций</content>
+  <content>EventSubscription.ОпределитьФормуПрисоединенногоФайлаБЗКБ</content>
+  <content>Role.ДобавлениеИзменениеДокументовЗарплатаКадры</content>
+  <content>EventSubscription.ПроверкаЗаполненияПодразделенийНебольшихОрганизаций</content>
+  <content>CommonModule.ПодразделенияНебольшихОрганизаций</content>
+  <content>CommonModule.ЗарплатаКадрыДляНебольшихОрганизацийПереопределяемый</content>
+  <content>CommonForm.РасшифровкаРегламентированногоОтчетаЗарплата</content>
+  <content>Report.УнифицированнаяФормаТ13</content>
+  <subsystems>БизнесПроцессыЗаявокСотрудников</subsystems>
+  <subsystems>Выплаты</subsystems>
+  <subsystems>ДоговорыГПХ</subsystems>
+  <subsystems>ИнтеграцияУпралениеПерсоналом</subsystems>
+  <subsystems>КабинетСотрудника</subsystems>
+  <subsystems>КадровыйУчет</subsystems>
+  <subsystems>ОтражениеЗарплатыВБухгалтерскомУчете</subsystems>
+  <subsystems>ПособияСоциальногоСтрахования</subsystems>
+  <subsystems>ОценочныеОбязательства</subsystems>
+  <subsystems>РасчетЗарплаты</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

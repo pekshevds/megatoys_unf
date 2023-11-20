@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eaab35e-f789-4dee-af9d-24cf1183e59a">
+  <name>ЭлектронноеВзаимодействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное взаимодействие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>БизнесСеть</subsystems>
+  <subsystems>КТРУ</subsystems>
+  <subsystems>ОбменСБанками</subsystems>
+  <subsystems>ОбменСГИСЭПД</subsystems>
+  <subsystems>ОбменСКонтрагентами</subsystems>
+  <subsystems>РаботаСНоменклатурой</subsystems>
+  <subsystems>СервисДоставки</subsystems>
+  <subsystems>СопоставлениеНоменклатурыКонтрагентов</subsystems>
+  <subsystems>ТорговыеПредложения</subsystems>
+  <subsystems>УстаревшиеОбъекты</subsystems>
+</mdclass:Subsystem>

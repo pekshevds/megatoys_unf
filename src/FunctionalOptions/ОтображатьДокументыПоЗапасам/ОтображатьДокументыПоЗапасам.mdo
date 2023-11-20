@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9980e6ce-f2fa-4b6f-b046-7b0a67dab277">
+  <name>ОтображатьДокументыПоЗапасам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать документы по запасам</value>
+  </synonym>
+  <location>Constant.ОтображатьДокументыПоЗапасам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.ДокументыПоЗапасам</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ee01346-e699-422b-93b8-1ca85423858b">
+  <name>СинхронизацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных</value>
+  </synonym>
+  <content>ExchangePlan.СОтборами</content>
+  <content>ExchangePlan.АвтономнаяРабота</content>
+  <content>CommonModule.ОбменДаннымиУНФКлиент</content>
+  <content>ExchangePlan.Полный</content>
+  <content>EventSubscription.АвтономнаяРаботаРегистрация</content>
+  <content>EventSubscription.АвтономнаяРаботаРегистрацияДокумента</content>
+  <content>EventSubscription.АвтономнаяРаботаРегистрацияКонстанты</content>
+  <content>EventSubscription.АвтономнаяРаботаРегистрацияНабора</content>
+  <content>EventSubscription.АвтономнаяРаботаРегистрацияУдаления</content>
+  <content>EventSubscription.ПолныйРегистрация</content>
+  <content>CommonModule.ОбменДаннымиУНФ</content>
+  <content>CommonModule.ОбменДаннымиУНФКлиентСервер</content>
+  <content>CommonModule.ОбменДаннымиУНФПовтИсп</content>
+  <content>EventSubscription.ПолныйРегистрацияДокумента</content>
+  <content>EventSubscription.ПолныйРегистрацияКонстанты</content>
+  <content>EventSubscription.ПолныйРегистрацияНабора</content>
+  <content>EventSubscription.ПолныйРегистрацияУдаления</content>
+  <content>EventSubscription.СОтборамиРегистрация</content>
+  <content>EventSubscription.СОтборамиРегистрацияДокумента</content>
+  <content>EventSubscription.СОтборамиРегистрацияКонстанты</content>
+  <content>EventSubscription.СОтборамиРегистрацияНабора</content>
+  <content>EventSubscription.СОтборамиРегистрацияУдаления</content>
+  <content>CommonModule.ОбменДаннымиРИБСобытия</content>
+  <content>CommonForm.НастройкаОтборовУзлаРИБ</content>
+  <content>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписейРасчета</content>
+  <content>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписей</content>
+  <content>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</content>
+  <content>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхДокумент</content>
+  <content>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

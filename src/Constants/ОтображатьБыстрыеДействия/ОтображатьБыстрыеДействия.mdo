@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb0a5fb-7a01-4b95-9575-ac35ee547018">
+  <producedTypes>
+    <managerType typeId="2a617cd9-1d35-49c5-94be-c59427a303d3" valueTypeId="d6b802af-6173-494d-9e00-d2055fc1e2d3"/>
+    <valueManagerType typeId="b8e04b4e-e569-4092-85c8-30632d63b353" valueTypeId="46e2a061-8021-49e7-8672-91bb59aa50ac"/>
+    <valueKeyType typeId="57e858cf-188e-4143-922c-1b82ac4dbecf" valueTypeId="843bbcf7-f861-4616-b065-d299c1ae525e"/>
+  </producedTypes>
+  <name>ОтображатьБыстрыеДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать быстрые действия</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

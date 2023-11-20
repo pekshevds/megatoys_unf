@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aa98042-cf16-4d4b-93d0-8828a646d5fd">
+  <name>ЦветСистемногоСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет системного сообщения</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>145</red>
+      <green>145</green>
+      <blue>145</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

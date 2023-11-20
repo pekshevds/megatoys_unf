@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78a0641a-f467-450f-be86-3800a2a236b3">
+  <producedTypes>
+    <objectType typeId="a48fa56a-b7a6-45ab-9200-76d8bc4c3bbc" valueTypeId="aacda55a-8ad9-4606-aaaf-186dd47bb32a"/>
+    <managerType typeId="e951289b-e68e-4a5b-8c76-4cd421e3b83e" valueTypeId="80a43b58-32e3-459f-baf4-46db24868d27"/>
+  </producedTypes>
+  <name>НастройкаЗаполненияДатыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка заполнения даты отгрузки</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкаЗаполненияДатыОтгрузки.Form.ФормаНастроек</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f2d2a46f-987a-46de-9103-47ebbbb07c7c">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

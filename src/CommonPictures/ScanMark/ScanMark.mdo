@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e055032-5e70-4812-9406-2be7e7fc78ed">
+  <name>ScanMark</name>
+  <synonym>
+    <key>ru</key>
+    <value>Scan mark</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

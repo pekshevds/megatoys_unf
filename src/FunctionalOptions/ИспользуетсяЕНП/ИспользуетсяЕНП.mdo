@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbcfe3fa-a658-41d6-94f4-d4ee269bde59">
+  <name>ИспользуетсяЕНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется ЕНП</value>
+  </synonym>
+  <location>Constant.ИспользуетсяЕНП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

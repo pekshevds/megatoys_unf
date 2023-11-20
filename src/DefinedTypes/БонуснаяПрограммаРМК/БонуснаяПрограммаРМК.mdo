@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08fc258d-3b1a-4978-84f9-cf2d2dcc428d">
+  <producedTypes>
+    <containerType typeId="c487ce59-4ec3-4217-8623-31bc7f4970fa" valueTypeId="44d12615-521a-42be-a7de-c183ab675deb"/>
+  </producedTypes>
+  <name>БонуснаяПрограммаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусная программа РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.АвтоматическиеСкидки</types>
+  </type>
+</mdclass:DefinedType>

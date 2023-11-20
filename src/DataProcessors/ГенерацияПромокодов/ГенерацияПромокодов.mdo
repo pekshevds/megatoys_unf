@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c580572-375d-4c99-9679-2ddad93d9657">
+  <producedTypes>
+    <objectType typeId="ee124375-0bde-44cd-b189-b89b435257c8" valueTypeId="2be8d8cc-7108-49df-ab05-4897fbe60994"/>
+    <managerType typeId="62c97f37-8c48-4c92-a84e-ac819c12a5e0" valueTypeId="ec55d104-7d86-47d8-afa0-f62a3c38ff52"/>
+  </producedTypes>
+  <name>ГенерацияПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияПромокодов.Form.Форма</defaultForm>
+  <attributes uuid="7bbc8696-783d-4c6e-8e58-2bc2380644f4">
+    <name>КоличествоПромокодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество промокодов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="401c4f42-6e82-4e30-b0f6-4a3118d39426">
+    <name>МаскаПромокода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маска промокода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d1b05b0-314a-4fad-a6e6-9b8caceac561">
+    <name>СкидкаНаценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка наценка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АвтоматическиеСкидки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aca04f2f-1fd3-4312-8fb3-58221bd9c0c4">
+    <name>АктивироватьЧерезДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активировать через дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Позволяет отсрочить активацию промокодов.
+N - Промокоды могут быть применены только спустя N дней после записи
+0 - промокоды будут доступны для применения сразу же после записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ed6dc9a6-8b2c-416f-a5ce-457384ebd50e">
+    <name>КоличествоДнейДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней действия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c5e67cff-2019-4af2-b526-77c1f9eb00ae">
+    <name>КоличествоРазПрименения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество раз применения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81ac1155-4bda-43bb-88f5-2a4b114822b3">
+    <name>КоличествоСимволов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество символов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75780531-790a-4f4e-a8c4-73639dc2b166">
+    <name>ШаблонПромокода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон промокода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныГенерацииПромокодов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a9b2570f-b10f-477f-9262-928a9325d119">
+    <name>УсловиеПредоставленияСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие предоставления скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УсловияПредоставленияСкидокНаценок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="6438186b-edec-49f6-aadc-063ef798e62d">
+    <producedTypes>
+      <objectType typeId="0e4c3c4e-def3-42a4-b0d0-8801f0ddb945" valueTypeId="cdd1819d-7ab4-4b45-a9ba-ee2e410c51c8"/>
+      <rowType typeId="f8b093f2-7c34-42e6-9d94-2ebd0d548eaa" valueTypeId="7a082686-1efb-455f-acae-7fab88eda29b"/>
+    </producedTypes>
+    <name>Промокоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокоды</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c9962305-24b3-4f94-ba02-fbaad5d10a89">
+      <name>Промокод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Промокод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="cd70d9f9-8d3b-44f7-b24c-f334518a54b2">
+      <name>УсловиеПредоставленияСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условие предоставления скидки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УсловияПредоставленияСкидокНаценок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3b2093be-310c-4ef3-97b5-b4ecdc7d2ea1">
+      <name>Доступно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество применений</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c440d28e-166b-4e92-9381-30af939f61a3">
+      <name>ДействуетС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует С</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4a126986-9698-4012-a52b-6dee86b446e5">
+      <name>ДействуетДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действует до</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="acb5b3ab-d9b0-4c62-bf14-b7a3304f5e69">
+    <producedTypes>
+      <objectType typeId="ca596e44-e3b7-4b49-8a5a-9f4fd97bdb2c" valueTypeId="83556308-2ba4-4c47-8cd2-e5d02e11e6bd"/>
+      <rowType typeId="db68db54-4b23-4b71-954c-a34720f2f16a" valueTypeId="d993a20e-bc4a-4ee4-bc18-004aaed91177"/>
+    </producedTypes>
+    <name>СловарьСимволов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Словарь символов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bdc86761-ab2a-477d-8d58-d79023e777e9">
+      <name>Символ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Символ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>2</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8a4f1638-cc02-48d5-b176-19dd29a5099f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

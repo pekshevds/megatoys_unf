@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33cd5f9a-8a91-4b23-8920-280b5a9e0052">
+  <name>ПолученияФормыТекущихДанныхСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получения формы текущих данных сотрудников</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterManager.ТекущаяТарифнаяСтавкаСотрудников</types>
+    <types>InformationRegisterManager.ТекущиеКадровыеДанныеСотрудников</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.КадровыйУчетДляНебольшихОрганизаций.ПолученияФормыТекущихДанныхСотрудников</handler>
+</mdclass:EventSubscription>

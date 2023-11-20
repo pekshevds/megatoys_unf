@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715f1074-e7ec-43bd-93e8-c4c0c4ef9368">
+  <name>СчетаФактурыУНФВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета фактуры УНФ вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

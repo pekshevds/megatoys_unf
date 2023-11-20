@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c086dc66-5c3b-40bd-8a37-0c81a03d081c">
+  <name>Подключение1СТакскомУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение1С-Такском УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

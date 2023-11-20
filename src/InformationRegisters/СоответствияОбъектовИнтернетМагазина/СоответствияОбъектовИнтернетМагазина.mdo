@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837cfec7-4b66-4935-af38-18461df87c8c">
+  <producedTypes>
+    <selectionType typeId="61f306fa-830e-4197-abe5-6906ff96806a" valueTypeId="7a76014b-5bf8-45f7-96dc-1a4fc941a905"/>
+    <listType typeId="1b60e8a8-09ab-4fa2-a304-60eb32d7f7a8" valueTypeId="e4279895-d252-4cd8-967f-c0a5cd872478"/>
+    <managerType typeId="c4847ceb-900f-4682-bca2-20dab2a68cad" valueTypeId="76e09660-26b8-4670-8ce6-88854fa21df8"/>
+    <recordSetType typeId="2f845fff-b037-425b-9e87-af7880def25d" valueTypeId="c6287c7c-2e0d-472f-af70-18911040a695"/>
+    <recordKeyType typeId="7f4f091f-a7f3-490f-8504-d043befd217a" valueTypeId="1ac59a21-97fa-44c6-b729-71a89c8bb9ed"/>
+    <recordType typeId="868d181f-7b0f-4d51-8a47-fd9e758d95d6" valueTypeId="d0d49c91-c63a-4922-82d3-5d0bb77ef04c"/>
+    <recordManagerType typeId="a46797f9-a1c3-4dc7-841a-308005ce8e9d" valueTypeId="08db9c68-6cfd-4b6a-99da-3a3126b7fb0f"/>
+  </producedTypes>
+  <name>СоответствияОбъектовИнтернетМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов интернет магазина</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации сопоставления объектов этой информационной базы с объектами сайта.</value>
+  </explanation>
+  <resources uuid="f50d9874-9551-49d0-8b97-901cc4a00062">
+    <name>ОбъектВыгружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект выгружен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ffdc8621-837a-4a94-a924-34f76b579256">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="33e748a2-cd14-4a7d-880e-02f84591440c">
+    <name>ДополнительныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные параметры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e718489f-e883-49d1-861e-fd3756b5b8e2">
+    <name>КлючИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиИнтеграцийСИнтернетМагазином</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, в разрезе которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8f2cffc-8092-4b49-b60b-9925ba709e0d">
+    <name>ИдентификаторМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор магазина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор объекта, полученный от сайта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5f0f0c8-dc41-4f45-a239-1549df86abbf">
+    <name>ИдентификаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строка уникального идентификатора объекта ссылочного типа этой информационной базы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22987ad6-5061-4e7b-973c-61a906e0cd9a">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.ВидыЦен</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+      <types>CatalogRef.КатегорииНоменклатуры</types>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

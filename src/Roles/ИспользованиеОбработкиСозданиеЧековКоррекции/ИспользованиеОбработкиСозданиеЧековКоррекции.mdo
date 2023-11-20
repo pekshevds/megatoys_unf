@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c85dee8-e73f-4704-996f-2a00fe6a9c5e">
+  <name>ИспользованиеОбработкиСозданиеЧековКоррекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки создание чеков коррекции</value>
+  </synonym>
+</mdclass:Role>

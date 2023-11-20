@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad66a29c-83f8-41af-9b6c-16e1268dee7b">
+  <producedTypes>
+    <containerType typeId="3fe26d8e-2874-4736-885e-90878b5004aa" valueTypeId="d1d76789-5ffb-4f72-8f4d-a46d3b436960"/>
+  </producedTypes>
+  <name>ВидыТранспортаСообщенийОбменаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта сообщений обмена РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

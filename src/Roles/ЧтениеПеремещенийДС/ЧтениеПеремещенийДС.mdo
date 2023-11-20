@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8cab5da-dcb3-44b2-922e-0ff5876259d0">
+  <name>ЧтениеПеремещенийДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение перемещений ДС</value>
+  </synonym>
+</mdclass:Role>

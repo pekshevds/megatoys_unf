@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22aa2295-d006-4d1b-b968-28d131187881">
+  <name>ИдентификационныеНомераНалогоплательщиковКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификационные номера налогоплательщиков клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

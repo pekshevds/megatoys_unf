@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b3715f-49a8-44cb-8924-b8e62f0659ec">
+  <name>CorrectionCheque</name>
+  <synonym>
+    <key>ru</key>
+    <value>Correction cheque</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

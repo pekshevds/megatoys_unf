@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d48ceb0-e28a-4031-a59e-f45f3c4a4b78">
+  <name>ОплатаРассрочки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата рассрочки</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

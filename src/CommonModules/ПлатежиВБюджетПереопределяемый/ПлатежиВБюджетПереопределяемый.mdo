@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="072f5103-ba9e-437e-979a-2cfeb94475fe">
+  <name>ПлатежиВБюджетПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежи в бюджет переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

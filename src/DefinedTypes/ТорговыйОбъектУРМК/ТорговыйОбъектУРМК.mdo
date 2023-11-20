@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b76fca-01ba-444e-8743-e1683179c88f">
+  <producedTypes>
+    <containerType typeId="2d03d16a-8d73-4b43-bab0-c0338b000e81" valueTypeId="09bd669c-c598-4f28-92e1-610ad46568d4"/>
+  </producedTypes>
+  <name>ТорговыйОбъектУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговый объект УРМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтруктурныеЕдиницы</types>
+  </type>
+</mdclass:DefinedType>

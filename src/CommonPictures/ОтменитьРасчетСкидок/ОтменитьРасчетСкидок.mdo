@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="884f0ef1-798a-4609-a7f0-7ef6796d62d4">
+  <name>ОтменитьРасчетСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменить расчет скидок</value>
+  </synonym>
+</mdclass:CommonPicture>

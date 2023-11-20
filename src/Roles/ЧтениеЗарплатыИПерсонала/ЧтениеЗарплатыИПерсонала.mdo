@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1998dc92-d84e-4305-9ccc-aa3670a4353d">
+  <name>ЧтениеЗарплатыИПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение зарплаты и персонала</value>
+  </synonym>
+</mdclass:Role>

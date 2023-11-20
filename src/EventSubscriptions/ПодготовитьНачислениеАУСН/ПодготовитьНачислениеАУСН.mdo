@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d10f91e9-01c1-4b49-83ff-0dbbb1583728">
+  <name>ПодготовитьНачислениеАУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовить начисление АУСН</value>
+  </synonym>
+  <source>
+    <types>ChartOfCalculationTypesObject.Начисления</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РасчетЗарплатыДляНебольшихОрганизацийСобытия.ПодготовитьНачислениеАУСНПриЗаписи</handler>
+</mdclass:EventSubscription>

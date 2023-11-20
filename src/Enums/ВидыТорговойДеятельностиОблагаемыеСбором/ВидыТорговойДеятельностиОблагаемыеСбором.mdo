@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d582d2a0-8233-46f8-8dda-48793f2de149">
+  <producedTypes>
+    <refType typeId="a6d1ba00-ec75-42fb-b5e1-3feeb62e8b8f" valueTypeId="c5b69815-8e80-4d75-9c4a-95442905f025"/>
+    <listType typeId="b0b8fd1c-235d-41db-8f7a-9461787db716" valueTypeId="c54074f7-b5d1-40f7-8c74-20083514f5e4"/>
+    <managerType typeId="0ee58cdc-cc14-489c-a5fa-1147b7e91cbc" valueTypeId="3db61ccf-1cbf-4939-a7ad-5c86077c548c"/>
+  </producedTypes>
+  <name>ВидыТорговойДеятельностиОблагаемыеСбором</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды торговой деятельности облагаемые сбором</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="330bc9de-2e0e-43ff-9bd1-9d4cc8f7fce3">
+    <name>СтационарныеСетиБезТорговыхЗалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стационарные сети без торговых залов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d667ea6d-1b37-477c-8e6f-a79fe012be01">
+    <name>НестационарныеСети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нестационарные сети</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c079a0c9-7229-4932-aa9a-2554f10b390a">
+    <name>СтационарныеСетиСТорговымиЗалами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стационарные сети с торговыми залами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be072e6d-4015-4e80-943a-f3036ba7a426">
+    <name>ОтпускСоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск со склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b3822d5-0e25-4c4b-ab7b-718b020f4127">
+    <name>РозничныеРынки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничные рынки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5aa56d80-2b39-4033-92d9-81fefd405041">
+    <name>РазвознаяРазноснаяТорговля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Развозная разносная торговля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce3da16a-1f56-4f5c-a906-fc24d4a18d59">
+    <name>ТорговыеАвтоматы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговые автоматы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f30a95d8-a036-461f-b082-5645a484f8e9">
+  <name>РазделПродажиАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел продажи аналитика</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82db9460-8804-4f41-9302-5913d3dddcb1">
+  <name>ИзменениеПредставленийОснованийУвольнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение представлений оснований увольнения</value>
+  </synonym>
+</mdclass:Role>

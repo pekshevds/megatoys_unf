@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca9a9e64-0fd5-4601-8f29-732c7801374a">
+  <producedTypes>
+    <objectType typeId="2db2ca21-63d9-4ddf-a61b-74d81f6c6a91" valueTypeId="516f6d47-42aa-4a12-9bc0-4c892649d71f"/>
+    <managerType typeId="d8c8843a-73b6-4694-9def-8650cb334cae" valueTypeId="9f3a8462-d2b4-4e40-8077-25dcb05dd6c7"/>
+  </producedTypes>
+  <name>УправлениеМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление мобильными приложениями</value>
+  </synonym>
+  <defaultForm>DataProcessor.УправлениеМобильнымиПриложениями.Form.УправлениеМобильнымиПриложениями</defaultForm>
+  <forms uuid="bcca75a0-7c59-484d-b217-8c15ea01dcf6">
+    <name>УправлениеМобильнымиПриложениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление мобильными приложениями</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bf7fd673-74be-45dd-8fd0-afa4fe6e5411">
+    <name>КаталогМобильныхПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог мобильных приложений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8063c30-00d5-47ab-a8c3-454708e187c6">
+    <name>КодПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подключения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="099ed448-9eae-4163-bec8-50dad845041e">
+    <name>КодыПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подключения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d8c64c8e-8b40-48a0-a3fa-d3ef7c3b884d">
+    <name>QRКодПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>QR-код подключения</value>
+    </synonym>
+  </templates>
+  <commands uuid="5b7b1453-a9af-4edf-b33a-8d723141e99f">
+    <name>ОбменСМобильнымиПриложениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с мобильными приложениями</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

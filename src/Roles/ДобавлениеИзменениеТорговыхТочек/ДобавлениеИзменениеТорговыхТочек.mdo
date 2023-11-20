@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="074c554b-349c-43bb-8d5d-dabcfc47c960">
+  <name>ДобавлениеИзменениеТорговыхТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение торговых точек</value>
+  </synonym>
+</mdclass:Role>

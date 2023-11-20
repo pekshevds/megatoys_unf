@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc49ef6b-b376-4ba5-acce-f89973d1a0be">
+  <producedTypes>
+    <containerType typeId="ab1effc3-bd5c-4015-8fa9-f2437544ddb4" valueTypeId="35205924-4227-497a-8250-9b008ca9868b"/>
+  </producedTypes>
+  <name>ОснованиеСтатусыОформленияДокументовИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание статусы оформления документов ИС</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+    <types>DocumentRef.ПроизводственнаяОперацияВЕТИС</types>
+    <types>DocumentRef.ВходящаяТранспортнаяОперацияВЕТИС</types>
+    <types>DocumentRef.ПеремаркировкаТоваровИСМП</types>
+    <types>DocumentRef.ТТНИсходящаяЕГАИС</types>
+    <types>CatalogRef.РезультатыИсследованийЗЕРНО</types>
+    <types>DocumentRef.ФормированиеПартийЗЕРНО</types>
+    <types>CatalogRef.ВетеринарноСопроводительныйДокументВЕТИС</types>
+    <types>CatalogRef.СДИЗЗЕРНО</types>
+    <types>DocumentRef.МаркировкаТоваровИСМП</types>
+    <types>DocumentRef.ВнесениеСведенийОСобранномУрожаеЗЕРНО</types>
+  </type>
+</mdclass:DefinedType>

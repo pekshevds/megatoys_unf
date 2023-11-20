@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b86c0bf2-33ae-434d-ae9d-013a504ef0b7">
+  <name>ClosingX</name>
+  <synonym>
+    <key>ru</key>
+    <value>Closing X</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

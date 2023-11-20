@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0f35a77-ec7d-4de9-a4ad-36823e3fd23a">
+  <producedTypes>
+    <containerType typeId="cd577750-58b3-4830-9a6d-e881944c5760" valueTypeId="c0e2a22e-7fdc-432b-9e4f-ad92f29d7b88"/>
+  </producedTypes>
+  <name>СтатусИзвлеченияТекстаФайлаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус извлечения текста файла РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СтатусыИзвлеченияТекстаФайлов</types>
+  </type>
+</mdclass:DefinedType>

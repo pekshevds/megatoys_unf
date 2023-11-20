@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f3b5a00-dcc8-49fd-9b85-138a57e2d972">
+  <producedTypes>
+    <objectType typeId="0fec0bde-96fe-4a89-87c5-d5e967767162" valueTypeId="56f43a85-65be-4b5b-88e0-c3f81755cf1e"/>
+    <refType typeId="0e84e05c-41e0-4f2c-9a43-01bb464dab43" valueTypeId="c704b36a-ee86-4cc9-8810-a963841d9fcd"/>
+    <selectionType typeId="c9a52244-d212-48d5-a827-9132888e10af" valueTypeId="71d481de-b68e-40ca-b6fe-aa410c5eb6fa"/>
+    <listType typeId="2f16d5cf-6907-4a68-82fe-34e769586b2d" valueTypeId="f1c7ee60-e91d-4404-ae6d-ac36eaee9929"/>
+    <managerType typeId="51e05541-cbae-4b15-b0be-51de1cc29c99" valueTypeId="00beb3a0-c1da-46c5-8e76-7ef7aeab2330"/>
+  </producedTypes>
+  <name>КолонкиКалендарейСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колонки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КолонкиКалендарейСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КолонкиКалендарейСотрудников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.КалендариСотрудников</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КолонкиКалендарейСотрудников.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c37133d6-7cfe-426e-8e04-9cd290b86d50">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b0cac939-0d99-48ec-97dd-b778c0fa1c98">
+    <producedTypes>
+      <objectType typeId="6348c0ae-eb35-4e58-a99e-5b8853f2c180" valueTypeId="7bf685d1-b43f-4f71-a288-536efb80bff2"/>
+      <rowType typeId="2ed27cb5-fce8-4c41-a87f-9a7840de1f34" valueTypeId="8c088a27-c727-46a2-ac6f-071557326552"/>
+    </producedTypes>
+    <name>ПравилаКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила колонки</value>
+    </synonym>
+    <attributes uuid="03a93493-d9b7-45c7-817d-2ebad4e9ddef">
+      <name>СостояниеЗадачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние задачи</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="70fbff9f-7c1b-4cd7-9450-7a7660ed8779">
+      <name>ОбъектПравила</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект правила</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7867a946-768d-4ac7-b6c4-50cb50a23e01">
+      <name>Состояние</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СостоянияСобытий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0fa5bb66-c8be-41c8-8c45-5bc5e774738e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b02092e9-16a3-46c4-8414-e59bd94479d9">
+  <name>ОчиститьПродавца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить продавца</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

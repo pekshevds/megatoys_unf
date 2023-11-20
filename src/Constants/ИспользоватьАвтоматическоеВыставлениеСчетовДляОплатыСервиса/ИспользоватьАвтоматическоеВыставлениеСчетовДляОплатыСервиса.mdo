@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fedfdff-e7c4-41d5-9788-b5dbfe28d27f">
+  <producedTypes>
+    <managerType typeId="68d7844c-d744-4d93-9410-ebd1a717d143" valueTypeId="4ba75953-3947-4166-9349-e8e161af668a"/>
+    <valueManagerType typeId="53ce6dc1-d131-41ed-98b5-52f67402c435" valueTypeId="8683122b-2628-4a70-a540-b6faebfc3ebe"/>
+    <valueKeyType typeId="d23e2793-72b8-402c-afab-cc026ddc0acb" valueTypeId="5122e314-321e-4174-a115-a19db613f422"/>
+  </producedTypes>
+  <name>ИспользоватьАвтоматическоеВыставлениеСчетовДляОплатыСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автоматическое выставление счетов для оплаты сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

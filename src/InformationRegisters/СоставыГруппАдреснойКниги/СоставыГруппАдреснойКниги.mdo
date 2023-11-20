@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67bec41-ba26-4759-a9e4-bd0f98c6d6d9">
+  <producedTypes>
+    <selectionType typeId="68d16033-3f4b-4881-839d-db290d11405a" valueTypeId="9faa4e57-e21f-4538-94a9-5f8ddf62ec1c"/>
+    <listType typeId="74026417-930a-487f-bda5-7e2f2b0a0e90" valueTypeId="7d4d086a-15f3-46bc-bce5-6083da9d6871"/>
+    <managerType typeId="86a4b4e3-a3fe-461c-81e4-12ed3309ac15" valueTypeId="f2111668-ee4a-4618-9d2e-fb43ee863aa1"/>
+    <recordSetType typeId="e218820a-5657-4fe9-81f4-ce1703a9df2e" valueTypeId="8ce9d4a8-86cc-442e-badb-3f4f5fef6088"/>
+    <recordKeyType typeId="fedb83cf-bfec-408f-9cbb-cbdb4caec90f" valueTypeId="31c051f9-27e0-4ce5-b173-22398b540bb1"/>
+    <recordType typeId="2280b313-152a-418e-ae86-deab0ec3ba30" valueTypeId="5130c7e1-d577-47ea-a1db-5290fac07fb4"/>
+    <recordManagerType typeId="72bd12c8-3392-4489-99a9-ad65a7f56bef" valueTypeId="dcb808a8-c23c-446f-92c4-79474b79d357"/>
+  </producedTypes>
+  <name>СоставыГруппАдреснойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Составы групп адресной книги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1f9a0807-0237-4fed-bf42-e69617d46bf0">
+    <name>ГруппаАдреснойКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа адресной книги</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыАдреснойКниги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="739a1e21-0445-4b49-972b-201de7bf8a11">
+    <name>КонтактCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт CRM</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтактПисьма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cbf9679-a198-498f-b5fc-538a3922333b">
+  <name>НастройкаСервисаКабинетСотрудникаБазовая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка сервиса кабинет сотрудника базовая</value>
+  </synonym>
+</mdclass:Role>

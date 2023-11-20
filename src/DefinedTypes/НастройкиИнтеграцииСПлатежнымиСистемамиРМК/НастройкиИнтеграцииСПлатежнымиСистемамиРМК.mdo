@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cef3ae5-2cda-4321-b2e6-51242a1d965b">
+  <producedTypes>
+    <containerType typeId="2b1a5056-5df9-4f0b-a0ea-52236d20cf79" valueTypeId="428eaf07-67f8-49ab-a342-bd4006e8ee7f"/>
+  </producedTypes>
+  <name>НастройкиИнтеграцииСПлатежнымиСистемамиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции с платежными системами РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.НастройкиПодключенияКСистемеБыстрыхПлатежей</types>
+  </type>
+</mdclass:DefinedType>

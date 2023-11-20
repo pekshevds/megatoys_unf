@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df7f08a5-0233-4249-a3f7-46bfa4af22a2">
+  <producedTypes>
+    <managerType typeId="c0dea091-7b04-42e3-998a-56f2eb829001" valueTypeId="fa692246-ef12-4892-8603-64f6cf106175"/>
+    <valueManagerType typeId="11f7fbc1-5508-4a47-aebd-1faf7ede92ff" valueTypeId="9d7c922d-1ec0-4061-b6ab-96eda9961a59"/>
+    <valueKeyType typeId="925fa5d5-ace5-4282-9e4d-8c83d7fd4b94" valueTypeId="29b5909f-c9f6-4007-9d77-bbda7b1ff3e2"/>
+  </producedTypes>
+  <name>ИспользоватьЗапретПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать запрет продаж</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

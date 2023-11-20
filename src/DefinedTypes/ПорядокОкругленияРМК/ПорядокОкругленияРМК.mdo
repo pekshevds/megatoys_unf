@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90b79645-8683-47f8-95c9-92b79eaabfcf">
+  <producedTypes>
+    <containerType typeId="0c5b5059-01d9-4c51-8b9b-b2834921b4c6" valueTypeId="c5d8dadf-851b-4ab1-afa0-3bbac21e39a8"/>
+  </producedTypes>
+  <name>ПорядокОкругленияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок округления РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПорядкиОкругления</types>
+  </type>
+</mdclass:DefinedType>

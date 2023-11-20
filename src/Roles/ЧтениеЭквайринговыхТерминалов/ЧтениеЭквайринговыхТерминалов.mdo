@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e3a53d1-9b6c-469b-a1bb-ae1f74331e66">
+  <name>ЧтениеЭквайринговыхТерминалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение эквайринговых терминалов</value>
+  </synonym>
+</mdclass:Role>

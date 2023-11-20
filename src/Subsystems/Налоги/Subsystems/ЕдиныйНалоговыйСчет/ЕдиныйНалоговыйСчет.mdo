@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d9ee25e-7a03-480f-bb2e-2ee30ec4445e">
+  <name>ЕдиныйНалоговыйСчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый налоговый счет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УведомлениеОбИсчисленныхСуммахНалогов</content>
+  <content>Document.ОперацияПоЕдиномуНалоговомуСчету</content>
+  <content>Document.ЗаявлениеОЗачетеВСчетПредстоящейОбязанности</content>
+  <content>CommonCommand.ЕдиныйНалоговыйСчетЛичныйКабинет</content>
+  <parentSubsystem>Subsystem.Налоги</parentSubsystem>
+</mdclass:Subsystem>

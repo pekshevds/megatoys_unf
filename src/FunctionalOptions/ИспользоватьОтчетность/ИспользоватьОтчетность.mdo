@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="196fe24a-6be7-4470-9939-b9ae83e0a34f">
+  <name>ИспользоватьОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать регламентированную отчетность</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьОтчетность</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетОРозничныхПродажах.Attribute.УчитыватьВНУ</content>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств.Attribute.УчитыватьВНУ</content>
+  <content>InformationRegister.УменьшениеНалогаПСНнаСтраховыеВзносы</content>
+  <content>Document.РасходИзКассы.Attribute.СрокУплаты</content>
+  <content>Document.РасходИзКассы.Attribute.УчитыватьВНУ</content>
+  <content>Document.АвансовыйОтчет.Attribute.УчитыватьВНУ</content>
+  <content>Catalog.ВнеоборотныеАктивы.Attribute.УчитыватьВНУ</content>
+  <content>Document.ПоступлениеНаСчет.Attribute.УчитыватьВНУ</content>
+  <content>Document.РасходСоСчета.Attribute.СрокУплаты</content>
+  <content>Document.ПоступлениеВКассу.Attribute.УчитыватьВНУ</content>
+  <content>Subsystem.Налоги</content>
+  <content>Document.РасходСоСчета.Attribute.УчитыватьВНУ</content>
+  <content>Document.РасходнаяНакладная.Attribute.УчитыватьВНУ</content>
+  <content>Catalog.ВнеоборотныеАктивы.Attribute.ДатаОплаты</content>
+  <content>Document.ЗаказПокупателя.Attribute.УчитыватьВНУ</content>
+  <content>Catalog.ВнеоборотныеАктивы.Attribute.ДатаРегистрации</content>
+  <content>Document.СправкаНДФЛУНФ</content>
+  <content>Document.ОтчетКомиссионера.Attribute.УчитыватьВНУ</content>
+  <content>Document.ОтчетКомитенту.Attribute.УчитыватьВНУ</content>
+  <content>Document.Взаимозачет.Attribute.УчитыватьВНУ</content>
+  <content>Catalog.Сотрудники.Attribute.ГоловнаяОрганизация</content>
+  <content>CommonCommand.ЗарплатаИКадрыБЗКБ</content>
+</mdclass:FunctionalOption>

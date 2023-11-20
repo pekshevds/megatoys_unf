@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e85d8c68-93cf-434c-b5e9-40bd2d3e22f3">
+  <name>РМКЭквайринговыйТерминал</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКЭквайринговый терминал</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

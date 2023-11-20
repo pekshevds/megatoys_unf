@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad3c267f-bea2-4ed6-877a-d191a409cc2f">
+  <name>РазделСкладТоварыИУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел склад товары и услуги</value>
+  </synonym>
+</mdclass:Role>

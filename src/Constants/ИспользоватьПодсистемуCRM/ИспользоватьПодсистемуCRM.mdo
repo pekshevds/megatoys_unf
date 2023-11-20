@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae37d67c-8a60-4477-a616-720a9541d7ad">
+  <producedTypes>
+    <managerType typeId="9786ddd3-26ac-4f2b-b05a-29c68d947024" valueTypeId="900b16f8-1ea9-4bba-b44d-7233fce58bfc"/>
+    <valueManagerType typeId="9b73bb51-e6ef-49e0-b738-5cba4f12b209" valueTypeId="1b49d5cf-0335-45ec-aaaf-9f4368c63678"/>
+    <valueKeyType typeId="9c80f272-fea3-456e-960f-32ba3fa6dda1" valueTypeId="6ee47a18-0609-4c25-836b-a23e55cdd7eb"/>
+  </producedTypes>
+  <name>ИспользоватьПодсистемуCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему CRM</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

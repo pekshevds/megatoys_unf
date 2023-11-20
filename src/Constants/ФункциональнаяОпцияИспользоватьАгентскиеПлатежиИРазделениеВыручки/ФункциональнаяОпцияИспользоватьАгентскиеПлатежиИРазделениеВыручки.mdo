@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8455dc2-2a79-4871-9e5e-cf3065ac0fff">
+  <producedTypes>
+    <managerType typeId="72348dd7-9717-4556-8e9f-0fd32cdaf969" valueTypeId="e5bb8de1-e0d3-4304-b077-f59d247e34a5"/>
+    <valueManagerType typeId="7215eebc-360e-414d-8ced-22405559807b" valueTypeId="4a56ce46-c946-4be8-a9e5-765d3ece9451"/>
+    <valueKeyType typeId="63725be5-f944-4ec7-93ad-8a25880c350f" valueTypeId="70eccaab-5f5b-47c3-9f51-5d03d900960e"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьАгентскиеПлатежиИРазделениеВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать агентские платежи и разделение выручки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

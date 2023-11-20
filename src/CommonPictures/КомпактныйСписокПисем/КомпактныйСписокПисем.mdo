@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249d5742-0b9c-41d4-af04-065b00a1bcfb">
+  <name>КомпактныйСписокПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компактный список писем</value>
+  </synonym>
+</mdclass:CommonPicture>

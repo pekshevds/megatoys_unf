@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0991469-aa1c-4601-a125-d151fc9a8431">
+  <producedTypes>
+    <selectionType typeId="3e1062af-48e6-41a5-a6ad-5b11360663f0" valueTypeId="79d945bd-8cf0-45dc-b9e2-33a71d50d59f"/>
+    <listType typeId="9997e108-3c4e-4e81-8861-5e70074d1388" valueTypeId="3d2328d7-0618-4b76-8a90-c4e4fc62b192"/>
+    <managerType typeId="7a68fc28-bfb6-47e5-9156-ede91d7ee119" valueTypeId="0b8774a5-db73-4855-8a28-3e42839b2464"/>
+    <recordSetType typeId="1c79acd6-b750-457a-b40b-effdef4d92b6" valueTypeId="87be850e-9ea2-4a9b-9300-08d1f4de1690"/>
+    <recordKeyType typeId="f2fa8db9-6f53-4925-9ea0-2267fccffc44" valueTypeId="87995d08-7feb-4d7d-81b3-244616573ce9"/>
+    <recordType typeId="5f455eae-63be-4228-92bc-74c5ff94d056" valueTypeId="ae88bbed-386d-47a5-b4a4-9375ded7047b"/>
+    <recordManagerType typeId="20c2a6b7-2a81-4433-8684-f4e494558e4e" valueTypeId="d178fab6-025b-4d8f-9d75-e6b04370b287"/>
+  </producedTypes>
+  <name>БанковскиеСчетаИнтеграцииСБанком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские счета интеграции с банком</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f3617026-e8e9-40cf-aadc-38bb9b773bdc">
+    <name>НастройкаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиИнтеграцииСБанками</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3091a178-c937-4aa7-b757-fd07200f07b3">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.БанковскиеСчетаИнтеграцииСБанком.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e6a5764-3bec-47bb-9d91-89588d5d0268">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ed53171c-e76e-40c9-8b9d-4ce928d1b6f8">
+    <name>ФормаСпискаДляНастройкиИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка для настройки интеграции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3acff8f-920f-4bfe-af5f-89c6e6d60de9">
+  <producedTypes>
+    <refType typeId="ba9c00b9-18d1-4861-927b-887dc9e64a94" valueTypeId="2fba45d6-36e7-4093-82d8-18c8fa0194c4"/>
+    <listType typeId="e4b86cdc-487e-427b-a339-fc9246d7f3f7" valueTypeId="b259fd27-dbc4-464a-ac62-5be0db5fa425"/>
+    <managerType typeId="a53bc497-d9ea-4bf4-8d7b-7ca5fbb4d2e6" valueTypeId="2a5b9719-6d2f-46ef-a802-9fc7af2399cb"/>
+  </producedTypes>
+  <name>ДействияСПисьмом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия с письмом</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ceabc971-7eaf-4b12-b2ac-843881f99cf7">
+    <name>ПеремещениеВПочтовыйЯщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение в почтовый ящик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="202b300c-d6e7-42cd-8f69-9bb1d48627b4">
+    <name>УстановкаФлага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка флага</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

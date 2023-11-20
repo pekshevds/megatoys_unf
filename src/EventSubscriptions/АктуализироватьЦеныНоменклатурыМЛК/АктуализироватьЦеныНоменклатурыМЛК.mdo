@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41d22bcd-0383-4cf7-91ae-54c79e22577d">
+  <name>АктуализироватьЦеныНоменклатурыМЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализировать цены номенклатуры МЛК</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.КонструкторМобильногоПриложения.ПроверитьИзменениеВидаЦенВДоговореМЛК</handler>
+</mdclass:EventSubscription>

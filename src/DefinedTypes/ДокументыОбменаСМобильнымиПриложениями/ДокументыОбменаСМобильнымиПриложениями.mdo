@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b98019b0-49e5-4881-a446-2ca9ce9e0929">
+  <producedTypes>
+    <containerType typeId="ef220a6b-e833-4b35-a451-b2aa6bd0c762" valueTypeId="dcfff05b-b1c7-44ce-a514-965ec0fc839f"/>
+  </producedTypes>
+  <name>ДокументыОбменаСМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы обмена с мобильными приложениями</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ПеремещениеЗапасов</types>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.ПриходнаяНакладная</types>
+    <types>DocumentObject.РасходнаяНакладная</types>
+    <types>DocumentObject.ИнвентаризацияЗапасов</types>
+  </type>
+</mdclass:DefinedType>

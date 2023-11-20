@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c9b8c09-5ae3-477f-8554-c8db219fdda0">
+  <producedTypes>
+    <refType typeId="d1ff42f5-58d3-4c3b-92ae-6e4cc74db7de" valueTypeId="348f3388-44db-4319-bb58-e2b2b14c9ebc"/>
+    <listType typeId="d7d8b3cd-30ae-4fab-84f9-19deb8c962fe" valueTypeId="1faa08e0-ac65-4997-9b8f-acf76c339873"/>
+    <managerType typeId="be8779e2-08e9-46ee-b061-6a67b5e65aea" valueTypeId="06558d83-548e-42ec-bee0-3fe4216c4422"/>
+  </producedTypes>
+  <name>СервисыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы доставки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1f5668e7-0f43-46ac-8e9f-6423696a6edc">
+    <name>БезПомощиСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без помощи сервиса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad097391-3034-4980-adb5-ec53cc48b57f">
+    <name>ЯндексДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Яндекс.Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4d40c81-fc6e-46c5-8cc4-c9834544a182">
+    <name>Сервис1СДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис 1С:Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72f6b39f-5596-4cac-b583-c022533f6a53">
+    <name>Сервис1СКурьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис 1С:Курьер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

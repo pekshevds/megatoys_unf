@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3597dca1-c3af-4f66-b02a-e42a55df2c18">
+  <name>ОбновитьРасписаниеОбменаСКонтролирующимиОрганами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить расписание обмена с контролирующими органами</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияБЗКБСлужебныйУНФ.ОбновитьРасписаниеОбменаСКонтролирующимиОрганами</handler>
+</mdclass:EventSubscription>

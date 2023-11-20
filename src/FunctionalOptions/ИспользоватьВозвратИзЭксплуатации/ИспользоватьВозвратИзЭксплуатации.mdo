@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baafa01d-cc2b-4cfe-beaf-bc2560e037e9">
+  <name>ИспользоватьВозвратИзЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать возврат из эксплуатации</value>
+  </synonym>
+  <location>Constant.ИспользоватьВозвратИзЭксплуатации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

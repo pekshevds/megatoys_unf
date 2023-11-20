@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8a01d01-2dc8-443c-b00a-f5fe0661fa06">
+  <name>ДобавлениеИзменениеВнесенияВыемкиДСПоКассеККМРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение внесения выемки ДС по кассе ККМ РМК</value>
+  </synonym>
+</mdclass:Role>

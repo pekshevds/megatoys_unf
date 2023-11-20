@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d88ef43-2c84-4b1c-9ba1-da499619ca22">
+  <name>ИспользоватьСегментыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сегменты номенклатуры</value>
+  </synonym>
+  <location>Constant.ИспользоватьСегментыНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СегментыНоменклатуры</content>
+</mdclass:FunctionalOption>

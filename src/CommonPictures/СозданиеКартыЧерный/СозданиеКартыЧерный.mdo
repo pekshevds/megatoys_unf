@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f252e27-bfb7-4a89-8b27-379d0e15b04f">
+  <name>СозданиеКартыЧерный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание карты черный</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

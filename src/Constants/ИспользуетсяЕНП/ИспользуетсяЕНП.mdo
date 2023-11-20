@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4b3b96-456a-4084-aaed-589296238c19">
+  <producedTypes>
+    <managerType typeId="682d3695-6cea-4e57-878a-31714673aea8" valueTypeId="a1166df7-a87a-4945-9adb-171b7c48a024"/>
+    <valueManagerType typeId="7437ae26-bcd9-4ee6-9418-d86c64694b3d" valueTypeId="34b3345a-73a8-49cd-aca8-80f574caea8c"/>
+    <valueKeyType typeId="62008a27-9c0b-4836-9152-f53784bc93a9" valueTypeId="1cf93474-42cd-4c9d-b4a2-fc5194a2ce9c"/>
+  </producedTypes>
+  <name>ИспользуетсяЕНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется ЕНП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

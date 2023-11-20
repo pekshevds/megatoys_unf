@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27f8c27-a7eb-4ddf-b067-551cd9ca0043">
+  <producedTypes>
+    <managerType typeId="1a12a127-a5e3-4689-bcc5-278d8825243f" valueTypeId="d8d5138b-d565-47e9-a72e-242895c31798"/>
+    <valueManagerType typeId="167affbf-91e7-48ac-9fc8-324021913f27" valueTypeId="f4389211-f757-4e71-a0e0-32b993cf2637"/>
+    <valueKeyType typeId="96e4fa65-5944-4b4f-9102-b847fb7fce2a" valueTypeId="961d4eac-38bc-4831-8808-dc5eb690236f"/>
+  </producedTypes>
+  <name>ОтображатьДокументыПоБанку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать документы по банку</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

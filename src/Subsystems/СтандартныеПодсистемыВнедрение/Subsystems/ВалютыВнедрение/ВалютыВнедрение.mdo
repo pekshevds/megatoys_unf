@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f92adad4-4a60-4b18-b1b6-b61ece57458c">
+  <name>ВалютыВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты внедрение</value>
+  </synonym>
+  <content>CommonModule.ВалютыУНФКлиентСервер</content>
+  <content>CommonModule.ВалютыУНФ</content>
+  <content>CommonModule.ВалютыУНФВызовСервера</content>
+  <content>CommonModule.ВалютыУНФКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

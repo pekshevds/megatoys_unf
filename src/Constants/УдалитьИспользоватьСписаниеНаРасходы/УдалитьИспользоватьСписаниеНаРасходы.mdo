@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf95f92-339c-4c3f-92f3-97d29edca116">
+  <producedTypes>
+    <managerType typeId="3ef621b2-a5d3-4857-b48b-6466d6ba8168" valueTypeId="16a24254-0e05-4c55-85f7-298ddca174cf"/>
+    <valueManagerType typeId="8f906ef9-a599-4af9-8bd1-635d0b57d0b5" valueTypeId="668175dc-45e9-4db4-937d-871377619745"/>
+    <valueKeyType typeId="cfcdd672-19d3-44b0-bb18-711893f162b4" valueTypeId="83ee1a2e-a526-49c1-9fc5-939cd3b6be69"/>
+  </producedTypes>
+  <name>УдалитьИспользоватьСписаниеНаРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) Использовать списание на расходы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

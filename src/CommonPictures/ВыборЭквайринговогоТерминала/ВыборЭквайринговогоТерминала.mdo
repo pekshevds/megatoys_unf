@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0988062-a6ad-4f8e-9bde-f957c1991f15">
+  <name>ВыборЭквайринговогоТерминала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор эквайрингового терминала</value>
+  </synonym>
+</mdclass:CommonPicture>

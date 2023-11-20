@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84046488-3edd-4cb5-87bb-ad80cb59496c">
+  <producedTypes>
+    <objectType typeId="e90156d5-d6ca-40ae-a2ad-334621c536c2" valueTypeId="3dc5f4e7-0afe-4c89-a793-d4aec4019cf7"/>
+    <managerType typeId="0a7c3b36-d06e-4d10-ae06-7f08a96e7133" valueTypeId="6abc8aab-c830-41ba-8827-45bbfa97ac34"/>
+  </producedTypes>
+  <name>СверткаИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свертка информационной базы</value>
+  </synonym>
+  <defaultForm>DataProcessor.СверткаИнформационнойБазы.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1f0a9a0d-fbcf-474b-90df-35e68c35a592">
+    <name>ДатаСвертки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата свертки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b59e4dbe-3398-45b8-86a3-83c250530d4d">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4365b75d-8204-4f3d-9f36-94e6246bc6f0">
+    <name>СворачиватьОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сворачивать остатки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d73f664d-f136-428c-b2a9-2146ef895981">
+    <name>Автоформирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоформирование документов расчетов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автоматическое формирование документов расчетов с контрагентами упрощает удаление данных в архивных периодах.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d59e531e-ece0-4a55-95dd-53906919532c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

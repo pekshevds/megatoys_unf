@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="802349f8-43d0-460c-96c3-caee85743820">
+  <name>ПрочиеРасчетыУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие расчеты УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

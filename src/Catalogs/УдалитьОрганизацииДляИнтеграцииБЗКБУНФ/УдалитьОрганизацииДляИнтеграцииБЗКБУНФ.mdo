@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fca3764-f186-4294-8fad-471d286b7125">
+  <producedTypes>
+    <objectType typeId="1e95c392-1ef6-4fee-bd43-52a1cc175f6c" valueTypeId="6b7f940c-4449-40e4-81b7-362d8ca6a734"/>
+    <refType typeId="21397d54-6d1a-47e7-aebe-e65e5abe552f" valueTypeId="b3b51f87-71d8-4671-9cb7-936ff0e7d253"/>
+    <selectionType typeId="878de2df-82cc-4217-9bef-e93b0037da27" valueTypeId="8a2cecf7-3db1-4b14-87c5-090437824111"/>
+    <listType typeId="91981307-b5ba-4156-9e70-0232cdfd5e88" valueTypeId="a2ac6c17-1e7e-463e-8d36-5bf64b1b0f95"/>
+    <managerType typeId="6adc76ee-3f42-4b05-80c4-beacc753d3e9" valueTypeId="4554101d-585f-4a8b-b726-2366e07bcb7c"/>
+  </producedTypes>
+  <name>УдалитьОрганизацииДляИнтеграцииБЗКБУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить организации для интеграции БЗКБ УНФ</value>
+  </synonym>
+  <inputByString>Catalog.УдалитьОрганизацииДляИнтеграцииБЗКБУНФ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдалитьОрганизацииДляИнтеграцииБЗКБУНФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

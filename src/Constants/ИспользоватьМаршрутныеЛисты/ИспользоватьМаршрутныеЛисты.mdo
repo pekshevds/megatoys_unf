@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4686331d-7ff3-4547-864d-af85ccb8d350">
+  <producedTypes>
+    <managerType typeId="b85878c6-5ccc-4f67-a765-6ec91ab7883e" valueTypeId="fddfab79-db95-4d8a-8f74-c66456659c50"/>
+    <valueManagerType typeId="631c3c56-81f3-4d4d-932a-7bbf328583de" valueTypeId="a4873c81-5b93-4ee4-afc7-c071f7ee8d70"/>
+    <valueKeyType typeId="bb3d58b5-d70b-4523-a3b2-c760fe6ae634" valueTypeId="0833bbfc-d35b-4b03-aa88-be6b0816ed7b"/>
+  </producedTypes>
+  <name>ИспользоватьМаршрутныеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать маршрутные листы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

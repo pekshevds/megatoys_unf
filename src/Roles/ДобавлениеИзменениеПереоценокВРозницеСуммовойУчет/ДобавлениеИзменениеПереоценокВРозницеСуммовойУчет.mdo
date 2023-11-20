@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c943c26-32bc-46b4-bba4-14e82f0cfaf0">
+  <name>ДобавлениеИзменениеПереоценокВРозницеСуммовойУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение переоценок в рознице суммовой учет</value>
+  </synonym>
+</mdclass:Role>

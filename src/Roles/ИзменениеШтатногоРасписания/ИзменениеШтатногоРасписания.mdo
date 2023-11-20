@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2001c7d-3311-41ce-b713-72a36baa81ef">
+  <name>ИзменениеШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение штатного расписания</value>
+  </synonym>
+</mdclass:Role>

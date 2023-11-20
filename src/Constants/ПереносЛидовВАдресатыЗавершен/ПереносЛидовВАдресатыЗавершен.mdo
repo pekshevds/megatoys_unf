@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b5844df-c0f8-4299-8f45-47e6c631e0bd">
+  <producedTypes>
+    <managerType typeId="be7cd534-8c7a-4b00-998a-cfa2886b2d11" valueTypeId="f0252734-eaef-49b8-abf4-dd00bdfcc987"/>
+    <valueManagerType typeId="76fd9613-02bb-4ff4-ab5d-86072d8d3a2d" valueTypeId="05ab84e2-840e-4d61-b57c-2d97143a0952"/>
+    <valueKeyType typeId="f64ce5df-ef21-4c0c-ae7c-df1b86eb8651" valueTypeId="1c326e2b-d300-4e28-9215-c15c3eee801b"/>
+  </producedTypes>
+  <name>ПереносЛидовВАдресатыЗавершен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос лидов в адресаты завершен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

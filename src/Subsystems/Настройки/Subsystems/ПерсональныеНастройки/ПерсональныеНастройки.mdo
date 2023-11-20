@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3be012bc-4e1d-4ffd-8ed7-4163986d773d">
+  <name>ПерсональныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПерсональныеНастройки</content>
+  <content>InformationRegister.НастройкиПользователей</content>
+  <content>ChartOfCharacteristicTypes.НастройкиПользователей</content>
+  <content>CommonModule.ПерсональныеНастройкиВызовСервера</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

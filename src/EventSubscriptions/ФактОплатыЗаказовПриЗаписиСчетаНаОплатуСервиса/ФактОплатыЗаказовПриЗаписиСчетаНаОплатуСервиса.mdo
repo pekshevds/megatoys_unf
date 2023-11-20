@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d84c833-f2fc-449e-96ac-b49cba1f0e30">
+  <name>ФактОплатыЗаказовПриЗаписиСчетаНаОплатуСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факт оплаты заказов при записи счета на оплату сервиса</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ФактОплатыЗаказов</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОплатаСервисаУНФ.ФактОплатыЗаказовПриЗаписиСчетаНаОплатуСервисаПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdff2d78-77a0-43fc-a637-0bf3d470a694">
+  <name>ИспользованиеИнтеграцииСМаркетплейсомOzon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование интеграции с маркетплейсом Ozon</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="900f4b22-fb31-43de-88ef-e9ada37b5af3">
+  <producedTypes>
+    <managerType typeId="65b308e1-0883-4474-81f5-4a72ef487fd0" valueTypeId="69d8b4b5-8fff-4040-a540-e031b59ff676"/>
+    <valueManagerType typeId="761264ce-e9d1-4e4e-9e87-796868d3260d" valueTypeId="af185597-c89f-4d01-9b73-5d5f9a75185c"/>
+    <valueKeyType typeId="4c830cf9-8df1-4e24-bc00-5ba722f67b98" valueTypeId="44222e81-2bbc-4c22-a344-8d549319dad5"/>
+  </producedTypes>
+  <name>ПроизводственныйКалендарьРасчетаДатыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь для расчета даты отгрузки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПроизводственныеКалендари</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

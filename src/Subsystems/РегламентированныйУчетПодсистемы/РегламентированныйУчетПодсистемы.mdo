@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d14d0b03-21a2-4582-8317-8e99d5525b0d">
+  <name>РегламентированныйУчетПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный учет подсистемы</value>
+  </synonym>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>CommonTemplate.ОформлениеОтчетовЗеленый</content>
+  <content>CommonPicture.ПрочтенноеПисьмо</content>
+  <content>CommonTemplate.ОбщиеОбластиСтандартногоОтчета</content>
+  <content>CommonTemplate.СтруктураПодчиненности</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Constant.НастройкиКолонтитулов</content>
+  <content>Catalog.НомераГТД</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.РегистрацииВНалоговомОргане</content>
+  <content>CommonPicture.Обменяться</content>
+  <content>Enum.СистемыНалогообложения</content>
+  <content>CommonPicture.Развернуть</content>
+  <content>CommonPicture.Свернуть</content>
+  <content>CommonPicture.Идея</content>
+  <content>CommonPicture.ПиктограммыРеглОтчетов</content>
+  <subsystems>ПрослеживаемостьТоваров</subsystems>
+</mdclass:Subsystem>

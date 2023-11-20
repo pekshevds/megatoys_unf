@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="433fa44b-41fc-48b0-b20a-0ede2b093788">
+  <name>МенюФункцийБЗКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплаты и кадры (регламентированные)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

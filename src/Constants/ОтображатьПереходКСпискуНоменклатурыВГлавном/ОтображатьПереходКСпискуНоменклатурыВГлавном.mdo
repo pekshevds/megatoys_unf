@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c582858-6cc9-472c-bd88-d9906a12beaa">
+  <producedTypes>
+    <managerType typeId="f1b78069-dd82-4e35-bf84-032640936aa1" valueTypeId="98763cc4-a09a-4e9d-96b6-d81f3b5728ce"/>
+    <valueManagerType typeId="ccbc8877-5291-46a5-bd64-ee9a44366867" valueTypeId="d4a59382-6a0a-4d02-95d6-affc9eb03671"/>
+    <valueKeyType typeId="90849d88-9ab6-4439-be81-5a260ff5a3a8" valueTypeId="eb44eedb-3a76-4be0-bb7c-b21aaf2e62ad"/>
+  </producedTypes>
+  <name>ОтображатьПереходКСпискуНоменклатурыВГлавном</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать переход к списку номенклатуры в главном</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

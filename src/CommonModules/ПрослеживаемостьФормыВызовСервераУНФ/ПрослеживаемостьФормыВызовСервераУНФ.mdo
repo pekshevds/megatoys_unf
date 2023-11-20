@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17a53f7c-d66e-4f0f-aa8d-df6140f0281b">
+  <name>ПрослеживаемостьФормыВызовСервераУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прослеживаемость формы вызов сервера УНФ</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

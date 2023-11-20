@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54c4a56c-c227-4a1b-9e7a-2db1f9a26f01">
+  <producedTypes>
+    <selectionType typeId="a0e74488-6fde-4e92-a61e-c0759dc47e76" valueTypeId="cb310348-f43f-4663-baa8-4f2d5e9c1e1a"/>
+    <listType typeId="ac22d598-9da2-4019-94c9-2f1e6bdf3847" valueTypeId="8001ee78-92b8-4202-8fbc-8365d3fee896"/>
+    <managerType typeId="a40811ae-26de-480a-89b9-1c51bd1d6c3d" valueTypeId="20179965-9b31-48d4-99df-55c27d5c8d54"/>
+    <recordSetType typeId="f071e449-db47-4fbb-9682-8c37ef65bc29" valueTypeId="a0629a5e-06bd-48e8-934a-728cae896e7a"/>
+    <recordKeyType typeId="72d0ab32-3eca-477f-a921-b7d50105d46c" valueTypeId="211aba14-4266-4959-b700-d81aa0376706"/>
+    <recordType typeId="21462a0c-f0a3-4ca7-ab4e-9c38cee06300" valueTypeId="b3b490ec-92da-4a50-841f-3d7fb996df49"/>
+  </producedTypes>
+  <name>ПрименениеПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9c56fa27-c1d9-4423-a6a7-a11033b9502c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="60dc4e25-d5d3-4b15-b8f1-b32a579f9b7a">
+    <name>СуммаСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2e510b3c-c8ce-4e48-bebf-51b79d845a3c">
+    <name>Промокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокод</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Промокод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7c55f7ac-b3d0-4179-afd3-03ab903135ba">
+    <name>СкидкаНаценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка наценка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АвтоматическиеСкидки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

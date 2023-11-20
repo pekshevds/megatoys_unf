@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d894b7-aba5-4e8d-b9d0-a8a3e26d1e27">
+  <producedTypes>
+    <containerType typeId="7324f971-b49f-4ffb-8bb2-e342815b2e9f" valueTypeId="c6852c6a-228a-45a1-a8c6-f39c3a6487d3"/>
+  </producedTypes>
+  <name>ХарактеристикаНоменклатурыШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристика номенклатуры штрихкода</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78788a20-33bf-4e3c-bd4c-e980066d70f1">
+  <producedTypes>
+    <containerType typeId="0d02876f-9a4e-4237-a51e-de81416c3197" valueTypeId="3e0b6f04-27bf-40d1-abd9-e577efdacbde"/>
+  </producedTypes>
+  <name>ПродавецРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продавец РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb35a27-0e5b-4dd3-9ad7-aae86302ea79">
+  <name>ГрупповаяОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ГрупповаяОбработкаРаспознанныхДокументов</content>
+  <content>CommonModule.РаспознаваниеДокументовКомплекты</content>
+  <content>CommonModule.РаспознаваниеДокументовКомплектыВызовСервера</content>
+  <content>CommonModule.РаспознаваниеДокументовКомплектыКлиентСервер</content>
+  <parentSubsystem>Subsystem.РаспознаваниеДокументовПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d24b8f4d-a12c-4267-8e8f-0885bd6b0830">
+  <producedTypes>
+    <containerType typeId="d044bdf4-7037-45d8-9eab-48fd07170dbc" valueTypeId="0ada0335-8bae-4ceb-ab60-fe8ec88cb468"/>
+  </producedTypes>
+  <name>НеотрицательноеЧисло15_2_РМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неотрицательное число (15, 2)  РМК</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20cc1bfc-d76a-45aa-85b6-88c155f18cbe">
+  <producedTypes>
+    <containerType typeId="8d9fa52f-6762-4d30-ae9e-f50a9ca8de12" valueTypeId="576693e6-7d36-4333-b547-81801893182b"/>
+  </producedTypes>
+  <name>БанковскиеСчетаБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские счета БРД</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БанковскиеСчета</types>
+  </type>
+</mdclass:DefinedType>

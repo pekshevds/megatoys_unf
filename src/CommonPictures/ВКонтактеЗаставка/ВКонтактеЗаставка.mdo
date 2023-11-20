@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe63ad1-cefc-46e1-a539-97ecfc926a0e">
+  <name>ВКонтактеЗаставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКонтакте заставка</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

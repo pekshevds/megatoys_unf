@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e5c1f3-d057-4e38-bb57-c0f7b6b51463">
+  <producedTypes>
+    <containerType typeId="6cc5169b-4358-4bdd-803b-10e4f687e151" valueTypeId="4f371834-fefa-4391-9d34-00b3e84d1ab7"/>
+  </producedTypes>
+  <name>СправочникиОбменаСМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники обмена с мобильными приложениями</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.СтруктурныеЕдиницы</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.Организации</types>
+  </type>
+</mdclass:DefinedType>

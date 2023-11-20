@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81fea8c9-ff67-4f59-8934-ae9660d3dbe0">
+  <name>ИспользованиеБанкаИКассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование банка и кассы</value>
+  </synonym>
+</mdclass:Role>

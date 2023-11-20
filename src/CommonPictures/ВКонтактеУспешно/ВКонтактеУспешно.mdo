@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd87e61-f529-4902-a67d-d8a51a05589c">
+  <name>ВКонтактеУспешно</name>
+  <synonym>
+    <key>ru</key>
+    <value>В контакте успешно</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c9e632-bb6b-4fad-bf9c-518256628e67">
+  <producedTypes>
+    <selectionType typeId="9b0a0ee2-4f10-44c6-83bd-1d9567a957d1" valueTypeId="159d7044-d108-45d2-9993-f297a04dc218"/>
+    <listType typeId="75c076d8-aada-4bcc-8411-ac77a17eff4f" valueTypeId="0d14f922-7242-4a47-983b-1a5b046a1c81"/>
+    <managerType typeId="808a6655-9620-4a85-a9da-848620765a01" valueTypeId="7646429a-6d5a-4394-97d9-a383eb933913"/>
+    <recordSetType typeId="7c7c58bc-da1d-413c-88e9-e444d8f4d257" valueTypeId="cdaad94b-3c1e-4ffd-a5f1-9261f1057466"/>
+    <recordKeyType typeId="044f5625-f208-43bb-a5db-b166ae28bba5" valueTypeId="457d2b98-7396-4cf9-b7ff-88eb3ff1e2a9"/>
+    <recordType typeId="593b3283-b840-49ba-a127-3b79348c9d9e" valueTypeId="25a4d0c3-8b19-41ea-ae34-e58156a170dc"/>
+    <recordManagerType typeId="62a4ce28-7bd1-4a64-b37a-913d7aa4ba03" valueTypeId="49207d0f-7348-4a3c-8c3a-ab5d18757c1e"/>
+  </producedTypes>
+  <name>ДанныеЗвонковЛогирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные звонков логирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="49631612-0b7a-45ba-ba8e-a196221324e3">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="17b7ed26-700c-4dbf-a1b4-4daa80cca7d0">
+    <name>ИдентификаторЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор запроса</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1489f313-7660-454c-8afe-7bbcc86ee22c">
+    <name>ОписаниеЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="09ab4d2c-ef2a-465f-874b-d898651f6efc">
+    <name>ЭтоОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это ответ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bb7f6c1f-430b-4f04-9471-15df0690d370">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

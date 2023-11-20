@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cda8f471-3fe2-4e24-8b47-4155efc50a5b">
+  <producedTypes>
+    <refType typeId="fb8c3e31-b88b-46e2-930f-5f14691c220c" valueTypeId="8730c403-09fc-4f2a-8a98-545aa4eb0686"/>
+    <listType typeId="e90358be-4d94-4549-a369-5aeefead93ed" valueTypeId="0750fd0e-f53b-4f70-b126-200ebe74b653"/>
+    <managerType typeId="51f74ee5-e5d9-431c-a556-b959a70b7224" valueTypeId="9b00df2d-45fe-406e-b0b5-e6bbe095eb25"/>
+  </producedTypes>
+  <name>МагазиныСоцСетейДляИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазины соц сетей для интеграции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bfd59e2b-8cb3-4291-a973-6879364dc5ad">
+    <name>VK</name>
+    <synonym>
+      <key>ru</key>
+      <value>VK</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

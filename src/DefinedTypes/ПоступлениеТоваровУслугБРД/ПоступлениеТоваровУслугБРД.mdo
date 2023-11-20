@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ce03c02-ba13-4616-9db7-8c9d28e8d801">
+  <producedTypes>
+    <containerType typeId="d4916123-6738-4c93-85d6-1ffbe41043a8" valueTypeId="1d584ebb-c4c4-48e9-8e1e-9dbca0957d79"/>
+  </producedTypes>
+  <name>ПоступлениеТоваровУслугБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров и услуг БРД</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+  </type>
+</mdclass:DefinedType>

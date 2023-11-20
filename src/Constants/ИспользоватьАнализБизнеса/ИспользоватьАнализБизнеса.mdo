@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dc4b420-36aa-46ea-9595-418d54c091d0">
+  <producedTypes>
+    <managerType typeId="8b8ac75b-9aea-44dd-95f8-54ec5bb9363f" valueTypeId="3dd80cd1-2649-4ad6-bff5-12ec196b9abe"/>
+    <valueManagerType typeId="bca3c562-ffd8-48d5-b434-5d7bed1b829d" valueTypeId="e242dd84-eaad-414d-a609-a752a510f3e9"/>
+    <valueKeyType typeId="eb1c7e01-cce6-4bbf-90f6-b9ce80fdbee9" valueTypeId="e6b8d013-fdc2-4dc9-a905-3b2a85035464"/>
+  </producedTypes>
+  <name>ИспользоватьАнализБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать анализ бизнеса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

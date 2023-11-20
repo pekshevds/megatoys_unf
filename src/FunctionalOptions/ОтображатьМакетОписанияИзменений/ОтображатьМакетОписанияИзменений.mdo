@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3579abb-6b54-4723-8c87-999660e5896e">
+  <name>ОтображатьМакетОписанияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать макет описания изменений</value>
+  </synonym>
+  <location>Constant.ОтображатьМакетОписанияИзменений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e385bc9-4f79-4421-97ed-647b80bba270">
+  <producedTypes>
+    <refType typeId="d56b75d0-e469-4e75-bddf-11aeb7c55cfb" valueTypeId="a13bbb24-42d7-4352-8e3f-0e5443160814"/>
+    <listType typeId="9de057d5-9d1e-4f09-a8ff-032538eaba5a" valueTypeId="b103b08d-3c8a-4b96-af27-e5d8a17d2e15"/>
+    <managerType typeId="feba6757-c07d-4db6-a42e-28bbb2c28a9b" valueTypeId="0cc4e5b4-53c9-4535-8600-5297da61846e"/>
+  </producedTypes>
+  <name>ВариантыОтправкиSMSПриПродаже</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отправки SMSПри продаже</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="36231957-7a79-434d-8341-14e30423732e">
+    <name>ПриВыборе</name>
+    <synonym>
+      <key>ru</key>
+      <value>При выборе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8a73b8a-708c-475c-b61a-efc00df88dda">
+    <name>ПриОплатеБаллами</name>
+    <synonym>
+      <key>ru</key>
+      <value>При оплате баллами</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

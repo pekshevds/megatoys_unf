@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2f91250-3da6-4255-9409-ba224644f8f3">
+  <producedTypes>
+    <managerType typeId="172037d1-0da3-4d25-93eb-e0c42deb258a" valueTypeId="575b948d-3107-409d-9c7a-53d996a8ddf4"/>
+    <valueManagerType typeId="bcbcf0fa-db3d-4874-aa17-ce153ae9b1b9" valueTypeId="a9fc6753-3530-4ecb-9a4d-98d7a3a69fb1"/>
+    <valueKeyType typeId="34425fcc-61ed-4621-aeea-a8c206a73887" valueTypeId="7a733609-4088-4adc-9f9e-b0121446dcb3"/>
+  </producedTypes>
+  <name>ВариантЗаполненияДатыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант заполнения даты отгрузки</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыЗаполненияДатыОтгрузки</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

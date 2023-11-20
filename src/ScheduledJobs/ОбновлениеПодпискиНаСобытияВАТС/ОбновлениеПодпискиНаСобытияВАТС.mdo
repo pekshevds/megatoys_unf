@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e24c68d-cba7-4d2b-abcd-eaf1d8c6ea9c">
+  <name>ОбновлениеПодпискиНаСобытияВАТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление подписки на события ВАТС</value>
+  </synonym>
+  <methodName>CommonModule.ТелефонияБилайн.ЗаданиеОбновлениеПодпискиНаСобытияВАТС</methodName>
+  <description>Обновление подписки на события облачной АТС</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b038e8-3e21-4b92-92f3-40713a2977b6">
+  <name>УдалитьЭтоОбычноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Это обычное приложение</value>
+  </synonym>
+  <location>Constant.УдалитьЭтоОбычноеПриложение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.CRM</content>
+  <content>Subsystem.Деньги</content>
+  <content>Subsystem.Закупки</content>
+  <content>Subsystem.Компания</content>
+  <content>Subsystem.Настройки</content>
+  <content>Subsystem.Продажи</content>
+  <content>Subsystem.Склад</content>
+  <content>ExchangePlan.МобильноеПриложение.Command.ОткрытьМобильноеПриложение</content>
+  <content>CommonCommand.ПанельОтчетов_ОсновнойРаздел</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.ВидыЦен</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ЗаказПокупателяПрисоединенныеФайлы</content>
+  <content>Catalog.ЗаписиКалендаряПодготовкиОтчетности</content>
+  <content>Catalog.КатегорииДоговоров</content>
+  <content>Catalog.КонтактныеЛицаПрисоединенныеФайлы</content>
+  <content>Catalog.КонтрагентыПрисоединенныеФайлы</content>
+  <content>Catalog.Лиды</content>
+  <content>Catalog.Новости.Command.КомандаСписокНовостей</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника.Command.Календарь</content>
+  <content>Catalog.Номенклатура.Command.ОткрытьНоменклатураРазделГлавное</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
+  <content>Catalog.ОрганизацииПрисоединенныеФайлы</content>
+  <content>Catalog.ПриходнаяНакладнаяПрисоединенныеФайлы</content>
+  <content>Catalog.РасходнаяНакладнаяПрисоединенныеФайлы</content>
+  <content>Document.Событие</content>
+  <content>DocumentJournal.ДокументыПоБанку</content>
+  <content>DocumentJournal.ДокументыПоЗакупкам.Command.ОткрытьЖурналЗакупокРазделГлавное</content>
+  <content>DocumentJournal.ДокументыПоЗапасам</content>
+  <content>DocumentJournal.ДокументыПоПродажам.Command.ОткрытьЖурналПродажРазделГлавное</content>
+  <content>DocumentJournal.ДокументыПоСкладу.Command.ОткрытьЖурналСкладРазделГлавное</content>
+  <content>DataProcessor.БанкИКасса</content>
+  <content>DataProcessor.БыстрыеДействия</content>
+  <content>DataProcessor.ИнформационныйЦентр</content>
+  <content>DataProcessor.ПульсБизнеса</content>
+  <content>DataProcessor.ТекущиеДела</content>
+  <content>InformationRegister.АналогиНоменклатуры</content>
+  <content>InformationRegister.УправлениеЗапасами</content>
+  <content>Catalog.Номенклатура.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.Контрагенты.Command.Покупатели</content>
+</mdclass:FunctionalOption>

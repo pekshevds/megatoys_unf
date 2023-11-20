@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d53d4185-d0fd-4f60-bbb1-5f51436251ab">
+  <name>РМКЛоготипСбербанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип Сбербанк</value>
+  </synonym>
+</mdclass:CommonPicture>

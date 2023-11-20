@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="952dcaaa-dccc-4015-b1c3-02088aad832b">
+  <producedTypes>
+    <managerType typeId="b879d0dc-7983-4e9a-8524-89f9fbedda6e" valueTypeId="94655aea-0908-478f-ae38-ded6df7ead45"/>
+    <valueManagerType typeId="1c627372-5597-477d-8468-327f35d9383d" valueTypeId="d7f36776-abae-4735-9865-13085b3ab613"/>
+    <valueKeyType typeId="dc383610-49cd-42a8-840f-8d007eee8e80" valueTypeId="287e42a9-6b89-4821-916f-d295f0281107"/>
+  </producedTypes>
+  <name>ИспользоватьПодсистемуДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Деньги</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

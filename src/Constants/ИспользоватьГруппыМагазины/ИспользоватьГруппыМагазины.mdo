@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95dfa26f-1b78-4538-9fa5-ba7bea0d19f4">
+  <producedTypes>
+    <managerType typeId="8a4a0203-bb10-4ed2-8b25-42aa328d095f" valueTypeId="ab95cebd-9e93-4cd3-be2a-e3e2580ef873"/>
+    <valueManagerType typeId="94adc9bb-dd57-4401-911f-55f13681f03c" valueTypeId="aa0cbab2-de9e-4661-8b9c-120e94e03db3"/>
+    <valueKeyType typeId="3ee8cbb7-4eba-44b5-8240-aa0e5a23b47b" valueTypeId="e849fba9-4df1-468b-aaf6-50bf525f0ac4"/>
+  </producedTypes>
+  <name>ИспользоватьГруппыМагазины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать группы магазины</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

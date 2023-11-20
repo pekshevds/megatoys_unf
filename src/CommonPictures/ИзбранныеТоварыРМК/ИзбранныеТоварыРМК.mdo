@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddf0370f-051a-4ae0-9943-f6b182067c0f">
+  <name>ИзбранныеТоварыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Избранные товары РМК</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda8eb7b-3613-4892-ae89-ed573f6dc4b7">
+  <name>РазделДеньгиЭквайринг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел деньги эквайринг</value>
+  </synonym>
+</mdclass:Role>

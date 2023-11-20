@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.НастройкаПрограммы.Command.ЧатботДляЗаписи</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.МенюФункцийНСИ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.НастройкаПрограммы.Command.ЕщеБольшеВозможностей</commands>
+      <commands>DataProcessor.НастройкаПрограммы.Command.НеНашлиНужнуюВозможность</commands>
+      <commands>CommonCommand.ВсеСправочники</commands>
+      <commands>DataProcessor.НастройкаПрограммы.Command.ЧатботДляЗаписи</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

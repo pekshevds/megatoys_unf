@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc509c1-c464-4316-aab7-e57748abd5e1">
+  <name>ИспользоватьПодсистемуПродажиМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему продажи МП</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуПродажиМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КассыККММП</content>
+  <content>Catalog.КонтрагентыМП</content>
+  <content>Catalog.ТоварыМП</content>
+  <content>Document.ОтчетОРозничныхПродажахМП</content>
+  <content>Document.ПриходТовараМП</content>
+  <content>Document.РасходТовараМП</content>
+  <content>Document.ЧекККМВозвратМП</content>
+  <content>Document.ЧекККММП</content>
+  <content>Document.ЗаказМП</content>
+</mdclass:FunctionalOption>

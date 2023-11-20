@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa5c875-f434-4958-9866-36d7d0e13d4a">
+  <name>УстановитьПрефиксИнформационнойБазыНомеруДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы номеру документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОтчетОбИмпортеЕГАИС</types>
+    <types>DocumentObject.ЧекЕГАИСВозврат</types>
+    <types>DocumentObject.ТранспортнаяНакладнаяЕГАИС</types>
+    <types>DocumentObject.ИсходящаяТранспортнаяОперацияВЕТИС</types>
+    <types>DocumentObject.ПроизводственнаяОперацияВЕТИС</types>
+    <types>DocumentObject.УведомлениеОПланируемомИмпортеЕГАИС</types>
+    <types>DocumentObject.ВходящаяТранспортнаяОперацияВЕТИС</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ЗадачаСотрудника</types>
+    <types>DocumentObject.ЧекЕГАИС</types>
+    <types>DocumentObject.ТТНИсходящаяЕГАИС</types>
+    <types>DocumentObject.ЗапросСкладскогоЖурналаВЕТИС</types>
+    <types>DocumentObject.ЕжедневныйОтчет</types>
+    <types>DocumentObject.КорректировкаРегистров</types>
+    <types>DocumentObject.ОтчетЕГАИС</types>
+    <types>DocumentObject.ОбъединениеЗаписейСкладскогоЖурналаВЕТИС</types>
+    <types>DocumentObject.ИнвентаризацияПродукцииВЕТИС</types>
+    <types>DocumentObject.НачислениеСписаниеБонусныхБаллов</types>
+    <types>DocumentObject.АктивацияПромокодов</types>
+    <types>DocumentObject.ЗапросАкцизныхМарокЕГАИС</types>
+    <types>DocumentObject.ОтчетОПроизводствеЕГАИС</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

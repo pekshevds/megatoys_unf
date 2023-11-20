@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ae2d4a3-f684-43bb-a4fd-25cfb4f4a95c">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделАдминистрирование</picture>
+  </picture>
+  <content>CommonPicture.КоллекцияРазделов</content>
+  <content>CommonCommand.УдалениеОбъектов</content>
+  <content>CommonCommand.СменитьПароль</content>
+  <content>CommonModule.НастройкиУНФ</content>
+  <content>CommonPicture.БольшеВозможностей</content>
+  <content>CommonPicture.ВертикальнаяЛиния</content>
+  <content>CommonPicture.РазделАдминистрирование</content>
+  <content>StyleItem.ЦветФонаПотенциальныхВозможностей</content>
+  <content>CommonCommand.ДополнительныеОбработкиНастройки</content>
+  <content>CommonCommand.СверткаИнформационнойБазы</content>
+  <content>CommonCommand.НастройкиРМК</content>
+  <content>CommonPicture.РазделЗаблокирован</content>
+  <content>FunctionalOption.ИспользоватьПодсистемуНастройки</content>
+  <content>Constant.ИспользоватьПодсистемуНастройки</content>
+  <content>CommonModule.ПодсистемаНастройки</content>
+  <content>CommonPicture.КакОбновитьРозницуДоУНФВСервисе</content>
+  <subsystems>Администрирование</subsystems>
+  <subsystems>Интеграции</subsystems>
+  <subsystems>Маркировка</subsystems>
+  <subsystems>Настройки</subsystems>
+  <subsystems>ПерсональныеНастройки</subsystems>
+  <subsystems>Аналитика</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61dc4baf-5858-4eab-a896-67180215f809">
+  <name>ТоварыИУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары и услуги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.НомераГТД</content>
+  <content>Catalog.НоменклатураПоставщиков</content>
+  <content>Role.РазделЗакупкиТоварыИУслуги</content>
+  <content>Report.ВедомостьПоТоварамНаСкладахВЦенахНоменклатуры</content>
+  <content>Report.ДвижениеТоваров</content>
+  <content>Report.ДвиженияСерийНоменклатуры</content>
+  <content>Report.Запасы</content>
+  <content>Report.ЗапасыВРазрезеГТД</content>
+  <content>Report.ЗапасыПереданные</content>
+  <content>Report.ЗапасыПереданныеВРазрезеГТД</content>
+  <content>Report.ИзлишкиИНедостачи</content>
+  <content>Report.ОстаткиНоменклатурыПоставщиковДляОбменаССайтом</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>Report.ОстаткиТоваровМеньшеНуля</content>
+  <content>Report.ОстаткиТоваровПоСрокамГодности</content>
+  <content>Report.Склад</content>
+  <content>Report.СкладПоСериямНоменклатуры</content>
+  <content>Report.ГрафикДвиженияЗапасов</content>
+  <content>Report.АнализДоступности</content>
+  <content>Report.ЗапасыПринятыеВРазрезеГТД</content>
+  <content>FunctionalOption.ОтображатьПереходКСпискуНоменклатурыВГлавном</content>
+  <content>Constant.ОтображатьПереходКСпискуНоменклатурыВГлавном</content>
+  <parentSubsystem>Subsystem.Закупки</parentSubsystem>
+</mdclass:Subsystem>

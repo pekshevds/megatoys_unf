@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bae7001-b029-4985-abfe-334ad0aa6aaa">
+  <name>ВестиУчетПрослеживаемыхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет прослеживаемых товаров</value>
+  </synonym>
+  <location>Constant.ВестиУчетПрослеживаемыхТоваров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КлассификаторТНВЭД.Attribute.ПрослеживаемыйТовар</content>
+  <content>Catalog.Номенклатура.Attribute.ПрослеживаемыйТовар</content>
+  <content>Catalog.Номенклатура.Attribute.ВесПоСертификатуТовара</content>
+  <content>Document.СчетФактура.Attribute.ЕстьПрослеживаемыеТовары</content>
+  <content>Document.СчетФактураПолученный.Attribute.ЕстьПрослеживаемыеТовары</content>
+  <content>Subsystem.ПрослеживаемостьТоваровВнедрение</content>
+  <content>CommonCommand.УведомлениеОбОстаткахПрослеживаемыхТоваров</content>
+  <content>Document.УведомлениеОбОстаткахПрослеживаемыхТоваров</content>
+  <content>Document.УведомлениеОВвозеПрослеживаемыхТоваров</content>
+  <content>Document.УведомлениеОПеремещенииПрослеживаемыхТоваров</content>
+  <content>DataProcessor.ПомощникПолученияРНПТ</content>
+  <content>DocumentJournal.ПрослеживаемостьУведомления</content>
+  <content>Document.РаспределениеЗатрат.Attribute.КодОперацииПрослеживаемости</content>
+  <content>Document.ПеремещениеЗапасов.Attribute.КодОперацииПрослеживаемости</content>
+</mdclass:FunctionalOption>

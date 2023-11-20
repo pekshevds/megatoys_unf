@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf79f922-9dd3-4117-9900-0fc5c55af87f">
+  <name>ИзменениеЗначенийКБК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение значений КБК</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86ff3bcd-8a82-4af3-93b6-ff89a203917f">
+  <producedTypes>
+    <selectionType typeId="01b16bb7-eb06-4ef6-accf-8164e27fcb51" valueTypeId="82d50d8d-ee5c-44f1-bcb0-fc96f82eff4a"/>
+    <listType typeId="bc642848-85be-4feb-8750-f5a2330813d7" valueTypeId="b0c48dc0-26af-4d3b-bfe0-479800af5360"/>
+    <managerType typeId="fd19b7df-2a0f-4719-b28f-a74a1b305a8c" valueTypeId="6bb34a21-3091-4944-bf90-645bac38cfa6"/>
+    <recordSetType typeId="f4e557b5-6d0b-405a-8c72-1b514164fe94" valueTypeId="c69ff3d4-1d94-42a9-be15-7591d816cf6f"/>
+    <recordKeyType typeId="81265017-4b2c-41f4-8775-c125e4243bbd" valueTypeId="71418756-37ec-4914-accc-5ce6ecf26a07"/>
+    <recordType typeId="d10e0c4b-fba6-4bc7-b91f-e80919cbfc35" valueTypeId="8491cf86-3b34-473c-af23-2325d3fa9a47"/>
+    <recordManagerType typeId="5c56dac0-4aa5-44f1-81ca-225005a1e45e" valueTypeId="b4f5e3f1-04e1-4023-abb6-4c7d555e247d"/>
+  </producedTypes>
+  <name>СвязиПоказателейБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи показателей бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СвязиПоказателейБюджета.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СвязиПоказателейБюджета.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f936fe9f-e150-4d8c-a5d1-1c25660e267a">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="758e740e-3605-40a6-87a2-1d90943bc1f7">
+    <name>ПоказательБизнеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="12b35fd9-8aab-4c27-a8b2-50c5c60379d9">
+    <name>СвязанныйПоказательБизнеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанный показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиБизнеса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="409e107b-5912-4944-b507-97c22eaa62b8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe636872-b5dd-4c09-8671-7bc3a4095091">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

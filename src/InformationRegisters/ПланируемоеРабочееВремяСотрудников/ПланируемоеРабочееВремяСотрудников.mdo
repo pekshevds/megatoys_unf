@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fafa6444-d3a0-414c-8ae7-2b5ef2e670ce">
+  <producedTypes>
+    <selectionType typeId="b2852c0f-fcbc-4586-8b7c-dd722053a4ae" valueTypeId="f30f060e-625b-4f68-8945-68ff0866f8dc"/>
+    <listType typeId="8fb08f2c-da37-4b08-a3d5-369fb7da67c5" valueTypeId="3b4af083-430e-46a7-aea8-8fa2773c05de"/>
+    <managerType typeId="d4605e0f-dfa8-4ab1-9c71-8d3476b59bd6" valueTypeId="b3904c4a-ea1e-494b-8273-1c97549c16bc"/>
+    <recordSetType typeId="3dd65104-a19e-4553-b23b-08ea72fecfaf" valueTypeId="c77ca653-2a1e-4d02-b47e-5d2b93ba7667"/>
+    <recordKeyType typeId="40f9d468-912c-4269-9e7f-b8182865c535" valueTypeId="a2428f52-54c9-49cc-a265-60b32da48668"/>
+    <recordType typeId="4d7ca1f6-5138-4ed1-b079-4f76df4bebb6" valueTypeId="7f9626a1-0237-4191-8fef-ab6fb3a79b45"/>
+    <recordManagerType typeId="c0688cfc-e5cd-44b6-9632-1c56b71a96bc" valueTypeId="fc3337ad-ae9d-490c-a868-4a9cf3b57953"/>
+  </producedTypes>
+  <name>ПланируемоеРабочееВремяСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемое рабочее время сотрудников</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Планируемое время сотрудников</value>
+  </listPresentation>
+  <resources uuid="b26ed2d4-b0b2-47fb-a245-b95f11af3a9d">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Планируемая дата окончания работы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5860fc66-6ca0-44e6-b6dd-5d9534a8510d">
+    <name>ПродолжительностьРабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность рабочего времени</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Планируемое рабочее время</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6f7b0ebc-d4f4-4b9a-9ca7-73b38bed7221">
+    <name>РабочаяСмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая смена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеСменыСтруктурныхЕдиниц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7da8d636-8230-429c-a762-a1142458ef1c">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="975347cc-7215-4ada-94ae-ca661189ded3">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0b73e2f6-aa25-4633-ae74-f116d0c31cd5">
+    <name>ФормаПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма планирования</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cfa9a425-de01-43fa-b894-0d6c565c9380">
+    <name>ФормаДобавленияСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления сотрудника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="665e0b8d-45e7-48b1-8c9a-e6d9bf76333a">
+    <name>ПФ_MXL_ПланГрафикСПодписями</name>
+    <synonym>
+      <key>ru</key>
+      <value>План график с подписями</value>
+    </synonym>
+  </templates>
+  <commands uuid="a17a37bc-85a1-4431-ac47-b4736284b4ed">
+    <name>ПланируемоеВремяСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование времени сотрудников</value>
+    </synonym>
+    <comment>АПК:58 - проектное решение</comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

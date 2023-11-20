@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f959b3ff-1e00-4912-a889-530d7907a789">
+  <name>ЗакрытьДанныеПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть данные покупателя</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

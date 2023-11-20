@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbe115bf-42d2-4f9e-9eb9-31dcf64b76b5">
+  <name>ЗарплатаИКадрыБЗКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ЗарплатаИКадрыБЗКБ</content>
+  <parentSubsystem>Subsystem.Налоги</parentSubsystem>
+</mdclass:Subsystem>

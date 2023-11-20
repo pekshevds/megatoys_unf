@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.CRM</subsystems>
+    <subsystems>Subsystem.Продажи</subsystems>
+    <subsystems>Subsystem.Закупки</subsystems>
+    <subsystems>Subsystem.Склад</subsystems>
+    <subsystems>Subsystem.Работы</subsystems>
+    <subsystems>Subsystem.Производство</subsystems>
+    <subsystems>Subsystem.Деньги</subsystems>
+    <subsystems>Subsystem.Персонал</subsystems>
+    <subsystems>Subsystem.Налоги</subsystems>
+    <subsystems>Subsystem.Компания</subsystems>
+    <subsystems>Subsystem.Настройки</subsystems>
+    <subsystems>Subsystem.АдминистрированиеСервиса</subsystems>
+    <subsystems>Subsystem.ОбменСКассовымСерверомШтрихМ</subsystems>
+    <subsystems>Subsystem.СлужебныеПодсистемы</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+    <subsystems>Subsystem.ТехнологияСервиса</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

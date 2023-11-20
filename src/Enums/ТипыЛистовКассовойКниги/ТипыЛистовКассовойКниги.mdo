@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93e72d8-f3e1-45f0-99d3-eb04372f224c">
+  <producedTypes>
+    <refType typeId="3dc76f47-29b3-422c-a864-72eb33f220a7" valueTypeId="7b9dd1a9-b4dd-41d7-ac36-7f345bb6f575"/>
+    <listType typeId="4e85d2c7-4bb6-424f-bc8b-24cfe895d3b9" valueTypeId="1a7477f2-ca4f-46f5-8024-8e8b2130ec96"/>
+    <managerType typeId="91896a04-2eed-4266-baa3-f93183342b1b" valueTypeId="9c49a058-f111-4857-a4ee-3df280215d0c"/>
+  </producedTypes>
+  <name>ТипыЛистовКассовойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы листов кассовой книги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f5acaeb9-f573-48ab-b384-c8bc7c3bfedf">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a00263ea-e833-4ca0-9118-14c598faba1d">
+    <name>ПоследнийВМесяце</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний в месяце</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="261a169d-d547-45ab-a2bd-42326fdaea91">
+    <name>ПоследнийВГоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний в году</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

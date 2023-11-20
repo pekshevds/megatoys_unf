@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed54e8b5-3670-4d55-b082-c28b075c6b80">
+  <name>ИспользоватьОбменСGoogleCalendar</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с google calendar</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбменСGoogleCalendar</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

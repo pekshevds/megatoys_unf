@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc0ee1d-2861-4dfb-941e-d72b16f7da72">
+  <producedTypes>
+    <objectType typeId="d42823a7-11c4-4bb4-aafb-0947f036fe08" valueTypeId="f18c416a-18d4-4ddb-9179-5126a2bc48ca"/>
+    <managerType typeId="31215ae5-56fc-4fbc-8b9e-9bde4c89c86f" valueTypeId="ed9490df-f8f1-4507-8b13-330e1b333130"/>
+  </producedTypes>
+  <name>СоставНаборов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав наборов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СоставНаборов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8f21c932-79c9-4f74-ae4f-50fdde18ff53">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="d073104f-5022-405d-811c-e16813797991">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3920099a-2e47-4ba8-ba2c-460a6d48b095">
+    <name>ОбразецСоставНаборов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец состав наборов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

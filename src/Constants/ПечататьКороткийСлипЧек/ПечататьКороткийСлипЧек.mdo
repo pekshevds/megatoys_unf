@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be126d45-f620-4bb8-b75a-a6ba1460966c">
+  <producedTypes>
+    <managerType typeId="8c94320c-1c03-46a0-a4c5-e72f0515cb4d" valueTypeId="f1c3e51c-08af-4de0-8345-4f825ca3c7b2"/>
+    <valueManagerType typeId="dc203c73-59de-462b-a4f7-3127006df21b" valueTypeId="9b00ffc4-ebb5-4ce1-bbeb-51ce3f3bcbad"/>
+    <valueKeyType typeId="5d8ebfdb-eabc-48ec-9820-c6d5aef845f8" valueTypeId="c3e65ccc-01f4-49cc-a52f-3eca7e2c0457"/>
+  </producedTypes>
+  <name>ПечататьКороткийСлипЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать короткий слип чек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07ef2231-dfd0-4d03-8df5-d64a8c5ce93b">
+  <name>QRАвтоматическаяСкидка</name>
+  <synonym>
+    <key>ru</key>
+    <value>QRАвтоматическая скидка</value>
+  </synonym>
+</mdclass:CommonPicture>

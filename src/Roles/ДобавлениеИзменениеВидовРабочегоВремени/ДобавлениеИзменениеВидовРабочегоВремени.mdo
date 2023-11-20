@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a42a4c94-c95c-44fe-ade6-8f2cc7e1d8c7">
+  <name>ДобавлениеИзменениеВидовРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение видов рабочего времени</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9d2c770-78e6-4d20-8a6c-b559f94f4c26">
+  <name>ОбсужденияУНФИсторияДействийПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения УНФИстория действий пользователя</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

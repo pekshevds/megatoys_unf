@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f1b52ae-8a73-4308-8625-6e70976bc605">
+  <name>РМКЛоготипДримкас</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип Дримкас</value>
+  </synonym>
+</mdclass:CommonPicture>

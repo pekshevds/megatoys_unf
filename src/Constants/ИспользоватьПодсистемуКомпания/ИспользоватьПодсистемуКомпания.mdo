@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd836b4c-8557-466e-8f82-972b68491a14">
+  <producedTypes>
+    <managerType typeId="dfc376af-2cb8-4fed-8e49-71e4b346c705" valueTypeId="227146ed-7f0a-41e2-98d5-c6295940a0ce"/>
+    <valueManagerType typeId="39f9bf82-24a1-40ee-b056-102a27cd3bfb" valueTypeId="32752748-cc2b-42cc-afe2-4fb3f854dfd9"/>
+    <valueKeyType typeId="0024b201-17c2-4927-8b19-0ae97cac88aa" valueTypeId="dba030fb-5256-4dc3-9744-42efa68688fd"/>
+  </producedTypes>
+  <name>ИспользоватьПодсистемуКомпания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Компания</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5618c933-b4ef-4fa5-9170-b337df3e0fc4">
+  <producedTypes>
+    <containerType typeId="d8495050-0d0a-4c41-a1b9-72f5301ee8b4" valueTypeId="445d87dc-109f-4b9b-a9d6-0fe827d18a48"/>
+  </producedTypes>
+  <name>ЗаказПокупателяРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ покупателя РМК</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </type>
+</mdclass:DefinedType>

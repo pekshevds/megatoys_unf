@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e36b5201-9ffb-4c45-bbf2-0ebbc7768484">
+  <producedTypes>
+    <managerType typeId="50c17507-5135-47dd-8216-5312553adf94" valueTypeId="da4f0b9d-4e62-4ac4-a11d-f3563a05be12"/>
+    <valueManagerType typeId="405c8eca-8e19-46db-b87c-c2858a324309" valueTypeId="158b6ed1-e953-427c-8a89-2b7a74f0eb2a"/>
+    <valueKeyType typeId="76cda176-843a-4cbc-b109-0bf32f6c99cf" valueTypeId="4ef5048d-8703-4498-a6c2-a96f6c929926"/>
+  </producedTypes>
+  <name>ИспользоватьОбменСGoogleCalendar</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с google calendar</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

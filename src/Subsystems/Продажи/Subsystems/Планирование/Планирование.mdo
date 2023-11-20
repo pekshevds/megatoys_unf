@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f59f92ca-7a06-4dc9-849e-ba595707e0ef">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПланПродаж</content>
+  <content>Catalog.СценарииПланирования</content>
+  <content>Document.РезервированиеЗапасов</content>
+  <content>Role.РазделПродажиПланирование</content>
+  <content>Report.АнализЗаказаПокупателя</content>
+  <content>Report.АнализЗаказовПокупателей</content>
+  <content>Report.ЗаказыПокупателей</content>
+  <content>Report.ПланФактныйАнализПродаж</content>
+  <content>Report.ПланыПродаж</content>
+  <content>Report.РазмещениеЗаказов</content>
+  <content>Role.ДобавлениеИзменениеСценариевПланирования</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

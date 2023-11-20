@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d6b402e-a571-48af-8382-dd08a43ae992">
+  <name>ОтправкаЧекаЗеленый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка чека зеленый</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

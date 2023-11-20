@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96f6f597-d0c0-4575-bc66-8e93d2d0217c">
+  <producedTypes>
+    <objectType typeId="141523aa-9b67-4c2c-aa73-c09b634b08bb" valueTypeId="e0e757cf-7467-42d9-8dbf-4011e7303ab4"/>
+    <managerType typeId="812b1d69-3b49-4a63-9694-a28ccd193880" valueTypeId="b9ebd323-4389-411f-bdf9-27dc0dc08f77"/>
+  </producedTypes>
+  <name>ПараметрыHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры HTML</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="0f23278f-7b81-44d4-8df2-89636fc69788">
+    <name>ФормаДобавленияГиперссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вставка гиперссылки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e408e89-f648-479e-af66-3e9a38589caa">
+    <name>ФормаВыбораДанныхТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание таблицы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c0e202a-87a6-402a-a114-24f8547ad138">
+    <name>ФормаВыбораИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="936f0ac0-a576-49cb-929a-9ea2d6f2fe44">
+    <name>ФормаИзмененияПараметровИзображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения параметров изображения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

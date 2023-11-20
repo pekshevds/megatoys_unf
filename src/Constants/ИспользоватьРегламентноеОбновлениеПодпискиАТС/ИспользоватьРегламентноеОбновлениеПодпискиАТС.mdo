@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b01993d8-c709-48cb-87ad-abccda7406b2">
+  <producedTypes>
+    <managerType typeId="4efb3bbe-42b1-4d0d-a07f-c35c02168ee0" valueTypeId="ae6c003c-3a37-4620-b9ca-0e52de5bf2c0"/>
+    <valueManagerType typeId="bb21dad5-9983-4f51-9910-7713a4dfd99e" valueTypeId="cd6d1125-a66b-4d32-bb8b-3527f8692fe2"/>
+    <valueKeyType typeId="5f742ad4-b75e-4cca-9c31-2d1a727732ba" valueTypeId="6e4ab259-6102-4ecb-abe4-ddc75ad4ada3"/>
+  </producedTypes>
+  <name>ИспользоватьРегламентноеОбновлениеПодпискиАТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать регламентное обновление подписки АТС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

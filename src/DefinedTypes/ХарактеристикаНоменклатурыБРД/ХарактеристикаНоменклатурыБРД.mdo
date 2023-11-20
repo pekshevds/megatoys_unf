@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d6e1da-58ae-460b-b2be-a6724ffa3ca9">
+  <producedTypes>
+    <containerType typeId="31e84a57-b92c-4b99-b32c-388ce1f8cbbf" valueTypeId="1fde2a4e-75e6-441f-86a2-39018cb115a1"/>
+  </producedTypes>
+  <name>ХарактеристикаНоменклатурыБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристика номенклатуры БРД</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

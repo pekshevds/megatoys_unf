@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a563984-57fb-4291-ab1f-a3d661b48a91">
+  <producedTypes>
+    <refType typeId="1bf0a17e-5d8d-4d17-899d-301d906e4faa" valueTypeId="89e06e58-009d-4e17-9ea8-41f4095c586e"/>
+    <listType typeId="10ad36ba-6252-4a9b-961b-f0225f1fdf62" valueTypeId="ef79439e-65e9-4a74-9e62-5e00dd4a6b4e"/>
+    <managerType typeId="9a63d4c1-22ec-4d1d-adda-1702785481e6" valueTypeId="94afb8c1-2844-420e-a2ae-97441fe71028"/>
+  </producedTypes>
+  <name>РазделыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы учета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3cba371f-4a7d-4af8-8b74-26bbc3b3bdc8">
+    <name>Запасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запасы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6affba86-3fca-48cd-a383-c9b6147f8151">
+    <name>ДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Денежные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53e4b4d4-0570-4081-ace0-70af5995b969">
+    <name>РасчетыСПоставщикамиИПокупателями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с поставщиками и покупателями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="022ee280-e0d1-45ad-9ace-0db97bd3df10">
+    <name>РасчетыСПодотчетниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с подотчетниками</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fb41561-7f6d-4eee-beff-90469d53f6a4">
+    <name>РасчетыСПрочимиКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с прочими контрагентами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32328cb6-5d54-402d-a318-5de8ec32f9af">
+    <name>РасчетыСПерсоналом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с персоналом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7964e304-f01e-45e4-bb6a-f239ef133f32">
+    <name>Имущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8488ce9a-8d7d-41b2-a96a-74f76aa7141f">
+    <name>ПрочиеРазделы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие разделы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57caff48-e643-442e-b013-f651160dc01b">
+    <name>РасчетыПоНалогам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по налогам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5f2fecb-ddb4-4d44-b7f3-183c6a1727bd">
+    <name>Эквайринг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe0ada70-730b-40fd-b33d-d764138e0787">
+    <name>ЗакупкиТоваровДляУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупки товаров для УСН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fe20815-c24b-4496-ba06-2acf58ba97da">
+    <name>РасчетыСФондамиПоСтраховымВзносам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с фондами по страховым взносам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c83a776a-70f5-4f2c-ba23-b36b2e09699b">
+    <name>РезервыТоваровОрганизаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервы товаров организаций</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9bbf6f0-908b-4197-8ac2-5ef1eef5b6be">
+    <name>РасчетыПоКредитамИЗаймам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по кредитам и займам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f160781-499a-4d02-847f-a3841f02f391">
+    <name>СкидкиБонусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки бонусы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

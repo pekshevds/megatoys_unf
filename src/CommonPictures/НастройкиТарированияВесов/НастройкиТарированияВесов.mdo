@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afb5a0a7-67ef-4aa5-86e5-b5ec5d3e9fd2">
+  <name>НастройкиТарированияВесов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки тарирования весов</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

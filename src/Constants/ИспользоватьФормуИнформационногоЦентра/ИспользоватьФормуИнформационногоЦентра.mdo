@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98035c7c-073a-4668-8c64-58c3c55a6169">
+  <producedTypes>
+    <managerType typeId="62af9b9c-8e29-44c4-b249-6f0c1d2443c6" valueTypeId="beab6a9d-a083-47d1-bdf2-eda6fd1afca3"/>
+    <valueManagerType typeId="0dafa8f5-042a-4520-a2df-abbaddb7fa54" valueTypeId="8bc78b2c-6f97-46c0-885a-a6f53d895b1a"/>
+    <valueKeyType typeId="068858dc-2bec-48c5-b8f7-ad5903c11722" valueTypeId="58deb367-4e95-4b68-9088-2025f8c62d56"/>
+  </producedTypes>
+  <name>ИспользоватьФормуИнформационногоЦентра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать форму информационного центра</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

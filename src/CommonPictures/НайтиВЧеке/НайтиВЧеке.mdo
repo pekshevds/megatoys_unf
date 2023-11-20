@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1bbeea1-2348-4c5b-ad82-a48e1e8cfc61">
+  <name>НайтиВЧеке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти в чеке</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

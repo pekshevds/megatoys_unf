@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548ac626-c687-4126-ad60-a3e0f5fcc486">
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделЗакупки</picture>
+  </picture>
+  <content>CommonPicture.КоллекцияРасхождения</content>
+  <content>CommandGroup.Прослеживаемость</content>
+  <content>Document.Событие</content>
+  <content>DataProcessor.ВыгрузкаТоваровВТСД</content>
+  <content>DataProcessor.ПанельАдминистрированияГИСМ</content>
+  <content>DataProcessor.УдалитьВыгрузкаБазыТоваровВТСД</content>
+  <content>DataProcessor.ПанельОбменВЕТИС</content>
+  <content>CommonCommand.ДополнительныеОбработкиЗакупки</content>
+  <content>FunctionalOption.ОтображатьДокументыПоЗапасам</content>
+  <content>FunctionalOption.ИспользоватьПодсистемуЗакупки</content>
+  <content>DataProcessor.ПанельОбменГИСМ</content>
+  <content>DataProcessor.ПанельОбменЕГАИС</content>
+  <content>CommonPicture.ЕстьРасхождения</content>
+  <content>CommonPicture.Аналоги</content>
+  <content>CommonPicture.СвернутьРазвернутьГруппу</content>
+  <content>DataProcessor.ПанельОбменИСМП</content>
+  <content>CommonCommand.РасходнаяНакладнаяВозврат</content>
+  <content>EventSubscription.ПолучитьПредставлениеДокументаСВходящимНомером</content>
+  <content>Constant.ИспользоватьПодсистемуЗакупки</content>
+  <content>Role.ПодсистемаЗакупки</content>
+  <content>Document.УведомлениеОВвозеПрослеживаемыхТоваров</content>
+  <content>DataProcessor.ПомощникПолученияРНПТ</content>
+  <content>Catalog.СегментыНоменклатуры</content>
+  <content>Constant.ОтображатьДокументыПоЗапасам</content>
+  <content>CommonModule.ПодсистемаЗакупки</content>
+  <content>DataProcessor.ПанельОбменЗЕРНО</content>
+  <content>CommonCommand.РаспознаваниеДокументовУНФ</content>
+  <subsystems>Закупки</subsystems>
+  <subsystems>Переработка</subsystems>
+  <subsystems>РасчетыСПоставщиками</subsystems>
+  <subsystems>ТорговыеПредложения</subsystems>
+  <subsystems>ТоварыИУслуги</subsystems>
+  <subsystems>Цены</subsystems>
+  <subsystems>Планирование</subsystems>
+  <subsystems>Аналитика</subsystems>
+  <subsystems>Взаиморасчеты</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>ГИСМ</subsystems>
+  <subsystems>ЕГАИС</subsystems>
+  <subsystems>ПередачаТоваровМеждуОрганизациями</subsystems>
+  <subsystems>Доставка</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229c20d6-70cf-4b88-a78e-fdf1336f48ce">
+  <name>ИнтеграцияУпралениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция упраление персоналом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияУправлениеПерсоналомБазовый</content>
+  <content>CommonModule.ИнтеграцияУправлениеПерсоналомСобытияБазовый</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

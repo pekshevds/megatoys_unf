@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edfba9ed-f3f6-41aa-a0c6-4cc3dcc473d7">
+  <name>РазделЗакупкиЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел закупки ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62254072-3c52-438c-a7bd-b2110ee1a937">
+  <producedTypes>
+    <managerType typeId="e59000f4-947b-4a11-b1fc-89f0bae7c041" valueTypeId="da47bbf6-ab8a-4ff6-b1e2-d1277840089d"/>
+    <valueManagerType typeId="2042a3ed-f2e2-4d52-bbc8-90809a50f5c7" valueTypeId="db2deddf-2ce1-4d66-a364-cb40f62e3472"/>
+    <valueKeyType typeId="8125aabc-42f5-42ea-bc2a-502aecf977b9" valueTypeId="c95c7fc8-f755-400e-8676-0f86931dfeb4"/>
+  </producedTypes>
+  <name>ВидДнейРасчетаДатыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид дней для расчета даты отгрузки</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыДнейРасчетаДатыОтгрузки</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

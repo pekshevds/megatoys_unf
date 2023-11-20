@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b411e7d4-63e9-4b53-8e32-efee556443d4">
+  <producedTypes>
+    <refType typeId="9904fcd3-4870-4d00-9271-1b294b19a566" valueTypeId="127c69e4-5686-4b06-9011-17349664f765"/>
+    <listType typeId="b5e3fd2a-5861-469a-8f87-c6f669f5aaf0" valueTypeId="31e8a08e-f1fc-409d-af91-58878f9eaa23"/>
+    <managerType typeId="11f42a33-cf58-428c-996b-46d22ef63b94" valueTypeId="33b69932-c616-4648-a358-db50c5aa2930"/>
+  </producedTypes>
+  <name>ТипыСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы синхронизации календарей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f5eea055-d76e-4aee-86e1-1118b9709a03">
+    <name>Яндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fb01f2d-9421-44ea-8ffe-5fdd3034f088">
+    <name>iCloud</name>
+    <synonym>
+      <key>ru</key>
+      <value>iCloud</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d8d3a92-b250-40a5-8845-c32d3702c569">
+    <name>mailru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mail.ru</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cee28fd-1789-4ed2-8e88-57b56eccda10">
+    <name>Google</name>
+    <synonym>
+      <key>ru</key>
+      <value>Google</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

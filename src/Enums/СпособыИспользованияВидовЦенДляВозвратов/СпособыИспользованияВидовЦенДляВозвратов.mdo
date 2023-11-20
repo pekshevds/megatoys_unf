@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0a80db0-c3c9-4718-9aab-1f37440b9f26">
+  <producedTypes>
+    <refType typeId="ae331563-10fd-4f46-a7d9-8656db540a21" valueTypeId="be831453-ed09-4353-bf28-90c12a2c3011"/>
+    <listType typeId="c853ed2d-9663-409c-be19-a2852111c456" valueTypeId="f477a2d3-5fae-439f-a009-17224aed3a46"/>
+    <managerType typeId="2120dd31-b59f-4d89-b175-101df0303ca4" valueTypeId="4c04a0a3-fdb8-4060-8347-3e3c1bff1378"/>
+  </producedTypes>
+  <name>СпособыИспользованияВидовЦенДляВозвратов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы использования видов цен для возвратов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6a8024e-c456-42a4-8969-b3485deab34e">
+    <name>ДляНовыхПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для новых пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d338438-1dfe-4de2-af9c-b767a939633c">
+    <name>СтарыйСпособ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старый способ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9ade84f-78a5-4875-815e-3e3a6dad7203">
+    <name>НовыйСпособ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый способ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

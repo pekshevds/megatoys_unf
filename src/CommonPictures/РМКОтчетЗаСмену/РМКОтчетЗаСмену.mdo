@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d5e50e9-7dd0-4805-9aec-0da930e231c7">
+  <name>РМКОтчетЗаСмену</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК Отчет за смену</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

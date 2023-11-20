@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b1988d-1446-4451-a2f7-ef56a167beeb">
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Событие</content>
+  <content>Role.РазделCRMСобытия</content>
+  <content>Report.КалендарьСобытий</content>
+  <content>Constant.ИспользоватьСобытия</content>
+  <content>FunctionalOption.ИспользоватьСобытия</content>
+  <content>Catalog.АдресатыПисем</content>
+  <content>DefinedType.КонтактПисьма</content>
+  <content>DefinedType.КонтактПисьмаОбъект</content>
+  <content>CommonPicture.ПолучитьСписокПолучателейПисьма</content>
+  <content>CommonForm.ФормаВыбораВариантовПолучателей</content>
+  <content>CommonForm.ОбработкаСпискаАдресовЭП</content>
+  <content>CommonPicture.ПисьмоВложением</content>
+  <content>CommonPicture.ПисьмоВложениемЧБ</content>
+  <content>InformationRegister.ВложенныеПисьма</content>
+  <parentSubsystem>Subsystem.CRM</parentSubsystem>
+</mdclass:Subsystem>

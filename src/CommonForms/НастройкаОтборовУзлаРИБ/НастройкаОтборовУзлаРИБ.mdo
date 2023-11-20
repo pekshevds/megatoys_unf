@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29446136-f525-4824-aa9c-254c39a6df40">
+  <name>НастройкаОтборовУзлаРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка отборов узла РИБ</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

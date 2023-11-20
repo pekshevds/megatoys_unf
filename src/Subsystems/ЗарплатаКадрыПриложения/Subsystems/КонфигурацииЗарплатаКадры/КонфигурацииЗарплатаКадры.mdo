@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d0a0516-ef61-4140-85bc-aa6a2167049a">
+  <name>КонфигурацииЗарплатаКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации зарплата кадры</value>
+  </synonym>
+  <content>Constant.РазрешитьДобавлениеОрганизацииЗарплатаКадры</content>
+  <content>CommonModule.КонфигурацииЗарплатаКадры</content>
+  <content>EventSubscription.НеИспользоватьНесколькоОрганизацийПриЗаписи</content>
+  <content>FunctionalOption.РазрешитьДобавлениеОрганизацииЗарплатаКадры</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыКонфигурацииЗарплатаКадры</content>
+  <content>EventSubscription.ОбновитьРасписаниеОбменаСКонтролирующимиОрганами</content>
+  <content>FunctionalOption.ИспользоватьРасчетЗарплатыЗарплатаКадры</content>
+  <content>CommonModule.КонфигурацииЗарплатаКадрыБазовый</content>
+  <content>CommonModule.КонфигурацииЗарплатаКадрыВнутренний</content>
+  <content>CommonModule.КонфигурацииЗарплатаКадрыКлиентСервер</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

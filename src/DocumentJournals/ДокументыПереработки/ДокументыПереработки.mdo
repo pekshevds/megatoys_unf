@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a73e5a-9b5d-48f5-9b28-c9cc647ada65">
+  <producedTypes>
+    <selectionType typeId="32a7fde8-42ee-4ea7-b10c-1ce8a3acb324" valueTypeId="7d873176-fd9f-4586-a640-b4a052b07182"/>
+    <listType typeId="389b4df7-7d66-4cc4-a614-3fcc96cf4336" valueTypeId="8e3d90d8-686f-4005-9b71-ca1804d67a10"/>
+    <managerType typeId="a91cf067-dfd3-4a55-8e95-d12667d26f8a" valueTypeId="2867afdd-ee65-4c24-b73f-83314f5a0277"/>
+  </producedTypes>
+  <name>ДокументыПереработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы переработки</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыПереработки.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОтчетОПереработке</registeredDocuments>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ЗаказПокупателя</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="2c22937f-5f9c-4392-9874-8e1171214ef0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.Организация</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Организация</references>
+    <references>Document.ЗаказПокупателя.Attribute.Организация</references>
+  </columns>
+  <columns uuid="1dc1cf60-4bed-4543-b119-0d4123bb5445">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.Контрагент</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.ЗаказПокупателя.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="e80ad64a-41e3-4ba8-87df-e74ec9b6fc09">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.Договор</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Договор</references>
+    <references>Document.ЗаказПокупателя.Attribute.Договор</references>
+  </columns>
+  <columns uuid="6d4e0d4f-63e2-463b-b629-d2fc008a5d40">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.СуммаДокумента</references>
+    <references>Document.ПриходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.ЗаказПокупателя.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="c9136558-de52-43e0-8b09-3d037685ce4e">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.Ответственный</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Ответственный</references>
+    <references>Document.ЗаказПокупателя.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="8ef59c88-215c-4213-8996-16765b825d2b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.Комментарий</references>
+    <references>Document.ПриходнаяНакладная.Attribute.Комментарий</references>
+    <references>Document.ЗаказПокупателя.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="2e813662-f040-4335-8e77-d446113deb30">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ОтчетОПереработке.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.ПриходнаяНакладная.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.ЗаказПокупателя.Attribute.СтруктурнаяЕдиницаПродажи</references>
+  </columns>
+  <columns uuid="bdf68f6c-4e9b-4621-b4ff-1ff23aa313a2">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.ВидОперации</references>
+    <references>Document.ЗаказПокупателя.Attribute.ВидОперации</references>
+  </columns>
+  <forms uuid="5bfbfd92-525c-4781-8ef1-a6db4480bd64">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

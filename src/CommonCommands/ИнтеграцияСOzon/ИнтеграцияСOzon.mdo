@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ecb1f66-4e9f-4a79-ab1f-62e9389a99e8">
+  <name>ИнтеграцияСOzon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ozon</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

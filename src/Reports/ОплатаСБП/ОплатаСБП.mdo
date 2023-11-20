@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60154953-f4ff-4f84-b921-f6becf6aa8a3">
+  <producedTypes>
+    <objectType typeId="209f7c7f-325a-4e0d-9d37-e1e2d2cbe714" valueTypeId="f55e17fa-6e8b-4c14-94d6-018e52d21c55"/>
+    <managerType typeId="9a9971a4-50f2-43dd-b1ba-30ecc524ab60" valueTypeId="a934a37e-5fc2-46b3-8766-5afe75fa2e2e"/>
+  </producedTypes>
+  <name>ОплатаСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата СБП</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОплатаСБП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="488be7db-02ac-4b3b-a705-e9aa3a2e3570">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <comment>АПК:58 - проектное решение</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="5957ab5a-d22d-41c3-b266-dacbe8431a0d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

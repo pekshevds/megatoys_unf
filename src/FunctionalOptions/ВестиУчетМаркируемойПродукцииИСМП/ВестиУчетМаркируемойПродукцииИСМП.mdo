@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b62397e-60e7-4293-b247-db9ac4eb8f15">
+  <name>ВестиУчетМаркируемойПродукцииИСМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет маркируемой продукции ИС МП</value>
+  </synonym>
+  <location>Constant.ВестиУчетМаркируемойПродукцииИСМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ПанельОбменИСМП</content>
+  <content>Catalog.СервисПровайдерыСУЗ</content>
+  <content>Catalog.Номенклатура.Attribute.ТабачнаяПродукция</content>
+  <content>DataProcessor.АктивныеЗаказыСУЗ</content>
+  <content>Catalog.ШтрихкодыУпаковокТоваров</content>
+  <content>InformationRegister.НастройкиУчетаМаркируемойПродукцииИСМП</content>
+  <content>Catalog.КатегорииНоменклатуры.Attribute.ТабачнаяПродукция</content>
+  <content>Catalog.КатегорииНоменклатуры.Attribute.ВидПродукцииИС</content>
+  <content>Catalog.Номенклатура.Attribute.ВидПродукцииИС</content>
+  <content>Catalog.КатегорииНоменклатуры.Attribute.ОбувнаяПродукция</content>
+  <content>Constant.НастройкиСканированияКодовМаркировкиИСМП</content>
+  <content>Document.ПеремаркировкаТоваровИСМП</content>
+  <content>Catalog.Номенклатура.Attribute.ОбувнаяПродукция</content>
+  <content>Report.АнализРасхожденийПриМаркировкеТоваровИСМП</content>
+  <content>Enum.ВидыСервисПровайдеровСУЗ</content>
+  <content>Catalog.УдалитьШаблоныЭтикетокСУЗ</content>
+  <content>Report.АнализРасхожденийПриВыводеИзОборотаИСМП</content>
+  <content>InformationRegister.ОписаниеGTINИС</content>
+  <content>CommonForm.ИнформацияОДокументеПродажи</content>
+  <content>Catalog.ОтветственныеЗаАктуализациюТокеновАвторизацииИСМП</content>
+  <content>Enum.ТипыТокеновАвторизации</content>
+  <content>InformationRegister.НапоминанияПользователяИСМП</content>
+  <content>Enum.ТипыОплатыКодовМаркировкиСУЗ</content>
+  <content>InformationRegister.УдалитьГрупповыеУпаковкиИСМП</content>
+  <content>InformationRegister.ИсторияИспользованияШаблонаЭтикеткиИСМП</content>
+  <content>Document.ОтгрузкаТоваровИСМП</content>
+  <content>Document.ЗаказНаЭмиссиюКодовМаркировкиСУЗ</content>
+  <content>Document.ВыводИзОборотаИСМП</content>
+  <content>Document.СписаниеКодовМаркировкиИСМП</content>
+  <content>Document.ПриемкаТоваровИСМП</content>
+  <content>Document.ВозвратВОборотИСМП</content>
+  <content>Document.МаркировкаТоваровИСМП</content>
+  <content>Document.УточнениеСведенийОКодахМаркировкиИСМП</content>
+  <content>InformationRegister.ИсторияИспользованияСоставаУпаковкиИСМП</content>
+  <content>Catalog.ВидыМехаГИСМ</content>
+  <content>InformationRegister.ИсторияИспользованияПараметровГенерацииШтрихкодовИСМП</content>
+  <content>InformationRegister.ИсторияИспользованияШаблонаЭтикеткиУпаковкиИСМП</content>
+  <content>CommonForm.ГенерацияИПечатьШтрихкодовЛогистическихУпаковок</content>
+  <content>ExchangePlan.АвтономнаяРабота.Attribute.СинхронизироватьТокеныАвторизацииИСМП</content>
+  <content>ExchangePlan.Полный.Attribute.СинхронизироватьТокеныАвторизацииИСМП</content>
+  <content>ExchangePlan.СОтборами.Attribute.СинхронизироватьТокеныАвторизацииИСМП</content>
+</mdclass:FunctionalOption>

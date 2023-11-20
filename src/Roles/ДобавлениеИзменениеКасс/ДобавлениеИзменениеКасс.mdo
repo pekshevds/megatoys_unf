@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d44fba77-a5ff-48cf-a454-e8b5bacfbf60">
+  <name>ДобавлениеИзменениеКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение касс</value>
+  </synonym>
+</mdclass:Role>

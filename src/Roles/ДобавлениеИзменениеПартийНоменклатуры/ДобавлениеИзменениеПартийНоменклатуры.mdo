@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a922719d-406a-4c3f-8093-f3aff33d54f3">
+  <name>ДобавлениеИзменениеПартийНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение партий номенклатуры</value>
+  </synonym>
+</mdclass:Role>

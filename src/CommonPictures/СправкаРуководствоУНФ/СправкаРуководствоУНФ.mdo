@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee29c240-aec9-4e65-9787-1610ff1526aa">
+  <name>СправкаРуководствоУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка руководство УНФ</value>
+  </synonym>
+</mdclass:CommonPicture>

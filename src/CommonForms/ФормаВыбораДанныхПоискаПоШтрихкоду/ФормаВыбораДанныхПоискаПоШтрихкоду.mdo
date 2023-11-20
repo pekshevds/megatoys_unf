@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca3793c9-f1fc-49d6-af56-60989997dd2b">
+  <name>ФормаВыбораДанныхПоискаПоШтрихкоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора данных поиска по штрихкоду</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

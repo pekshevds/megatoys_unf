@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e04481b-acee-4cd2-947f-67a0c953540a">
+  <producedTypes>
+    <containerType typeId="3d7150f1-361c-490b-a954-311e38d499e7" valueTypeId="34fb64d1-d656-44e3-b1d9-1c3e2ab6b99e"/>
+  </producedTypes>
+  <name>ВнесениеНаличныхРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внесение наличных РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

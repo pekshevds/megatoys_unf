@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78c31cf8-102d-4fdf-8c19-2b85e5094552">
+  <producedTypes>
+    <containerType typeId="ed604a57-44d4-4cc4-bc43-af592f5abe85" valueTypeId="a6a3d3e1-aca2-4958-9323-8da939aece28"/>
+  </producedTypes>
+  <name>ОсобенностиУчетаНоменклатурыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особенности учета номенклатуры РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыПродукцииИС</types>
+  </type>
+</mdclass:DefinedType>

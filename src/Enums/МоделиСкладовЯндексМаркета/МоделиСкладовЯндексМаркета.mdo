@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4246b9c3-1069-424a-b7b1-cf718b43e59e">
+  <producedTypes>
+    <refType typeId="0a9586ac-5014-44a2-8fe7-0ae8117b55dc" valueTypeId="0f4e45db-a681-4ee9-8776-170e31b254ea"/>
+    <listType typeId="d072927e-3788-4224-adc5-63d1049e4ed2" valueTypeId="2b020294-6185-47dc-a782-16863c9d4d58"/>
+    <managerType typeId="60c9d142-24bc-4536-92bb-29ae30c07cc5" valueTypeId="d3ea2216-ab00-4743-b6b3-90efeee8b2a0"/>
+  </producedTypes>
+  <name>МоделиСкладовЯндексМаркета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели складов Яндекс маркета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a590bf4c-af64-43ea-9e3e-9749a0ed9037">
+    <name>FBY</name>
+    <synonym>
+      <key>ru</key>
+      <value>FBY - Вы делаете поставки на склад, &quot;Маркет&quot; хранит, упаковывает и доставляет</value>
+    </synonym>
+    <comment>Вы делаете поставки на склад. Маркет хранит, упаковывает и доставляет товары по стране.</comment>
+  </enumValues>
+  <enumValues uuid="11d6385b-6282-41c8-b5fd-e5a2b60604d7">
+    <name>FBS</name>
+    <synonym>
+      <key>ru</key>
+      <value>FBS - Вы упаковываете и привозите заказы в пункты отгрузки, &quot;Маркет&quot; доставит</value>
+    </synonym>
+    <comment>Вы упаковываете и привозите заказы в пункты отгрузки. Маркет доставит их по стране.</comment>
+  </enumValues>
+  <enumValues uuid="dd8cf045-5de0-4887-8222-1e85b090c91a">
+    <name>Экспресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспресс - Вы за 10-60 минут упаковываете заказы, экспресс-курьеры заберут их с вашего склада</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

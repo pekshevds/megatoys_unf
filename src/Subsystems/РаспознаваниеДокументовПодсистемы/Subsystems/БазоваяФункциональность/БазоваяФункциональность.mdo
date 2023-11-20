@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c84a2bbc-e630-4790-85a6-519298060d2d">
+  <name>БазоваяФункциональность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность</value>
+  </synonym>
+  <content>CommonModule.РаспознаваниеДокументовHTTP</content>
+  <content>CommonModule.РаспознаваниеДокументовSDK</content>
+  <content>CommonModule.РаспознаваниеДокументовSDKПовтИсп</content>
+  <content>CommonModule.РаспознаваниеДокументовHTTPПовтИсп</content>
+  <content>InformationRegister.ПараметрыАвторизацииИскусственногоИнтеллекта</content>
+  <content>Enum.СервисыИскусственногоИнтеллекта</content>
+  <parentSubsystem>Subsystem.РаспознаваниеДокументовПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

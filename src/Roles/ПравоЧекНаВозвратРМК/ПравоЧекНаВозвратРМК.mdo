@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1bdd7c2-782d-4bab-b0f5-10be8bd58fb0">
+  <name>ПравоЧекНаВозвратРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право чек на возврат РМК</value>
+  </synonym>
+</mdclass:Role>

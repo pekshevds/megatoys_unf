@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="028645de-24a1-4557-9dfd-d881fb80fc19">
+  <name>ИспользоватьРасчетФинансовогоРезультата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет финансового результата</value>
+  </synonym>
+  <location>Constant.ИспользоватьРасчетФинансовогоРезультата</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.БанкИКасса</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетФинансовогоРезультата</content>
+</mdclass:FunctionalOption>

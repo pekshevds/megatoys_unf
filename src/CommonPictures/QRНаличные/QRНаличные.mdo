@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b04e7c1c-37df-4cdf-8523-f578ee25f0bd">
+  <name>QRНаличные</name>
+  <synonym>
+    <key>ru</key>
+    <value>QRНаличные</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

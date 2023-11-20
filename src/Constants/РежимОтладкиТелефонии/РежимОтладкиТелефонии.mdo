@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0a7808-f2ba-4233-8ac4-381d2a8b33cd">
+  <producedTypes>
+    <managerType typeId="650a2398-97d1-4279-86a8-bf369053176e" valueTypeId="0829f79b-f7e3-4f16-a67f-71638c54617e"/>
+    <valueManagerType typeId="8f869de0-65a2-4f63-ab05-d1d21f4a0509" valueTypeId="39efd51a-1c13-4839-a73b-3a96fa006124"/>
+    <valueKeyType typeId="ff327ac9-4e20-4c11-91f0-d231d93469a3" valueTypeId="d16bde66-225f-4281-b9b3-6d29b8e6bd8a"/>
+  </producedTypes>
+  <name>РежимОтладкиТелефонии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим отладки телефонии</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

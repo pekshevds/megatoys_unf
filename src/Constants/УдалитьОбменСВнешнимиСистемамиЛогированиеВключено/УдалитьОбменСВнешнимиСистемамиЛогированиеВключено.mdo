@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac06edbb-794a-4373-a73c-eac55563b794">
+  <producedTypes>
+    <managerType typeId="2a6591c2-65b8-4a59-93bf-ea623af69908" valueTypeId="bfe28daf-0199-43f1-8fcd-93b3728bb5d2"/>
+    <valueManagerType typeId="1a984559-777d-4e2b-9419-42f877c76dd8" valueTypeId="2b11eb36-53bb-4c49-a3de-84a04a70a96c"/>
+    <valueKeyType typeId="9e435ac8-ac0e-4c22-8e36-62f2e02bd998" valueTypeId="61e3913d-0764-445c-a8dc-0aad3bc393f4"/>
+  </producedTypes>
+  <name>УдалитьОбменСВнешнимиСистемамиЛогированиеВключено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет магазины логирование включено (Удалить)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

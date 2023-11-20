@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e7db71-50fa-47ad-ac77-b6eafe555f5c">
+  <producedTypes>
+    <selectionType typeId="a78bdcd1-d3b6-4099-93e2-c3f330f7340e" valueTypeId="b0f1fdb4-18d3-4a02-aae9-cece498d284a"/>
+    <listType typeId="8355188d-eea3-4b4f-85b8-b74e277f21f4" valueTypeId="b7029ac9-ca78-4084-9de4-82f925f271ed"/>
+    <managerType typeId="d8222836-7c9a-41bb-b3d6-d4a152bdac0e" valueTypeId="37001599-2191-4d33-9c9c-1618a6972a27"/>
+    <recordSetType typeId="7fe859f7-f440-450b-9b6a-f1f59a0ea90c" valueTypeId="fd1325a4-5412-4343-84b9-0e6fc5029d8f"/>
+    <recordKeyType typeId="3e66ffc1-77db-4d6d-97f1-81b1c279b63b" valueTypeId="3f44b32e-c1cc-464c-ad81-6fb99d41a066"/>
+    <recordType typeId="f1880601-c27d-4769-9f47-58883802852e" valueTypeId="160ae8a3-a43d-406b-9d16-2414165de28a"/>
+    <recordManagerType typeId="adb33459-b748-49c8-943b-7d0644e26527" valueTypeId="b346b111-8bbb-4b35-8e83-5e2cd0c0234e"/>
+  </producedTypes>
+  <name>СостоянияОбменовИнтернетМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния обменов интернет магазина</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации состояния последней итерации обмена с сайтами.</value>
+  </explanation>
+  <resources uuid="d4e015fc-bea6-4428-aafc-b93f0f0da606">
+    <name>РезультатВыполненияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения обмена</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РезультатыВыполненияОбмена.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="7de6c815-3d1f-41e3-96a1-ac6ae465b66d">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3156bb98-dd6a-4ef2-a4a2-5243bf39c8b5">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания выполнения действия обмена данными.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="dbfe9fb0-1e2a-4ed0-a693-30bfb7ead3b7">
+    <name>ДанныеПоследнегоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные последнего обмена</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3448196-a9ab-4d26-8a77-a1404732ab30">
+    <name>ДанныеПоследнегоНепустогоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные последнего непустого обмена</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52eda0c1-edf5-496e-ae3d-77c837dcdd0f">
+    <name>ПоследнийТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последний текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="48ddd8ba-557a-4ea7-afa2-c1c3caae5d2d">
+    <name>НастройкаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиИнтеграцииСИнтернетМагазином</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ace18d8c-4d6f-44c5-b99a-52b9aea2462d">
+    <name>ДействиеПриОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие при обмене</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияПриОбмене</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие, для которого используется информация состояния обмена (выгрузка/загрузка данных)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56548460-f1f5-42f6-81bf-66fd45226007">
+  <producedTypes>
+    <containerType typeId="812da4ab-19f8-4caf-8287-de05f2f43ad3" valueTypeId="28f50fb1-8dc1-45ad-8920-da4412efc1aa"/>
+  </producedTypes>
+  <name>ВидОперацииРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыРасчетаДенежнымиСредствами</types>
+  </type>
+</mdclass:DefinedType>

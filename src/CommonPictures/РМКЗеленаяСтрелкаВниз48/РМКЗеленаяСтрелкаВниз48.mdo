@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e186e9b-21d2-4eab-8f1d-9262bffffb9c">
+  <name>РМКЗеленаяСтрелкаВниз48</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКЗеленая стрелка вниз48</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

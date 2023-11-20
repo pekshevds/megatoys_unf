@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="252e144b-9853-4576-b14e-11e10cd77701">
+  <producedTypes>
+    <containerType typeId="36f4c524-5591-4202-a5fa-a5a8abb8ca21" valueTypeId="1408b41d-60ef-4d89-9465-4c4a5245cfc4"/>
+  </producedTypes>
+  <name>ОсновныеСредстваПрослеживаемость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные средства прослеживаемость</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВнеоборотныеАктивы</types>
+  </type>
+</mdclass:DefinedType>

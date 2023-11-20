@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b03368e0-3456-45d4-9ceb-d8214e45680a">
+  <name>ФункциональностьПриложенияПриИзмененииПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональность приложения при изменении перед записью</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьЗагрузкуЭлектроннойПочты</types>
+    <types>ConstantValueManager.ИспользоватьБиллинг</types>
+    <types>ConstantValueManager.ИспользоватьОбменСGoogleCalendar</types>
+    <types>ConstantValueManager.ОтображатьСчетаУчета</types>
+    <types>ConstantValueManager.ИспользоватьСобытия</types>
+    <types>ConstantValueManager.ИспользоватьЗадачиСотрудников</types>
+    <types>ConstantValueManager.ИспользоватьФинансовыеОперации</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияВестиУчетНалогаНаДоходыИВзносов</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияВыполнятьРасчетНДФЛПоПрогрессивнойШкале</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияПриемЗапасовНаОтветХранение</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияУчетВнеоборотныхАктивов</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияКредитыИЗаймы</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияУчетПоЯчейкам</types>
+    <types>ConstantValueManager.ИспользоватьКалендариСотрудников</types>
+    <types>ConstantValueManager.ИспользоватьПодсистемуCRM</types>
+    <types>ConstantValueManager.ИспользоватьАктыВыполненныхРабот</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияПередачаСырьяВПереработку</types>
+    <types>ConstantValueManager.ИспользоватьМассовыеРассылкиИнтеграция</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияПередачаЗапасовНаОтветХранение</types>
+    <types>ConstantValueManager.ИспользоватьВидеоматериалы</types>
+    <types>ConstantValueManager.ИспользоватьАнализБизнеса</types>
+    <types>ConstantValueManager.ЗачитыватьАвансыДолгиАвтоматически</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияУчетПоПроектам</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияИспользоватьПодсистемуРаботы</types>
+    <types>ConstantValueManager.ИспользоватьЗаданияНаРаботу</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияИспользоватьПодсистемуПроизводство</types>
+    <types>ConstantValueManager.ФункциональнаяУчетВалютныхОпераций</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияИспользоватьБюджетирование</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияИспользоватьОтчетность</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияУчетПоНесколькимНаправлениямДеятельности</types>
+    <types>ConstantValueManager.ФункциональнаяОпцияИспользоватьРезервированиеДенежныхСредств</types>
+    <types>ConstantValueManager.ИспользоватьИсточникиПривлечения</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВозможностиПриложения.ФункциональностьПриложенияПриИзмененииПередЗаписью</handler>
+</mdclass:EventSubscription>

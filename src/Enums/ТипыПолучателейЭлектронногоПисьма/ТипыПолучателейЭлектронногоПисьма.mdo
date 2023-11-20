@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f8fef65-247d-413e-ac78-fecad2ce7f95">
+  <producedTypes>
+    <refType typeId="3e3657fc-8100-46a5-89e3-db3b4816a76f" valueTypeId="f9854dbd-39f5-4465-8d30-b268ac087120"/>
+    <listType typeId="b9d61c7f-b0af-4db4-9981-91d199a5d71c" valueTypeId="3bf6c755-2d3a-4f97-8026-fd3ef583a836"/>
+    <managerType typeId="9327e8a9-838e-4b50-a6ea-e5d2176286c7" valueTypeId="7eb5a43b-8df0-426d-be24-b80ddd9e7a45"/>
+  </producedTypes>
+  <name>ТипыПолучателейЭлектронногоПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы получателей электронного письма</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="625a71df-4368-4c52-8f4c-c6d515583778">
+    <name>Кому</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c9c1616-fd33-45a8-85b2-ae8673928be4">
+    <name>Копия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4956129-255f-44bf-b7ba-fef0176c0c9a">
+    <name>СкрытаяКопия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытая копия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd275788-4265-447e-b5f0-cdf9458eed13">
+    <name>ОтКого</name>
+    <synonym>
+      <key>ru</key>
+      <value>От кого</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

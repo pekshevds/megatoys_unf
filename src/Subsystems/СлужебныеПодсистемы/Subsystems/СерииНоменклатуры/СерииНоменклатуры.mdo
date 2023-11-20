@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1bb07ed-ef21-423b-bb73-01eea07f6d58">
+  <name>СерииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии номенклатуры</value>
+  </synonym>
+  <content>CommonModule.РаботаССерийнымиНомерами</content>
+  <content>CommonModule.РаботаССерийнымиНомерамиКлиентСервер</content>
+  <content>FunctionalOption.ИспользоватьСерииНоменклатуры</content>
+  <content>FunctionalOption.КонтрольОстатковСерийНоменклатуры</content>
+  <content>Constant.ИспользоватьСерииНоменклатуры</content>
+  <content>Constant.КонтрольОстатковСерийНоменклатуры</content>
+  <content>Catalog.СерииНоменклатуры</content>
+  <content>Catalog.ШаблоныНомеровСерий</content>
+  <content>Enum.ОперацииСерийНоменклатуры</content>
+  <content>Report.ДвиженияСерийНоменклатуры</content>
+  <content>Report.СкладПоСериямНоменклатуры</content>
+  <content>DataProcessor.ПодборСерийНоменклатуры</content>
+  <content>InformationRegister.СерииНоменклатурыГарантии</content>
+  <content>AccumulationRegister.ЗапасыВРемонте</content>
+  <content>AccumulationRegister.ЗапасыПереданныеВРемонте</content>
+  <content>AccumulationRegister.СерииНоменклатуры</content>
+  <content>AccumulationRegister.СерииНоменклатурыКПоступлению</content>
+  <content>AccumulationRegister.СерииНоменклатурыКРасходу</content>
+  <content>CommonModule.РаботаССерийнымиНомерамиВызовСервера</content>
+  <content>Catalog.ПолитикаУчетаСерий</content>
+  <content>CommonPicture.СтатусыСерийНоменклатуры</content>
+  <content>Report.ОстаткиТоваровПоСрокамГодности</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

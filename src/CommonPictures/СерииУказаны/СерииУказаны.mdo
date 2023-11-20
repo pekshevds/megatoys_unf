@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74d2ff13-bac0-4efe-ac06-a60fd4eebac2">
+  <name>СерииУказаны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии указаны</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

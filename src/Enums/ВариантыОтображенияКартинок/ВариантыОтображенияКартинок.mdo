@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bc9247f-34da-4bca-a530-9d0922a9b273">
+  <producedTypes>
+    <refType typeId="e3035688-cbda-4596-9b58-1660500bc35b" valueTypeId="c55922d4-aa3b-4ad9-9e25-48610a8e8718"/>
+    <listType typeId="a5c6d3f9-ae10-4504-b6e6-7f5bafa99756" valueTypeId="2256eaf3-2e4b-481e-8dac-f83f9d96df78"/>
+    <managerType typeId="c77a9e74-b6f5-4bb9-a35a-53483396c63e" valueTypeId="ab594347-aa71-4bd0-a2a4-d4917f0ce9be"/>
+  </producedTypes>
+  <name>ВариантыОтображенияКартинок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отображения картинок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e228c61-9ca8-4ffe-95fc-dbcc9690bf9e">
+    <name>Все</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a58edf0f-edcc-4862-a385-4b6d57c30eff">
+    <name>ТолькоОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только основная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

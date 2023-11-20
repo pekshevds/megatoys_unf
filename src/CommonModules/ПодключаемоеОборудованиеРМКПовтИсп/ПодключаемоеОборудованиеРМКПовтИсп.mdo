@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9025da41-d41a-46b5-8054-7e05e6ba1be9">
+  <name>ПодключаемоеОборудованиеРМКПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование РМК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>TM peripherals</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

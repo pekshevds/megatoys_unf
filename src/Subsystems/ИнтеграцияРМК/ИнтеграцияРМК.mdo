@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2158ec32-b4d5-4317-a785-ee8915657e9a">
+  <name>ИнтеграцияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция РМК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбщегоНазначенияРМКУНФ</content>
+  <content>CommonModule.ОбщегоНазначенияРМКУНФВызовСервера</content>
+  <content>CommonModule.ОбщегоНазначенияРМКУНФКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияРМКУНФКлиент</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКПереопределяемый</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиент</content>
+  <content>CommonModule.ШтрихкодированиеРМКУНФ</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКВызовСервера</content>
+  <content>CommonForm.ФормаОплатыПлатежнойСистемой</content>
+  <content>Role.РазрешитьОплатуВозвратБезПодтвержденияОтПлатежнойСистемы</content>
+  <content>Constant.ИспользоватьОплатуСертификатамиНСПК</content>
+  <content>FunctionalOption.ИспользоватьОплатуСертификатамиНСПК</content>
+  <content>CommonModule.ЭлектронныеСертификатыНСПКРМКУНФ</content>
+  <content>FunctionalOption.ИспользоватьЗаменуТоваров</content>
+  <content>Constant.ИспользоватьЗаменуТоваров</content>
+  <content>Constant.ИспользоватьТолькоНовыйРМК</content>
+  <content>EventSubscription.НастроитьДоступностьФОИспользоватьНовоеРМК</content>
+  <content>CommonCommand.ОтправитьПодтверждениеНСПК</content>
+  <content>CommonModule.СерверЛояльностиПоставщикДанныхУНФ</content>
+  <content>CommonForm.ФормаОплатыЭСНСПК</content>
+  <content>CommonModule.СерверЛояльностиПолучательДанныхКлиентСерверУНФ</content>
+  <content>CommonPicture.USD</content>
+  <content>CommonPicture.EUR</content>
+  <content>CommonForm.ИспользоватьТолькоНовыйРМК</content>
+  <content>DefinedType.НастройкаРМК</content>
+  <content>FunctionalOption.ИспользоватьТолькоНовыйРМК</content>
+  <content>Role.ПрофильРабочееМестоКассира</content>
+</mdclass:Subsystem>

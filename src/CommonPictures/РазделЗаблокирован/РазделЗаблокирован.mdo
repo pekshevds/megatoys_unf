@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b05d1e3b-35e7-4ce2-b0c9-d3e24d30e8fc">
+  <name>РазделЗаблокирован</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел заблокирован</value>
+  </synonym>
+</mdclass:CommonPicture>

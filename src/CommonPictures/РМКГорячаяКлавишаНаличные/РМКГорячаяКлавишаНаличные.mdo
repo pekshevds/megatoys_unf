@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ce59e3d-dd7e-4ab6-beaa-ab299fb256b0">
+  <name>РМКГорячаяКлавишаНаличные</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК горячая клавиша наличные</value>
+  </synonym>
+</mdclass:CommonPicture>

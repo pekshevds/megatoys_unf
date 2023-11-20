@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="241f6a40-7da7-4aec-9b55-6c299db32739">
+  <name>ИнтеграцияССайтамиИМаркетплейсамиОшибкиРасшифровка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с сайтами и маркетплейсами ошибки расшифровка</value>
+  </synonym>
+</mdclass:CommonTemplate>

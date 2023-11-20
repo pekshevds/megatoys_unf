@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13cab141-0c17-45e2-bd89-b7ea76aa9618">
+  <producedTypes>
+    <selectionType typeId="fa57c5e6-89c2-4fed-9a9e-e2bbf67a8b7c" valueTypeId="0a7959ba-2625-49ef-891e-83159cd33823"/>
+    <listType typeId="d0d0f92f-fcac-47a0-a418-047e0cd50e69" valueTypeId="6a8123c9-d43c-423a-8f94-6f4fda75055c"/>
+    <managerType typeId="3d837196-60e5-4c0c-8555-7442c33c513e" valueTypeId="299ff965-bc77-4149-b987-32261f768951"/>
+    <recordSetType typeId="b961cab9-84bc-4a56-8b5b-391c1f063ea1" valueTypeId="23b26a92-2bd1-4cec-8af0-2fb3e95edf2a"/>
+    <recordKeyType typeId="b190f162-c476-4a5f-8d70-08f9a858aae7" valueTypeId="6e861069-468b-4e77-8ae0-fcf625c8d59b"/>
+    <recordType typeId="999b258e-fe77-47c2-af3f-51e1dc573705" valueTypeId="45c84d6a-0d58-43e9-8c09-b87bd54b7ec9"/>
+  </producedTypes>
+  <name>ДоступностьПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность промокодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fc9d2b94-5274-489a-ac33-0da908634f6f">
+    <name>Доступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ec2dcba2-a3d1-4db1-aac3-b91831c82474">
+    <name>Промокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокод</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Промокод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

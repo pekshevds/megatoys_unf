@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cfff1c2-55a3-4667-9580-667060c2918c">
+  <name>РазделCRMАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел CRM аналитика</value>
+  </synonym>
+</mdclass:Role>

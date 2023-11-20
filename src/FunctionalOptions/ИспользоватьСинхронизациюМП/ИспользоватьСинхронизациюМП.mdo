@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06127984-dfd5-49bc-835e-7035507f996c">
+  <name>ИспользоватьСинхронизациюМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать синхронизацию МП</value>
+  </synonym>
+  <location>Constant.ИспользоватьСинхронизациюМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>ExchangePlan.СинхронизацияМП</content>
+</mdclass:FunctionalOption>

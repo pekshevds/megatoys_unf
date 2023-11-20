@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52d4ed7a-6981-4495-9084-6baba203f286">
+  <name>ИспользоватьПодсистемуКомпанияМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему компания МП</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуКомпанияМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПользователиМП</content>
+  <content>Catalog.СтатьиМП</content>
+  <content>Catalog.СтруктурныеЕдиницыМП</content>
+  <content>Document.ПриходДенегМП</content>
+  <content>Document.РасходДенегМП</content>
+  <content>Document.ВводОстатковМП</content>
+</mdclass:FunctionalOption>

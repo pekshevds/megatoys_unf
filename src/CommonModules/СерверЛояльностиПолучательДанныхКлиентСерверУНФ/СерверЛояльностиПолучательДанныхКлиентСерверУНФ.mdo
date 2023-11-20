@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f42d829e-9fb1-468d-93bc-9cb4d3506dc4">
+  <name>СерверЛояльностиПолучательДанныхКлиентСерверУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер лояльности получатель данных клиент сервер УНФ</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

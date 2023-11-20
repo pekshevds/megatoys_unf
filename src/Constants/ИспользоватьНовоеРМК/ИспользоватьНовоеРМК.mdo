@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d250eee5-c9bc-4361-89f9-688f0ff025c9">
+  <producedTypes>
+    <managerType typeId="534f684f-cf68-4bc0-a6b6-a72bead49a54" valueTypeId="c81b1a52-5feb-4a49-8fb1-ddd4c870cfb8"/>
+    <valueManagerType typeId="60baa29b-e700-4626-a6b1-bb38615bdfec" valueTypeId="d65dd429-c842-4959-b5fb-c5acb2ee922c"/>
+    <valueKeyType typeId="7a2b102f-e9b5-42ed-8db8-7e57c54ecee8" valueTypeId="e1eb957b-c25c-437e-8245-6d60552d30a1"/>
+  </producedTypes>
+  <name>ИспользоватьНовоеРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать новое РМК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

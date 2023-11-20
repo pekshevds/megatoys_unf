@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e7fbc90-4056-4d73-862d-891f94177265">
+  <name>Интерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ИнтерфейсРМКСлужебный</content>
+  <content>CommonModule.ИнтерфейсРМКСлужебныйКлиент</content>
+  <content>CommonModule.ИнтерфейсРМКСлужебныйКлиентСервер</content>
+  <content>StyleItem.ШрифтПоляВводаРМК</content>
+  <content>StyleItem.ШрифтПоляВводаРМК18</content>
+  <content>StyleItem.ШрифтПоляВводаРМК17</content>
+  <content>StyleItem.ШрифтОбычный32РМК</content>
+  <parentSubsystem>Subsystem.РМК</parentSubsystem>
+</mdclass:Subsystem>

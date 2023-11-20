@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a534779d-3c10-4696-854a-f51627657b85">
+  <producedTypes>
+    <selectionType typeId="f010cd7f-91a7-41f0-a1b4-e0833d47c22e" valueTypeId="268260a2-3241-4d3b-a116-31f5d09efef4"/>
+    <listType typeId="3357f3d3-812e-4afa-ba0f-40a505eb71e8" valueTypeId="e82f43a5-1ee3-48fd-a4e3-c86120cf5488"/>
+    <managerType typeId="31e8b29f-06c5-4387-8fe3-bb88fb248996" valueTypeId="c3dc324d-d366-4e14-a4b4-befdd75cbcca"/>
+    <recordSetType typeId="854ef9fb-295e-4d1a-83a5-f3549393eee6" valueTypeId="9dc1e243-9d20-45ee-9d1b-65109437a306"/>
+    <recordKeyType typeId="7b688959-c13a-446c-bbfd-c0949dd43c4b" valueTypeId="c8cec631-9284-4739-a4b2-c52249d6feaf"/>
+    <recordType typeId="31ebe129-9e34-415e-a002-c779fc05062b" valueTypeId="c8de2d87-d144-475f-ba8a-4bf930ed19e5"/>
+    <recordManagerType typeId="5787f171-2728-4f97-9f32-d80ba06ffa51" valueTypeId="353a33b8-eaac-46c5-a876-dc4415faa6c0"/>
+  </producedTypes>
+  <name>Промокоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промокоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Промокоды.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="21c3eb2f-5306-4b95-92b5-4b50203f4dfc">
+    <name>УсловиеПредоставленияСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие предоставления скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УсловияПредоставленияСкидокНаценок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="4c3e9fb1-4e1e-4b9d-8be5-ddc3ae8d87b6">
+    <name>ДействуетС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49eac9b7-bdf3-4e0f-9d7f-1f5fc3154f02">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da958fc5-7180-4b12-b3a6-62dbf28eac95">
+    <name>Конечный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5aee97cc-e9e1-4623-a57c-eb1a87af0b12">
+    <name>Промокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промокод</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Промокод</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f84ed70e-9d29-46e7-85df-b1979e86bb77">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25e2a91e-c9e4-4b6c-933a-0aa486ae7cc6">
+  <name>СобытиеЭлектронноеПисьмо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие электронное письмо</value>
+  </synonym>
+</mdclass:CommonPicture>

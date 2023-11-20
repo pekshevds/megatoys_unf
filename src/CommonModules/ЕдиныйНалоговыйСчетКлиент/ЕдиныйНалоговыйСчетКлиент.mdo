@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eeec906-f5f4-42af-9fc3-229a9cd5a883">
+  <name>ЕдиныйНалоговыйСчетКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый налоговый счет (клиент)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

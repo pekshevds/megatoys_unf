@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de97c0be-7639-4c40-a9d5-3400a9df7506">
+  <producedTypes>
+    <containerType typeId="762361d1-8530-4289-bf95-ebeb9a020e86" valueTypeId="cf50e5f3-23c3-42e8-83a9-78be16087e67"/>
+  </producedTypes>
+  <name>ЭквайринговыйТерминалРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эквайринговый терминал РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СпособыОплаты</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa4f222e-f5aa-49dd-8afd-a1e1646e07e2">
+  <name>ИспользоватьАнализБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать анализ бизнеса</value>
+  </synonym>
+  <location>Constant.ИспользоватьАнализБизнеса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПоказателиБизнеса</content>
+  <content>Report.АнализБизнеса</content>
+</mdclass:FunctionalOption>

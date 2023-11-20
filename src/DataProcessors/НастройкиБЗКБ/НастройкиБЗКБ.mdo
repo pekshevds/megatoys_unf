@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed96eb73-491a-4055-b4a2-309df6c1ac5a">
+  <producedTypes>
+    <objectType typeId="932a30d6-efc6-4dd8-8a11-96db424bd8e0" valueTypeId="7626db7f-2d2b-48cf-846d-4ae34116f22e"/>
+    <managerType typeId="551598a0-362a-4a37-9310-f6481424f3a3" valueTypeId="ccc33c11-48a5-45bd-be16-6bad472b5fc2"/>
+  </producedTypes>
+  <name>НастройкиБЗКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки БЗКБ</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкиБЗКБ.Form.Форма</defaultForm>
+  <forms uuid="0b5f302e-ffda-4493-b6e9-1627f5c6fff5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c6930b27-73be-48ef-a635-08176e840058">
+    <name>НастройкиБЗКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки БЗКБ</value>
+    </synonym>
+    <group>CommandGroup.Сервис</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

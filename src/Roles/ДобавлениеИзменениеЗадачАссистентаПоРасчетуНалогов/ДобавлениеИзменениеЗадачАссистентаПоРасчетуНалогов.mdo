@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f14475d-9a2e-476f-8aeb-b63efaf2948e">
+  <name>ДобавлениеИзменениеЗадачАссистентаПоРасчетуНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение задач ассистента по расчету налогов</value>
+  </synonym>
+</mdclass:Role>

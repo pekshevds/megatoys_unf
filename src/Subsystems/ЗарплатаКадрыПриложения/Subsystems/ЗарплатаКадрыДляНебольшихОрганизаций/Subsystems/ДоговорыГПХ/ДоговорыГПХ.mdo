@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f449bfc0-aef6-462f-838a-6cdb417cad51">
+  <name>ДоговорыГПХ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры ГПХ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ДоговорРаботыУслуги</content>
+  <content>Catalog.ДоговорРаботыУслугиПрисоединенныеФайлы</content>
+  <content>CommonCommand.ДоговорыРаботыУслуги</content>
+  <content>CommonModule.ДоговорыГПХДляНебольшихОрганизаций</content>
+  <content>Role.ДобавлениеИзменениеДоговоровЗарплатаКадры</content>
+  <content>Role.ЧтениеДоговоровЗарплатаКадры</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

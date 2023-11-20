@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f923305-1f2e-4a3c-b396-dbec73e2c6b2">
+  <producedTypes>
+    <selectionType typeId="56b3fe23-0c31-4ef5-8e11-080f6f5ced70" valueTypeId="830f8a28-8fac-493b-acfe-c655d3edd115"/>
+    <listType typeId="3400f01d-f887-47d7-a9c4-08ce7abf76a7" valueTypeId="fa339ee1-550d-40e7-a8d0-4f914b9025c5"/>
+    <managerType typeId="0c5cbe52-36aa-420c-a8ae-2507d31ad2e3" valueTypeId="883bf06e-7479-48c4-9efe-ff57bc56c90d"/>
+    <recordSetType typeId="413759e4-b86a-401b-85a3-81cd72b66381" valueTypeId="0a64db83-3236-4b2f-ac34-b9680981e857"/>
+    <recordKeyType typeId="39a76b0f-9c34-4233-8a4e-b4842bbd0d54" valueTypeId="38c718ce-3eac-478e-8025-fc7edd45a163"/>
+    <recordType typeId="c6004f2d-8b1b-48cf-8eb6-4f56b0f9b8b6" valueTypeId="e4984eee-d7e8-4d0a-a9f4-441dfcaf8fb4"/>
+    <recordManagerType typeId="7584136c-79a3-4512-95ee-150b31cc90d9" valueTypeId="41b26fdb-436b-4154-bf49-1af658851669"/>
+  </producedTypes>
+  <name>НоменклатураХарактеристикаУдаленнаяИзОбменаДляМагазинаСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура характеристика удаленная из обмена для магазина соц сетей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e278d513-cf5b-4ce2-93b8-d42a63028bfb">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ИнтеграцияСМагазинамиСоцСетей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="71a7bfde-f449-45b1-a493-788ee3e2e33d">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f06410af-d673-441b-9210-b43eb002dee9">
+  <name>ИзменениеСистемыНалогообложенияОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение системы налогообложения организаций</value>
+  </synonym>
+</mdclass:Role>

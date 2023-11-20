@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97be9cb8-6be4-42bc-8d1b-33180175a16f">
+  <producedTypes>
+    <selectionType typeId="626bfd27-12ce-4062-9d2a-79a03dc66b41" valueTypeId="122dfdc1-329f-40db-9894-014e93dbf0ac"/>
+    <listType typeId="663931ad-1ce6-4f3a-b9a6-f51bb32610d8" valueTypeId="762c60eb-938c-4a11-9efe-d3d66de7eac2"/>
+    <managerType typeId="f4c820e2-a185-4957-8b12-249a850d1562" valueTypeId="d1c42712-ee94-4627-8339-235203478121"/>
+    <recordSetType typeId="754e4ec3-be27-4d14-a011-6447bdd2b8fb" valueTypeId="e8eceb23-41e7-42c3-a9da-29125685b6cf"/>
+    <recordKeyType typeId="9fe56ebf-c42d-48e5-9ba3-deaecdd65810" valueTypeId="b23659ee-0df1-4a89-8dcf-0ce68d6f2e4c"/>
+    <recordType typeId="3fd3fc39-a101-4a05-acc5-a29c373a31f1" valueTypeId="655a0251-3f6a-46fe-87e3-e61428bb9cbf"/>
+    <recordManagerType typeId="e5f52462-160d-41b7-967f-95893ece0f3b" valueTypeId="30c34da1-86f7-4f03-b3a6-2d38164e0838"/>
+  </producedTypes>
+  <name>ПараметрыОбновленияНадежностьБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры обновления сервиса &quot;Мониторинг банков&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ffd8e90d-a9d9-4826-8cfb-14a9bb849fe4">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

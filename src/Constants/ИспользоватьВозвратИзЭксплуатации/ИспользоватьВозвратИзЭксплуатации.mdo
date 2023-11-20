@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7797c9d-9278-4743-ba20-c27db740223d">
+  <producedTypes>
+    <managerType typeId="c2af7e98-027b-4756-908e-3dcb28ee5672" valueTypeId="17492a97-950f-4273-ba22-2038b7cdbc68"/>
+    <valueManagerType typeId="451dde4c-79d6-441f-ab13-1b5a7c9ea3ac" valueTypeId="5eb686c9-5240-44a4-8751-83314756511e"/>
+    <valueKeyType typeId="f0ed48c5-587b-44ee-aa37-a3aa67270c60" valueTypeId="3ae1e298-03e7-4a60-9d6a-040690d802e7"/>
+  </producedTypes>
+  <name>ИспользоватьВозвратИзЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать возврат из эксплуатации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

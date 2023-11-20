@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9653b01-2580-4d3e-ae33-78716f4742b1">
+  <producedTypes>
+    <selectionType typeId="a10f5671-d833-438f-8ea6-b17701f479a3" valueTypeId="ca35e236-33b8-47d6-9f28-7c468dfec05f"/>
+    <listType typeId="0f065d38-b694-47c0-872c-fb033fa76890" valueTypeId="2c432970-60bb-4ff2-b415-afa29043f27a"/>
+    <managerType typeId="4b9cb306-aedb-4633-b55b-868b8109ad4e" valueTypeId="3b3ee549-54fc-4620-b550-90517bff131c"/>
+    <recordSetType typeId="62bbee76-7fbe-4fa0-be37-042aff91b08a" valueTypeId="5ef7c4bf-dec5-4a72-a99c-d961195d8b73"/>
+    <recordKeyType typeId="408d919f-4ab5-411b-8841-ac0141910424" valueTypeId="7d5a115c-4136-44ce-970f-16d7bd4aca27"/>
+    <recordType typeId="8d31aca6-cff4-4a74-8aa1-9a1eda10c72d" valueTypeId="9cc9ada0-46a0-4627-b360-9d5985f2393f"/>
+    <recordManagerType typeId="997f203b-fb17-48cc-bafd-bb4de717c4fe" valueTypeId="e38164b4-4a87-47eb-b5f6-13209525680d"/>
+  </producedTypes>
+  <name>НоменклатураХарактеристикДляМагазинаСоцСетейВиртуальныеКаталоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура характеристик для магазина соц сетей виртуальные каталоги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0c3edea9-58a9-4758-90fc-c31e0416cc27">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ИнтеграцияСМагазинамиСоцСетей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7803ca2b-7f00-4888-903f-c2b6a2bceafa">
+    <name>ВиртуальныйКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный каталог</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВиртуальныеКаталогиТоваровМагазиновСоцСетей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f35bd65a-04bc-42a0-91ee-8cdbab80b763">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ff1db70a-2c76-4883-a47e-7289b015a38a">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

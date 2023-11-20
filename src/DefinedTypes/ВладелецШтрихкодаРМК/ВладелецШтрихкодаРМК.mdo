@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea4ab11-b9ee-4963-893f-5daf30b83e2c">
+  <producedTypes>
+    <containerType typeId="5506af5a-0864-4441-abef-d678476a9609" valueTypeId="63349dd9-a530-415a-a070-c5dc85ccb770"/>
+  </producedTypes>
+  <name>ВладелецШтрихкодаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец штрихкода РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+</mdclass:DefinedType>

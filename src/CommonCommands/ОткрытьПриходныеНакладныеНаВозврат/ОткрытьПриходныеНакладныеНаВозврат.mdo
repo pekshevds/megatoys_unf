@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96b0d0f8-93ec-4a9d-8fe3-ba47aa324b58">
+  <name>ОткрытьПриходныеНакладныеНаВозврат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты от покупателей</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

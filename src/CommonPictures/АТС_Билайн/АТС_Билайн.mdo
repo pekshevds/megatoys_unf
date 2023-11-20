@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed201387-9e94-448a-aca7-69215c2c1fdd">
+  <name>АТС_Билайн</name>
+  <synonym>
+    <key>ru</key>
+    <value>АТС билайн</value>
+  </synonym>
+</mdclass:CommonPicture>

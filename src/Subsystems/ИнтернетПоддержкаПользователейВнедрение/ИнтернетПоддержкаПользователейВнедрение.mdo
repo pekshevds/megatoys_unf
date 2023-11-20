@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef381c0-8b1c-4883-83e9-4daacb118567">
+  <name>ИнтернетПоддержкаПользователейВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет поддержка пользователей внедрение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.Подключение1СТакскомУНФ</content>
+  <content>CommonModule.СПАРКРискиКлиентСерверУНФ</content>
+  <content>CommonModule.ОбработкаНовостейУНФ</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиУНФ</content>
+  <content>CommonModule.ПолучениеВнешнихКомпонентВМоделиСервисаУНФ</content>
+  <content>CommonModule.СПАРКРискиУНФ</content>
+  <content>InformationRegister.СоответствиеНастроекИнтеграцииРМК</content>
+  <content>AccumulationRegister.ОплатаСБП</content>
+  <content>CommonModule.РаботаСКонтрагентамиУНФ</content>
+  <content>CommonModule.МониторПортала1СИТСУНФ</content>
+  <content>CommonModule.ОбработкаНовостейУНФКлиент</content>
+  <content>CommonModule.РаботаСКлассификаторамиУНФ</content>
+  <content>CommonModule.РаботаСКонтрагентамиУНФКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиУНФКлиентСервер</content>
+  <content>CommonForm.ФормаПодготовкиПлатежнойСсылкиСБП</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиУНФКлиент</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиУНФПовтИсп</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиУНФВызовСервера</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыУНФ</content>
+  <content>CommonCommand.СистемаБыстрыхПлатежей</content>
+  <content>Report.ОплатаСБП</content>
+  <content>CommonModule.ОнлайнОплатыУНФВызовСервера</content>
+  <content>CommonModule.ОнлайнОплатыУНФ</content>
+  <content>CommonModule.ОнлайнОплатыУНФКлиент</content>
+  <content>CommonCommand.ПолучитьОплатыПоЮKassa</content>
+  <content>CommonTemplate.ШаблонСообщенияОнлайнОплата</content>
+  <content>Role.РазделИнтернетПоддержкаПользователей</content>
+  <content>CommonModule.РаботаСКонтрагентамиУНФКлиент</content>
+  <content>CommonTemplate.ШаблонСообщенияОплатаСБП</content>
+  <content>CommonForm.ФормаОплатыПлатежнойСистемой</content>
+</mdclass:Subsystem>

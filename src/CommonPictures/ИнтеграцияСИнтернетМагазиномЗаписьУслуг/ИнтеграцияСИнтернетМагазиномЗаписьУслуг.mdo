@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30187ab8-bac5-4e50-8b75-5eaee4911444">
+  <name>ИнтеграцияСИнтернетМагазиномЗаписьУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с интернет магазином запись услуг</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

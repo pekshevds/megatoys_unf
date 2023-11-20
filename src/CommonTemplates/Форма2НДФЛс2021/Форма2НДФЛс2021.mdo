@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ec49197-ee85-4c59-9152-0948b61503bc">
+  <name>Форма2НДФЛс2021</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма 2-НДФЛ с 2021 года</value>
+  </synonym>
+</mdclass:CommonTemplate>

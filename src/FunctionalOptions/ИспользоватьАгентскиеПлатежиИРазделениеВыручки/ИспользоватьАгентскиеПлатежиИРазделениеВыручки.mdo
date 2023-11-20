@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddb141fd-e694-4e5e-b67a-78bddc300abe">
+  <name>ИспользоватьАгентскиеПлатежиИРазделениеВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать агентские платежи и разделение выручки</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьАгентскиеПлатежиИРазделениеВыручки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетКомитенту</content>
+  <content>Report.РасчетыСКомитентами</content>
+  <content>Document.СчетФактура</content>
+  <content>Document.СчетФактураПолученный</content>
+  <content>Catalog.Номенклатура.Attribute.ЭтоАгентскаяУслуга</content>
+  <content>Report.ЗапасыПринятые</content>
+  <content>AccumulationRegister.ДенежныеСредства.Dimension.ДоговорКонтрагента</content>
+  <content>AccumulationRegister.ДенежныеСредстваКПоступлению.Dimension.ДоговорКонтрагента</content>
+  <content>AccumulationRegister.ДенежныеСредстваВКассахККМ.Dimension.ДоговорКонтрагента</content>
+  <content>Document.ЧекККМ.TabularSection.Запасы.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ВыемкаНаличных.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Запасы.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ПоступлениеВКассу.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.РасходИзКассы.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ПоступлениеНаСчет.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ЧекККМ.TabularSection.БезналичнаяОплата.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.БезналичнаяОплата.Attribute.ДоговорПлатежногоАгента</content>
+  <content>Document.РасходСоСчета.Attribute.ДоговорПлатежногоАгента</content>
+</mdclass:FunctionalOption>

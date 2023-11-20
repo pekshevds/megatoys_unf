@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="902bf092-0e7e-4a36-b6c3-13b7135b02fd">
+  <name>СпособыЗаданияЦенСКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы задания цен СКД</value>
+  </synonym>
+</mdclass:CommonPicture>

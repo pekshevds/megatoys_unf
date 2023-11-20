@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0dd1081-20b6-41fc-9240-2fd147c432dd">
+  <name>ТелефонияРостелеком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефония ростелеком</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

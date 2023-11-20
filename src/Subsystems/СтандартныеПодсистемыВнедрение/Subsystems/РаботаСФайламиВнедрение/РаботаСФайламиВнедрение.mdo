@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d541eaff-5a8a-4b40-b4da-9cc411078ae9">
+  <name>РаботаСФайламиВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с файлами внедрение</value>
+  </synonym>
+  <content>CommonModule.РаботаСФайламиУНФКлиентСервер</content>
+  <content>CommonModule.РаботаСФайламиУНФ</content>
+  <content>CommonModule.РаботаСФайламиУНФВызовСервера</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

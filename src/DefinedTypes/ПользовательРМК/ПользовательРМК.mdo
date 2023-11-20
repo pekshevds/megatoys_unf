@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b1bbf54-4f3f-485f-ad8d-91e26caabed0">
+  <producedTypes>
+    <containerType typeId="d3b2cbb4-16ab-404d-922a-7223ceab7284" valueTypeId="fec1b5ff-f07f-48c7-bf77-661440f5e046"/>
+  </producedTypes>
+  <name>ПользовательРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+</mdclass:DefinedType>

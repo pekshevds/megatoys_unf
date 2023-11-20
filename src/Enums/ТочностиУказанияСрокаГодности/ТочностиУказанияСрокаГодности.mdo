@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ad50707-53e0-4c4c-b6ca-afca30318a37">
+  <producedTypes>
+    <refType typeId="c50fc7c3-b236-4d46-a684-8ccba4887bb3" valueTypeId="21a0b38d-b7f9-4459-8686-982360b1aae4"/>
+    <listType typeId="2e39ef74-9a0a-4f45-9685-84441e553874" valueTypeId="9673a2e7-5f9f-4c5c-9bd1-43f1afc936e6"/>
+    <managerType typeId="3f1b3e82-e30a-4d27-bbbd-e21aee5de526" valueTypeId="da2d47a6-aec4-4d6a-8b60-8898ff7d01cd"/>
+  </producedTypes>
+  <name>ТочностиУказанияСрокаГодности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точности указания срока годности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6c3b2f2-8e69-40b6-8086-bd714061477f">
+    <name>СТочностьюДоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>до дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2fd27f3-ef00-4c31-a611-eac6073f7dc3">
+    <name>СТочностьюДоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>до часов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

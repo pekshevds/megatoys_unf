@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a42415-d628-424d-b895-a960ae74950f">
+  <producedTypes>
+    <containerType typeId="0ea749b6-ad11-447b-9f18-262710c3317b" valueTypeId="f19e6b00-17c7-45aa-b0e5-20e8d591e085"/>
+  </producedTypes>
+  <name>УпаковкаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковка РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+  </type>
+</mdclass:DefinedType>

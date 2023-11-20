@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2dc335d-f0c6-4476-8b3c-e95a25def656">
+  <producedTypes>
+    <containerType typeId="94364d70-8024-41e9-9e45-341b97ff788b" valueTypeId="76710694-453f-4d92-8edf-e7a459a2deda"/>
+  </producedTypes>
+  <name>ТорговыйОбъектРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговый объект РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтруктурныеЕдиницы</types>
+  </type>
+</mdclass:DefinedType>

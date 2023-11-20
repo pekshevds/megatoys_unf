@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5099785-65e9-442b-8305-da79946897e5">
+  <producedTypes>
+    <containerType typeId="b09ec17e-5f02-4830-91fe-7342072b6765" valueTypeId="5232f782-7532-4608-8971-227df9c18804"/>
+  </producedTypes>
+  <name>ДочернийКлассификаторКТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дочерний классификатор КТРУ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

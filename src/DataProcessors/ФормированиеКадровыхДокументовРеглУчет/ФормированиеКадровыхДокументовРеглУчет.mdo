@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb43a3da-ec4d-4866-a617-6490811da5ba">
+  <producedTypes>
+    <objectType typeId="5c64de02-28ae-4ff3-8f8d-b7128ca90dcc" valueTypeId="5598b02a-e1d0-4f7e-8fae-cbaf5b966596"/>
+    <managerType typeId="564bb12b-0d30-4211-b67d-5b4e4c6b2f13" valueTypeId="df214fbd-1621-4a79-98df-e83387c6a599"/>
+  </producedTypes>
+  <name>ФормированиеКадровыхДокументовРеглУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание кадровых документов рег. учет</value>
+  </synonym>
+  <defaultForm>DataProcessor.ФормированиеКадровыхДокументовРеглУчет.Form.Форма</defaultForm>
+  <forms uuid="26bb19ed-aa72-49b8-a837-d6cd78e6abea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3ef5963-d11d-4730-b113-58f5e4f81d86">
+    <name>ЗаполнениеРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="bc69871e-ad14-4c87-8458-196d50371b09">
+    <name>ПриемНаРаботуРегУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на работу (рег. учет)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.ПриемНаРаботуУНФ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="593ccb9e-273f-47dc-a098-0bda16303bad">
+    <name>КадровыйПереводРегУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровый перевод (рег. учет)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.КадровоеПеремещениеУНФ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c6b1a5a0-1055-47f4-8bb2-2a1d37dbc600">
+    <name>УвольнениеРегУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение (рег. учет)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.УвольнениеУНФ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="ec39db73-391c-46ba-b28b-2182defbfa49">
+    <name>ПриемНаРаботуУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на работу (упр.)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.ПриемНаРаботу</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a35d5ead-4ddd-4a98-8ea0-1f88028fc031">
+    <name>КадровоеПеремещениеУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровое перемещение (упр.)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.КадровыйПеревод</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="57a1182d-4498-4131-ba5f-62658a37899d">
+    <name>УвольнениеУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение (упр.)</value>
+    </synonym>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>DocumentRef.Увольнение</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

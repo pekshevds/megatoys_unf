@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcc407e3-4d0a-4c88-9d81-17a745d27a08">
+  <name>ПрослеживаемостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прослеживаемость товаров</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПрослеживаемостьФормыКлиентПереопределяемый</content>
+  <content>CommonModule.ПрослеживаемостьВызовСервераПереопределяемый</content>
+  <content>CommonModule.ПрослеживаемостьКлиентПереопределяемый</content>
+  <content>CommonModule.ПрослеживаемостьФормыКлиент</content>
+  <content>CommonModule.ПрослеживаемостьФормыВызовСервера</content>
+  <content>CommonModule.ПрослеживаемостьБРУ</content>
+  <content>CommonModule.ПрослеживаемостьПереопределяемый</content>
+  <content>CommonModule.ПрослеживаемостьФормированиеОтчетности</content>
+  <content>DefinedType.СопроводительныйДокументУведомлениеОПеремещении</content>
+  <content>DefinedType.ОснованиеДляПолученияРНПТ</content>
+  <content>DefinedType.ОснованиеУведомленияОВвозе</content>
+  <content>DefinedType.ОснованиеПрослеживаемойОперации</content>
+  <content>DefinedType.РНПТ</content>
+  <content>DefinedType.ОснованиеУведомленияОбОстатках</content>
+  <content>Document.УведомлениеОбОстаткахПрослеживаемыхТоваров</content>
+  <content>Document.УведомлениеОВвозеПрослеживаемыхТоваров</content>
+  <content>Document.УведомлениеОПеремещенииПрослеживаемыхТоваров</content>
+  <content>DataProcessor.ПомощникПолученияРНПТ</content>
+  <content>InformationRegister.РегистрацияПрослеживаемыхТоваров</content>
+  <content>InformationRegister.ОперацииСПрослеживаемымиТоварами</content>
+  <content>AccumulationRegister.ПрослеживаемыеТоварыОтгруженныеВЕАЭС</content>
+  <content>Enum.ПорядокОтраженияВОтчетностиПоПрослеживаемости</content>
+  <content>Enum.ВидыОперацийРегистрацииПрослеживаемыхТоваров</content>
+  <content>Catalog.КодыОперацийПрослеживаемости</content>
+  <content>DocumentJournal.ПрослеживаемостьУведомления</content>
+  <content>DefinedType.Номенклатура</content>
+  <content>DefinedType.ЕдиницаИзмерения</content>
+  <content>DefinedType.Организация</content>
+  <content>DefinedType.Пользователь</content>
+  <content>DefinedType.КонтрагентПрослеживаемость</content>
+  <content>CommonModule.ПрослеживаемостьСобытияФормПереопределяемый</content>
+  <content>CommonModule.ПрослеживаемостьСобытияФормКлиентПереопределяемый</content>
+  <content>CommonPicture.ВКонвертПодписатьИОтправить</content>
+  <content>CommonPicture.ДлительнаяОперация16</content>
+  <content>CommonPicture.ДлительнаяОперация80</content>
+  <content>CommonPicture.ЗаполнитьФорму</content>
+  <content>CommonPicture.ЗначокОбновлениеКонфигурацииЧерезИнтернет16</content>
+  <content>CommonPicture.Отчеты</content>
+  <content>CommandGroup.Прослеживаемость</content>
+  <content>StyleItem.ЦветФонаИнформацияДляПользователя</content>
+  <content>DefinedType.Склад</content>
+  <content>Catalog.ТипыДокументов</content>
+  <content>CommonModule.ПрослеживаемостьКлиент</content>
+  <content>CommonModule.ПрослеживаемостьВызовСервера</content>
+  <content>Constant.ВедетсяУчетОсновныхСредств</content>
+  <parentSubsystem>Subsystem.ПодсистемыРегламентированногоУчета</parentSubsystem>
+</mdclass:Subsystem>

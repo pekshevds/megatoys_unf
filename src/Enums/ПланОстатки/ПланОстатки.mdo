@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1933be11-a983-4fc6-a4d2-1f62bee251a5">
+  <producedTypes>
+    <refType typeId="164666a0-7e33-41d1-bd01-cd2e2894e7b8" valueTypeId="e2c3718c-51f4-47f4-aeee-0c1d64c89cd4"/>
+    <listType typeId="e03d0e3d-0112-472b-a390-81f78e4c8e4f" valueTypeId="0cf2953e-b724-47c9-a693-6cb6139216a3"/>
+    <managerType typeId="6032bf52-78c4-48f1-9d3f-6e19c078a948" valueTypeId="3955fcfb-052b-46a9-a79b-f3fb1708bb44"/>
+  </producedTypes>
+  <name>ПланОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>План остатки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e51f6eef-7d76-44e1-9981-4c2b1cf2aae8">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d00ebce5-f962-4ace-b958-2dce18ef7fb5">
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

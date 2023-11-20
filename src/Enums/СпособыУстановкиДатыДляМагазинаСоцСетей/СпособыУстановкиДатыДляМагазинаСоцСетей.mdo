@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bb7f1d8-6b11-4f7d-a455-f5316dded2a9">
+  <producedTypes>
+    <refType typeId="d98f7fc6-7ef7-43e2-9341-2099603edb35" valueTypeId="9cb1e9ed-1486-4e9f-9919-0defef4ff299"/>
+    <listType typeId="ed260ceb-8a1a-4fd5-a0e2-e3d8899b1904" valueTypeId="c699ba8c-58bd-4bcd-9d47-13be71498d79"/>
+    <managerType typeId="39217a95-529a-4026-9acb-e395b4bd5c38" valueTypeId="eb8f3395-48d2-49fd-a47f-271bb6af4a90"/>
+  </producedTypes>
+  <name>СпособыУстановкиДатыДляМагазинаСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы установки даты для магазина соц сетей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="845aba68-5204-46c5-88da-76756211e429">
+    <name>ТекущаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="959a7b9c-b8ec-4b73-aad0-0afccf8aac02">
+    <name>ПоДатеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате объекта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

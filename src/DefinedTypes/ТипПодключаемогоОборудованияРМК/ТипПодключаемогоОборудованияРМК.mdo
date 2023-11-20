@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66943561-d53e-4d9d-8a54-eb41d8c6ae7e">
+  <producedTypes>
+    <containerType typeId="1ee0cea0-d5f7-45eb-9062-968c0b3468ae" valueTypeId="3253ae4d-1305-4e7c-8b82-f523dd907a46"/>
+  </producedTypes>
+  <name>ТипПодключаемогоОборудованияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип подключаемого оборудования РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыПодключаемогоОборудования</types>
+  </type>
+</mdclass:DefinedType>

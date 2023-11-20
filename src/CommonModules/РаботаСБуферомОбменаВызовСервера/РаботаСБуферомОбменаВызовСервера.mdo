@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d83e68b-2bf9-4ddd-8a49-b1c3cd8b660f">
+  <name>РаботаСБуферомОбменаВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с буфером обмена вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

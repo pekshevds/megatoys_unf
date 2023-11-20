@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd28930-1947-44ca-a64b-addb44633e7b">
+  <producedTypes>
+    <refType typeId="40a6cfc4-cdd2-43f1-8305-ca504a0bf166" valueTypeId="aee5882c-da19-4c81-b4ad-f1c2574e64eb"/>
+    <listType typeId="9db6bbe6-4b6e-43b2-97fc-5ba6e022fbd6" valueTypeId="5775c541-739f-4882-9cbf-601fb8e1182b"/>
+    <managerType typeId="0da511c7-454b-4d14-97a6-3e1194f157cf" valueTypeId="e07929a0-9cb6-41ff-8ef7-39e3c272befc"/>
+  </producedTypes>
+  <name>ВариантПредоставленияСкидкиПоНоменклатуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант предоставления скидки по номенклатуре</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8ccde44-5c79-4001-bd5a-087383345656">
+    <name>ПоНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>По номенклатуре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3deeba12-9b41-49e7-a8c2-347e3c11f2c3">
+    <name>ПоСегментуНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сегменту номенклатуры</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

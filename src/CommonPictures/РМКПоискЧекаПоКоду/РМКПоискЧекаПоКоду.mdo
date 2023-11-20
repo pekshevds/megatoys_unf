@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c116f3a3-e602-4d71-b4a2-67dbddf3b472">
+  <name>РМКПоискЧекаПоКоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК поиск чека по коду</value>
+  </synonym>
+</mdclass:CommonPicture>

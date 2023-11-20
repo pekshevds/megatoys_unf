@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263f927a-b3f0-4e06-b93d-304ca4f649b4">
+  <name>СебестоимостьБезНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключать НДС из себестоимости</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияСебестоимостьБезНДС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Attribute.НДСВключатьВСтоимость</content>
+  <content>Document.ВводНачальныхОстатков.Attribute.НДСВключатьВСтоимость</content>
+  <content>Catalog.Номенклатура.Attribute.СчетУчетаНДСПоПриобретеннымЦенностям</content>
+  <content>Catalog.Номенклатура.Attribute.СчетУчетаНДСПоРеализации</content>
+  <content>Catalog.ВнеоборотныеАктивы.Attribute.СчетУчетаНДСПоРеализации</content>
+</mdclass:FunctionalOption>

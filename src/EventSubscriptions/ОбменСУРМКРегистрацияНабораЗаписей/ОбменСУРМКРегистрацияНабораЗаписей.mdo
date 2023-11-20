@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5215a23c-e437-4e78-b230-51a79acb69c0">
+  <name>ОбменСУРМКРегистрацияНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с УРМК регистрация набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.НастройкиЧастичногоВыбытияТоваровИСМП</types>
+    <types>InformationRegisterRecordSet.СоставНаборов</types>
+    <types>InformationRegisterRecordSet.ЦеныНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ОписаниеНоменклатурыИС</types>
+    <types>InformationRegisterRecordSet.ШтрихкодыНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ОстаткиТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменСУРМКРегистрацияНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

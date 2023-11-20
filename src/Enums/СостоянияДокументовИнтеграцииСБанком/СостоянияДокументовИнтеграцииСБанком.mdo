@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d15ac3-4eeb-48cf-a849-1fe7c3c95fb8">
+  <producedTypes>
+    <refType typeId="390ced64-1fbb-41d4-9126-af71a7313600" valueTypeId="dbbe13ed-7ec1-4331-9f2f-27065ffedc13"/>
+    <listType typeId="be9884bc-0c65-4b9f-9588-1d7708be45df" valueTypeId="f0bf3d2b-2525-47d8-acd9-92cdac2ce365"/>
+    <managerType typeId="419c218c-8ce3-4efd-9d52-3d3348f210ce" valueTypeId="414c1a33-04df-46c0-aadd-628d8a39936d"/>
+  </producedTypes>
+  <name>СостоянияДокументовИнтеграцииСБанком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документов интеграции с банком</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63628d45-22e6-4f0b-a561-763dd97a65b5">
+    <name>ПодготовленоКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлено к отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdfbca19-6db4-4f9e-8526-9ce1c56430a5">
+    <name>ОтправленоВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено в банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="780242a3-9ce1-4712-9b75-6540be6f8531">
+    <name>ОшибкаПриОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac645403-0e6f-48de-980f-cd697e1088b0">
+    <name>ОбменЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb7190d-f62f-4d2e-bc13-6319e317fbab">
+  <producedTypes>
+    <containerType typeId="5a8893a9-9e46-4f95-9ae1-ea9ba47a5a68" valueTypeId="68f2b606-f553-48d8-8b9f-b53d388968b2"/>
+  </producedTypes>
+  <name>ВидыДоговоровБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров БРД</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыДоговоров</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c541ee32-f297-49a5-b781-9cf2b58ecaf8">
+  <name>РМКДатаРождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКДата рождения</value>
+  </synonym>
+</mdclass:CommonPicture>

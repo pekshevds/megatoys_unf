@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b04504-1232-4c48-bae5-a4c3853cecab">
+  <producedTypes>
+    <selectionType typeId="658353fe-d04e-4b0e-9bb1-40cbb99ec979" valueTypeId="096e86e1-5ebb-43a8-9a66-e73826e123d7"/>
+    <listType typeId="b9defab3-ae0e-46f1-b972-b0981bf85173" valueTypeId="15f8425b-91fd-4d2e-a7f3-00f2bb22ee60"/>
+    <managerType typeId="ff73a112-7120-4903-82ee-7a2bcd3cb8fe" valueTypeId="fbf8edd1-548d-468a-9dd3-5670080f588b"/>
+  </producedTypes>
+  <name>ДокументыПоСкладскимОрдерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по складским ордерам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.КомплектацияЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ПеремещениеЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.АвансовыйОтчет</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаПоступления</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаРеализации</registeredDocuments>
+  <registeredDocuments>Document.СборкаЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ОтчетОПереработке</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПереработчика</registeredDocuments>
+  <registeredDocuments>Document.ПересортицаЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ОприходованиеЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ПередачаТоваровМеждуОрганизациями</registeredDocuments>
+  <registeredDocuments>Document.ЗаказПокупателя</registeredDocuments>
+  <registeredDocuments>Document.ПринятиеКУчетуВА</registeredDocuments>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.СписаниеЗапасов</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+</mdclass:DocumentJournal>

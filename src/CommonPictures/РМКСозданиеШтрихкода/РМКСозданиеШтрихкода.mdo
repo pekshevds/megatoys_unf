@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ec5032c-78e0-4ed4-bedb-52b82fd6bfd6">
+  <name>РМКСозданиеШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание штрихкода</value>
+  </synonym>
+</mdclass:CommonPicture>

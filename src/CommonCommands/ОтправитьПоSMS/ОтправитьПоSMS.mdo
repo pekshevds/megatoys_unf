@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a3c54b5-e234-40bf-88fc-73a0715ef4a3">
+  <name>ОтправитьПоSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить по SMS</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.СписаниеЗапасов</types>
+    <types>DocumentRef.АктОРасхождениях</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.СверкаВзаиморасчетов</types>
+    <types>DocumentRef.ПеремещениеЗапасов</types>
+    <types>DocumentRef.РасходныйОрдер</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.СчетФактураПолученный</types>
+    <types>DocumentRef.ЧекККМВозврат</types>
+    <types>DocumentRef.ЗаданиеНаРаботу</types>
+    <types>DocumentRef.АктВыполненныхРабот</types>
+    <types>DocumentRef.ЗаказНаПеремещение</types>
+    <types>DocumentRef.ЧекККМ</types>
+    <types>DocumentRef.ОтчетОПереработке</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef.СчетФактура</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+    <types>DocumentRef.ПоступлениеВКассу</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.ЗаказНаПроизводство</types>
+    <types>DocumentRef.СборкаЗапасов</types>
+    <types>DocumentRef.ПеремещениеПоЯчейкам</types>
+    <types>DocumentRef.СчетНаОплату</types>
+    <types>DocumentRef.УчетВремени</types>
+    <types>DocumentRef.ПриемИПередачаВРемонт</types>
+    <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+    <types>DocumentRef.АктОРасхожденияхПолученный</types>
+    <types>DocumentRef.ПересортицаЗапасов</types>
+    <types>DocumentRef.РасходДСПлан</types>
+    <types>DocumentRef.Доверенность</types>
+    <types>DocumentRef.ПлатежноеПоручение</types>
+    <types>DocumentRef.ОтчетКомитенту</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ОтчетКомиссионераОСписании</types>
+    <types>DocumentRef.Табель</types>
+    <types>DocumentRef.РасходИзКассы</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.Взаимозачет</types>
+    <types>DocumentRef.ИнвентаризацияЗапасов</types>
+    <types>DocumentRef.ПриходныйОрдер</types>
+    <types>DocumentRef.СдельныйНаряд</types>
+    <types>DocumentRef.ПереоценкаТоваровНаКомиссии</types>
+    <types>DocumentRef.ОприходованиеЗапасов</types>
+    <types>DocumentRef.ПередачаТоваровМеждуОрганизациями</types>
+    <types>DocumentRef.ПлатежнаяВедомость</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Отправить сообщение по SMS</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОтправкаSMS</picture>
+  </picture>
+</mdclass:CommonCommand>

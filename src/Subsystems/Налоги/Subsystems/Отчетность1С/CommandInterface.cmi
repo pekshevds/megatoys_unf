@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.УведомлениеОСпецрежимахНалогообложения.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ЛьготныеКредиты</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.Отчетность1С</group>
+      <commands>CommonCommand.ЛьготныеКредиты</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.УведомлениеОСпецрежимахНалогообложения.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.УведомлениеОСпецрежимахНалогообложения.StandardCommand.Create</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Отчетность1С</group>
+      <commands>CommonCommand.Налоги_РегламентированнаяОтчетность</commands>
+      <commands>CommonCommand.Налоги_ВыгрузкаРегламентированныхОтчетов</commands>
+      <commands>CommonCommand.ЛьготныеКредиты</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

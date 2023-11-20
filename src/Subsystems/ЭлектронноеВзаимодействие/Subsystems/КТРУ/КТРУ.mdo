@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41d203c4-46e4-44e8-97c3-3ecc2114b696">
+  <name>КТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КТРУ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ДатыПоследнейЗагрузкиКТРУ</content>
+  <content>Catalog.ЗначенияРеквизитовКТРУ</content>
+  <content>Catalog.КТРУ</content>
+  <content>Catalog.ХарактеристикиКТРУ</content>
+  <content>Catalog.ЗначенияХарактеристикКТРУ</content>
+  <content>Enum.ВидыХарактеристикКТРУ</content>
+  <content>Enum.ТипыЗначенийХарактеристикиКТРУ</content>
+  <content>ChartOfCharacteristicTypes.РеквизитыКТРУ</content>
+  <content>DefinedType.КлассификаторОКПД2</content>
+  <content>StyleItem.ШрифтПолужирный12КТРУ</content>
+  <content>StyleItem.ШрифтПолужирныйКТРУ</content>
+  <content>CommonModule.КлассификаторКТРУ</content>
+  <content>CommonModule.КлассификаторКТРУКлиентПереопределяемый</content>
+  <content>CommonModule.КлассификаторКТРУПереопределяемый</content>
+  <content>CommonModule.КлассификаторКТРУКлиент</content>
+  <content>Role.ДобавлениеИзменениеДанныхКТРУ</content>
+  <content>Role.ЧтениеДанныхКТРУ</content>
+  <content>DefinedType.ДочернийКлассификаторКТРУ</content>
+  <content>StyleItem.ШрифтЗачеркнутыйКТРУ</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие</parentSubsystem>
+</mdclass:Subsystem>

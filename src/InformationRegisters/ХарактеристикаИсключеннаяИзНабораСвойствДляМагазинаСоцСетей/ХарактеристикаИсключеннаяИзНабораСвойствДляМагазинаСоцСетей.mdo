@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2374177-f79a-47b7-b15b-46cf5cadd88e">
+  <producedTypes>
+    <selectionType typeId="586e0f27-1a74-47aa-8cdd-e65461da2783" valueTypeId="a38c2e43-8096-4338-8e27-910bf38a6d01"/>
+    <listType typeId="6055e852-baa9-469f-a9d0-79646a24c382" valueTypeId="67c8b8f2-beda-4406-9b4c-c30afe41140b"/>
+    <managerType typeId="dbfdc3d3-37bb-4872-8ed1-1aba747b745f" valueTypeId="3623c898-77c3-4b18-bb72-a8f25c815a66"/>
+    <recordSetType typeId="eb28d021-2b4c-4ed3-af8b-bd6ce9212ee2" valueTypeId="c8f935c2-517f-4967-9f64-98d54347c94b"/>
+    <recordKeyType typeId="de094fc3-b794-433e-8e78-ba9a13044387" valueTypeId="d9d0b198-d6d9-44b0-9ba1-16eb64226c87"/>
+    <recordType typeId="516f86e3-01ba-450c-87f1-2a89aa196374" valueTypeId="e6abd791-fd16-45e5-bbf2-6d5ce5d9bf3c"/>
+    <recordManagerType typeId="ee36e590-1457-4483-8d8e-81e56d445b2f" valueTypeId="729f985f-3f63-48c4-b17a-67094c2f01c7"/>
+  </producedTypes>
+  <name>ХарактеристикаИсключеннаяИзНабораСвойствДляМагазинаСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристика исключенная из набора свойств для магазина соц сетей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="66728d88-ade5-4814-a914-8a1aa3c4a90c">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ИнтеграцияСМагазинамиСоцСетей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6584bb3a-63b0-4f4a-8cc9-702c6c4dae48">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

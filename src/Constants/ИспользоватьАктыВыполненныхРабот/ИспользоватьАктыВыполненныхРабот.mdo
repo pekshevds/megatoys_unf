@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c100a4-9d02-4245-ad4c-9db3634fa140">
+  <producedTypes>
+    <managerType typeId="f99ef154-628c-4dce-aca9-c681c9b0b6c3" valueTypeId="f84a0268-4d69-4b6b-ab51-7bfc38c798ac"/>
+    <valueManagerType typeId="9e5fa090-9dd7-483b-bd7e-f94aa9d1a810" valueTypeId="98c1955b-e0ef-47b9-b147-66cdd6e90098"/>
+    <valueKeyType typeId="dfb34455-662c-49e5-8d92-9ce89857733b" valueTypeId="eedd4f15-5dde-4a04-95ab-7b6c9b33e3d0"/>
+  </producedTypes>
+  <name>ИспользоватьАктыВыполненныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать акты выполненных работ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

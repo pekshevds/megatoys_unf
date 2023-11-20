@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f429d925-f5a8-42dc-8137-483b579a6c44">
+  <name>ПапкаПалитрыИзбранныхТоваровРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка палитры избранных товаров (РМК)</value>
+  </synonym>
+</mdclass:CommonPicture>

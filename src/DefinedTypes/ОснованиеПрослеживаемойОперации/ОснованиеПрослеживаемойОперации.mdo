@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b535016-5959-4ecd-8cad-c05fb6d2d2c7">
+  <producedTypes>
+    <containerType typeId="53fb5ec7-521d-41f4-be2d-bcd14fd84d50" valueTypeId="aa32dc23-e78f-4e37-9098-191ecf499e3f"/>
+  </producedTypes>
+  <name>ОснованиеПрослеживаемойОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание прослеживаемой операции</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СписаниеЗапасов</types>
+    <types>DocumentRef.АктОРасхождениях</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.ОтчетКомиссионера</types>
+    <types>DocumentRef.КомплектацияЗапасов</types>
+    <types>DocumentRef.ПеремещениеЗапасов</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.СчетФактураПолученный</types>
+    <types>DocumentRef.СчетФактура</types>
+    <types>DocumentRef.КорректировкаПоступления</types>
+    <types>DocumentRef.СборкаЗапасов</types>
+    <types>DocumentRef.РаспределениеЗатрат</types>
+    <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+    <types>DocumentRef.АктОРасхожденияхПолученный</types>
+    <types>DocumentRef.ОтчетКомиссионераОСписании</types>
+    <types>DocumentRef.ОприходованиеЗапасов</types>
+  </type>
+</mdclass:DefinedType>

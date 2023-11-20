@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36a1ef5b-6d71-4cad-8bf2-2c40ab99bc37">
+  <producedTypes>
+    <refType typeId="c268e7ad-b2a4-403c-ae9b-409d94198d47" valueTypeId="7103b5d5-adfe-4cd4-8066-f4b65463636f"/>
+    <listType typeId="309d8eb8-450c-43f3-839f-510369bb70dc" valueTypeId="99952234-406b-44d0-a353-1e804d72da0e"/>
+    <managerType typeId="094b0793-35c0-47ba-8e57-78a5f1cf2330" valueTypeId="6dad8ab1-6726-4a85-aada-923fe882f4f7"/>
+  </producedTypes>
+  <name>ВариантыОсвобожденияАвансаВКорректировках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты освобождения аванса в корректировках</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e29f33d8-6175-42e7-bfa3-e561e8ed891f">
+    <name>ОсвобождатьАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освобождать аванс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5eff4de-5562-4097-aca6-b28dd48120a8">
+    <name>ОсвобождатьАвансВСтаромДокументе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освобождать аванс в старом документе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

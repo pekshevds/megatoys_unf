@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fbf630a-0fae-4722-9120-b97dcdf47661">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.БанкИКасса</content>
+  <content>Document.ПеремещениеДС</content>
+  <content>Role.ДобавлениеИзменениеПеремещенийДС</content>
+  <content>Role.РазделДеньги</content>
+  <content>Role.ИспользованиеБанкаИКассы</content>
+  <content>Report.БюджетДвиженияДенежныхСредств</content>
+  <content>Report.ДвижениеДенежныхСредств</content>
+  <content>Report.ДвиженияБонусныхБаллов</content>
+  <content>Report.ДенежныеСредства</content>
+  <content>Report.ДенежныеСредстваКПоступлению</content>
+  <content>Report.ДенежныеСредстваПрогноз</content>
+  <content>Report.ДенежныйПоток</content>
+  <content>Report.ОстаткиБонусныхБаллов</content>
+  <content>Report.РасчетыПоПрочимОперациям</content>
+  <content>Report.РасчетыСКомиссионерами</content>
+  <content>Report.РасчетыСКомитентами</content>
+  <content>Report.РасчетыСПодотчетниками</content>
+  <content>Report.РасчетыСПокупателями</content>
+  <content>Report.РасчетыСПоставщиками</content>
+  <content>Report.РеестрОплатЗаказовИСчетов</content>
+  <content>Report.РеестрСтаренияДебиторскойЗадолженности</content>
+  <content>Report.РеестрСтаренияКредиторскойЗадолженности</content>
+  <content>Report.РеестрОперацийСБПc2b</content>
+  <content>Report.ОплатаСБП</content>
+  <content>Role.ЧтениеПеремещенийДС</content>
+  <content>Constant.ИспользоватьБанкИКассу</content>
+  <content>CommonModule.ЗагрузкаВыпискиПоБанковскомуСчету</content>
+  <content>Constant.ИспользоватьТолькоНовыйКБ</content>
+  <content>InformationRegister.БанковскиеСчетаИнтеграцииСБанком</content>
+  <parentSubsystem>Subsystem.Деньги</parentSubsystem>
+</mdclass:Subsystem>

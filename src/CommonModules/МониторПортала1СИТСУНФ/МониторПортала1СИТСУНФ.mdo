@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e15703-95c0-4801-864d-45e39a574c85">
+  <name>МониторПортала1СИТСУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор Портала 1С:ИТС УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

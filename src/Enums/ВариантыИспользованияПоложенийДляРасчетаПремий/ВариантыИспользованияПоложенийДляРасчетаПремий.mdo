@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f318ee31-1732-4f89-8d21-220b18e60fba">
+  <producedTypes>
+    <refType typeId="94ff57cd-cdf8-4085-80ea-0f61b4702903" valueTypeId="7aa77a40-d81d-4ebe-ad9c-7365f3d682e4"/>
+    <listType typeId="b68568c0-a118-48fc-b09d-f5d1466734f1" valueTypeId="86b6c9f7-abf1-446e-a4f4-52ee892b98ad"/>
+    <managerType typeId="fa8fcf50-5be4-4f4e-80d5-2c1c59232bbd" valueTypeId="45f72246-a7d3-4afc-a05b-81ff00ece088"/>
+  </producedTypes>
+  <name>ВариантыИспользованияПоложенийДляРасчетаПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты использования положений для расчета премий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="36f54c1b-6297-479a-8cb4-c12f76829acc">
+    <name>ИндивидуальноеДляМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальное для подразделения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9961abf0-cb03-42f8-bab3-9cb8e0a725b0">
+    <name>ОдноДляВыбранныхМагазинов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одно для выбранных подразделений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0702e3b-864d-4afe-85d5-4b3d4b7ce525">
+    <name>ОдноПоложениеДляВсехМагазинов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одно для всех подразделений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

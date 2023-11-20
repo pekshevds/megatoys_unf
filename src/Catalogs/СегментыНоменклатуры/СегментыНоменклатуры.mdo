@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0865a65c-9923-4db7-9b42-1f41c79ad2f4">
+  <producedTypes>
+    <objectType typeId="5c5d6a76-7bf3-41e8-91d3-152decb2614f" valueTypeId="a84ced36-5cb8-4887-b129-3e75191d97de"/>
+    <refType typeId="cacd28e4-9958-49fb-9f98-c3d8edfaf1bd" valueTypeId="e1593198-cdee-4a39-8a0b-e058abd25e53"/>
+    <selectionType typeId="861c4502-6ff7-44d4-86b1-92c8a4132b17" valueTypeId="81652a57-aeea-4fa1-914d-1c33ae3ca933"/>
+    <listType typeId="269e5c50-1ac7-490a-ae18-eb295ff29b0a" valueTypeId="261b3442-8c78-4fb5-84e0-61e8df32ab33"/>
+    <managerType typeId="73732b04-17e4-4933-8127-56ad5408c5ba" valueTypeId="67837c84-3dd9-443d-86c2-61c6bf656d54"/>
+  </producedTypes>
+  <name>СегментыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СегментыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СегментыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СегментыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СегментыНоменклатуры.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.СегментыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СегментыНоменклатуры.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="d7ce91a5-716a-46a8-91a2-1df3f1c81c25">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61e169af-9f2a-4162-a2e9-f3f09bd78469">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b211396-b87d-4932-87a9-2b6f551440d4">
+    <name>Обновляемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновляемый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc19a209-7524-4b5b-bb8f-b55339c6a47b">
+    <name>РасширенныйРежимРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенный режим редактирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c83c280-ec0b-4f1e-a096-734c22110d7f">
+    <name>ИмяШаблонаСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя шаблона СКД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="13e4eaa6-b885-4d2a-840d-58c260aa849c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2080fe51-674e-4e4b-b6b9-219af5cffc58">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a09bed87-0efa-4e37-bb5b-c27e97e39426">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="37bfd59e-67b5-4dd5-89ba-521683668a7f">
+    <name>СегментыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегменты номенклатуры</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="657b85b2-10c7-4d77-b935-ed09f438d53d">
+    <name>СегментыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегменты номенклатуры</value>
+    </synonym>
+    <group>CommandGroup.НовостиСервис</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

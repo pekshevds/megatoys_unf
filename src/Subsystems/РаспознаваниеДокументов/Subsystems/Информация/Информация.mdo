@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2079076b-39c1-4a6a-9abf-59cfc731b6fe">
+  <name>Информация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.УдалитьОбзорРаспознаванияДокументов</content>
+  <parentSubsystem>Subsystem.РаспознаваниеДокументов</parentSubsystem>
+</mdclass:Subsystem>

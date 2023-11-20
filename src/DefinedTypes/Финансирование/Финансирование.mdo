@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52734a0a-159f-42b8-b384-a0a6b62e369f">
+  <producedTypes>
+    <containerType typeId="0970fba3-9c00-4889-ad1f-d18029220aaf" valueTypeId="d688a1ab-66ae-4d9d-a8dd-08c92a2eb3ea"/>
+  </producedTypes>
+  <name>Финансирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансирование</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>5</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

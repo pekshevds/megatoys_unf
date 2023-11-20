@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62ad7cb3-c875-4463-b003-fbbdb7b5fa4d">
+  <name>ИспользоватьПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать присоединенные файлы</value>
+  </synonym>
+  <location>Constant.ИспользоватьПрисоединенныеФайлы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЗаказПокупателяПрисоединенныеФайлы</content>
+  <content>Catalog.КонтрагентыПрисоединенныеФайлы</content>
+  <content>Catalog.КонтактныеЛицаПрисоединенныеФайлы</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
+  <content>Catalog.ОрганизацииПрисоединенныеФайлы</content>
+  <content>Catalog.ПриходнаяНакладнаяПрисоединенныеФайлы</content>
+  <content>Catalog.РасходнаяНакладнаяПрисоединенныеФайлы</content>
+  <content>Catalog.ЛидыПрисоединенныеФайлы</content>
+</mdclass:FunctionalOption>

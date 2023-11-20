@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f8b577-4c06-44af-be83-96a56b894139">
+  <producedTypes>
+    <refType typeId="19bac85f-8795-4924-bfa5-cb6b215048a1" valueTypeId="777a7d4a-83ac-43b8-8847-dd3eed0ebc42"/>
+    <listType typeId="1f1f27cf-e145-4020-9f86-e71056e1b3a3" valueTypeId="83c07e19-f153-4910-8fb2-41e5192ac07a"/>
+    <managerType typeId="69788a1e-19d5-4763-b973-d96597090cbc" valueTypeId="ee58372a-72b7-433a-bca6-df99243a8f69"/>
+  </producedTypes>
+  <name>ВидыПлатежейВГосБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды платежей в бюджет (фонды)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77f43f1b-5ca8-4300-ac20-2599db2c0400">
+    <name>Налог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налог (взносы): начислено / уплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cef273f-d16d-4c07-b0e6-ed2699088392">
+    <name>НалогСам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налог (взносы): доначислено / уплачено (самостоятельно)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f02445f9-12d2-4b4a-91c8-0449d21b9876">
+    <name>НалогАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налог (взносы): доначислено / уплачено (по акту проверки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2418c827-42b7-4d35-81a0-83d3bd7eab2c">
+    <name>Штраф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штраф: начислено / уплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5805b697-a464-40d6-866a-f230d73adefd">
+    <name>РасходыПоСтрахованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы по страхованию (до 2017 г.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c3dfff1-17fb-4ec1-a78e-e69178eb232f">
+    <name>ПениСам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пени: доначислено / уплачено (самостоятельно)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bea56be-9827-4122-ba7d-9fe31e691c01">
+    <name>ПениАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пени: начислено / уплачено (по акту проверки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67be70b5-14ae-4541-804f-7664ebea9bcf">
+    <name>ПолученоИзФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено от исполнительного органа ФСС РФ (до 2017 г.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2be867ec-720d-447c-badd-94c4a6b87d70">
+    <name>НеПринято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не принято к зачету (до 2017 г.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d75e0ef-eed4-4851-8369-e9546eedf919">
+    <name>Проценты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проценты: начислено / уплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a84e04bf-c5d9-40c7-a7bf-b045e0f91096">
+    <name>ВзносыСвышеПредела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы с доходов свыше предела</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26ce4b8c-a1e3-4398-838b-d942cc150b5e">
+    <name>ВзносыБезСпецоценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взносы по доп.тарифам при отсутствии спецоценки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53f9fa73-ee39-4635-853b-7648837d9d11">
+    <name>ГосрегистрацияОрганизацийЧерезМФЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госпошлина при регистрации через МФЦ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cf431fc-42e2-4062-9ed1-5c146de80051">
+  <name>ДобавлениеИзменениеПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение проектов</value>
+  </synonym>
+</mdclass:Role>

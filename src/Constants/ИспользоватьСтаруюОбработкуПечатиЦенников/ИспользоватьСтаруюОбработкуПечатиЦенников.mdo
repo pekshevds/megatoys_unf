@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e985d62-3f8c-4bbf-a4a3-3a2a06c24ad1">
+  <producedTypes>
+    <managerType typeId="9e020ee0-eeff-4a18-bf31-217a8c8930f6" valueTypeId="22bbf7d9-560e-46fc-8c06-a129bf29f92d"/>
+    <valueManagerType typeId="19dc856b-d7ae-4d57-9763-e8634717e3bd" valueTypeId="b79cbfad-cde6-4daf-bd5d-6f02445dbbab"/>
+    <valueKeyType typeId="100a88b0-e7ae-4b66-9f91-a3f998599974" valueTypeId="8d1cf8c5-4e81-402c-8e5e-4896706aef16"/>
+  </producedTypes>
+  <name>ИспользоватьСтаруюОбработкуПечатиЦенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать старую обработку печати ценников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

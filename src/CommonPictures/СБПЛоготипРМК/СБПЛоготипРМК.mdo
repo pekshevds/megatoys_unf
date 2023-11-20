@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e776121-516b-46b2-917b-d6e0efef6b3d">
+  <name>СБПЛоготипРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>СБПЛоготип РМК</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

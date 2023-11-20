@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15443c88-9daa-4e14-acc1-e786f214cd41">
+  <producedTypes>
+    <containerType typeId="c8e87178-7c8c-4e2c-83b6-0cf4fdc33c24" valueTypeId="a411db79-88e3-432e-b379-8beb469aca2f"/>
+  </producedTypes>
+  <name>АльтернативнаяГруппировкаИзбранныхТоваровРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Альтернативная группировка избранных товаров РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

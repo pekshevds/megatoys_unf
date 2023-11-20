@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bb184f9-b493-471d-8ecf-295b4e425281">
+  <name>ПрослеживаемостьТоваровВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прослеживаемость товаров внедрение</value>
+  </synonym>
+  <content>Catalog.КлассификаторТНВЭД</content>
+  <content>CommonModule.ПрослеживаемостьУНФ</content>
+  <content>CommonModule.ПрослеживаемостьФормыКлиентСерверУНФ</content>
+  <content>CommonModule.ПрослеживаемостьФормыКлиентУНФ</content>
+  <content>CommonModule.ПрослеживаемостьФормыВызовСервераУНФ</content>
+  <content>CommonModule.ПрослеживаемостьФормыУНФ</content>
+  <content>Constant.ВестиУчетПрослеживаемыхТоваров</content>
+  <content>AccumulationRegister.ПрослеживаемыеТовары</content>
+  <content>InformationRegister.СвойстваРНПТ</content>
+  <content>FunctionalOption.ВестиУчетПрослеживаемыхТоваров</content>
+  <content>CommonForm.ВыборСтандартногоПериодаМесяц</content>
+  <content>CommonPicture.ПрослеживаемыйТовар</content>
+  <content>DefinedType.НоменклатураПрослеживаемость</content>
+</mdclass:Subsystem>

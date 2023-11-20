@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bf34f05-81e4-4939-b6b3-44847d28e055">
+  <name>ОтображатьТекущиеДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать текущие дела</value>
+  </synonym>
+  <location>Constant.ОтображатьТекущиеДела</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ТекущиеДела</content>
+</mdclass:FunctionalOption>

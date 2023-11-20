@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd53eea-f4fd-4082-ba5c-f4099cf84755">
+  <producedTypes>
+    <managerType typeId="df74bf82-490e-49aa-b08d-6cb69603bee5" valueTypeId="78ced515-872c-4f4c-a01f-4ddea1354d92"/>
+    <valueManagerType typeId="58bebad4-555c-4faa-bc42-0bf6a19aa28e" valueTypeId="9c09dc48-5406-4252-9a41-290b17180d82"/>
+    <valueKeyType typeId="52c59827-bfb1-4d5d-9552-4d7a42d1712f" valueTypeId="658de9ed-ca02-4ea0-a957-4fd17852a8a0"/>
+  </producedTypes>
+  <name>ИспользоватьРасширенныйРежимНастройкиУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расширенный режим настройки УРМК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

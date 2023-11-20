@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d0e5d73-ee43-46b7-a24c-1571cef55053">
+  <producedTypes>
+    <managerType typeId="ee4535da-2cff-4637-baf1-6b9c96e44d19" valueTypeId="2f8a8f7e-bd0c-4a5c-be26-2566e6664909"/>
+    <valueManagerType typeId="f6a0c59b-c908-4461-b56e-11861a98f49e" valueTypeId="d9326e39-e553-4046-acc2-7705c9a2d7be"/>
+    <valueKeyType typeId="64fb9162-22e0-4fc3-8df9-d72210ef6048" valueTypeId="ebc9c7dd-ecab-4c33-8d29-2ba1daf91273"/>
+  </producedTypes>
+  <name>ИспользоватьРаспределениеЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать распределение затрат</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

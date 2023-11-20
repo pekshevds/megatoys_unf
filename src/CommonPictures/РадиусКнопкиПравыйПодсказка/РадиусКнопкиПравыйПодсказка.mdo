@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffa670c8-2c87-42cc-b272-be1948ded008">
+  <name>РадиусКнопкиПравыйПодсказка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Радиус кнопки правый подсказка</value>
+  </synonym>
+</mdclass:CommonPicture>

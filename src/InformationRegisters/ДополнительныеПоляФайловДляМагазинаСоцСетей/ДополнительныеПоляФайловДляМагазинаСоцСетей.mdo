@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66dc87d6-596e-4a9d-880e-f6ca061155ef">
+  <producedTypes>
+    <selectionType typeId="69119c51-8e66-4c26-8bcd-1d50a3d423da" valueTypeId="f48c089f-08be-4d1a-8452-b91691c162ca"/>
+    <listType typeId="85c467d7-dbaa-459a-b8b9-5f40c1eab9ae" valueTypeId="694e2c02-d0c4-4ba6-8665-b46d18582406"/>
+    <managerType typeId="ad68e8ab-aea1-4e2e-a37d-81a054a257f5" valueTypeId="04cccb50-9fd2-4b06-b0cb-9f13cd14c2d7"/>
+    <recordSetType typeId="68ae5935-eb96-4609-b98f-ecdb42bcb5fb" valueTypeId="676a3faf-bcd6-4aea-8361-f620ebcde31e"/>
+    <recordKeyType typeId="7d3d860c-1558-4e23-b77e-74af3fdcda7a" valueTypeId="5c1282d8-2bae-43c3-a93b-17367e08df03"/>
+    <recordType typeId="b721c8d2-cc45-49d4-bfab-35525dc3d9b7" valueTypeId="22ff4ac3-ed49-4628-9d12-cb66f7664501"/>
+    <recordManagerType typeId="0ff0c2d1-1f12-41c2-b7ad-b4941cfc0dde" valueTypeId="16ef1a70-be07-4529-bed7-ec63c0c5c7bc"/>
+  </producedTypes>
+  <name>ДополнительныеПоляФайловДляМагазинаСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные поля файлов для магазина соц сетей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="be5fb90e-115e-4dbc-86f6-60dcb1b0ac77">
+    <name>Высота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d11db1f1-a7c5-42ac-b559-dc827825a074">
+    <name>Ширина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="29ca761a-022b-4767-bb42-43b54dbe2f5b">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
+      <types>CatalogRef.ХарактеристикиНоменклатурыПрисоединенныеФайлы</types>
+      <types>CatalogRef.ВиртуальныеКаталогиТоваровМагазиновСоцСетейПрисоединенныеФайлы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строковое представление типа объекта информационной базы корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

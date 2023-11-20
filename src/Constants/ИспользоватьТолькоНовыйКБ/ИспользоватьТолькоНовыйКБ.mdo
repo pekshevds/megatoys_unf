@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc46696-1bdb-4689-b21a-da9e3929d4c2">
+  <producedTypes>
+    <managerType typeId="870b4221-f26b-4322-b4b1-0aee0c9624b8" valueTypeId="2c755a84-1f7e-4534-a381-3699fe855884"/>
+    <valueManagerType typeId="c8991578-c5de-47e4-af08-3e32f2077c09" valueTypeId="1c0ec10b-a88e-4442-b73b-f4c138cda8bb"/>
+    <valueKeyType typeId="072642a4-3d61-41d0-afd1-116f9fbc016d" valueTypeId="8683e591-9cc0-435a-83f3-51e38dfa91a5"/>
+  </producedTypes>
+  <name>ИспользоватьТолькоНовыйКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать только новый КБ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

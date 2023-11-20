@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="222936c0-4a23-4531-807c-abcf18be91d0">
+  <producedTypes>
+    <containerType typeId="65fbe66e-cb78-40cf-b55c-eda39351a13d" valueTypeId="ed5c1fff-32fe-4511-b045-1c235deb41e1"/>
+  </producedTypes>
+  <name>ИнтеграцияС1СДокументооборотДокументыОбъектыПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Документооборотом, интегрируемые документы объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ОписьПачекСЗВ_6</types>
+    <types>DocumentObject.ОписьОДВ_1</types>
+    <types>DocumentObject.ДоговорРаботыУслуги</types>
+    <types>DocumentObject.ЗаявлениеАбонентаСпецоператораСвязи</types>
+    <types>DocumentObject.ПлатежноеПоручение</types>
+    <types>DocumentObject.ИсполнительныйЛист</types>
+    <types>DocumentObject.ОписьЗаявленийСотрудниковНаВыплатуПособий</types>
+    <types>DocumentObject.ЗаявленияПоЭлДокументооборотуСПФР</types>
+    <types>DocumentObject.ЗаявлениеВФССОВозмещенииРасходовНаПогребение</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплаты</types>
+    <types>DocumentObject.ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидов</types>
+    <types>DocumentObject.ИсходящаяСправкаОЗаработкеДляРасчетаПособий</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыВБанк</types>
+    <types>DocumentObject.ЗаявлениеСотрудникаНаВыплатуПособия</types>
+    <types>DocumentObject.ЗапросНаИнформационноеОбслуживаниеСтрахователя</types>
+    <types>DocumentObject.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников</types>
+    <types>DocumentObject.ЗаявлениеНаПредоставлениеСтандартныхВычетовПоНДФЛ</types>
+    <types>DocumentObject.СписаниеДепонированнойЗарплаты</types>
+    <types>DocumentObject.БольничныйЛист</types>
+    <types>DocumentObject.Отпуск</types>
+    <types>DocumentObject.ВедомостьУплатыАДВ_11</types>
+    <types>DocumentObject.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+    <types>DocumentObject.ДепонированиеЗарплаты</types>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.ЗапросНаИнформационноеОбслуживаниеНалогоплательщика</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.ЗаявлениеОПодтвержденииПраваНаЗачетАвансовПоНДФЛ</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыВКассу</types>
+    <types>DocumentObject.ВозмещениеБольничныхВЧастиФБ</types>
+    <types>DocumentObject.ЗаявленияОПредоставленииСведенийОТрудовойДеятельности</types>
+  </type>
+</mdclass:DefinedType>

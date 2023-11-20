@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d30684ea-00d4-4c36-8b98-b16d7a94d4df">
+  <name>НачисленияИУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления и удержания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПравилаРасчетаПремийПоЛичнымПродажам</content>
+  <content>Catalog.УсловияНачисленияПремийПоЛичнымПродажам</content>
+  <content>Catalog.ВидыНачисленийИУдержаний</content>
+  <content>Catalog.ПоказателиРасчетов</content>
+  <parentSubsystem>Subsystem.Персонал</parentSubsystem>
+</mdclass:Subsystem>

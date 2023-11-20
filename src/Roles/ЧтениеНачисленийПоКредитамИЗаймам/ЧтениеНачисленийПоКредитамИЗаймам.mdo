@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81f3daa5-59bf-41f8-b729-7ba611e83f49">
+  <name>ЧтениеНачисленийПоКредитамИЗаймам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение начислений по кредитам и займам</value>
+  </synonym>
+</mdclass:Role>

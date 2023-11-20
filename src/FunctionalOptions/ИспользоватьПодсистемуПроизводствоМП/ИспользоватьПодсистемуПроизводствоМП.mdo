@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="641b6edc-7f83-44c1-8e74-76c41c15be8b">
+  <name>ИспользоватьПодсистемуПроизводствоМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему производство МП</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуПроизводствоМП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СпецификацииМП</content>
+  <content>Document.ПроизводствоМП</content>
+</mdclass:FunctionalOption>

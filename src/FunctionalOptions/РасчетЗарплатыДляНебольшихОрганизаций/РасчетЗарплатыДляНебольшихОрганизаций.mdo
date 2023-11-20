@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4374694-0fc0-4b0e-9666-a02d0b51a7d3">
+  <name>РасчетЗарплатыДляНебольшихОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты для небольших организаций</value>
+  </synonym>
+  <location>Constant.РасчетЗарплатыДляНебольшихОрганизаций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.РезервыПоОплатеТруда.TabularSection.Показатели</content>
+  <content>CommonCommand.ИсполнительныеЛисты</content>
+  <content>CommonCommand.БольничныеЛисты</content>
+  <content>CommonCommand.ОтпускаБезСохраненияОплаты</content>
+  <content>CommonCommand.Отпуска</content>
+  <content>Document.РезервыПоОплатеТруда.TabularSection.Начисления</content>
+  <content>Document.БольничныйЛист</content>
+  <content>Document.ОтпускБезСохраненияОплаты</content>
+  <content>Catalog.БольничныйЛистПрисоединенныеФайлы</content>
+  <content>Document.Отпуск</content>
+  <content>DocumentJournal.НачислениеЗарплаты</content>
+  <content>Catalog.ОтпускПрисоединенныеФайлы</content>
+  <content>Catalog.ОтпускБезСохраненияОплатыПрисоединенныеФайлы</content>
+  <content>InformationRegister.НастройкиРасчетаЗарплаты.Resource.ИспользоватьНачисленияПоДоговорам</content>
+  <content>InformationRegister.НастройкиКадровогоУчета.Resource.ИспользоватьРаботуНаНеполнуюСтавку</content>
+  <content>Document.РезервыПоОплатеТруда.TabularSection.Взносы</content>
+  <content>Catalog.НастройкиРасчетаРезервовПоОплатеТруда.Attribute.НормативОтчисленийВРезерв</content>
+  <content>Catalog.НастройкиРасчетаРезервовПоОплатеТруда.Attribute.ПредельнаяВеличинаОтчисленийВРезервНУ</content>
+  <content>Document.РезервыПоОплатеТруда.TabularSection.РасчетРезервов</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdbff022-83db-416f-b017-37eb7e260d73">
+  <producedTypes>
+    <containerType typeId="92e8ff20-b4cd-4f08-9ba4-11eb77f23474" valueTypeId="d4ffacc2-22ac-4862-9621-db09f4abe4e5"/>
+  </producedTypes>
+  <name>ВидОплатыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид оплаты РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыБезналичныхОплат</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

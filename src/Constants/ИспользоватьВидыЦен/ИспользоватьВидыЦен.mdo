@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b78a7f6a-af64-4da9-b810-60c4467b994c">
+  <producedTypes>
+    <managerType typeId="7d5f81cc-15c6-47ef-ae90-07cc6be2e583" valueTypeId="a25a12a6-5359-4688-ba4e-1a41c8c6eb06"/>
+    <valueManagerType typeId="bdb35e51-6e54-4fe4-b76d-12b5d5d3f9a0" valueTypeId="cc3d8390-1474-441a-9d9d-aa298f41564f"/>
+    <valueKeyType typeId="3d8c46bc-8f9b-4642-85cb-d6b169d53a6e" valueTypeId="6da7222c-2a6d-4a03-8b21-8dbfb726ec3e"/>
+  </producedTypes>
+  <name>ИспользоватьВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды цен</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c272bd1-4b2f-46cd-9105-2ca4a576a05b">
+  <producedTypes>
+    <refType typeId="cd0c5dc9-f017-4204-8908-9aacec85ab77" valueTypeId="aa249986-937f-4f45-ba34-ef496de56c27"/>
+    <listType typeId="a0bea1e4-ac4c-4dd5-8139-fec349c7a853" valueTypeId="9f110e35-fd63-4587-9299-b98b85fa738f"/>
+    <managerType typeId="6cbc0d6a-6d8c-4d53-b2eb-50cde3789229" valueTypeId="00b7fac8-aec2-4514-898b-684b309f39df"/>
+  </producedTypes>
+  <name>ВидыОперацийАктОРасхождениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций акт о расхождениях</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a184c75c-7686-4fcf-8e3a-1c489dc28e93">
+    <name>РасхожденияПослеПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расхождения после приемки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84c540b9-d116-47c5-b1d3-54c1764c069d">
+    <name>РасхожденияПриПриемке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расхождения при приемке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

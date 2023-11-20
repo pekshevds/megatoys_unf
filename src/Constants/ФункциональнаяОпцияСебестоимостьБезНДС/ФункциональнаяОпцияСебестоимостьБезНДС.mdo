@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed4c962e-d4a2-4ab0-a59f-be5a275e9960">
+  <producedTypes>
+    <managerType typeId="7bd18aae-5f94-49c6-aa91-e1f1093ead86" valueTypeId="4a69f5ce-4ffc-40a2-80e1-e1eafbbe76d4"/>
+    <valueManagerType typeId="9e481f6d-d1cd-48c2-8d14-ba43ef9518c1" valueTypeId="cad7bb39-39cd-4d75-8d8a-3e93ee39e6a6"/>
+    <valueKeyType typeId="eb27ca9c-49f3-4f32-b4aa-e4c89523aeaa" valueTypeId="681c6c79-941b-4b7d-8ae6-4cdc94fef8b1"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияСебестоимостьБезНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция себестоимость без НДС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac1b69bc-bca7-4d04-bd26-e908f66e2501">
+  <producedTypes>
+    <containerType typeId="83283d74-5a0d-4a77-bfa7-12c3e85fc3f1" valueTypeId="b14aeda7-33f1-4f0c-8092-b340726db9d7"/>
+  </producedTypes>
+  <name>ДокументСПечатнымиФормамиОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ с печатными формами объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.СправкаНДФЛ</types>
+    <types>DocumentObject.ДоговорРаботыУслуги</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплаты</types>
+    <types>DocumentObject.ИсходящаяСправкаОЗаработкеДляРасчетаПособий</types>
+    <types>DocumentObject.СогласиеНаПрисоединениеККЭДО</types>
+    <types>DocumentObject.БольничныйЛист</types>
+    <types>DocumentObject.Отпуск</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+    <types>DocumentObject.ДокументКадровогоЭДО</types>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.СведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖ</types>
+    <types>DocumentObject.СведенияОЗастрахованныхЛицахСЗВ_М</types>
+    <types>DocumentObject.СведенияОТрудовойДеятельностиРаботникаСТД_Р</types>
+    <types>DocumentObject.ЗаявленияОПредоставленииСведенийОТрудовойДеятельности</types>
+  </type>
+</mdclass:DefinedType>

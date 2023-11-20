@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88b3cd1a-a522-4fe4-917e-c97bad63e98f">
+  <name>ИспользоватьРаботуНаНеполнуюСтавку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется работа по неполной ставке</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКадровогоУчета.Resource.ИспользоватьРаботуНаНеполнуюСтавку</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.КадровыйПеревод.Attribute.КоличествоСтавок</content>
+  <content>Document.ПриемНаРаботу.Attribute.КоличествоСтавок</content>
+</mdclass:FunctionalOption>

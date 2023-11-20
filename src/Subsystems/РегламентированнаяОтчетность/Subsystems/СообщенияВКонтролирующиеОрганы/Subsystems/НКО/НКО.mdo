@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb11b1d1-dfa6-457a-92aa-708838639a91">
+  <name>НКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Некоммерческие организации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность.Subsystem.СообщенияВКонтролирующиеОрганы</parentSubsystem>
+</mdclass:Subsystem>

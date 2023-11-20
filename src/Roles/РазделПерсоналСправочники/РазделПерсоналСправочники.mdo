@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f26a7747-e7fe-4b59-8f15-5635d38f143a">
+  <name>РазделПерсоналСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел персонал справочники</value>
+  </synonym>
+</mdclass:Role>

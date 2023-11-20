@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a23e5c-1d82-490c-94e8-7ee1985866f7">
+  <name>СинхронизацияDAV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация DAV</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

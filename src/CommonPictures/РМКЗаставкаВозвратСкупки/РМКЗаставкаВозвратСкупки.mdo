@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a423b72d-a895-46b2-86b4-c53e5b4627b8">
+  <name>РМКЗаставкаВозвратСкупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК заставка возврат скупки</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

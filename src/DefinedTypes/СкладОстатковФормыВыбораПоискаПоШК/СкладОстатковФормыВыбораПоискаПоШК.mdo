@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6572e25b-7f19-48f1-bda5-6ed8c29c8b0d">
+  <producedTypes>
+    <containerType typeId="f8ec32d0-0a02-4826-8681-778cbaa0bec1" valueTypeId="bc562301-3556-459e-a1a5-7d8687cceb88"/>
+  </producedTypes>
+  <name>СкладОстатковФормыВыбораПоискаПоШК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад остатков формы выбора поиска по ШК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтруктурныеЕдиницы</types>
+  </type>
+</mdclass:DefinedType>

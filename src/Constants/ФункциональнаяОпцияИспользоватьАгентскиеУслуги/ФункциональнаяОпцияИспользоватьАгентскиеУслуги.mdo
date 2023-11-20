@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e81c80-16ba-4edd-b7ef-f43b77b8dfa9">
+  <producedTypes>
+    <managerType typeId="5027e465-a1ce-4b1b-82cd-30ff5b765bfa" valueTypeId="353acaae-dbe2-4786-84f5-67f7fd974f53"/>
+    <valueManagerType typeId="aa89938b-cbb7-4d36-8fe1-3e97f55f225d" valueTypeId="8994a9b7-bb43-4140-a117-5db552b75cc1"/>
+    <valueKeyType typeId="c42c0b9c-9aae-4457-b8e0-35124a00ae2a" valueTypeId="4a7b2c88-050f-4bda-8cf8-b10306088415"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьАгентскиеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать агентские услуги</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

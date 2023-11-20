@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e9cb94a-6ac2-419c-ab2a-05a29a873741">
+  <producedTypes>
+    <containerType typeId="c08b5995-2cdc-4ddd-b0bc-9400d91a71ed" valueTypeId="5685d005-5b72-4154-bc8e-fef472258436"/>
+  </producedTypes>
+  <name>УпаковкаНоменклатурыШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковка номенклатуры штрихкода</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+  </type>
+</mdclass:DefinedType>

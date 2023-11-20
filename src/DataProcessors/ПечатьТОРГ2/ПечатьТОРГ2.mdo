@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64fb6c73-af44-4bbe-ad97-a53cb4a09681">
+  <producedTypes>
+    <objectType typeId="b146caab-5206-4178-8727-8a12df2c32b6" valueTypeId="6112ec47-77dd-439a-843a-41cfdf75e012"/>
+    <managerType typeId="b5ed63dc-03de-404c-80ca-1b90efd56ab7" valueTypeId="faa0bc7c-de3a-4423-8d4b-e7c489dff879"/>
+  </producedTypes>
+  <name>ПечатьТОРГ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ТОРГ2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="f21739ca-0292-46dc-aa83-9348491c49fc">
+    <name>ПФ_MXL_ТОРГ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОРГ-2</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

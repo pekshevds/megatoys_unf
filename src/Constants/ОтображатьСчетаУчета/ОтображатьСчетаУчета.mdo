@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee2ab1a-2b59-41de-bd48-aaf414b05eb4">
+  <producedTypes>
+    <managerType typeId="259b5a26-08d6-49f0-b845-ebdb8ba08861" valueTypeId="f49143c5-33fc-4697-b395-362113087bd2"/>
+    <valueManagerType typeId="61387537-21fb-48b0-94f1-2a976a89246e" valueTypeId="04fc9544-e9c8-4106-ac7c-4fe68d89aee6"/>
+    <valueKeyType typeId="db0eaaed-4732-4717-860a-31fc4c05b5b6" valueTypeId="b3ba2b84-7d5e-438b-8bc5-ee7d2872e0ae"/>
+  </producedTypes>
+  <name>ОтображатьСчетаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать счета учета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2d28705-0154-4b49-8495-8ee6d2a38640">
+  <name>КадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет</value>
+  </synonym>
+  <content>Document.КадровыйПеревод</content>
+  <content>Document.ПриемНаРаботу</content>
+  <content>Document.Увольнение</content>
+  <content>Catalog.КадровыйПереводПрисоединенныеФайлы</content>
+  <content>Catalog.ПриемНаРаботуПрисоединенныеФайлы</content>
+  <content>Catalog.УвольнениеПрисоединенныеФайлы</content>
+  <content>CommonModule.КадровыйУчетДляНебольшихОрганизаций</content>
+  <content>DocumentJournal.КадровыеДокументы</content>
+  <content>FunctionalOption.ИспользоватьКадровыйДокументооборотДляНебольшихОрганизаций</content>
+  <content>FunctionalOption.ИспользоватьРаботуНаНеполнуюСтавку</content>
+  <content>EventSubscription.ПолученияФормыТекущихДанныхСотрудников</content>
+  <content>EventSubscription.УточнитьПериодКадровойИсторииСотрудников</content>
+  <content>EventSubscription.ПроверитьДанныеСотрудников</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

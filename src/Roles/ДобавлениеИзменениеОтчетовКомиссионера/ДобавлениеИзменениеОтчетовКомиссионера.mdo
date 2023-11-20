@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="963102c9-a113-4e82-9dd6-5312459b3afa">
+  <name>ДобавлениеИзменениеОтчетовКомиссионера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение отчетов комиссионера</value>
+  </synonym>
+</mdclass:Role>

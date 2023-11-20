@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48e8e70b-3684-4f58-a157-0757cb4f5b7f">
+  <producedTypes>
+    <managerType typeId="b0434633-59e2-4e09-a64f-3c34dc0b0784" valueTypeId="4de79303-2cc8-4126-a381-421512687b3c"/>
+    <valueManagerType typeId="797f11ba-041b-40a9-b83e-d53e1ae1fd07" valueTypeId="f9020c5c-2c90-44ed-8bf0-09c804c405d0"/>
+    <valueKeyType typeId="1d2a19bf-d9d8-4160-a3bf-b81b993a3add" valueTypeId="366a80b3-ae78-459a-9048-f6c6959bdeb7"/>
+  </producedTypes>
+  <name>ИспользоватьПодсистемуЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Закупки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

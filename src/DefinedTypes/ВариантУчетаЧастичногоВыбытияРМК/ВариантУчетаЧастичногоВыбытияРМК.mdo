@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f5c1c0c-8256-44dd-86e6-6af6a7f71bb9">
+  <producedTypes>
+    <containerType typeId="00c71d75-5f66-486d-ade2-8f13b7f94f6f" valueTypeId="e4eecf7a-7c13-4504-987c-2981c93d3dd2"/>
+  </producedTypes>
+  <name>ВариантУчетаЧастичногоВыбытияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант учета частичного выбытия РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыУчетаЧастичногоВыбытияИСМП</types>
+  </type>
+</mdclass:DefinedType>

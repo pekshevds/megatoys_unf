@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05a19f2b-f057-4a99-bbb7-54d5f77fe230">
+  <name>ЧтениеПравилРасчетаПремийПоЛичнымПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение правил расчета премий по личным продажам</value>
+  </synonym>
+</mdclass:Role>

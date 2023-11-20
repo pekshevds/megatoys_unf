@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ad01a7-0fb5-4024-aa5e-a92170032df9">
+  <name>ДинамическиеСпискиУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамические списки УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

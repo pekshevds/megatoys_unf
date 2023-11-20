@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e469fe80-be65-4463-b51e-d008a991dc44">
+  <name>НапоминанияВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминания внедрение</value>
+  </synonym>
+  <content>CommonModule.НапоминанияПользователяУНФ</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

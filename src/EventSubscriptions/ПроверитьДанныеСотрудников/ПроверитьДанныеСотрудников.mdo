@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229a3764-3fa4-4bd9-b948-2bc8672b9de4">
+  <name>ПроверитьДанныеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить данные сотрудников</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.КадроваяИсторияСотрудниковИнтервальный</types>
+    <types>InformationRegisterRecordSet.ТекущиеКадровыеДанныеСотрудников</types>
+    <types>InformationRegisterRecordSet.ТекущаяТарифнаяСтавкаСотрудников</types>
+    <types>InformationRegisterRecordSet.ВидыЗанятостиСотрудниковИнтервальный</types>
+    <types>InformationRegisterRecordSet.ОсновныеСотрудникиФизическихЛиц</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КадровыйУчетДляНебольшихОрганизаций.ПроверитьДанныеСотрудников</handler>
+</mdclass:EventSubscription>

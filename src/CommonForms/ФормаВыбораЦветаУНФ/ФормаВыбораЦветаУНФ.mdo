@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7870d969-33f2-49a6-a6bb-323e93921f51">
+  <name>ФормаВыбораЦветаУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор цвета</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

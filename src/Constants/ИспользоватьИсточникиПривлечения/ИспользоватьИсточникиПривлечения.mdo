@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21857930-6cd0-4d18-a9af-40a10b17a958">
+  <producedTypes>
+    <managerType typeId="90f774ec-7f8f-41c9-8f56-b7f81733fefa" valueTypeId="25484fe5-0b8c-44d7-aeb0-5b1806cbbc42"/>
+    <valueManagerType typeId="f05f7783-8239-4a33-83ae-d7077bbd4737" valueTypeId="58272373-3968-4d48-b4fe-35031e1bc6c5"/>
+    <valueKeyType typeId="791c3d23-ae3c-412d-8d51-246857df29e6" valueTypeId="885ca219-c14f-4752-b785-e68d5f218c37"/>
+  </producedTypes>
+  <name>ИспользоватьИсточникиПривлечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать источники привлечения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

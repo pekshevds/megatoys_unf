@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93ed545f-f405-4157-b527-f112c5ca4160">
+  <name>РМКФизическоеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКФизическое лицо</value>
+  </synonym>
+</mdclass:CommonPicture>

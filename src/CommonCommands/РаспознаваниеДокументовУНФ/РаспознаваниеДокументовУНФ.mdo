@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db14dc76-b577-4d5b-82f2-1fc19987d803">
+  <name>РаспознаваниеДокументовУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить документы из сканов (фото)</value>
+  </synonym>
+  <group>CommandGroup.Сервис</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Загрузить документы из скана или фото</value>
+  </toolTip>
+</mdclass:CommonCommand>

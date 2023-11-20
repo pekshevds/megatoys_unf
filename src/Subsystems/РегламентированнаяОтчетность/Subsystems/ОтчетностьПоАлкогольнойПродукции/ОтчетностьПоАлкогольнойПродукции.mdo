@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72f77a74-415b-429d-ad8a-14503845ea00">
+  <name>ОтчетностьПоАлкогольнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчетность по алкогольной продукции</value>
+  </synonym>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКО</content>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКОВызовСервера</content>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКОКлиент</content>
+  <content>CommonForm.АЛКОВводРеквизитовОП</content>
+  <content>CommonForm.АЛКОФормаПредупрежденияСФлажком</content>
+  <content>CommonForm.АЛКОДлительнаяОперация</content>
+  <content>CommonForm.АЛКОФормаВводаПарыСвязанныхЗначений</content>
+  <content>Report.РегламентированныйОтчетАлкоПриложение12</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоЖурнал</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоЛицензии</content>
+  <content>Enum.ВидыДлительныхОперацийРегламентированныхОтчетов</content>
+  <content>CommonForm.АЛКОФормаСообщенийОбОшибках</content>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКОКлиентСервер</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил12Раздел1</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил12Раздел2</content>
+  <content>CommonPicture.ПустоИКрестик</content>
+  <content>StyleItem.ПоясняющийПроблемуТекстБРО</content>
+  <content>DefinedType.КонтрагентБРО</content>
+  <content>Report.РегламентированныйОтчетАлкоЗаявлениеОКорректировке</content>
+  <content>CommonPicture.Внимание48</content>
+  <content>CommonTemplate.ШаблоныСообщенийОбОшибкахАЛКО</content>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКОПовтИсп</content>
+  <content>CommonModule.РегламентированнаяОтчетностьАЛКОПовтИспНаВызов</content>
+  <content>Report.РегламентированныйОтчетАлкоПриложение26</content>
+  <content>Report.РегламентированныйОтчетАлкоПриложение25</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил25Раздел1Обороты</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил25Раздел2Поступления</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил25Раздел3Возвраты</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил26Раздел1Обороты</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил26Раздел2Поступления</content>
+  <content>InformationRegister.СведенияРеглОтчетАлкоПрил26Раздел3Возвраты</content>
+  <content>CommonPicture.ЭкспортExcel</content>
+  <content>CommonPicture.ЭкспортOpenOfficeCalc</content>
+  <content>CommonPicture.ЭкспортPDF</content>
+  <content>CommonPicture.ЭкспортHTML</content>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7bc9d42-86fb-47a7-bb57-fcb7fa46cb08">
+  <name>ДобавлениеИзменениеВидовЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение видов цен</value>
+  </synonym>
+</mdclass:Role>

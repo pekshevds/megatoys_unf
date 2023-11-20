@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b563aa7-9d1b-499e-80ef-f023bac7ddd0">
+  <producedTypes>
+    <managerType typeId="8cb67982-6e68-47f1-986a-994a9ee82afc" valueTypeId="a19db8e4-3cf3-4053-a3e3-c1f7ac72f00f"/>
+    <valueManagerType typeId="28999be2-7e6c-449e-a17d-b85050470e26" valueTypeId="ff507f44-7d3f-40c6-925e-3a128802b6e6"/>
+    <valueKeyType typeId="71eed294-2edd-40e5-9ce3-e1217b6a2062" valueTypeId="d02a497e-523b-421d-b097-ab1885a41428"/>
+  </producedTypes>
+  <name>ИспользоватьСегментыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сегменты номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

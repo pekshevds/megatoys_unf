@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e35a6d9d-796c-4c2b-a7ff-ee8756fcec07">
+  <producedTypes>
+    <objectType typeId="03f2fbef-ff1c-4739-82ea-b8101c9101c3" valueTypeId="7b940089-e377-42e6-82a6-b9677dfc93f0"/>
+    <managerType typeId="a6112407-b0be-4399-8534-0ca30905efc3" valueTypeId="56fb9ed6-3b2b-43c8-ad3d-59172c1960a3"/>
+  </producedTypes>
+  <name>РабочееМестоКассира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место кассира</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКассира.Form.ФормаРМК</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="930def8b-3056-4f61-8346-28db6bd4e8fc">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВидОперацииРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид операции документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="c5cdd95a-60b4-4471-b68e-52a386f89293">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация предприятия, от имени которой оформляется документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Enterprise company on whose behalf the document is issued.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4d96ae9d-27de-4220-99da-db918b021665">
+    <name>ТорговыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТорговыйОбъектРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b347ecba-b128-4d7d-a103-42776462fe50">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cash register</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КассаККМРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Касса ККМ, связанная с фискальным регистратором.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Cash register associated with the fiscal register.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d75b73df-cfe8-479a-916d-7ccebaa83563">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Число15_2РМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Итоговая сумма документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c7443eb7-4ae4-4f78-aab9-077ca1bcccc2">
+    <name>НалогообложениеНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налогообложение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Taxation</value>
+    </synonym>
+    <type>
+      <types>DefinedType.НалогообложениеНДСРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип налогообложения продажи товаров и услуг налогом на добавленную стоимость</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>VAT taxation type of the goods and services sale</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5e83754a-e877-40b1-bea3-9686b749b8cd">
+    <name>ЦенаВключаетНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена включает НДС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price includes VAT</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак включения НДС в цену и сумму документа.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows whether VAT is included in the price and document amount.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6fdd8ad3-cf7f-4370-9343-2f6654535386">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cashier</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КассирРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кассир. Пользователь, осуществляющий продажу.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Cashier. User effecting the sale.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f3509319-9971-4d54-9b8c-b2628a163114">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтрагентРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиент, от которого поступает оплата, или поставщик, от которого возвращается оплата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Покупатель</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="41d9e42e-e899-40b3-8a91-c2baffa161b9">
+    <name>ДисконтнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДисконтнаяКартаРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дисконтная карта покупателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2c762fa3-cba6-4c90-b183-551b6c721b4b">
+    <name>ПользовательБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь БД</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользовательРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ece7d17-c153-42fa-837b-4ab105dfab0e">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ЗаказПокупателяРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3d2a54a5-8e9c-4c2e-b4ed-1456355d39ec">
+    <name>ДокументРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ расчета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументРасчетаРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f1f52521-c97d-4fd3-b23d-2633418a45a1">
+    <name>ОперацияСДенежнымиСредствами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция с денежными средствами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="461223c2-d8aa-49d2-8f57-81bc9d3f9702">
+    <name>Оплачивается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачивается</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="b562a7ae-f519-4054-abe8-34a536e8f326">
+    <producedTypes>
+      <objectType typeId="1f07bc24-1491-426a-8b6e-d996e423216f" valueTypeId="3e3e2f7a-95fd-441f-ac37-126564fd2387"/>
+      <rowType typeId="43ac2535-e51a-445e-b940-7efc24f1953b" valueTypeId="580fae17-a673-41b0-8e6e-78803816908b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ddf8c430-1704-4676-a998-433287aeb6c6">
+      <name>ИдентификаторСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d4cf5747-708d-4d99-974f-c5d6d106f59d">
+      <name>КодМаркировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код маркировки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a07b7172-5cba-4ea9-9d2f-75eff59d93f0">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_3РМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f49b0e0b-02dc-4f8a-92ef-c80af087cfef">
+      <name>КоличествоУпаковок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество упаковок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Packaging quantity</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_3РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Необходимо указать количество упаковок номенклатуры. Если для выбранной номенклатуры не используются упаковки, то следует указать количество единиц номенклатуры.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Specify the number of product packagings. If packaging is not used for the selected products, specify the number of product units.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fb52c3c2-3cf0-4e7f-ae10-8bc76f45c1df">
+      <name>НеобходимостьВводаКодаМаркировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Необходимость ввода кода маркировки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="762aa70b-7d07-421d-9f38-05f5f5ff187f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НоменклатураРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="115632b1-cb0d-409e-8ea4-47953c2618b2">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ОрганизацияРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ef0b9c19-9e23-4737-967b-286ff1b29949">
+      <name>ПроцентАвтоматическойСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>% Авт.</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число5_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Процент автоматической скидки или наценки для строки чека.</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="db16c3dd-cf51-4a61-801a-7ec71e365fd4">
+      <name>ПроцентСкидкиНаценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>% Скидки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число5_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Процент скидки (наценки)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e7a2f386-712c-4890-add4-b756cd101394">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <type>
+        <types>DefinedType.СерияРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4239ab3a-2ffb-4b01-b9fd-dad29e8cf355">
+      <name>СистемаНалогообложения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Система налогообложения</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипыСистемНалогообложенияККТРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="55e85526-8061-4e79-8af4-6a4b0bb67d6a">
+      <name>СтавкаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ставка НДС</value>
+      </synonym>
+      <type>
+        <types>DefinedType.СтавкаНДСРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5293a879-b20f-4978-9734-2f9f9dce736f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НеотрицательноеЧисло15_2_РМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="89689aac-c9f3-4354-b39b-c56ca488c235">
+      <name>СуммаАвтоматическойСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма авт.</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма всех автоматических скидок для строки чека, рассчитанная в соответствии с правилами взаимного влияния.</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="76de7449-9f98-4677-a948-e11d10f32c9f">
+      <name>СуммаБезСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма без скидки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НеотрицательноеЧисло15_2_РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма по номенклатуре</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1bbf0e4b-3fca-4438-b7be-4b8876c1cbd9">
+      <name>СуммаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НеотрицательноеЧисло15_2_РМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1d1be7d4-ff56-4698-8322-1e18f8d71823">
+      <name>СуммаСкидкиНаценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>(сумма)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НеотрицательноеЧисло15_2_РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма ручной скидки (наценки).</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="499b8316-5b23-4930-b670-0fef173154e5">
+      <name>СуммаСкидкиОплатыБонусом</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма скидки оплаты бонусом</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма скидки, распределенной при оплате чека бонусами</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="55587159-2b84-44d3-959f-48523fa8f184">
+      <name>ТорговыйОбъект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Торговый объект</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТорговыйОбъектРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cce3bd81-fb2c-44aa-92b9-0e59df095d01">
+      <name>Упаковка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.УпаковкаРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d381d613-a331-4de5-ba19-fed04ac61620">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ХарактеристикаРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="63aea581-e151-460e-bc53-62e5e79636b0">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_2РМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b39cbd8f-a27f-411e-a62b-f9678189b59d">
+      <name>Штрихкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>В реквизите кешируется отсканированный штрихкод</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6bc47c44-1872-442e-9e84-bf4913d63625">
+      <name>НеобходимостьВводаСерии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Необходимость ввода серии</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="889b2f63-77db-4bd7-bc21-f399783b0c23">
+      <name>Продавец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продавец</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПродавецРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="44eb1b2d-53f4-435b-b109-9fb60968851a">
+      <name>Партия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Партия</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПартияРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="69fcbd01-2ef5-4da2-b754-a30561b1a160">
+      <name>ЧастичноеВыбытиеКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>18</precision>
+          <scale>8</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3febe3f8-1ee6-40e8-b411-96bff23282c4">
+      <name>ЧастичноеВыбытиеВариантУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие вариант учета</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ВариантУчетаЧастичногоВыбытияРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a03d4d99-38b4-4ba5-a8d0-060eb5caa41e">
+      <name>ЧастичноеВыбытиеНоменклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие номенклатура</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НоменклатураРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b6497c4c-73b9-4634-94f0-0fa1d2176cc8">
+      <name>ЧастичноеВыбытиеХарактеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Частичное выбытие характеристика</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ХарактеристикаРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="887e8938-2075-43ff-afd4-d3dca1738743">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ЯчейкаРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="361d98f4-5bc8-46d8-8d63-0ab738100619">
+      <name>Подарок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подарок</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="382d84d8-9dba-47f7-beaa-bb944c413e87">
+      <name>ВыводитьПодарокВЧек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выводить подарок в чек</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="93aaf774-5774-4b0b-a6ed-98678ee4fdee">
+      <name>ВладелецПодарка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Владелец подарка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7484729c-1239-4416-a681-2374a4026a2a">
+    <producedTypes>
+      <objectType typeId="450ddd64-3ae0-42a5-8a08-312203f29e6b" valueTypeId="2e762146-7bcc-48bb-9b13-22f63b21c2d6"/>
+      <rowType typeId="284f575e-aee1-4f06-abb3-1d494937c2ff" valueTypeId="2707a018-2ace-453e-82e8-04a7753026e4"/>
+    </producedTypes>
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="30fdf742-dd63-413e-9972-28dad91de9ec">
+      <name>ВидОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид оплаты</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ВидОплатыРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c1066231-ab8d-4c8f-b92b-8359433f4ee2">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма платежа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="804f9bf4-9960-40d3-a0ea-3a09446bb399">
+      <name>ЭквайринговыйТерминал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эквайринговый терминал</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ЭквайринговыйТерминалРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Терминал регистрации оплат по платежным картам</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fbca4e73-6e85-473f-9b63-7a01feb41738">
+      <name>НомерПлатежнойКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер платежной карты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>24</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер платежной карты, по которой произведена операция</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="96b119a0-a7f7-4ae4-ab02-70bc98b129e0">
+      <name>НомерЧекаЭТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер чека ЭТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер чека платежного терминала</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="12883c43-2245-4a0b-8933-dfcb7bb1658c">
+      <name>СсылочныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылочный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер транзакции, полученный из банка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b6dd9b47-0979-4f78-b41c-5f215134bae9">
+      <name>ПроцентКомиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент торговой уступки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число5_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Процент комиссии банка-эквайера</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:StringValue">
+        <value>100</value>
+      </maxValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20dc2095-2fa5-40d2-a74b-58146ebafd77">
+      <name>СуммаКомиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма комиссии</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Число15_2РМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма комиссии банка-эквайера</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="eb9a416e-a113-402e-ba6e-d4cfe39facec">
+      <name>ПодарочныйСертификат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подарочный сертификат</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НоменклатураРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue"/>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2d7d6e9f-2c6d-4fd8-8030-e279b9e3906e">
+      <name>НомерСертификата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер сертификата</value>
+      </synonym>
+      <type>
+        <types>DefinedType.НомерСертификатаРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6d098dc5-536e-4039-876c-7b4a588122e6">
+      <name>ИдентификаторПлатежнойСистемы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор платежной системы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="62f63720-ad73-4c39-9dd6-aa6033f32b0c">
+    <name>ФормаРМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма РМК</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b8eaad3-a64f-4113-ad95-618ea0ba7a8d">
+    <name>ФормаВыбораЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора чека</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1bf9aa71-9202-4818-a108-0b03c13297b5">
+    <name>ФормаТарированияЭлектронныхВесов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма тарирования электронных весов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="010fa01a-012d-4e9a-a181-06c7bde7499a">
+    <name>ФормаВыбораПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора продавца</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48fb2989-d0a0-4757-b8cd-37466021e581">
+    <name>ФормаУстановкиКодаДоступаКассира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма установки кода доступа кассира</value>
+    </synonym>
+    <comment>Служит для ввода кода доступа кассира</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4a7f2edb-0a23-4b94-a4b8-705edd00b627">
+    <name>ФормаВводаДанныхДляЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода данных для заявления</value>
+    </synonym>
+    <comment>Ввод персональных данных при подготовке заявления на возврат</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6dfe98b-6034-490c-acbe-1443e3422a34">
+    <name>ФормаВыбораСкладЯчейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора склад ячейка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52a445f1-29d6-4598-8933-9f0065806daf">
+    <name>ФормаВыбораСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора скидки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e02c59b9-0b06-43e3-8a69-9444c50a9f54">
+    <name>ФормаПечатногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма печатного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

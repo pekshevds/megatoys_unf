@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9600d5c0-8fa6-4933-8a6e-b5b43ec1d973">
+  <name>РазделЗакупкиВозвраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел закупки возвраты</value>
+  </synonym>
+</mdclass:Role>

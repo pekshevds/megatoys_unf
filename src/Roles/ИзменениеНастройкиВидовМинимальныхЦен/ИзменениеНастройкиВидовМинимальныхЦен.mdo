@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a0b398a-c6d5-4666-af8f-ad5d01530381">
+  <name>ИзменениеНастройкиВидовМинимальныхЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение настройки видов минимальных цен</value>
+  </synonym>
+</mdclass:Role>

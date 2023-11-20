@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a3f8f7-e190-43e0-98c2-6e77b7b8a6ac">
+  <producedTypes>
+    <containerType typeId="d44d4cd0-2cec-41ba-ad2e-b52216378665" valueTypeId="d723c373-cb89-4faf-9b25-4bc14ecf7352"/>
+  </producedTypes>
+  <name>СкидкаНаценкаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидка наценка РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.АвтоматическиеСкидки</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e88bf0-c36f-4ee0-8fcf-c36196739d36">
+  <name>ЧтениеЦенНоменклатурыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение цен номенклатуры контрагентов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0c9cb48-f7fd-45db-8f38-f74b5348e79c">
+  <producedTypes>
+    <containerType typeId="6f5292c4-565c-4e59-b615-d20e525dbf93" valueTypeId="6080c3b7-3f23-4b75-8ffe-f910725a283d"/>
+  </producedTypes>
+  <name>КонтактПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контакт письма</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Лиды</types>
+    <types>CatalogRef.КонтактыЛидов</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+  </type>
+</mdclass:DefinedType>

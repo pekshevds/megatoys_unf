@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dce9ff4f-4fce-464e-8d50-f82ae0da723a">
+  <name>ИспользоватьПодсистемуСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Склад</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуСклад</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Склад</content>
+</mdclass:FunctionalOption>

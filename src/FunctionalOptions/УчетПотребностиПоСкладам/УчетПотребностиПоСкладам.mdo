@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b48ff7-0aae-4977-b981-4098e3dafc2d">
+  <name>УчетПотребностиПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет потребности по складам</value>
+  </synonym>
+  <location>Constant.УчетПотребностиПоСкладам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>AccumulationRegister.ЗаказыНаПроизводство.Dimension.Склад</content>
+  <content>AccumulationRegister.ЗаказыПокупателей.Dimension.Склад</content>
+  <content>AccumulationRegister.ЗаказыПоставщикам.Dimension.Склад</content>
+  <content>AccumulationRegister.ГрафикДвиженияЗапасов.Dimension.Склад</content>
+  <content>InformationRegister.УправлениеЗапасами.Dimension.Склад</content>
+  <content>Document.ЗаказНаПроизводство.Attribute.УчетПотребностиПоСкладам</content>
+  <content>Document.ЗаказПокупателя.Attribute.УчетПотребностиПоСкладам</content>
+  <content>Document.ЗаказПоставщику.Attribute.УчетПотребностиПоСкладам</content>
+  <content>AccumulationRegister.ПланыПродаж.Dimension.Склад</content>
+  <content>AccumulationRegister.ПотребностьВЗапасах.Dimension.Склад</content>
+  <content>AccumulationRegister.Продажи.Dimension.Склад</content>
+  <content>Document.ПланПродаж.Attribute.Склад</content>
+</mdclass:FunctionalOption>

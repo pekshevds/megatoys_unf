@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65262a9e-9c88-4234-9a5b-63ba87bf9125">
+  <producedTypes>
+    <objectType typeId="5a3bdfa6-35fd-4128-8bc2-7a021ddc02ae" valueTypeId="5a430ffc-187e-4f8c-8e63-cd5d3ba8ee11"/>
+    <managerType typeId="7f544314-f275-4d37-915f-956738475997" valueTypeId="57cc5e6f-de44-4f5a-98f4-43fd4a06d3cf"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаказаПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отмены заказа поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПричиныОтменыЗаказаПоставщику.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="490eaa2a-e412-482d-ab24-0c28514545f1">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="9ba48e11-91ea-40d9-85b4-f7befe7ca989">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

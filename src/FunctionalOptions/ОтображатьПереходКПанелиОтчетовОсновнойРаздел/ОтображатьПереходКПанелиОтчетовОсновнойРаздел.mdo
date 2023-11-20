@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6b8605-70a4-4baf-9fb6-757f1b92c717">
+  <name>ОтображатьПереходКПанелиОтчетовОсновнойРаздел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать переход к панели отчетов основной раздел</value>
+  </synonym>
+  <location>Constant.ОтображатьПереходКПанелиОтчетовОсновнойРаздел</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ПанельОтчетов_ОсновнойРаздел</content>
+</mdclass:FunctionalOption>

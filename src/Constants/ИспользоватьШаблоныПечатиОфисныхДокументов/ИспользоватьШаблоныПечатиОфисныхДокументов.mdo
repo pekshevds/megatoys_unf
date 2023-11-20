@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e13c002a-18e2-4650-b232-c83042811bf6">
+  <producedTypes>
+    <managerType typeId="ec7e02af-efd6-4ffe-8cfe-9095dbc80d15" valueTypeId="9b44eee3-81cc-46fe-81f2-1f05aed35f92"/>
+    <valueManagerType typeId="4bf00aea-d617-47cc-a58d-6b63f1118ce2" valueTypeId="661439bc-79b3-45f1-a15c-be8671551c74"/>
+    <valueKeyType typeId="ef45d68a-af2a-4baa-a821-9a7b026fb1b4" valueTypeId="bd356707-7166-409e-aab6-be083c42b918"/>
+  </producedTypes>
+  <name>ИспользоватьШаблоныПечатиОфисныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать шаблоны КП и договоров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

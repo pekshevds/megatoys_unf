@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a43c9e6-7e21-4137-989d-ee5275895b20">
+  <producedTypes>
+    <selectionType typeId="2d3e71cb-2d95-4cd8-a639-8a3474de2753" valueTypeId="9866fc25-92df-4f9f-99af-7f57c9a751b2"/>
+    <listType typeId="a4bf1789-6a1f-4292-9bf7-2876f51e89fd" valueTypeId="3b81cc0a-933b-479b-9743-efab97c12af0"/>
+    <managerType typeId="bce4d9b2-4555-478f-9672-a60e5bfb59ba" valueTypeId="01dc6fb1-a73b-44e6-a430-e8866167be07"/>
+  </producedTypes>
+  <name>КомиссионныеСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионные списания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.СписаниеЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ПересортицаЗапасов</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="9df8d85a-c276-4f23-8611-7a4b5254363b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.СписаниеЗапасов.Attribute.Организация</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Организация</references>
+  </columns>
+  <columns uuid="15d11886-a496-4a69-ab7e-60d591216bb8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПересортицаЗапасов.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="fd2b2946-e65a-4505-aa04-4439af3a0857">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.СписаниеЗапасов.Attribute.Комментарий</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="05477d84-e3a9-4731-b2bd-040961ff7e80">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.СписаниеЗапасов.Attribute.Автор</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Автор</references>
+  </columns>
+  <columns uuid="6442e91f-ca66-4642-8cbc-048b8563998a">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.СписаниеЗапасов.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.ПересортицаЗапасов.Attribute.СтруктурнаяЕдиница</references>
+  </columns>
+  <columns uuid="06970f27-1fcb-433a-830a-d9df6735c58f">
+    <name>ЕстьКомиссионныеСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть комиссионные списания</value>
+    </synonym>
+    <references>Document.ПересортицаЗапасов.Attribute.ЕстьКомиссионныеСписания</references>
+    <references>Document.СписаниеЗапасов.Attribute.ЕстьКомиссионныеСписания</references>
+  </columns>
+</mdclass:DocumentJournal>

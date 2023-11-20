@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="963bd8ad-4312-4769-9956-634f488d86b8">
+  <producedTypes>
+    <containerType typeId="abd9b89a-448a-4716-b5c5-a09b5c9cdb0e" valueTypeId="9f8192b2-59da-4ad5-951d-324454a6104b"/>
+  </producedTypes>
+  <name>ВидНоменклатурыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КатегорииНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

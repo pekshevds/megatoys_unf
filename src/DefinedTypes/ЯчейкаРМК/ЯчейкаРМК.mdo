@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="107520c5-e4c4-41c3-baf1-471d07470501">
+  <producedTypes>
+    <containerType typeId="9def48a5-23cb-449a-95f2-fb2110469aea" valueTypeId="4983068e-dc4b-47f3-9c4c-d02213f3b958"/>
+  </producedTypes>
+  <name>ЯчейкаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ячейка РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Ячейки</types>
+  </type>
+</mdclass:DefinedType>

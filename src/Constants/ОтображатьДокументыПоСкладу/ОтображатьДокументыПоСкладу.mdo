@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c636d16-8367-479d-949c-e3dffffb1cab">
+  <producedTypes>
+    <managerType typeId="b4268a9c-6742-4f1f-8ac8-c942b85926cb" valueTypeId="df8e6043-0b32-4716-9c7c-e585611cbd92"/>
+    <valueManagerType typeId="40246252-5684-4ecd-820d-e3542f496749" valueTypeId="b50e822d-9dff-485b-89a8-7c49693f8820"/>
+    <valueKeyType typeId="11efd346-e2c5-4414-93c4-aba9f41d4faa" valueTypeId="4e03e274-a77e-4fc4-aa3c-9dd8df8db135"/>
+  </producedTypes>
+  <name>ОтображатьДокументыПоСкладу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать документы по складу</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

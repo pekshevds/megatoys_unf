@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f50ea0b3-5d55-4d92-89e3-47baf3c38512">
+  <name>РМКПродажиПоДисконтнойКарте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи по дисконтной карте</value>
+  </synonym>
+</mdclass:CommonPicture>

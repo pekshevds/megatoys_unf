@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15ab02b3-9102-45f7-a49a-5a5a089532fb">
+  <producedTypes>
+    <containerType typeId="8812bb37-09de-4768-802b-a01afe3bfccb" valueTypeId="895acff0-8f5b-4856-8af9-ebf588f02aa1"/>
+  </producedTypes>
+  <name>ДокументыОснованияКОтгрузкеСоСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы основания к отгрузке со складов</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СписаниеЗапасов</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.КомплектацияЗапасов</types>
+    <types>DocumentRef.ПеремещениеЗапасов</types>
+    <types>DocumentRef.РасходныйОрдер</types>
+    <types>DocumentRef.ОтчетОПереработке</types>
+    <types>DocumentRef.ПринятиеКУчетуВА</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.КорректировкаПоступления</types>
+    <types>DocumentRef.СборкаЗапасов</types>
+    <types>DocumentRef.ПересортицаЗапасов</types>
+    <types>DocumentRef.ПередачаТоваровМеждуОрганизациями</types>
+  </type>
+</mdclass:DefinedType>

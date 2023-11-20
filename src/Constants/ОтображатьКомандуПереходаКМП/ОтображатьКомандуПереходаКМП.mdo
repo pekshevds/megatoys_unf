@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ccd7a78-72f4-4ce3-9191-3f6fd0ab1e62">
+  <producedTypes>
+    <managerType typeId="4eed3d4c-dd3c-4923-b962-b3d185183f75" valueTypeId="595003dc-c34e-4acc-b9b1-2dc72d384164"/>
+    <valueManagerType typeId="21945d10-2694-49f0-91e9-2689f9f8de57" valueTypeId="5b287140-a5e7-4733-9dc9-919e8d608432"/>
+    <valueKeyType typeId="3b5c488c-6828-47c8-9254-eb45cc947ae5" valueTypeId="ab2989ba-5a10-4f13-89ef-6185c9257518"/>
+  </producedTypes>
+  <name>ОтображатьКомандуПереходаКМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать команду перехода к мобильному приложению</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

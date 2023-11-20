@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b90d4a-3429-4e63-a8e3-87fc62b0fbee">
+  <name>ИспользоватьРегламентноеОбновлениеПодпискиАТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать регламентное обновление подписки АТС</value>
+  </synonym>
+  <location>Constant.ИспользоватьРегламентноеОбновлениеПодпискиАТС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

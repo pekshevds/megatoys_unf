@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="196c89d0-e706-4eb9-ab0a-dce0c2485261">
+  <name>ИспользоватьПодсистемуНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Настройки</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуНастройки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Настройки</content>
+</mdclass:FunctionalOption>

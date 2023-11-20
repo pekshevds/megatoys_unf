@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a93f279d-fe73-4d71-bba8-17e7390f52fa">
+  <producedTypes>
+    <managerType typeId="d4c15a7d-bf3d-4dc6-b79c-b01e628d1998" valueTypeId="aae8b0a2-2733-4d7d-b426-a6df6da35d9b"/>
+    <valueManagerType typeId="3e6ce35c-80da-4d80-80df-493be8df69da" valueTypeId="c1591f93-08ec-4fad-b659-ffb086b0d907"/>
+    <valueKeyType typeId="95ce33e6-1511-434c-ba09-abd8a37982a0" valueTypeId="7b580020-13a1-49ea-b9d9-e6213b980ffb"/>
+  </producedTypes>
+  <name>ИспользоватьЕдиныйШтриховойКодДляККТИЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать единый штриховой код для ККТ и ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

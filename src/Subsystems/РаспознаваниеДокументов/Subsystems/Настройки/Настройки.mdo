@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da7f1f5b-f0e9-4605-b892-221fa9bf4e75">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ОбщиеНастройкиРаспознаваниеДокументов</content>
+  <content>InformationRegister.СоответствиеРаспознанныхСтрокРаспознаваниеДокументов</content>
+  <content>InformationRegister.СостоянияЗаданийРаспознаваниеДокументов</content>
+  <content>DataProcessor.ПанельАдминистрированияБРД</content>
+  <content>Catalog.МобильныеПриложенияРаспознаванияДокументов</content>
+  <parentSubsystem>Subsystem.РаспознаваниеДокументов</parentSubsystem>
+</mdclass:Subsystem>

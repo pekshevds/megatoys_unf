@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80b17b44-0d20-4511-be57-c10297ed4ea4">
+  <name>Сегменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СоставСегментаКонтрагентов</content>
+  <content>InformationRegister.ФормированиеСегментовКонтрагентов</content>
+  <content>InformationRegister.СоставСегментаНоменклатуры</content>
+  <content>InformationRegister.ФормированиеСегментовНоменклатуры</content>
+  <content>CommonModule.РаботаССегментами</content>
+  <content>Enum.СпособыДобавленияВСегмент</content>
+  <content>Report.ПересеченияСегментов</content>
+  <content>CommonPicture.КоллекцияСостоянияОбновленияСегмента</content>
+  <content>FunctionalOption.ИспользоватьСегментыНоменклатуры</content>
+  <content>Constant.ИспользоватьСегментыНоменклатуры</content>
+  <content>ScheduledJob.ФормированиеСоставаСегментовКонтрагентов</content>
+  <content>ScheduledJob.ФормированиеСоставаСегментовНоменклатуры</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.CRMСлужебный</parentSubsystem>
+</mdclass:Subsystem>

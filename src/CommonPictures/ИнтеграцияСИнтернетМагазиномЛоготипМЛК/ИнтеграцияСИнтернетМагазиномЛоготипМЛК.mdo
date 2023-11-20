@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d4a679-089f-4605-aec6-9c593160ed30">
+  <name>ИнтеграцияСИнтернетМагазиномЛоготипМЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с интернет магазином логотип МЛК</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

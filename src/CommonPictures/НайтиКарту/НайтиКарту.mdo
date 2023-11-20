@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f48e4b7-4db9-4103-8ddb-2d604d4cbc00">
+  <name>НайтиКарту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти карту</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

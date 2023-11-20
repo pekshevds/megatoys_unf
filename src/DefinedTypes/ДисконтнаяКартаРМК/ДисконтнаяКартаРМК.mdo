@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715ae77c-827c-4b32-9001-399b60bc76ca">
+  <producedTypes>
+    <containerType typeId="876c0a5f-b265-4304-b365-ea4ddd4f0298" valueTypeId="21c9c47c-91c5-4a30-9e8c-78f1592c559c"/>
+  </producedTypes>
+  <name>ДисконтнаяКартаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисконтная карта РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДисконтныеКарты</types>
+  </type>
+</mdclass:DefinedType>

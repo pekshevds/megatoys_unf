@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36e51d57-245c-4f2c-835e-fc99d3b5e440">
+  <producedTypes>
+    <containerType typeId="a5132252-5ff2-451c-8a24-baa4aa25ad87" valueTypeId="85222ac8-e054-4230-a524-e419f3c609e0"/>
+  </producedTypes>
+  <name>ДниНеделиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ДниНедели</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1f115b7-6371-4236-ac13-d62a799637a0">
+  <name>ИспользоватьУправлениеЗапасами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать управление запасами</value>
+  </synonym>
+  <location>Constant.ИспользоватьУправлениеЗапасами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.УправлениеЗапасами</content>
+</mdclass:FunctionalOption>

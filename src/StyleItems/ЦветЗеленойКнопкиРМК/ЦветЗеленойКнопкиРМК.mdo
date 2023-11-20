@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c24c74-6a5c-41e9-a5f4-680114d254b1">
+  <name>ЦветЗеленойКнопкиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет зеленой кнопки РМК</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>200</red>
+      <green>230</green>
+      <blue>200</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

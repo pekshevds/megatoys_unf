@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82fffc40-3a3d-4fc9-b2ec-f8c492aa38cc">
+  <name>ФормыДокументовДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы документов деньги</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

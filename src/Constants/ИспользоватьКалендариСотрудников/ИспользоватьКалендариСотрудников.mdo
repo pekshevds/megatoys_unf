@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb541e83-25dc-44a6-9702-4088a5511f67">
+  <producedTypes>
+    <managerType typeId="9e072cd0-26e9-4e13-a9a0-b884a8dfb157" valueTypeId="060047e8-ae73-45b7-9b7c-c822741773a7"/>
+    <valueManagerType typeId="8b459c7e-0303-4030-9f10-bc7169176f54" valueTypeId="e6b49693-6079-4332-b4f8-dc3266cda578"/>
+    <valueKeyType typeId="dda1ed7f-3ed5-4a09-9526-7cb21d226409" valueTypeId="9a294133-ded6-4e6a-bc35-70d98ebd910b"/>
+  </producedTypes>
+  <name>ИспользоватьКалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать календари сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

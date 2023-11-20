@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00e8902a-7337-46cd-a93c-c7385421c8e1">
+  <name>ОтображатьСчетаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать счета учета</value>
+  </synonym>
+  <location>Constant.ОтображатьСчетаУчета</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.БанковскиеСчета.Command.СчетаУчета</content>
+  <content>Catalog.ВидыНалогов.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.ВидыНачисленийИУдержаний.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.ВнеоборотныеАктивы.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.Кассы.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.КассыККМ.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.Контрагенты.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.Номенклатура.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.НаправленияДеятельности.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.СтруктурныеЕдиницы.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Catalog.Сотрудники.Command.СчетаУчета</content>
+  <content>Report.Баланс</content>
+  <content>Report.ДоходыИРасходы</content>
+  <content>Report.ДоходыИРасходыКассовымМетодом</content>
+  <content>Report.ДоходыИРасходыПрогноз</content>
+  <content>Report.ДоходыРасходы</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.ФинансовыйРезультат</content>
+  <content>Report.ФинансовыйРезультатПрогноз</content>
+  <content>Report.ЧистыеАктивы</content>
+  <content>Report.Расходы</content>
+  <content>Report.ПрибылиИУбытки</content>
+  <content>ChartOfAccounts.Управленческий</content>
+  <content>Document.ПоступлениеВКассу.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Document.ПлатежноеПоручение.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Document.ПоступлениеНаСчет.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Document.ПрочиеРасходы.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Document.РасходИзКассы.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Document.РасходСоСчета.Attribute.АналитикаПрочихДоходовИРасходов</content>
+  <content>Catalog.КарточкиАнализаБизнеса</content>
+  <content>Catalog.НастройкиРассылкиСостояниеКомпании</content>
+  <content>Catalog.СпособыОплаты.Command.ОткрытьФормуРедактированияСчетов</content>
+  <content>Report.РасчетыПоНалогам</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПрочимиКонтрагентами.Attribute.СчетУчета</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b51e0e2-41eb-4737-ac41-8e59ec5298e3">
+  <name>ПФ_MXL_ФормаОДВ_1_2022</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма ОДВ-1</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5284626a-25af-427f-9d5e-2f1120eb8bf3">
+  <producedTypes>
+    <managerType typeId="93c2291e-6718-47b8-9838-2f495f496ebb" valueTypeId="8c779751-c1fe-46f5-b61d-7b5d9811efee"/>
+    <valueManagerType typeId="6d5acdcd-d11f-4632-a734-f3aac1d80dfd" valueTypeId="268311b2-0f3e-4fed-a9da-946da963257a"/>
+    <valueKeyType typeId="9e1d9409-221a-49c6-8ba3-1452e42109d7" valueTypeId="b2753788-260c-4b34-b308-71a8126cad08"/>
+  </producedTypes>
+  <name>ИспользоватьПроцессыСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать процессы состояний</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

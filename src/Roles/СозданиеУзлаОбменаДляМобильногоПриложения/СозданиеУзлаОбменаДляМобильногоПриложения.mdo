@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b9dd5f-339d-4938-903e-f8c6387eb0a5">
+  <name>СозданиеУзлаОбменаДляМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание узла обмена для мобильного приложения</value>
+  </synonym>
+</mdclass:Role>

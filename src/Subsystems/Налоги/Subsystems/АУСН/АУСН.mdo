@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f4ac49-fe0a-4104-b5cd-49b2882327ac">
+  <name>АУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>АУСН</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.Налоги_АУСН</content>
+  <parentSubsystem>Subsystem.Налоги</parentSubsystem>
+</mdclass:Subsystem>

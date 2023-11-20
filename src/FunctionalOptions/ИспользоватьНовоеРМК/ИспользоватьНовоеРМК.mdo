@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7927733-2c22-4744-a8c5-fdfe17855495">
+  <name>ИспользоватьНовоеРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать новое РМК</value>
+  </synonym>
+  <location>Constant.ИспользоватьНовоеРМК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.НастройкиРабочегоМестаКассира</content>
+  <content>DataProcessor.РабочееМестоКассира</content>
+  <content>CommonCommand.НастройкиРМК</content>
+</mdclass:FunctionalOption>

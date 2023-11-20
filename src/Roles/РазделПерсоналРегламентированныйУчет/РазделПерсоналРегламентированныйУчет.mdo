@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e942e9-12a9-4ade-9f49-8259abb3b524">
+  <name>РазделПерсоналРегламентированныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел персонал регламентированный учет</value>
+  </synonym>
+</mdclass:Role>

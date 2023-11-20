@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1d793ed-76dc-4a54-82d2-e4796dd06be4">
+  <name>ИнтеграцияСМаркетплейсомOzonЗаставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с маркетплейсом ozon заставка</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

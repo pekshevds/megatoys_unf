@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96a9246e-3ce4-421b-9a0c-2658ae7529d8">
+  <name>ДобавлениеИзменениеВзаимозачетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение взаимозачетов</value>
+  </synonym>
+</mdclass:Role>

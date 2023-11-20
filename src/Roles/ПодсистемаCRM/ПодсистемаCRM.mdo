@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acbe035e-e394-4c4c-b7f0-1c5b012b96e7">
+  <name>ПодсистемаCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема CRM</value>
+  </synonym>
+</mdclass:Role>

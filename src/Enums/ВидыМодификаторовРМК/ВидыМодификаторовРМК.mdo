@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97f8e963-303e-45e3-8de2-52854130ab08">
+  <producedTypes>
+    <refType typeId="42e98633-3da4-48b5-9c46-ccad4ada4c96" valueTypeId="53a038a0-16a1-4dc7-820e-20196300f78b"/>
+    <listType typeId="35ec983d-261a-47d9-b511-32898b0b5acd" valueTypeId="bb06acab-f376-4e61-8a72-997c8e458f5a"/>
+    <managerType typeId="fdefd3a0-713c-4cf2-a30d-f4f7e7c6c2e2" valueTypeId="e0547dc1-9d03-4776-bfe1-26b3a75904d5"/>
+  </producedTypes>
+  <name>ВидыМодификаторовРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды модификаторов РМК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="caf79a5a-bc71-488e-95fe-fa80e90903e8">
+    <name>ВключатьВЧек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопутствующий товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5ba2979-1389-46a2-a2ef-cd3adab68bcb">
+    <name>НеВключатьВЧек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включать в чек</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

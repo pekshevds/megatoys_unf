@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ffd9d8d-27e0-484d-9080-e8df7a2dca39">
+  <producedTypes>
+    <objectType typeId="0060d61a-ee99-48fb-bcee-caf0e02eb4c5" valueTypeId="7d300c3c-e9a2-48a7-973c-e9379f9d81e3"/>
+    <managerType typeId="7619b87b-aa17-4cff-91c9-fe12cb6cb3f4" valueTypeId="eccf2bf8-7d44-4d8e-8e09-4144636c0e94"/>
+  </producedTypes>
+  <name>МаркетплейсЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетплейс Яндекс Маркет</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Yandex.Market</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МаркетплейсЯндексМаркет.Form.ФормаНастройки</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="b36a2163-9da7-4082-96b5-34bdb559e7e7">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Export goods directory</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9d155b2-0b37-4199-ac50-b8e4adb0d68e">
+    <name>УдалениеНастройкиИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление настройки интеграции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

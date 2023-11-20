@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f23a8d3-858a-418a-96c6-0aa4b13c8f5a">
+  <name>ПечатьФискальныхЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать фискальных чеков</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

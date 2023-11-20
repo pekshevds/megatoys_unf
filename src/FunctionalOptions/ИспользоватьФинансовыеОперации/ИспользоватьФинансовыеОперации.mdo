@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="282186e9-314b-4ae0-801c-24340feb7a59">
+  <name>ИспользоватьФинансовыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать финансовые операции</value>
+  </synonym>
+  <location>Constant.ИспользоватьФинансовыеОперации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПоказателиБизнеса</content>
+  <content>Report.АнализБизнеса</content>
+  <content>Document.НачислениеНалогов</content>
+  <content>Document.ПрочиеРасходы</content>
+  <content>Document.Операция</content>
+</mdclass:FunctionalOption>

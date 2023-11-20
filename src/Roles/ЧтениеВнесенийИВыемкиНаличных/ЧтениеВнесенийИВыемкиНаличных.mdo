@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dc4983a-94c6-434b-a1f1-87fb204441bb">
+  <name>ЧтениеВнесенийИВыемкиНаличных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение внесений и выемки наличных</value>
+  </synonym>
+</mdclass:Role>

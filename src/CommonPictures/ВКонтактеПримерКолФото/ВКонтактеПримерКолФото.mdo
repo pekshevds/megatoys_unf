@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88ab3bf5-5204-4aac-bad9-e85eb12b4307">
+  <name>ВКонтактеПримерКолФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>В контакте пример кол фото</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

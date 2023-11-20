@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="885d434d-74c3-43c8-9de0-6d1c5695d22d">
+  <producedTypes>
+    <managerType typeId="49c62ff4-427a-41df-b6c8-ef93910a4ba0" valueTypeId="1f702ec2-deb0-4100-adbf-266f7c99ff72"/>
+    <valueManagerType typeId="8da81a8b-16bb-4646-862e-ddb6f30de8f7" valueTypeId="a2295f92-8d09-434e-b162-64ccfe444da4"/>
+    <valueKeyType typeId="464052c2-7c80-4863-a8eb-8ddb6af88720" valueTypeId="38890811-1910-4049-8ba6-00859397acef"/>
+  </producedTypes>
+  <name>ПроверятьКорневыеСертификатыНСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять корневые сертификаты НСПК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

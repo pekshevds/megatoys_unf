@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83cb2929-f667-49ed-8c19-335849c1a69d">
+  <producedTypes>
+    <containerType typeId="a6921b94-a253-4e7d-bfff-fc7f48fabbcc" valueTypeId="9edae569-0ccf-4a6b-968c-0e888b04df75"/>
+  </producedTypes>
+  <name>ВладелецСерииРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец серии РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6806e43-d82a-4f32-9a32-2b58748088c3">
+  <name>ВнешниеКалендари</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние календари</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.ТипыСинхронизацииКалендарей</content>
+  <content>CommonModule.СинхронизацияDAV</content>
+  <content>DataProcessor.ПерсональныеНастройки</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>InformationRegister.ДанныеСобытийВнешнихКалендарей</content>
+  <content>InformationRegister.НастройкиСинхронизацииСВнешнимиКалендарями</content>
+  <content>Document.ЗадачаСотрудника</content>
+  <content>Catalog.КалендариСотрудников</content>
+  <content>CommonModule.ОбменСВнешнимиКалендарями</content>
+  <content>CommonModule.РаботаСICalendar</content>
+  <content>ExchangePlan.ОбменСКалендарямиDAV</content>
+  <content>ExchangePlan.ОбменСGoogleCalendar</content>
+  <content>CommonModule.ОбменСGoogle</content>
+  <content>Catalog.УчетныеЗаписиВнешнихКалендарей</content>
+  <content>InformationRegister.НапоминанияПользователя</content>
+  <content>CommonPicture.iCloudКалендарь15</content>
+  <content>CommonPicture.MailRuКалендарь14</content>
+  <content>CommonPicture.ЯндексКалендарь15</content>
+  <content>CommonPicture.GoogleКалендарь14</content>
+  <content>DataProcessor.ОбменСGoogle</content>
+  <content>InformationRegister.СеансовыеДанныеGoogle</content>
+  <content>ScheduledJob.СинхронизацияGoogleCalendar</content>
+  <content>CommonPicture.iCloudКалендарь</content>
+  <content>CommonPicture.ЯндексКалендарь</content>
+  <content>CommonPicture.MailRuКалендарь</content>
+  <content>CommonPicture.GoogleКалендарь</content>
+  <content>Role.ИспользованиеКалендаряСотрудника</content>
+  <content>Role.ЧтениеКалендаряСотрудника</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.CRMСлужебный.Subsystem.КалендариСотрудников</parentSubsystem>
+</mdclass:Subsystem>

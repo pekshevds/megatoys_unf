@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab118757-a409-41a1-8d91-cf93923ea9ac">
+  <name>ОтражениеЗарплатыВБухгалтерскомУчете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение зарплаты в бухгалтерском учете для небольших организаций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ОтражениеЗарплатыВБухучете</content>
+  <content>Constant.ДанныеДляБухучетПоставляютсяВнешнейПрограммой</content>
+  <content>FunctionalOption.ДанныеДляБухучетПоставляютсяВнешнейПрограммой</content>
+  <content>Catalog.ОтражениеЗарплатыВБухучетеПрисоединенныеФайлы</content>
+  <content>Role.ДобавлениеИзменениеОтраженияЗарплатыВБухучете</content>
+  <content>Role.ЧтениеОтраженияЗарплатыВБухучете</content>
+  <content>CommonModule.ОтражениеЗарплатыВБухучетеБазовый</content>
+  <content>InformationRegister.БухучетЗарплатыСотрудников</content>
+  <content>DefinedType.Финансирование</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

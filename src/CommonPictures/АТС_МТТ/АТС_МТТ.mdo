@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="170262d2-ada5-4e68-87cc-188394b865ad">
+  <name>АТС_МТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АТС МТТ</value>
+  </synonym>
+</mdclass:CommonPicture>

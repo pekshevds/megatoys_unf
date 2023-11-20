@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1dd87a2-8efc-4e22-87d3-a96253fc8df4">
+  <name>ИспользоватьСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать события</value>
+  </synonym>
+  <location>Constant.ИспользоватьСобытия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.Событие</content>
+  <content>Catalog.Контрагенты.Command.События</content>
+  <content>Report.КалендарьСобытий</content>
+  <content>Catalog.СостоянияСобытий</content>
+</mdclass:FunctionalOption>

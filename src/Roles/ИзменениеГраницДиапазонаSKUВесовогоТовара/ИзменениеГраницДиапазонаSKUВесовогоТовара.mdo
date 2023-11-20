@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4773a228-11a2-48cf-a26a-3751fb5dc020">
+  <name>ИзменениеГраницДиапазонаSKUВесовогоТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение границ диапазона SKU весового товара</value>
+  </synonym>
+</mdclass:Role>

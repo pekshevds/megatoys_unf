@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="269227fe-fadf-44d6-a604-48da97cb19a8">
+  <producedTypes>
+    <containerType typeId="ac276cab-4f78-40cb-b7b9-3c1d72fce728" valueTypeId="68da16bb-7495-4b31-b2d4-47648ebd6b5c"/>
+  </producedTypes>
+  <name>ОснованиеУведомленияОбОстатках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание уведомления об остатках</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.УведомлениеОбОстаткахПрослеживаемыхТоваров</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.ИнвентаризацияЗапасов</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20818f2c-c011-4cb6-bea2-c41c275b4a49">
+  <name>ДобавлениеИзменениеЗакрытияМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение закрытия месяца</value>
+  </synonym>
+</mdclass:Role>

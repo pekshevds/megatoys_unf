@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c923a496-fda8-4eed-9799-3fa12850306a">
+  <producedTypes>
+    <objectType typeId="2cba9db0-2075-4eb8-8cf8-2ef2692130a1" valueTypeId="1b4e5af7-faba-43de-810f-796191b1a37d"/>
+    <managerType typeId="73063a31-4137-4aad-ad6f-85d3759efac5" valueTypeId="7768f0b7-ade0-45fd-8f42-b5b9d68984ec"/>
+  </producedTypes>
+  <name>ПечатьСчетФактура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-фактура, УПД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="86c0f831-662b-4a9d-bf01-81f030b0abcd">
+    <name>ПФ_MXL_СчетФактура1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (1137)</value>
+    </synonym>
+  </templates>
+  <templates uuid="731e7ba6-393b-4573-a959-297a7eb6dd92">
+    <name>ПФ_MXL_СчетФактура283</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (283)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №283 от 11.05.2006 г.</comment>
+  </templates>
+  <templates uuid="e3e5f586-ba12-4072-85e6-2676fde486b9">
+    <name>ПФ_MXL_СчетФактура451</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура (451)</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №451от 26.05.2009 г.</comment>
+  </templates>
+  <templates uuid="6b7a4478-a7eb-4903-bc05-de107c5c66a2">
+    <name>ПФ_MXL_СчетФактура534</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции Постановления № 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="879f89e5-cba5-49b0-a733-a23cdbb97dcf">
+    <name>ПФ_MXL_СчетФактура534Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции Постановления № 534) (прослеж.)</value>
+    </synonym>
+  </templates>
+  <templates uuid="19428031-a632-4601-a469-e12ef49bf278">
+    <name>ПФ_MXL_СчетФактура981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции Постановления № 981)</value>
+    </synonym>
+  </templates>
+  <templates uuid="b51635c0-0da7-4cc2-9a83-4f2fc5f90b1c">
+    <name>ПФ_MXL_СчетФактураКорректировочный1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура</value>
+    </synonym>
+  </templates>
+  <templates uuid="33b4a642-1cd1-4031-8ef1-80ee9af2444b">
+    <name>ПФ_MXL_СчетФактураКорректировочный534</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции постановления Правительства Российской Федерации от 2 апреля 2021 г. № 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="0fd3c8fa-de23-42aa-9102-7a057aefc8d7">
+    <name>ПФ_MXL_СчетФактураКорректировочный534Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции постановления Правительства Российской Федерации от 2 апреля 2021 г. № 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="790144a0-9d1d-424f-ba78-8ae3054e7d3c">
+    <name>ПФ_MXL_СчетФактураКорректировочный981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции Постановления № 981)</value>
+    </synonym>
+  </templates>
+  <templates uuid="d0289bf3-5402-4fa6-b599-8b26da0ba101">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ</value>
+    </synonym>
+  </templates>
+  <templates uuid="a595a982-823e-460d-8a68-1d152b4f78d9">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 534) </value>
+    </synonym>
+  </templates>
+  <templates uuid="6cfb5994-f3d6-4abf-8ee2-9c3516eb1a77">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 534) (прослеж.) </value>
+    </synonym>
+  </templates>
+  <templates uuid="5e97cb68-64f1-472e-a075-a783848d1ba8">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент981</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 981) </value>
+    </synonym>
+  </templates>
+  <templates uuid="ea12a15b-7801-443c-8ff5-4e3788bfea16">
+    <name>ПФ_MXL_СчетФактура2023Кв4Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции 389-ФЗ от 31.07.2023) (прослеж.)</value>
+    </synonym>
+  </templates>
+  <templates uuid="c582d3ca-2cff-48a1-b276-404a01d54f13">
+    <name>ПФ_MXL_СчетФактураКорректировочный2023Кв4Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный счет-фактура по Постановлению № 1137 (в редакции 389-ФЗ от 31.07.2023) (прослеж.)</value>
+    </synonym>
+  </templates>
+  <templates uuid="f44acf7b-f822-4ab0-a0e7-d97da4c78cc6">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент2023Кв4Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции 389-ФЗ от 31.07.2023) (прослеж.) </value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

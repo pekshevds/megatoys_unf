@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e00bd95b-d91d-446d-b0c9-2c274b5fc019">
+  <producedTypes>
+    <objectType typeId="95db4006-3f0f-4c64-9c19-46270438f3f2" valueTypeId="7737206b-ade9-4bb8-9cc1-e1698af9a964"/>
+    <managerType typeId="5bd291af-ee47-4528-a00a-6c838f5fc5cc" valueTypeId="53bef4cc-250a-4ae5-97dd-a4a92f6d80e3"/>
+  </producedTypes>
+  <name>ПланФактПоРабочемуВремениСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>План факт по рабочему времени сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПланФактПоРабочемуВремениСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1eb8e52f-851e-47f9-887b-0234c264f1f2">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="fe8b5794-e9e3-43a8-a28f-1095ffd28de2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0730a9e6-a394-4a6e-824b-90c0b150d6c5">
+    <name>ОбразецПланФактПоРабочемуВремениСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец план факт по рабочему времени сотрудников</value>
+    </synonym>
+    <comment>АПК:497 - проектное решение</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f43ee211-5034-4067-a02a-6d1e12497b44">
+    <name>ОбразецДетальныйПланФактПоРабочемуВремениСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец детальный план факт по рабочему времени сотрудников</value>
+    </synonym>
+    <comment>АПК:497 - проектное решение</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

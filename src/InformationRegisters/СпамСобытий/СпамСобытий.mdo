@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f893e1b5-6340-4d66-a7b0-771ff96b4d70">
+  <producedTypes>
+    <selectionType typeId="55307fe9-f2dc-429f-937d-44d5e4798363" valueTypeId="86775a20-2679-4339-854c-b3afd7eba9c9"/>
+    <listType typeId="dd43fb8b-3342-4dd3-a933-3528f080b153" valueTypeId="32bc690b-6092-4230-bdda-5c4235a1da0a"/>
+    <managerType typeId="ce72c068-63e5-4008-ad3f-50748fc8c29b" valueTypeId="6e28553b-6351-4484-9be4-784629981efa"/>
+    <recordSetType typeId="278ecdd0-8f14-4e84-b724-13f3b573857a" valueTypeId="736bbd10-c20c-4839-a86e-1305f5f97ab3"/>
+    <recordKeyType typeId="4df67db2-2e98-40b6-856a-098d7d9933ca" valueTypeId="cf158c6d-bf6b-4931-9373-58e8f9dbaab8"/>
+    <recordType typeId="0eef5848-c556-4b14-8db0-73c5acf4b1c6" valueTypeId="c19fcd4b-ed46-4eed-807e-cd4684ea2fdb"/>
+    <recordManagerType typeId="f311edc2-32d7-43c0-860b-90c0c988114d" valueTypeId="7a3e13f3-9ae4-4bad-b7ae-c786b6318668"/>
+  </producedTypes>
+  <name>СпамСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спам событий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="96e78396-085d-4de7-84d5-8b28c03489c2">
+    <name>Спам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9e43b429-5431-46cb-9ed0-dcf9321839a9">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

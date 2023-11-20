@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecb71a60-2a68-49c6-a44a-be07a59467f1">
+  <producedTypes>
+    <managerType typeId="335cfaec-dc22-48b7-9146-9142843b6750" valueTypeId="74f8a94a-f6c5-448f-ae98-8d787ef59188"/>
+    <valueManagerType typeId="66f5463a-d70c-4870-bb3a-7d26bdef0b48" valueTypeId="f82bcb2e-704d-4729-baab-2c12b44ca86f"/>
+    <valueKeyType typeId="93121340-67af-4cef-8099-fd3976d672c8" valueTypeId="1eb3fd69-4a8b-495f-8888-bc6c5530478f"/>
+  </producedTypes>
+  <name>ИспользоватьСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать события</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ea7ef8c-fc17-433e-ae34-bacd308eae81">
+  <name>ПоследовательностьПартийДляКУДиР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последовательность партий для КУДиР</value>
+  </synonym>
+  <content>Constant.ИспользоватьПоследовательностьПартийКУДиР</content>
+  <content>CommonModule.ПоследовательностьПартийДляКУДиРПовтИсп</content>
+  <content>InformationRegister.ПоследовательностьПартийДляКУДиР</content>
+  <content>CommonModule.РегламентированнаяОтчетностьУСН</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ЗаписиУСН</content>
+  <content>AccumulationRegister.ПартииТоваровДляКУДиР</content>
+  <content>EventSubscription.ЗаписатьДатуАктуальностиПартийДляКУДиР</content>
+  <parentSubsystem>Subsystem.Налоги.Subsystem.УпрощеннаяСистемаНалогообложения</parentSubsystem>
+</mdclass:Subsystem>

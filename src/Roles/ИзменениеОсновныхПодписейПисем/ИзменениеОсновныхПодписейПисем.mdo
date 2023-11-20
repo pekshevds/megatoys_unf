@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82ad079d-6674-4ea8-b063-41a90040d899">
+  <name>ИзменениеОсновныхПодписейПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение основных подписей писем</value>
+  </synonym>
+</mdclass:Role>

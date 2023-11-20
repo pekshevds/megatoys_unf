@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6def198-73b2-4479-a54c-69d0e97ef809">
+  <name>КабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинет сотрудника</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.ШтатноеРасписание</content>
+  <content>CommonModule.КабинетСотрудникаБазовый</content>
+  <content>EventSubscription.АктуализироватьСтруктуруПредприятия</content>
+  <content>Role.НастройкаСервисаКабинетСотрудникаБазовая</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e142ce-a1c0-424d-8fcd-65541af7b127">
+  <name>ДобавлениеИзменениеОтраженияЗарплатыВБухучете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение отражения зарплаты в бухучете</value>
+  </synonym>
+</mdclass:Role>

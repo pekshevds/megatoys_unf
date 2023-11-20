@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57891f89-f32d-46b2-9f24-4e36d98dd20d">
+  <name>РМККартаМИР32</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМККарта МИР32</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

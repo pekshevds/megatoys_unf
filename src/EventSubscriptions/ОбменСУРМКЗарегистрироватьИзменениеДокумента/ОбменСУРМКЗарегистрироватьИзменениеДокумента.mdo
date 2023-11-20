@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91edf7cd-cdae-4adb-ac86-6c03c5d8298f">
+  <name>ОбменСУРМКЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с УРМК зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ПриходнаяНакладная</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменСУРМКПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

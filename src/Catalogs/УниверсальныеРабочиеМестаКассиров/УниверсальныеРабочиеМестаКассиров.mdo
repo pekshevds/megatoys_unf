@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3fa38cc-b09d-4aa6-bbbf-f4bcf248b611">
+  <producedTypes>
+    <objectType typeId="a29192b6-41b3-494c-a7c2-c2e33411c320" valueTypeId="e9bbd005-d47a-46d8-b58b-808ead46f087"/>
+    <refType typeId="99271e57-d12c-45d8-969f-8b32a6ea2827" valueTypeId="706cb56d-ae06-4fea-b443-2399d1c44d7b"/>
+    <selectionType typeId="426a8ac8-6ef7-45e7-91c7-bb90727f601a" valueTypeId="5c340d9f-cb26-41a1-adb6-0a806606225c"/>
+    <listType typeId="3961caa1-c9a1-4b11-9fbd-b2a15e33406e" valueTypeId="837cdceb-4fb8-4be2-99af-71a15c5db5ad"/>
+    <managerType typeId="b6ed3c23-10f2-45c7-b975-4c5cc709c139" valueTypeId="74eada06-fe3c-4d49-87eb-cc8dc95edd64"/>
+  </producedTypes>
+  <name>УниверсальныеРабочиеМестаКассиров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальные рабочие места кассиров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УниверсальныеРабочиеМестаКассиров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Универсальное рабочее место кассира</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УниверсальныеРабочиеМестаКассиров.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a0396f54-3890-4531-bde1-f5ffefc1afcd">
+    <name>ТорговыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТорговыйОбъектУРМК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14bbbdf7-43fe-4c99-bd61-815df578be12">
+    <name>ГруппыКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы категории</value>
+    </synonym>
+    <comment>Настройка распределения продаж номенклатуры по группам, либо категориям</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>0 - группы, 1 - категории</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2cedb99a-c23d-4d36-84d6-3e070fd563fd">
+    <producedTypes>
+      <objectType typeId="dc6dce6f-4be2-4824-a072-d5f1fb623f79" valueTypeId="e8fe105e-229e-4713-bb5d-129e333f8573"/>
+      <rowType typeId="a79e9750-dbbb-40ba-b746-833abb566619" valueTypeId="6670be55-9aa0-4851-9050-0ad89611e2e1"/>
+    </producedTypes>
+    <name>КассыККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассы ККМ</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="54d91e3b-eece-4131-85e2-c343f4157c92">
+      <name>КассаККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Касса ККМ</value>
+      </synonym>
+      <type>
+        <types>DefinedType.КассаККМУРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.СтруктурнаяЕдиница</name>
+        <field>Catalog.УниверсальныеРабочиеМестаКассиров.Attribute.ТорговыйОбъект</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9b9502b8-3a59-47b9-938c-5ec82aa8ddb0">
+    <producedTypes>
+      <objectType typeId="429b45ed-30cc-48ee-aba8-3ca235e0c5e1" valueTypeId="46337919-1406-49d7-b506-c0da852457ba"/>
+      <rowType typeId="cb7a8506-6cf4-432f-94f8-b3d4509dc347" valueTypeId="068a24ec-6064-4792-a5ec-032683b8453b"/>
+    </producedTypes>
+    <name>РаспределениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение номенклатуры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bf661b1f-fceb-4a4a-bce9-5273bfadd8da">
+      <name>ГруппаНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8e4c4841-f914-497e-a71d-00fba9605c8c">
+      <name>КатегорияНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КатегорииНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c278863-e1ca-430f-9b56-977261b59b57">
+      <name>СпециальныйНалоговыйРежим</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальный налоговый режим</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпециальныеНалоговыеРежимы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6e0a463-18f8-47d1-b887-c8a1aca540ec">
+      <name>Патент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Патент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Патенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58a30ca5-0882-431f-a268-ba925bf6c50d">
+      <name>КассаККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Касса ККМ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КассыККМ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.СтруктурнаяЕдиница</name>
+        <field>Catalog.УниверсальныеРабочиеМестаКассиров.Attribute.ТорговыйОбъект</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ТипКассы</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыКассККМ.EnumValue.ККМED</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="935f4b56-13a1-403e-b977-922be22e55ab">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb22cca-2c93-4926-a63c-38f81d628638">
+  <producedTypes>
+    <managerType typeId="614d5ed1-db61-472b-8b1e-b5416bad3ed8" valueTypeId="46ebd6cd-3433-4f72-86ae-4e26c3984421"/>
+    <valueManagerType typeId="f8146acd-8439-40ba-9614-41ec72c59869" valueTypeId="e0aad550-95dd-46ba-8394-87f0ad121f43"/>
+    <valueKeyType typeId="39d43aad-1704-4807-845e-cfd8ee2b12ec" valueTypeId="e9961eb0-b91b-444a-88b9-6100c5970141"/>
+  </producedTypes>
+  <name>ИспользоватьПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать присоединенные файлы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

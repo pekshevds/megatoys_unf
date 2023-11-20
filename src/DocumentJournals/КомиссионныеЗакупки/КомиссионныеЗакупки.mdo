@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fbeb07d-a173-4d72-8637-9c271d6d7b4a">
+  <producedTypes>
+    <selectionType typeId="440f7172-d27f-4f3b-9ad3-2bc81cd627b9" valueTypeId="d1797b0f-3fcf-477e-8924-cc582bec1a33"/>
+    <listType typeId="ed6a3f10-947d-40af-911d-29b3755afe93" valueTypeId="4edb976e-1cb7-40f9-b6cd-5b068203fce4"/>
+    <managerType typeId="b5c2f8d4-04bf-4942-ba26-98a03066c670" valueTypeId="d19a670c-c8df-402b-bf1c-34feb396e20a"/>
+  </producedTypes>
+  <name>КомиссионныеЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионные закупки</value>
+  </synonym>
+  <defaultForm>DocumentJournal.КомиссионныеЗакупки.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ОтчетКомитенту</registeredDocuments>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.СписаниеЗапасов</registeredDocuments>
+  <registeredDocuments>Document.ПересортицаЗапасов</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="6077baa5-c20c-4441-8059-f7a17db8cfd6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Организация</references>
+    <references>Document.РасходнаяНакладная.Attribute.Организация</references>
+    <references>Document.ОтчетКомитенту.Attribute.Организация</references>
+    <references>Document.СписаниеЗапасов.Attribute.Организация</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Организация</references>
+  </columns>
+  <columns uuid="e872ece4-b4e7-4280-956b-17f370d61990">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.РасходнаяНакладная.Attribute.Контрагент</references>
+    <references>Document.ОтчетКомитенту.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="d9b53a3d-7398-497f-9d03-915e6a5ef344">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Договор</references>
+    <references>Document.ОтчетКомитенту.Attribute.Договор</references>
+    <references>Document.РасходнаяНакладная.Attribute.Договор</references>
+  </columns>
+  <columns uuid="1141601d-ace7-4ffc-8c9c-e0d9fe624f3f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.ОтчетКомитенту.Attribute.СуммаДокумента</references>
+    <references>Document.РасходнаяНакладная.Attribute.СуммаДокумента</references>
+    <references>Document.ПересортицаЗапасов.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="dd9f9771-008b-4908-b1ca-a07e36b3723b">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.ВалютаДокумента</references>
+    <references>Document.ОтчетКомитенту.Attribute.ВалютаДокумента</references>
+    <references>Document.РасходнаяНакладная.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="5f4eac5f-09c7-4d3b-a95d-c5c19d395e0e">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Ответственный</references>
+    <references>Document.ОтчетКомитенту.Attribute.Ответственный</references>
+    <references>Document.РасходнаяНакладная.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="f9d7483e-40d0-4c53-b821-11130eee3de8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Комментарий</references>
+    <references>Document.ОтчетКомитенту.Attribute.Комментарий</references>
+    <references>Document.РасходнаяНакладная.Attribute.Комментарий</references>
+    <references>Document.СписаниеЗапасов.Attribute.Комментарий</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="0161e573-ce4f-4808-88b1-4ef1b02e33c8">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Автор</references>
+    <references>Document.ОтчетКомитенту.Attribute.Автор</references>
+    <references>Document.РасходнаяНакладная.Attribute.Автор</references>
+    <references>Document.СписаниеЗапасов.Attribute.Автор</references>
+    <references>Document.ПересортицаЗапасов.Attribute.Автор</references>
+  </columns>
+  <columns uuid="6e35ed52-e031-4639-8d2d-5937815e500c">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.Подразделение</references>
+    <references>Document.ОтчетКомитенту.Attribute.Подразделение</references>
+    <references>Document.РасходнаяНакладная.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="2079defe-07e0-4537-9aa6-c1ddde1e14f5">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.РасходнаяНакладная.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.СписаниеЗапасов.Attribute.СтруктурнаяЕдиница</references>
+    <references>Document.ПересортицаЗапасов.Attribute.СтруктурнаяЕдиница</references>
+  </columns>
+  <columns uuid="2fa9b099-3175-4a4c-89f7-5a0178a2b499">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <references>Document.ПриходнаяНакладная.Attribute.ВидОперации</references>
+    <references>Document.РасходнаяНакладная.Attribute.ВидОперации</references>
+  </columns>
+  <forms uuid="fd5a1c07-ba40-4116-ab07-11e1cc9d1ce0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

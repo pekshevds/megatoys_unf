@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb4e3067-91e3-41ab-86e8-f00b7a163faf">
+  <name>ПромокодыУНФВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промокоды УНФВызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

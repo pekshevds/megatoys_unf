@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67cb8de2-33c2-4003-a0c8-344b573c27c7">
+  <name>ПеренестиВсехВВыбранные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести всех в выбранные</value>
+  </synonym>
+</mdclass:CommonPicture>

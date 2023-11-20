@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b220bf0b-67c0-4a37-a787-b0161908c394">
+  <producedTypes>
+    <containerType typeId="9f3139c6-bb0e-412e-acd3-7ff83112e274" valueTypeId="58c51cae-8aa0-4e3d-afc6-0fdf21e0db6d"/>
+  </producedTypes>
+  <name>Число15_2РМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Число15 2 РМК</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

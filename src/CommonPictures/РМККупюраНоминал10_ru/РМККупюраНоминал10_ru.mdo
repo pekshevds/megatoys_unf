@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb7f0b8-ac2d-4acb-b504-f8f700985eb8">
+  <name>РМККупюраНоминал10_ru</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМККупюра номинал10 ru</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3573ccc-19fb-445a-ae28-e0f9e5b84d8e">
+  <name>СкладскойУчетСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учет сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

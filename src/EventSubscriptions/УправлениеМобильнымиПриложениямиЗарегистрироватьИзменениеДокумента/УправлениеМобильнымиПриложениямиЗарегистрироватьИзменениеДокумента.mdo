@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="089ac866-8747-42fb-85da-5bed28eece0f">
+  <name>УправлениеМобильнымиПриложениямиЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление мобильными приложениями зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ДокументыОбменаСМобильнымиПриложениями</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеМобильнымиПриложениями.ОбменСМобильнымиПриложениямиПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

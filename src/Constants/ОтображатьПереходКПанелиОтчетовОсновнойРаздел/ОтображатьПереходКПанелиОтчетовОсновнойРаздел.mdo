@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd3e5809-3f1a-4fd3-bcc2-64fe6f76b5fa">
+  <producedTypes>
+    <managerType typeId="539e43b6-4472-4916-8471-71e5f617b084" valueTypeId="e5cbba12-62f0-4e51-b888-4fb2ddf2a6e2"/>
+    <valueManagerType typeId="8c79c562-7cb4-4904-a309-48d21361216f" valueTypeId="03b29296-b664-4edc-aebb-b085c4f0665f"/>
+    <valueKeyType typeId="211264ff-5a6a-4729-9147-19a67c4a9af2" valueTypeId="42406052-6a89-4f86-b285-9327053c24f8"/>
+  </producedTypes>
+  <name>ОтображатьПереходКПанелиОтчетовОсновнойРаздел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать переход к панели отчетов основной раздел</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

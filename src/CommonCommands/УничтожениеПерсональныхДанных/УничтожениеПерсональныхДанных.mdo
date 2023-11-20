@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91e5fa46-858d-454e-9c42-254a62d2b0e8">
+  <name>УничтожениеПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уничтожение персональных данных</value>
+  </synonym>
+  <group>CommandGroup.Сервис</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

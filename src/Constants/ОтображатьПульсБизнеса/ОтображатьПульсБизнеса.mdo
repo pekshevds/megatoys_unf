@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f49eaa43-846f-42b4-ae7a-e5824be513f6">
+  <producedTypes>
+    <managerType typeId="ffb4e0c2-1838-448c-bcbf-81be31140abd" valueTypeId="655575d6-43fc-49a7-9b32-bf357f16609a"/>
+    <valueManagerType typeId="753901ec-e727-4ef9-8b7a-4e9c6558d17b" valueTypeId="e44ba34a-6c64-43cf-adbd-ce01fbf23750"/>
+    <valueKeyType typeId="f80ae704-862e-45ff-880d-1da81d968305" valueTypeId="440c2dc3-22df-427c-9cca-42ce2b97a531"/>
+  </producedTypes>
+  <name>ОтображатьПульсБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать пульс бизнеса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

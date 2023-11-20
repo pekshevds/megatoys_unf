@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5244bc1-7299-4476-9c33-d96fbce1c08a">
+  <name>ОтображатьДокументыПоЗакупкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать документы по закупкам</value>
+  </synonym>
+  <location>Constant.ОтображатьДокументыПоЗакупкам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.ДокументыПоЗакупкам.Command.ОткрытьЖурналЗакупокРазделГлавное</content>
+</mdclass:FunctionalOption>

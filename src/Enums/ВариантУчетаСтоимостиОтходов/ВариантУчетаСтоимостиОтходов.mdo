@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94bcf918-305b-4c64-b42c-d2f59ddd74d5">
+  <producedTypes>
+    <refType typeId="7feb73d3-e207-47fc-a0b8-ac0db98ad561" valueTypeId="efc17db0-844b-42ec-80f0-4bc60118a90d"/>
+    <listType typeId="56b9d986-1654-48ee-995d-ce0639c81d3d" valueTypeId="7dce44b6-5578-4851-90e2-ded3b1d9516e"/>
+    <managerType typeId="3a3857a1-d825-401c-bb97-7bc216cf16bc" valueTypeId="822b5ce9-e657-498a-b100-83614334b3da"/>
+  </producedTypes>
+  <name>ВариантУчетаСтоимостиОтходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант учета стоимости отходов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="53a6e66e-2548-4c58-85d4-e23ee369be71">
+    <name>ПоВидуЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46ef92ae-48a9-4154-8862-3d42b62c4ff2">
+    <name>Нулевая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нулевая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5668124d-e28c-4630-bc7e-f1fd7e7aedbf">
+  <name>ВКонтактеАвторизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>В контакте авторизация</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dcd1e36-0962-4a50-bdd4-a6130cf38f9c">
+  <name>УдалитьЭтоМобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Это мобильное приложение</value>
+  </synonym>
+  <location>Constant.УдалитьЭтоМобильноеПриложение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ВиджетНаНачальнойСтранице</content>
+  <content>CommonCommand.МусорнаяКорзина</content>
+</mdclass:FunctionalOption>

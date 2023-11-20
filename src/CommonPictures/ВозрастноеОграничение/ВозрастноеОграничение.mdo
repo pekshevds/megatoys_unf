@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f65e2e-e181-4f46-aa1a-42d1acf66c22">
+  <name>ВозрастноеОграничение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастное ограничение</value>
+  </synonym>
+</mdclass:CommonPicture>

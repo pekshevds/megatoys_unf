@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="578567e7-0807-451c-811a-888d9e549b9e">
+  <producedTypes>
+    <managerType typeId="adc27159-82fe-491b-a903-639a3a6fa98d" valueTypeId="009ee1ad-4749-4e0a-9170-a06b4b789c53"/>
+    <valueManagerType typeId="38bfda40-b675-40a0-b0c8-172692a26160" valueTypeId="ac38310c-259f-4f97-be6c-fed1e97c0a99"/>
+    <valueKeyType typeId="38e799fc-6c9c-4c4e-9aee-a87e57c51cf2" valueTypeId="7077b3b3-c18f-4492-9e7f-f272305aacfa"/>
+  </producedTypes>
+  <name>ОтображатьПереходКСпискуПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать переход к списку покупателей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

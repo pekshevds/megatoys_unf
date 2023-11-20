@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e228c690-ff6b-49fc-8210-33b0d7e0923c">
+  <name>ДобавлениеИзменениеПачекДокументовСЗВ_6_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение пачек документов СЗВ 6 3</value>
+  </synonym>
+</mdclass:Role>

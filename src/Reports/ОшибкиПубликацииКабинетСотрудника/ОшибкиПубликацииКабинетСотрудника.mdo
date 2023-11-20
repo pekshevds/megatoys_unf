@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6a30696-80a4-47eb-ac54-59a3297d8a3f">
+  <producedTypes>
+    <objectType typeId="9a13ba3e-632c-42a9-8f9e-5ca299c848bb" valueTypeId="8613c54d-9643-476b-9475-7ce60f786d04"/>
+    <managerType typeId="1265c87e-c052-4db6-93a3-1e2c5e33cf9c" valueTypeId="a52bde77-c0f1-4c91-9908-292ef6713d60"/>
+  </producedTypes>
+  <name>ОшибкиПубликацииКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки публикации объектов в сервисе 1С:Кабинет сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОшибкиПубликацииКабинетСотрудника.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8adac648-e198-4caf-a613-2105d8fa31d8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

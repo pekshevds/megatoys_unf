@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e2ad866-5f1a-432c-91c1-614755250805">
+  <producedTypes>
+    <refType typeId="05ad654a-3896-46f6-a3e0-4c5509fe16e3" valueTypeId="609bf541-7d86-4787-9596-ec8d57e9cc15"/>
+    <listType typeId="aa2578aa-3a3a-4f33-b5b3-340e97c1871e" valueTypeId="93650897-9ca0-4a4d-87bc-7787977fccff"/>
+    <managerType typeId="d139183a-eed8-4510-84c8-fa0d7ded139e" valueTypeId="b38b6755-c893-46da-9d1e-44ade4004034"/>
+  </producedTypes>
+  <name>РежимВыгрузкиКартинокНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим выгрузки картинок номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="40fc83db-9aa8-467f-b2ff-2255e9b715e9">
+    <name>ТолькоОсновнаяКартинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только основная картинка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40f4cb34-0937-4a45-a031-df595d7e8486">
+    <name>ВсеКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все картинки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a3eba6-43c9-4ef2-8442-c9a7eec6097a">
+  <producedTypes>
+    <objectType typeId="3afc8e92-667e-470f-b0f0-8a8d13b0b396" valueTypeId="1798fa90-99b2-41d8-901b-50ffc0f41ee2"/>
+    <managerType typeId="b3f14107-bac4-4c97-a7d2-7099bb305d0c" valueTypeId="d729bb23-230c-4932-955f-f165a9c54a5c"/>
+  </producedTypes>
+  <name>КонтрольКассовойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль кассовой книги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КонтрольКассовойКниги.Form.КонтрольКассовойКниги</defaultForm>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="daccd77d-faba-4a3c-a9e2-3113879c0b88">
+    <name>КонтрольКассовойКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль кассовой книги</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

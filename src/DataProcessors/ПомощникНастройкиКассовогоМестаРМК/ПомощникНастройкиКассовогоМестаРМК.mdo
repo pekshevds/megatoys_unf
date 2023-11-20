@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a00303-4630-42c4-b9fa-a3b84986a729">
+  <producedTypes>
+    <objectType typeId="6a965294-62f9-43cf-9bec-4e9587da69d7" valueTypeId="51808fb0-1038-4abd-9187-41cae7b667f7"/>
+    <managerType typeId="a48e367b-05b6-4174-9b11-3031ff674fae" valueTypeId="9294464a-dd0c-4c9b-b1e3-9bce19eff814"/>
+  </producedTypes>
+  <name>ПомощникНастройкиКассовогоМестаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки кассового места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникНастройкиКассовогоМестаРМК.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e6e338e1-5e60-4332-be40-b0b976bccbee">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>DefinedType.РабочееМестоРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Рабочее место, к которому подключена ККМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="969e1981-e0e2-4d90-a561-612c7c7f4276">
+    <name>ТорговыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТорговыйОбъектРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Торговый объект, для которого настраивается кассовое место</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b3f612d7-33e0-49e9-8eca-22696fd082e9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОрганизацияРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой настраивается кассовое место</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="147f6d47-beb9-49ee-a569-99f0b757602a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПользовательРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, для которого настраивается кассовое место</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1811a48-07f0-41e4-b32e-4f4aec5ca615">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КассаККМРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настраиваемая касса ККМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="022c526b-d0be-47c4-9c75-1667cfb6543f">
+    <producedTypes>
+      <objectType typeId="a95eb749-b172-4838-8486-ced682697e64" valueTypeId="ff6ba1f3-9d55-4757-a42b-b7e49cd978d8"/>
+      <rowType typeId="f3a433d3-144d-4fdc-a5c2-e0f82cb30d4a" valueTypeId="10635f07-eaee-4313-8392-0f964258cc55"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Организации, по которым настраивается кассовое место</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="412f0ded-62db-4803-818f-373d90c0928c">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ОрганизацияРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация, для которой настраивается кассовое место</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="00279c92-f195-4f64-b37f-dc4b04d9204f">
+      <name>КассаККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Касса (ККМ)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.КассаККМРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Настраиваемая касса ККМ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="895fe7fa-dccd-4eaf-8aab-328e0431e403">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование кассы ККМ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ce1aaba-7698-4bf6-9857-ebffcf7bd180">
+      <name>ТипКассы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип кассы</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипКассыРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип кассы ККМ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Ссылка</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:ReferenceValue"/>
+    </attributes>
+    <attributes uuid="e664239f-cfca-4a3f-afe8-aae9723baf19">
+      <name>ПодключаемоеОборудование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подключаемое оборудование</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПодключаемоеОборудованиеРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ссылка на экземпляр подключаемого оборудования</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.РабочееМесто</name>
+        <field>DataProcessor.ПомощникНастройкиКассовогоМестаРМК.Attribute.РабочееМесто</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ТипОборудования</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6457c12b-2c1e-4780-8977-03e1bfe0c44c">
+      <name>ШаблонЧекаККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон чека ККМ</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ХранилищеШаблоновРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шаблон чека ККМ, который используется при печати</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ТипШаблона</name>
+        <value xsi:type="core:ReferenceValue"/>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ОбъектМетаданных</name>
+        <value xsi:type="core:StringValue">
+          <value>Документ.ЧекККМ</value>
+        </value>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0724c603-3ecb-4092-980f-bf78605ece47">
+      <name>ИспользоватьБезПодключенияОборудования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использовать без подключения оборудования</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Будет использован внешний эквайринговые терминал без подключения к программе</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="90a13614-79b7-4f69-9825-4306a3c02c68">
+      <name>ШиринаЛенты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ширина ленты</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ширина ленты, используемой печатающим устройством</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="95095b62-b5d5-42d5-b399-4fb24d2e5484">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Серийный номер ФР</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="29cf96f6-12d9-4767-b8c1-a9057954b7dd">
+      <name>РегистрационныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регистрационный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Регистрационный номер ФР</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="23113ca4-a285-40c9-8d10-52102259ac3f">
+      <name>ШаблонЧекаККМВозврат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон чека ККМ (возврат)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ХранилищеШаблоновРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шаблон чека ККМ, который используется при печати</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ТипШаблона</name>
+        <value xsi:type="core:ReferenceValue"/>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ОбъектМетаданных</name>
+        <value xsi:type="core:StringValue">
+          <value>Документ.ЧекККМ</value>
+        </value>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4a394fcd-12af-4958-9d04-2693fa02700b">
+    <producedTypes>
+      <objectType typeId="e4ec38de-327f-4f0e-a845-c0d01b5bc881" valueTypeId="3a6dd67f-5d1a-4de8-aead-18f9056d1f72"/>
+      <rowType typeId="803497da-b2b5-43fd-9a98-ad549e2b3764" valueTypeId="4979eed6-ce0f-4533-a329-dff1cec72b18"/>
+    </producedTypes>
+    <name>ТаблицаПодключаемоеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица подключаемое оборудование</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Настраиваемое подключаемое оборудование</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2d34bb6b-37b6-4ff2-ba02-7ca10b677c41">
+      <name>ТипОборудования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип оборудования</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипПодключаемогоОборудованияРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип оборудования подключаемого экземпляра устройства.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:ReferenceValue"/>
+    </attributes>
+    <attributes uuid="f591aa5d-5304-422e-9cc5-26b1f049b2be">
+      <name>ДрайверОборудованияПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Драйвер оборудования по умолчанию</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДрайверОборудованияРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Драйвер подключаемого оборудования.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <createOnInput>DontUse</createOnInput>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b6a52978-b661-46f3-b6b6-491f5f18690e">
+      <name>ПодключаемоеОборудование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подключаемое оборудование</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПодключаемоеОборудованиеРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Учетная запись подключаемого оборудования</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипОборудования</name>
+        <value xsi:type="core:ReferenceValue"/>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.УстройствоИспользуется</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ПометкаУдаления</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="460ddad3-01c0-4eb6-a24d-2ab9cb552098">
+      <name>ДополнениеОписания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнение описания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнение к описанию</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="335c1bf2-585c-469a-9102-7f2da50817ef">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ОрганизацияРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация для подключения фискального регистратора или эквайрингового терминала</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0dd2d331-060d-4ec1-99d8-afe22a70aebb">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Серийный номер подключаемого оборудования</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c9940265-84fb-4f58-9ed9-4df6d7e2ac5a">
+      <name>ТипПодключенияОборудования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип подключения оборудования</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипПодключенияОборудованияРМК</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="90d54be4-6eff-4e1e-b908-58d184df8845">
+    <producedTypes>
+      <objectType typeId="4d0e1678-7141-41ef-a54b-e0efa1f7a92c" valueTypeId="9bc29a10-7bea-4e96-87af-e9df37954b88"/>
+      <rowType typeId="062204f5-2fd7-446b-a24d-85c0f0a635b9" valueTypeId="966989ee-b93f-402f-b116-dd0d87f2b662"/>
+    </producedTypes>
+    <name>Кассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассы</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Настраиваемые операционные кассы</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="45db2602-1852-4f31-87de-471021d10080">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ОрганизацияРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация кассы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7eedd1c7-2e29-496e-bc61-777195675815">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование кассы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ed132aca-2204-4fe1-9b6d-43e73569827d">
+      <name>КассаККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Касса (ККМ)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.КассаККМРМК</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Касса ККМ, по которой оформляется движение денежных средств</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e8b01931-027d-4e4b-a501-7f9207d42087">
+      <name>ПробиватьЧекиПоКассеККМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пробивать чеки по кассе ККМ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Флаг пробития чеков ККМ</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ce480ae4-2dd6-4662-9fa8-79ba7a373545">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="79001549-05fb-40d1-9537-ba67ae152af6">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

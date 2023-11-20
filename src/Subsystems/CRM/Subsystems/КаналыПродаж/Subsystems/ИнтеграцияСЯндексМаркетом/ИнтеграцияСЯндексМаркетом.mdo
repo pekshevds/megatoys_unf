@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d816ed43-6401-4056-8e10-27980cf32553">
+  <name>ИнтеграцияСЯндексМаркетом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с яндекс маркетом</value>
+  </synonym>
+  <content>InformationRegister.СтатусыПубликацииТоваровЯндексМаркет</content>
+  <content>Enum.СтатусыВыгрузкиТоваровЯндексМаркет</content>
+  <content>DataProcessor.МаркетплейсЯндексМаркет</content>
+  <content>CommonCommand.ИнтеграцияСЯндексМаркетом</content>
+  <content>Role.ИспользованиеИнтеграцииСМаркетплейсомЯндексМаркет</content>
+  <content>CommonModule.ИнтеграцияСЯндексМаркетСервер</content>
+  <content>Constant.УдалитьНастройкиЯндексМаркета</content>
+  <content>CommonPicture.ЯндексМаркетЛоготип</content>
+  <content>Catalog.УчетныеЗаписиМаркетплейсов</content>
+  <content>CommonPicture.ЯндексМаркетIDКампанииIDСклада</content>
+  <content>CommonTemplate.ИнтеграцияССайтамиИМаркетплейсамиОшибкиРасшифровка</content>
+  <content>InformationRegister.СоответствияОбъектовМаркетплейсов</content>
+  <content>InformationRegister.ВыгруженныеЦеныМаркетплейсов</content>
+  <content>InformationRegister.ОстаткиТоваровМаркетплейсов</content>
+  <content>Enum.МоделиСкладовЯндексМаркета</content>
+  <content>Role.ИспользованиеИнтеграцииСМаркетплейсомOzon</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.КаналыПродаж</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3aea83b-0c57-4222-a629-a98438838ed9">
+  <name>ЛинияПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линия по умолчанию</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

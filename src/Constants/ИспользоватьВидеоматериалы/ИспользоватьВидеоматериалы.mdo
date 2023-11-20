@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27cdc4b-7730-4ca3-a436-5ceb974c6336">
+  <producedTypes>
+    <managerType typeId="83e64cd2-dcfa-4425-b27e-416494e0bc35" valueTypeId="60613d32-dd96-4fe3-b11f-f856ab046a11"/>
+    <valueManagerType typeId="b616f6c2-2b6e-4d61-a131-e641f6ac4470" valueTypeId="775c21ab-17a4-4f0e-b46b-8e6ef5917bcf"/>
+    <valueKeyType typeId="0a956473-216f-45f9-9c39-9801ba9d5fcf" valueTypeId="fb054498-c7ec-4537-8d34-e85a7c63fa9f"/>
+  </producedTypes>
+  <name>ИспользоватьВидеоматериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать видеоматериалы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e9e3050-7e18-4557-b748-9fc52d8a7b22">
+  <producedTypes>
+    <managerType typeId="62aace0e-d492-4fce-9d7b-c3f95ef64b98" valueTypeId="a42a44a3-d36e-4f9f-9dc7-c3e5afa8f198"/>
+    <valueManagerType typeId="1090bd0f-1a96-4330-8157-3a82ad220aff" valueTypeId="acf06157-ad2b-4b24-b62f-ac5b224ce75d"/>
+    <valueKeyType typeId="c595c174-415c-4f10-a3a2-bb400e81430e" valueTypeId="9a49dfe9-f1d3-4521-99c4-4de66c7d568f"/>
+  </producedTypes>
+  <name>ИспользоватьПередачуВЭксплуатацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать передачу в эксплуатацию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

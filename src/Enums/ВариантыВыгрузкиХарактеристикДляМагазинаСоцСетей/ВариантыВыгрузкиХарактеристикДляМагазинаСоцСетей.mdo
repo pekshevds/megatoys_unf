@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a413dddb-c4fc-4bbe-bf73-fed6f4d7beee">
+  <producedTypes>
+    <refType typeId="4c17fed1-2771-4ba2-822d-2eed5d9d0ada" valueTypeId="cf835b55-9feb-4b69-a9df-988dbbda63c5"/>
+    <listType typeId="2b3ab64b-3bb1-4024-8f44-076a4736af76" valueTypeId="94e86776-9b67-4085-ae6c-da7ef1f883d2"/>
+    <managerType typeId="2d076286-976d-4b10-9285-f8c9bc64e43e" valueTypeId="046e2bb3-de35-457f-afc2-fed029230be2"/>
+  </producedTypes>
+  <name>ВариантыВыгрузкиХарактеристикДляМагазинаСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты выгрузки характеристик для магазина соц сетей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e55101e-1f54-4eab-875c-42681606d3ce">
+    <name>НеВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8974c780-6906-40ec-aee9-b50792355c48">
+    <name>ВыгружатьХарактеристикуКакТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать характеристику как товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1db80c0-20da-494e-8484-944565728673">
+    <name>ВыгружатьХарактеристикуКакНаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать характеристику как набор свойств</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

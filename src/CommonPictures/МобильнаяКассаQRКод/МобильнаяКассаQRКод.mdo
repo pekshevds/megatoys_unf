@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0b9816f-32c6-466c-8c2a-94bc1ec9d86e">
+  <name>МобильнаяКассаQRКод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильная касса QR-код</value>
+  </synonym>
+</mdclass:CommonPicture>

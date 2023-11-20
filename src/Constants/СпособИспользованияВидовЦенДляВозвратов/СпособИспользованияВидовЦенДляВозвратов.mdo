@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15a6aff6-c17e-407d-867a-e9de562b238b">
+  <producedTypes>
+    <managerType typeId="0f2fa505-fcde-4ea4-a26d-79afe35971eb" valueTypeId="b3480e7b-3f15-4f90-98d1-d6493827cb25"/>
+    <valueManagerType typeId="0c2cb071-20c2-4834-90fd-3dbc3348c45f" valueTypeId="8cdc29b5-4174-4b93-b5a8-f2826418cd5d"/>
+    <valueKeyType typeId="43a4503f-c0ac-4c77-b290-f51a83ce95e0" valueTypeId="a3dc93dc-6ab9-4869-a7e2-e2ac37b4213b"/>
+  </producedTypes>
+  <name>СпособИспользованияВидовЦенДляВозвратов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ использования видов цен для возвратов</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыИспользованияВидовЦенДляВозвратов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

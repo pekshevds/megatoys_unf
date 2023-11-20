@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26fe8511-8f7c-442d-a4f5-ea4188222778">
+  <name>ИспользоватьАвтоматическоеВыставлениеСчетовДляОплатыСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать автоматическое выставление счетов для оплаты сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьАвтоматическоеВыставлениеСчетовДляОплатыСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ОплатаСервисаУНФ.Command.ОплатаСервиса</content>
+  <content>InformationRegister.СвязьАбонентСервисаОрганизация</content>
+  <content>InformationRegister.НеоплаченныеСчетаОплатыСервиса</content>
+</mdclass:FunctionalOption>

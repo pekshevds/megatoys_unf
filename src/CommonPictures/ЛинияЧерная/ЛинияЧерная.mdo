@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a81234ed-c7c3-4d85-9020-a1fee2ef5689">
+  <name>ЛинияЧерная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линия черная</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

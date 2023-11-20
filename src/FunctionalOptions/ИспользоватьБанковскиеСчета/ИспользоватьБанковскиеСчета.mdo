@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49797e00-19d0-4c63-829c-bfae568a80cb">
+  <name>ИспользоватьБанковскиеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать банковские счета</value>
+  </synonym>
+  <location>Constant.ИспользоватьБанковскиеСчета</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.БанковскиеСчета</content>
+</mdclass:FunctionalOption>

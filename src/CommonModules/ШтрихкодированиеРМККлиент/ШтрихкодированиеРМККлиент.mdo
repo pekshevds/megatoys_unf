@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6d626e3-8f60-417c-8099-bc95cc37d6fa">
+  <name>ШтрихкодированиеРМККлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование РМК клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

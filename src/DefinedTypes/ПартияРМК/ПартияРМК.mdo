@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8812671-5505-45c1-b57e-124e7f8a8b4c">
+  <producedTypes>
+    <containerType typeId="8bf332bb-89cf-4aab-8835-96fa5956f1af" valueTypeId="8d9bc99b-cddf-41da-b0f5-054c635493ec"/>
+  </producedTypes>
+  <name>ПартияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партия РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПартииНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99abe5f1-aa66-444e-8fdd-54dc9519fd51">
+  <producedTypes>
+    <selectionType typeId="e857d190-8de3-4088-9df7-d99d95bcd4ea" valueTypeId="fbd0ef95-0e7d-467a-9901-9f3f39828b19"/>
+    <listType typeId="6fe4de60-5d69-4795-9bd4-0ed0df7dc849" valueTypeId="139b1eec-369e-48d5-9c86-4b8b7debb490"/>
+    <managerType typeId="8679d013-8a1b-4412-b382-1d96a2ef1c1c" valueTypeId="82eeb865-cc40-4e22-a226-7a8f180ebf52"/>
+    <recordSetType typeId="73fcb0f8-cad1-4d3e-a211-ad153ddff59e" valueTypeId="d0519335-9115-4360-be0b-94180d65a87e"/>
+    <recordKeyType typeId="7b053f43-671a-458e-bb45-09b176cbc740" valueTypeId="42017608-444f-417d-8955-63b3d82efe5e"/>
+    <recordType typeId="e09e3bd9-8cb9-41e5-80db-725adc12cc0c" valueTypeId="a889830b-6e53-4b5d-a95c-52a7b1b488ac"/>
+    <recordManagerType typeId="df426344-dbf8-46f3-aabc-adf742da7d9f" valueTypeId="436435ea-941e-4e44-b1ad-f01e6810c838"/>
+  </producedTypes>
+  <name>СвязиАдресатКонтактCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи адресат контакт CRM</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bc150a57-52af-4cc4-ab4f-121b61f2b8ba">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АдресатыПисем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e02b8cd2-274f-48b0-a593-e8bc36e5976e">
+    <name>КонтактCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт CRM</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КонтактПисьма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

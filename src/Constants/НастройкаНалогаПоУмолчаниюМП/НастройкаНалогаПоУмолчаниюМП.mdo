@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aaff20d-0f39-47aa-b26c-dc159faeb9e6">
+  <producedTypes>
+    <managerType typeId="5817b63d-32ca-485a-bf51-8e8898dd67fc" valueTypeId="d434b02f-38ef-4763-ac40-285b553201fe"/>
+    <valueManagerType typeId="7c3c0b02-abc1-45da-a9e1-360f7e96ee73" valueTypeId="d4e885d6-f216-42d6-85a1-0746099a6f9a"/>
+    <valueKeyType typeId="f63e112f-64e1-420a-b176-21082be2fdb9" valueTypeId="da9fa485-0a71-4535-9460-0abe4c6b5dc8"/>
+  </producedTypes>
+  <name>НастройкаНалогаПоУмолчаниюМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка налога по умолчанию</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>EnumRef.НастройкиНалогаМП</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

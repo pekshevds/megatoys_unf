@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b0a2516-b319-4f39-b19c-508787c19851">
+  <name>ПФ_MXL_КассоваяСсылкаА6Круглый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовая ссылка А6 круглый</value>
+  </synonym>
+</mdclass:CommonTemplate>

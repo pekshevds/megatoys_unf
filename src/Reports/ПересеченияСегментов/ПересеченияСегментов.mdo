@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="887af4d7-92b9-4689-a367-8fedbecc13d8">
+  <producedTypes>
+    <objectType typeId="4e9d4b11-e685-46f2-a94a-96256525e403" valueTypeId="47f423a4-40bc-4ecf-a433-0082f4a9b492"/>
+    <managerType typeId="b696ac41-08c3-477a-91e5-304106830a31" valueTypeId="c2e67190-7212-454f-8cd3-2adea839cea2"/>
+  </producedTypes>
+  <name>ПересеченияСегментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересечения сегментов</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПересеченияСегментов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e4677020-82e2-4f53-ad29-3479c3e0d5a2">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="40d3cf6a-b9db-4443-9e92-bfbe7faf01f8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f26e708f-8208-4993-9eb1-93e809711176">
+    <name>ОбразецПересеченияСегментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец пересечения сегментов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="b3fa28b4-ee81-464b-b997-67ba8c34d7ec">
+    <name>ПересеченияСегмента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересечения сегмента</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.СегментыКонтрагентов</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

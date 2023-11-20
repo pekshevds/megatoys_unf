@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ba811e-4d85-48d3-8be5-d35fbcf30b86">
+  <producedTypes>
+    <containerType typeId="2513d4fd-4bc4-438b-934c-b5f7ba5a82a2" valueTypeId="6f724095-8e6f-437b-b654-7879fae93334"/>
+  </producedTypes>
+  <name>РезервРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резерв РМК</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

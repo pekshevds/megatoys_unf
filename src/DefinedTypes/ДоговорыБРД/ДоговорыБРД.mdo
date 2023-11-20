@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26c5357f-7373-4024-9278-27f2b3999acb">
+  <producedTypes>
+    <containerType typeId="c25b3a22-79b0-47de-b144-be5bfcc8994c" valueTypeId="a365a1a7-fb0f-404c-aa7c-aa43f692216d"/>
+  </producedTypes>
+  <name>ДоговорыБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры БРД</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+</mdclass:DefinedType>

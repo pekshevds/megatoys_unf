@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6dcd6e8-0b66-4718-a406-c5e38cf7ba9c">
+  <name>ЧтениеЗакрытияМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение закрытия месяца</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8f8c4e9-72d9-4d20-b6c6-329d92badec6">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделЗарплата</picture>
+  </picture>
+  <content>CommonModule.ЗарплатаИПерсоналКлиент</content>
+  <content>CommonCommand.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>CommonModule.ЗащитаПерсональныхДанных</content>
+  <content>CommonModule.ЗарплатаИПерсоналСлужебный</content>
+  <content>Catalog.УдалитьСотрудникиДляИнтеграцииБЗКБУНФ</content>
+  <content>Document.Событие</content>
+  <content>CommonModule.ЗарплатаИПерсоналКлиентСервер</content>
+  <content>Role.ПодсистемаПерсонал</content>
+  <content>FunctionalOption.ИспользоватьПодсистемуЗарплата</content>
+  <content>Constant.ФункциональнаяОпцияИспользоватьПодсистемуЗарплата</content>
+  <content>CommonModule.ЗарплатаИПерсоналСервер</content>
+  <content>CommonModule.ПодсистемаПерсонал</content>
+  <content>Catalog.УдалитьОрганизацииДляИнтеграцииБЗКБУНФ</content>
+  <content>Catalog.ЗаданиеПрисоединенныеФайлы</content>
+  <content>DataProcessor.НастройкиБЗКБ</content>
+  <content>CommonCommand.АктыОбУничтоженииПерсональныхДанных</content>
+  <content>CommonCommand.УничтожениеПерсональныхДанных</content>
+  <subsystems>Персонал</subsystems>
+  <subsystems>Зарплата</subsystems>
+  <subsystems>Займы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Аналитика</subsystems>
+  <subsystems>НачисленияИУдержания</subsystems>
+  <subsystems>РегламентированныйУчет</subsystems>
+</mdclass:Subsystem>

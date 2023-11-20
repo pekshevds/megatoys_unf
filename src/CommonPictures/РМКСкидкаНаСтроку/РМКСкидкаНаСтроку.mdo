@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd8b2546-b8e0-462c-9e8a-686685243aa7">
+  <name>РМКСкидкаНаСтроку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидка на строку</value>
+  </synonym>
+</mdclass:CommonPicture>

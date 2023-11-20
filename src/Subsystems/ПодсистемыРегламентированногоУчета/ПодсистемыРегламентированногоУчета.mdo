@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8363232c-9162-4356-b78a-8577c44a3f13">
+  <name>ПодсистемыРегламентированногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистемы регламентированного учета</value>
+  </synonym>
+  <comment>Подсистема включает объекты, которые входят в библиотеку регламентированного учета</comment>
+  <content>CommonModule.ЗакрытиеМесяца</content>
+  <content>CommonTemplate.ОформлениеОтчетовЗеленый</content>
+  <content>CommonTemplate.ОбщиеОбластиСтандартногоОтчета</content>
+  <content>CommonPicture.ОперацияВыполненаУспешно</content>
+  <content>CommonPicture.ОткрытьВыбранныйФайл</content>
+  <content>CommonPicture.РучнаяКорректировка</content>
+  <content>CommonPicture.СостоянияДокумента</content>
+  <content>StyleItem.ТекстИнформационнойНадписи</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.КлассификаторЕдиницИзмерения</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.НомераГТД</content>
+  <content>Catalog.РегистрацииВНалоговомОргане</content>
+  <content>Enum.СистемыНалогообложения</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>CommonForm.ФормаВыбораКода</content>
+  <content>CommonForm.ЦеныИВалюта</content>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>CommonPicture.ВниманиеКрасный</content>
+  <content>Enum.ВидыОперацийИсправленияПоступленияРеализации</content>
+  <content>Catalog.ДоверенностиНалогоплательщика</content>
+  <content>StyleItem.ЗапрещенноеПравоДоступаЦвет</content>
+  <content>CommonPicture.Скрепка</content>
+  <content>CommonPicture.Сумма</content>
+  <content>CommonPicture.Сформировать</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокументаЗащитаПерсональныхДанных</content>
+  <content>FunctionalOption.ПрефиксИнформационнойБазы</content>
+  <subsystems>ПрослеживаемостьТоваров</subsystems>
+</mdclass:Subsystem>

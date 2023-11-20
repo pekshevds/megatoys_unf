@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a0cd50c-4bbf-40af-be05-4b39db25e503">
+  <name>ОбновлениеОграниченийПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление ограничений продаж</value>
+  </synonym>
+</mdclass:CommonPicture>

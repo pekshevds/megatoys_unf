@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32439612-094c-4b09-b416-94cdb705157c">
+  <producedTypes>
+    <containerType typeId="8a8e4cb6-55c2-4f77-a3c8-09b0d6f57c72" valueTypeId="213540c7-c4e2-4fad-9dec-c8f1536abf07"/>
+  </producedTypes>
+  <name>ОснованиеУведомленияОВвозе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание уведомления о ввозе</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.КорректировкаПоступления</types>
+  </type>
+</mdclass:DefinedType>

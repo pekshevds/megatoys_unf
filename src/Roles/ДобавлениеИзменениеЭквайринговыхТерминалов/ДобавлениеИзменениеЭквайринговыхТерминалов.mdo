@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49999007-9840-4144-b127-1048ade2b69b">
+  <name>ДобавлениеИзменениеЭквайринговыхТерминалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение эквайринговых терминалов</value>
+  </synonym>
+</mdclass:Role>

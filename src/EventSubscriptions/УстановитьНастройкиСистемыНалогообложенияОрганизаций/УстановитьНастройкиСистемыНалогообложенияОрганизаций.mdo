@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9704f107-ddcd-4b00-925e-a97f35be40e4">
+  <name>УстановитьНастройкиСистемыНалогообложенияОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить настройки системы налогообложения организаций</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияБЗКБСлужебныйУНФ.УстановитьНастройкиСистемыНалогообложения</handler>
+</mdclass:EventSubscription>

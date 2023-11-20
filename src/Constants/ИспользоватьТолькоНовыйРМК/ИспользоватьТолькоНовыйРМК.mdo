@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9c16406-e21e-4d68-961b-4693c5b5d069">
+  <producedTypes>
+    <managerType typeId="7c7dccbd-7323-4869-a8ca-e416be78320f" valueTypeId="bcaf532e-a2be-4d6b-9a1f-0fe553260cc3"/>
+    <valueManagerType typeId="73ceec9c-ef94-4d68-a2ca-bd5fba75f305" valueTypeId="4fa92496-7761-448e-8ea8-8c7d191f9008"/>
+    <valueKeyType typeId="fc54c4e5-a60c-4267-894c-910c9fa83236" valueTypeId="e0f78dee-56c4-4bc5-9ed0-caa3754efb50"/>
+  </producedTypes>
+  <name>ИспользоватьТолькоНовыйРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать только новый РМК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИспользоватьТолькоНовыйРМК</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

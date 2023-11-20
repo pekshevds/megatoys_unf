@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f629352e-52a8-44b5-b044-41dcb3be1484">
+  <producedTypes>
+    <managerType typeId="f0c92915-f670-4ecc-a1bd-8eb5b1b77c9c" valueTypeId="77896ec8-dc27-4513-86e7-3403d69d9d46"/>
+    <valueManagerType typeId="f9a69f6e-b72c-4f01-8a1d-835b43642433" valueTypeId="3aeb156f-e0b4-4c4f-bad0-f7014504d46c"/>
+    <valueKeyType typeId="717f70ce-06a9-498f-8f01-5cebb640cb32" valueTypeId="964ee60a-f9d7-44dc-8979-e14c8cc89eeb"/>
+  </producedTypes>
+  <name>ИспользоватьПоследовательностьПартийКУДиР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать последовательность партий КУДиР</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

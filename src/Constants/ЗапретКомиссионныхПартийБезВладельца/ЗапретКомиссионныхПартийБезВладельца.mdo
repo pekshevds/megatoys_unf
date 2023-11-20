@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db10bff6-a629-4a7a-b732-684de849cc73">
+  <producedTypes>
+    <managerType typeId="60795b5e-8dff-4774-b46e-8c30e02e8705" valueTypeId="a488c5ea-75d9-49c8-93eb-4cc459d354b5"/>
+    <valueManagerType typeId="cad5f0b5-9a1a-4d60-a166-46ccb5be9ef1" valueTypeId="d39e73ca-a6c9-4b12-a666-f7b95f258969"/>
+    <valueKeyType typeId="d1b71e10-c57f-4fe2-938c-1fe92317fa4a" valueTypeId="9e56a11a-8515-499f-b991-d9a2338d0ea5"/>
+  </producedTypes>
+  <name>ЗапретКомиссионныхПартийБезВладельца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет комиссионных партий без владельца</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Запрещает запись новых партий с статусом &quot;Товары на комиссии&quot; без выбранного владельца партии.</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21357034-972f-4578-86d1-29af2ee78973">
+  <name>МетодическаяПоддержка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методическая поддержка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.СтраницаЧтоНовогоВВерсииВидео</content>
+  <content>CommonCommand.СтраницаПродуктаНаСайте1С</content>
+  <content>CommonCommand.СтраницаМобильноеПриложениеНаAppStore</content>
+  <content>CommonCommand.СтраницаМобильноеПриложениеНаGooglePlay</content>
+  <content>Constant.ИспользоватьВидеоматериалы</content>
+  <content>FunctionalOption.ИспользоватьВидеоматериалы</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6267b372-77ba-4e1c-b545-3abf35f575ec">
+  <name>ПравоУдалитьСтрокуРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право удалить строку РМК</value>
+  </synonym>
+</mdclass:Role>

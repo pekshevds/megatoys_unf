@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92b61e50-e361-4dc0-b50c-07f2a8b71a10">
+  <name>ЧтениеРезервированийЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение резервирований запасов</value>
+  </synonym>
+</mdclass:Role>

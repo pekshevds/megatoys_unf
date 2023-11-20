@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a172ed2-0467-44c4-8464-8b30418ccdfa">
+  <producedTypes>
+    <containerType typeId="6223e997-4bf2-416a-9a29-f95705b33eb0" valueTypeId="59dad526-48d2-4e28-a87d-c801b25625fe"/>
+  </producedTypes>
+  <name>ТипКассыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип кассы РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыКассККМ</types>
+  </type>
+</mdclass:DefinedType>

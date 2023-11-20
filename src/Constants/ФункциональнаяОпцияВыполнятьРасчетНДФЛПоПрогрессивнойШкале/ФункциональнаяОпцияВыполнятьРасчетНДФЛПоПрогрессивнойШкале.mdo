@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add9f9b0-76e2-4f30-b301-3c9ee7846664">
+  <producedTypes>
+    <managerType typeId="1c11e4dd-9829-4968-a51b-6e28e9c5b730" valueTypeId="43752daa-fbca-4a18-b04f-d84dbd2f178f"/>
+    <valueManagerType typeId="8897c58b-1780-4424-81b7-2e0359a7169c" valueTypeId="cb5a52c9-527e-4167-8c59-e50bd299eef0"/>
+    <valueKeyType typeId="1e6fb874-2f5b-432a-995e-c267371c8e1c" valueTypeId="ad7bf1f7-3e9a-4b30-a81d-c2df44420e3b"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВыполнятьРасчетНДФЛПоПрогрессивнойШкале</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция выполнять расчет НДФЛПо прогрессивной шкале</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

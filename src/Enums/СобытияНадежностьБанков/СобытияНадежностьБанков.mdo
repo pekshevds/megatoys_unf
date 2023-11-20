@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b44b080-e78b-4873-a903-104bc95593e2">
+  <producedTypes>
+    <refType typeId="f64f664d-142b-4b90-a7f3-7c15eb31f20c" valueTypeId="2de1415e-1024-4f8d-a679-983acea78522"/>
+    <listType typeId="3dc11d49-1022-4923-b211-6a5266d526f2" valueTypeId="ed3321bb-1e5c-4ff6-9f9d-d6e46941344a"/>
+    <managerType typeId="32276245-8fb9-4ad9-a451-21a476334e55" valueTypeId="dfdc026b-78fd-48c6-bb8e-c977212ef95e"/>
+  </producedTypes>
+  <name>СобытияНадежностьБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>События сервиса &quot;Надежность банков&quot;</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fbd33b46-1076-4526-98af-f6a056def4d3">
+    <name>ДеятельностьПриостановлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деятельность банка приостановлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8b2193b-5266-468c-aa5b-8024c186d648">
+    <name>ЛицензияОтозвана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия банка отозвана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1dcccf8-651c-4b23-863e-36ed6f37ee41">
+    <name>ДеятельностьВозобновлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деятельность банка возобновлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bb33e15-d279-4899-bfe3-8c0a0c7496ef">
+    <name>БанкПривлеченКОтветственности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк привлечен к ответственности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fca636a-f9fd-475a-9703-213b4f525ab9">
+    <name>НормативыНеСоответствуютТребуемым</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативы банка не соответствуют требуемым</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="131a6598-1500-44d3-b037-af5fe6390694">
+    <name>КапиталНижеТребуемого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Капитал банка ниже требуемого</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e082617-1dd6-4028-990f-cb2c1efb6ab9">
+    <name>КодыБанковИзменены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды банков изменены (служебное)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc98cffb-213b-4768-b347-d54fcafd4be2">
+    <name>СобытиеУдалено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие удалено (служебное)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc5dfaa1-ddf2-4486-bc75-e757afec25b6">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

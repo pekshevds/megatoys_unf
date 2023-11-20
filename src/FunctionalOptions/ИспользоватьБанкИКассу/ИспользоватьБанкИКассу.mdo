@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d0dbe8a-4c8c-4c03-8ba1-7478368b167b">
+  <name>ИспользоватьБанкИКассу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать банк и кассу</value>
+  </synonym>
+  <location>Constant.ИспользоватьБанкИКассу</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.БанкИКасса</content>
+  <content>DocumentJournal.ДокументыПоБанку</content>
+</mdclass:FunctionalOption>

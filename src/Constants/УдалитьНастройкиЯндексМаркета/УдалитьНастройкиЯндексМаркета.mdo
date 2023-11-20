@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d8c92fa-293b-4d52-a5fd-521f19084eec">
+  <producedTypes>
+    <managerType typeId="2f7e5179-d378-4aa3-a154-68665d7b02fa" valueTypeId="c2b2708b-4e17-492d-baf3-b93cd3de4713"/>
+    <valueManagerType typeId="1e5c9002-beb0-497d-b2fe-f365f294eeb4" valueTypeId="2ea9e565-4d46-419b-9d87-e394c26a9cea"/>
+    <valueKeyType typeId="bc037630-d936-4b41-980d-496510bbde3b" valueTypeId="1f231e4f-116f-44d5-a3ca-b7969486d1d2"/>
+  </producedTypes>
+  <name>УдалитьНастройкиЯндексМаркета</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Удалить) Настройки яндекс маркета</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

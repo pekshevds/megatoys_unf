@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f1e11e2-8648-4d97-af48-55a730c58f51">
+  <producedTypes>
+    <containerType typeId="3c01e47f-70e0-4fc3-ad45-6de75c780c33" valueTypeId="6157def7-4d94-4a24-a948-543d5d43f369"/>
+  </producedTypes>
+  <name>ОбменСВнешнимиСистемамиЛогированиеУчетнаяЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с внешними системами логирование учетная запись</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиМаркетплейсов</types>
+    <types>ExchangePlanRef.ИнтеграцияСМагазинамиСоцСетей</types>
+    <types>CatalogRef.НастройкиИнтеграцииСИнтернетМагазином</types>
+  </type>
+</mdclass:DefinedType>

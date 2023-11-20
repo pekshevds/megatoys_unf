@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27349460-fd97-4794-adf5-cd8f52ea5804">
+  <producedTypes>
+    <managerType typeId="d6c2026c-f26a-4d75-b730-8058070e5c73" valueTypeId="8fd3fa69-9106-419c-91bd-4415dee22133"/>
+    <valueManagerType typeId="d2551d24-fc30-4dca-816f-9e687fe6370a" valueTypeId="9894de9f-8dd3-447d-8f8c-a566f39c669e"/>
+    <valueKeyType typeId="253e84a4-0188-4d73-bbae-88a0ca989ac1" valueTypeId="4ac44bd3-c6e8-4136-b1fb-fd75bdbe00be"/>
+  </producedTypes>
+  <name>ОтображатьМусорнуюКорзину</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать мусорную корзину</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

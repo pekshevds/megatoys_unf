@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ffd0590-dbd0-4324-bb73-1796da56b6cf">
+  <name>Storekeeper</name>
+  <synonym>
+    <key>ru</key>
+    <value>Storekeeper</value>
+  </synonym>
+  <namespace>http://v8.1c.ru/edi/edi_stnd/EnterpriseData/1.7.Storekeeper</namespace>
+</mdclass:XDTOPackage>

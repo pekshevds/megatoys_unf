@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2d3275-8f3c-491d-9fb3-abb74f610853">
+  <producedTypes>
+    <managerType typeId="d1e72000-e90c-4987-8bc5-4ae3d199bf18" valueTypeId="61353600-7215-4bb7-831e-30634e57776e"/>
+    <valueManagerType typeId="c3ad1ff0-3d49-4bb7-913d-d24f867c6c6e" valueTypeId="554e61db-d05e-41fa-b927-19dfcc365649"/>
+    <valueKeyType typeId="c97a67b7-f357-4f7e-b5ed-461c5803d170" valueTypeId="dcd87598-1dbd-41d7-9359-db69a748421f"/>
+  </producedTypes>
+  <name>УдалитьИспользоватьДокументПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) Использовать документ перемещение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

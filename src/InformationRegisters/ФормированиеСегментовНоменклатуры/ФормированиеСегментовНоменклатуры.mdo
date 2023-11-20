@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da9cab68-b697-4185-8675-3d78deafe442">
+  <producedTypes>
+    <selectionType typeId="41f372db-cac6-4ae7-b414-6d16007d3a6a" valueTypeId="dc614fe5-0a19-45fe-947b-a92c325035d0"/>
+    <listType typeId="18f6abb4-4efc-42d9-838d-e2071dfa47dd" valueTypeId="d6454ba3-df69-49d4-b50b-897b1cc1d67c"/>
+    <managerType typeId="115ee36d-b41d-4847-8023-150993f729e8" valueTypeId="4748a3f7-0c82-49c0-949e-da04039533f2"/>
+    <recordSetType typeId="fecb1ea1-49d7-4559-abe4-766b6e6385c7" valueTypeId="8b830db1-a5c1-4576-b01f-3425f0059ba3"/>
+    <recordKeyType typeId="7bec5ec0-ca64-47d3-a832-d08806f8df74" valueTypeId="272f2304-d1cd-4187-bae1-109a0a79b5ae"/>
+    <recordType typeId="771afa61-07bd-45e7-be16-86235b13c289" valueTypeId="25a04e7e-6718-4196-8191-51f326ac2835"/>
+    <recordManagerType typeId="53c83157-4e72-4e64-8bfb-9dbb6ac287c8" valueTypeId="515f10c9-8237-4900-8033-0b9de4fd9426"/>
+  </producedTypes>
+  <name>ФормированиеСегментовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование сегментов номенклатуры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="53a5f0b2-7b71-4275-b500-45fc4b94f1b7">
+    <name>ДатаПоследнегоФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего формирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="84cf2c55-bf54-4a14-9c24-ad60267e6b5f">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34b97b14-ac54-43d8-a74a-8757bc557830">
+  <name>ЛинияГоризонтальная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линия горизонтальная</value>
+  </synonym>
+</mdclass:CommonPicture>

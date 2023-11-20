@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43fde8de-ef60-4e22-8b77-a0562dc15ed6">
+  <name>ВКонтактеПримерЧат</name>
+  <synonym>
+    <key>ru</key>
+    <value>В контакте пример чат</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3de3007-d19a-4e67-b9f1-40ccf29bfd92">
+  <name>УдалениеУстаревшихРаспознанныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление устаревших распознанных документов</value>
+  </synonym>
+  <methodName>CommonModule.РаспознаваниеДокументов.УдалениеУстаревшихРаспознанныхДокументов</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

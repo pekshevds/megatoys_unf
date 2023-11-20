@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30ea70f5-139f-4f37-aeaf-9abf16724b65">
+  <name>АдресатыПисемСформироватьСвязиПриЗаписиКонтактаCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресаты писем сформировать связи при записи контакта CRM</value>
+  </synonym>
+  <source>
+    <types>DefinedType.КонтактПисьмаОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ЭлектроннаяПочтаУНФ.СопоставитьАдресатовПисьмаПриЗаписиКонтактаCRM</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="034c7b02-fcb4-4c15-8158-1e33dd82298f">
+  <producedTypes>
+    <objectType typeId="b0c71b9e-fd55-433b-9ee4-c17e1669a2ad" valueTypeId="b2a91cac-caeb-434f-b6c5-9b5ca05cfd55"/>
+    <managerType typeId="98c327a6-e988-401a-a7ae-7ba5b349ca91" valueTypeId="0259adb9-3192-4265-826d-c54c8d95e627"/>
+  </producedTypes>
+  <name>ИспользованиеРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользованиеРабочегоВремени.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Рабочее время сотрудников</value>
+  </extendedPresentation>
+  <attributes uuid="0abea3e9-1302-4378-8a86-29eaf148d369">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="3d5a578f-b9b5-432f-8bfb-8a778e55c50c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f377a469-6dd3-4e46-8b85-1723ed1c4248">
+    <name>ОбразецРабочееВремяСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец рабочее время сотрудников</value>
+    </synonym>
+    <comment>АПК:497 - проектное решение</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

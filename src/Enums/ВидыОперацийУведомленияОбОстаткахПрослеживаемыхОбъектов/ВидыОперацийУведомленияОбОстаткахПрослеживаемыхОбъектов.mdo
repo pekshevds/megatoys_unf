@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1befbd2d-8c41-4a89-8b49-7f983b0401b0">
+  <producedTypes>
+    <refType typeId="534c59b3-821a-4ed4-af8c-6dfe161ade04" valueTypeId="7f0578d3-9a82-4371-971c-f72ddbf96dde"/>
+    <listType typeId="7ecb7368-5c8d-4bc0-8ccd-bf84255f74fc" valueTypeId="81fae485-47b7-476b-8ca5-a916023efa86"/>
+    <managerType typeId="9c4289eb-0309-49ef-a49e-36a092c53066" valueTypeId="04e044a2-4166-4bd3-b72f-3c59827c4a26"/>
+  </producedTypes>
+  <name>ВидыОперацийУведомленияОбОстаткахПрослеживаемыхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций уведомления об остатках прослеживаемых объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5bfc36ff-2b41-4a0d-81fd-60c8195f15ec">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7438357d-503a-455d-b0af-fd96eb918e49">
+    <name>ОсновныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="142f2a91-3c25-4839-9304-c51226c7e59a">
+    <name>КомплектующиеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции с комплектующими в составе ОС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

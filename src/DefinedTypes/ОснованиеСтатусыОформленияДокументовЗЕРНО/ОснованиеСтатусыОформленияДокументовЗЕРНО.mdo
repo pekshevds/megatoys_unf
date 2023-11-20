@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3432b13-77f2-4eb0-94ae-4aa7ffa09e10">
+  <producedTypes>
+    <containerType typeId="bf86a1fb-cf51-4b51-a930-1d48381c08a9" valueTypeId="6eb90a35-bea2-4b62-bb87-e54eb372d105"/>
+  </producedTypes>
+  <name>ОснованиеСтатусыОформленияДокументовЗЕРНО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание статусы оформления документов ЗЕРНО</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СписаниеЗапасов</types>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.КомплектацияЗапасов</types>
+    <types>DocumentRef.ПеремещениеЗапасов</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>CatalogRef.РезультатыИсследованийЗЕРНО</types>
+    <types>DocumentRef.ФормированиеПартийЗЕРНО</types>
+    <types>DocumentRef.СборкаЗапасов</types>
+    <types>CatalogRef.СДИЗЗЕРНО</types>
+    <types>DocumentRef.ВнесениеСведенийОСобранномУрожаеЗЕРНО</types>
+    <types>DocumentRef.ОприходованиеЗапасов</types>
+    <types>DocumentRef.ПередачаТоваровМеждуОрганизациями</types>
+  </type>
+</mdclass:DefinedType>

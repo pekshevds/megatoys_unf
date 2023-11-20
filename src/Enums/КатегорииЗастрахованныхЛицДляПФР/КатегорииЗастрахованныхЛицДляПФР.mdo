@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e8bfc89-d02c-446e-ae9f-ec8914a9251e">
+  <producedTypes>
+    <refType typeId="646cdd9a-9da0-4f58-948f-9872bd64fe1c" valueTypeId="3b292d23-b488-4dc3-a26c-a61084e5936d"/>
+    <listType typeId="aaa8a061-2023-4a75-b90f-89c48c83e833" valueTypeId="7fe73ee1-2337-47e0-acd5-979cfafe68fa"/>
+    <managerType typeId="81a73dc7-09c5-4f35-839e-27e23c1c8108" valueTypeId="0db8412b-7b68-4dca-843a-f3866720e26e"/>
+  </producedTypes>
+  <name>КатегорииЗастрахованныхЛицДляПФР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории застрахованных лиц для СФР</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a3f0cad-6728-4261-ae2d-5ff486e36fd7">
+    <name>НР</name>
+    <synonym>
+      <key>ru</key>
+      <value>НАЕМ/РАБОТНИК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd83dd4f-882f-4fca-aed4-6b00c6826437">
+    <name>СХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>С/Х ТОВАРОПРОИЗВОДИТЕЛИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="966a287e-d02f-400e-9d9c-3121bfabf164">
+    <name>НРОВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НАЕМ/РАБОТНИК/ОВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1a1b185-8b88-4860-ac35-fc40163849e0">
+    <name>ОЗОИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСОБАЯ/ЗОНА/ОРГАНИЗАЦИИ ИНВАЛИДОВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ca9b567-6ecb-4718-9a59-8ded8b108fdc">
+    <name>ЕСХН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕДИНЫЙ С/Х НАЛОГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5912239e-3c7b-423e-8c43-c29419816a8c">
+    <name>ХМН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации народных художественных промыслов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96c5bcca-0b6a-464f-8437-3c23e43a5ceb">
+    <name>ХО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственные общества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="615ce2a4-d8e4-426b-a9f2-a7a1a7e73432">
+    <name>ТВЭЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технико-внедренческая особая экономическая зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7df7f5c6-b476-43d7-a5c1-c7f7a82fa570">
+    <name>ОДИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка, реализация программ для ЭВМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03eac2fc-1b98-4f24-8616-bb10c01b0fa8">
+    <name>СМИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства массовой информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8d29d3c-5ed5-4663-aea1-9df310b7ded8">
+    <name>ПНЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации, применяющие УСН, занятые производством и приравненными видами деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f34030b6-4b78-4e2d-ac37-cb1f46d655ef">
+    <name>ИЦС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации/участники проектов «Сколково»</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5247389-a33d-48dd-acf0-4449bfa79707">
+    <name>ООИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общественные организации инвалидов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9705c682-ff85-41d3-970a-2140f0f99189">
+    <name>ВЖНР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРОЖИВАЮЩИЙ/НАЕМ/РАБОТНИК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="292cf4a6-231f-4a80-a404-d745a712a4bf">
+    <name>ВПНР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРЕБЫВАЮЩИЙ/НАЕМ/РАБОТНИК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="697f3906-f04e-4787-b181-acc2e4ff1a7e">
+    <name>ВЖСХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРОЖИВАЮЩИЙ/ С/Х ТОВАРОПРОИЗВОДИТЕЛИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f3791fc-bfde-4197-9d9a-ff2cabec513e">
+    <name>ВПСХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРЕБЫВАЮЩИЙ/ С/Х ТОВАРОПРОИЗВОДИТЕЛИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fea0c6e-7b86-448b-bdfb-68671b589e93">
+    <name>ВЖЕН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРОЖИВАЮЩИЙ/ ЕДИНЫЙ С/Х НАЛОГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f750cfa0-d719-4955-9bca-111535f49825">
+    <name>ВПЕН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР. ПРЕБЫВАЮЩИЙ/ ЕДИНЫЙ С/Х НАЛОГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03814773-90cf-4633-94e9-31970e15b651">
+    <name>УСЕН</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПРОЩЕН/СИСТЕМА/ЕДИНЫЙ/НАЛОГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b010f5f-514e-4b4d-b6b6-b92ed59748e9">
+    <name>ВЖМН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации народных художественных промыслов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff994e6f-cd29-4d69-94cf-f3163948068a">
+    <name>ВПМН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации народных художественных промыслов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5b6887f-edaf-4b62-b668-aa2d86ada114">
+    <name>ВЖОИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Общественные организации инвалидов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b52a5795-1211-422c-b158-8d1798199d3f">
+    <name>ВПОИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Общественные организации инвалидов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87ddd114-512e-486c-b67f-1b538eedde98">
+    <name>ВЖХО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Хозяйственные общества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd2f5596-5114-4624-bebe-e9e45179b1fd">
+    <name>ВПХО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Хозяйственные общества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7125854e-b386-4e94-afed-fb12979494c6">
+    <name>ВЖТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Технико-внедренческая особая экономическая зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="779c67e9-c109-4f89-ab5d-092ed2dfc652">
+    <name>ВПТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Технико-внедренческая особая экономическая зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c4aaa6b-e319-4be1-b06b-268f4ac68320">
+    <name>ВЖИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Разработка, реализация программ для ЭВМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4cf477b-0c89-4844-8e0e-9660674ed848">
+    <name>ВПИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Разработка, реализация программ для ЭВМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d3cfe9c-2827-443b-ae5e-21dbcc9dd22d">
+    <name>ВЖСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Средства массовой информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34fc52c5-bba7-4fd0-8861-a80a318ace09">
+    <name>ВПСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Средства массовой информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="278228fa-0d50-40b7-9323-fcb5fb55f8a2">
+    <name>ВЖЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации, применяющие УСН, занятые производством и приравненными видами деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe298894-fcae-430a-a35c-ec74ed131af1">
+    <name>ВПЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации, применяющие УСН, занятые производством и приравненными видами деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27d4496c-1ac8-4a62-a618-b7edfff063f7">
+    <name>ВЖЦС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации/участники проектов «Сколково»</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27043e01-6178-43f6-a0e1-0e79c8638968">
+    <name>ВПЦС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации/участники проектов «Сколково»</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72406964-cd18-4cf9-a1c1-627274305303">
+    <name>АСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аптечные организации, организации социального обслуживания населения и благотворительные организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efa56b4f-eee9-4d01-ac1f-9381c108ff0f">
+    <name>ВЖСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Аптечные организации, организации социального обслуживания населения и благотворительные организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50f9d65b-9bbf-4458-8839-4c6109c95542">
+    <name>ВПСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Аптечные организации, организации социального обслуживания населения и благотворительные организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dc35ca4-7f93-42a4-a3a2-bf4a11ddc661">
+    <name>ЧЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член экипажа судна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c4353e9-b1f1-496d-902f-c5cfc629dff1">
+    <name>ВЖЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Член экипажа судна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42cef085-4f46-4d56-836d-8079929a7d0b">
+    <name>ВПЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Член экипажа судна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35a395ee-6953-402e-b7ef-8e63397cfebc">
+    <name>ИНЖУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации, оказывающие инжиниринговые услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f36f02c8-0fb0-4d6f-a375-bd8db8fd2163">
+    <name>ВЖИЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации, оказывающие инжиниринговые услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7d14140-2222-424a-bf42-d42ab7a65163">
+    <name>ВПИЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации, оказывающие инжиниринговые услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b56a4bfd-0d02-4d35-8518-10be584ef807">
+    <name>КРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-участники свободной экономической зоны в Крыму</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f30c1d3-1b50-4baa-983f-01b0df33a98c">
+    <name>ТОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-резиденты территории опережающего социально-экономического развития</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="726c83d7-8d59-480e-967c-759791850700">
+    <name>ВЖКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-участники свободной экономической зоны в Крыму</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e215601-dad3-4ca3-84a7-1e89705c1de4">
+    <name>ВЖТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-резиденты территории опережающего социально-экономического развития</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a29b6b86-ba70-4141-a7a2-9b970f9e10f6">
+    <name>ВПКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-участники свободной экономической зоны в Крыму</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83b50139-d53b-43f4-b3e1-25e42a548c30">
+    <name>ВПТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-резиденты территории опережающего социально-экономического развития</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c0f5ccb-580d-4fe5-8f61-3bab24288d37">
+    <name>СПВЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-резиденты свободного порта Владивосток </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25760637-9d52-459c-8d54-b2192a00591d">
+    <name>ВЖВЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-резиденты свободного порта Владивосток </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75d23c06-ed0a-4cc4-96ef-722d308006ac">
+    <name>ВПВЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-резиденты свободного порта Владивосток </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aab8f77-41ef-4479-a0d7-61d5a6549ebe">
+    <name>АНМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-производители анимации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db7bfc44-8b2f-41b2-ba03-2428245bf499">
+    <name>ВПАН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-производители анимации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e2919ef-dec8-4712-acac-59294c6d2fb1">
+    <name>ВЖАН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-производители анимации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ae59493-bdf8-4326-b35a-03d4a36f03be">
+    <name>КЛН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-резиденты особой зоны в Калининградской области</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaa7b330-4ed6-4f53-a433-07ebfc5e2e56">
+    <name>ВПКЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-резиденты особой зоны в Калининградской области</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c756e52f-f8bb-484e-bd96-ad5e12270865">
+    <name>ВЖКЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-резиденты особой зоны в Калининградской области</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f39d19db-14a2-4664-9bbb-27ff88db354c">
+    <name>САР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член экипажа судна в организации-участнике специального административного района</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa036902-fa15-476c-ab6f-023c8da1f25a">
+    <name>ВЖАР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Член экипажа судна в организации-участнике специального административного района</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc517b03-85a4-47d3-8bbd-8a6cbc514a72">
+    <name>ВПАР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Член экипажа судна в организации-участнике специального административного района</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e3c7c44-2860-426f-92e7-8fb9ecbbdfeb">
+    <name>МС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщики, признаваемыми субъектами малого или среднего предпринимательства</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="b15a7f0d-7d55-4593-bad2-8038520fb967">
+    <name>ВЖМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Плательщики, признаваемыми субъектами малого или среднего предпринимательства</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="1c553f0a-64f2-4973-bded-b69adfb4c656">
+    <name>ВПМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Плательщики, признаваемыми субъектами малого или среднего предпринимательства</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="8eda3e1e-aa02-4242-ad74-5606701477da">
+    <name>КВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации отраслей, пострадавших от коронавирусной инфекции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="b39e7541-c4b2-4e30-aa31-a9b7a0222e6c">
+    <name>ВЖКВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации отраслей, пострадавших от коронавирусной инфекции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="f5490ad6-200e-4b1c-8d2e-884797ae79c4">
+    <name>ВПКВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации отраслей, пострадавших от коронавирусной инфекции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="db140f71-cdc6-4401-949e-f7f24e26ac2c">
+    <name>ЭКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации-разработчики электронной продукции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="4de99f61-5894-495f-8ea2-becf20870c50">
+    <name>ВЖЭК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации-разработчики электронной продукции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="b9229da2-b327-46fd-a461-4e3798446054">
+    <name>ВПЭК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации-разработчики электронной продукции</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="47983be3-23a4-4741-a17f-ecec67f87acc">
+    <name>КурильскиеОстрова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации, зарегистрированные на Курильских островах</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="38847ea0-c2de-48a2-8ad9-cab2cb5417c0">
+    <name>ВЖКурильскиеОстрова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации, зарегистрированные на Курильских островах</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="204c0694-fc93-4cec-b00d-7dacac366a00">
+    <name>ВПКурильскиеОстрова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации, зарегистрированные на Курильских островах</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="a2eca8d7-813d-41e3-952c-43f60d96e023">
+    <name>ИНТЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации, получившие статус участников инновационных научно-технологических центров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="f3049453-3c0b-4075-8f54-d827e140624a">
+    <name>ВЖТЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации, получившие статус участников инновационных научно-технологических центров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="918d3142-47e0-4a5b-bada-c39fdf1ef6d9">
+    <name>ВПТЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации, получившие статус участников инновационных научно-технологических центров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="594c30cd-9e6b-40c7-94b2-d67df9576aee">
+    <name>ОВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации, занимающиеся общепитом</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="39a2a67b-99aa-47de-b577-398faf6b6269">
+    <name>ВЖОВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации, занимающиеся общепитом</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="c18f5743-3025-49e6-a345-b9271a5bc3f9">
+    <name>ВПОВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации, занимающиеся общепитом</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="9be4ef84-eaaf-47be-b6f6-b6c62127bcdc">
+    <name>СТУД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучающиеся по очной форме обучения, работающие в студенческих отрядах</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="e6158779-c95d-43c1-8e87-eef9ab64d608">
+    <name>ПРОМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации из реестра участников промышленных кластеров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="ea05b067-c979-42f6-9438-5792485d24c9">
+    <name>ВЖПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Организации из реестра участников промышленных кластеров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="2cba873f-497c-4931-8dc1-b535f5261e4f">
+    <name>ВППР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Организации из реестра участников промышленных кластеров</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="e130c431-5646-4ef9-913f-1f29ab44cc37">
+    <name>НТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник СЭЗ в соответствии с Федеральным законом от 24.06.2023 № 268-ФЗ</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="129fd839-46db-41b8-b07b-3361bc9c9e73">
+    <name>ВЖНТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. проживающий/ Участник СЭЗ в соответствии с Федеральным законом от 24.06.2023 № 268-ФЗ</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="394ea536-1025-4b76-af43-7cb037c2092f">
+    <name>ВПНТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вр. пребывающий/ Участник СЭЗ в соответствии с Федеральным законом от 24.06.2023 № 268-ФЗ</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+  <enumValues uuid="4a200f02-b3a5-4ab1-9cc7-9ca41746ce7c">
+    <name>МД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицо, подлежащее ОПС в соответствии с международными договорами РФ</value>
+    </synonym>
+    <comment>АПК:58 различия имени и синонима оправданы длиной</comment>
+  </enumValues>
+</mdclass:Enum>

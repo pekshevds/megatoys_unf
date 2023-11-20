@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="972d7e80-2a22-43da-90ec-076f995385a2">
+  <name>SaleBlue</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sale (blue)</value>
+  </synonym>
+</mdclass:CommonPicture>

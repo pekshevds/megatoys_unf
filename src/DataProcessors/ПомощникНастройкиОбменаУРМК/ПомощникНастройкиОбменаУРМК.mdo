@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="667cd4da-1981-440b-b716-39398e4f0845">
+  <producedTypes>
+    <objectType typeId="fafed462-c515-477d-bcc7-14f363c7e54d" valueTypeId="f725f375-0766-42f4-b10b-a0a31d6a73bd"/>
+    <managerType typeId="f79575ca-ddba-454e-aa7c-0d091ce895ee" valueTypeId="f819e2a5-0923-4860-954e-b7366196b565"/>
+  </producedTypes>
+  <name>ПомощникНастройкиОбменаУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки обмена УРМК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникНастройкиОбменаУРМК.Form.ПомощникНастройкиОбменаДанными</defaultForm>
+  <forms uuid="8f6ab2e8-a806-437c-b414-197505c76605">
+    <name>ПомощникНастройкиОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник настройки обмена данными</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8e79025-6fb3-498d-9796-de750f649c7a">
+    <name>НастройкаРежима</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка режима</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2765e124-8670-498a-bb6d-0610a12e757f">
+    <name>КодыПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды подключения</value>
+    </synonym>
+  </templates>
+  <commands uuid="88a1f572-e696-4b26-a563-277ddfaeb7c6">
+    <name>МастерНастройкиУРМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:РМК</value>
+    </synonym>
+    <comment>// АПК:58 Синоним отличается от имени ради более точного отображения в интерфейсе</comment>
+    <group>CommandGroup.НовостиСервис</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

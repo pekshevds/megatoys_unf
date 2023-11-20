@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c17420f4-d7f7-4394-99f1-9d94a3c35b10">
+  <name>СвойстваВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства внедрение</value>
+  </synonym>
+  <content>CommonModule.УправлениеСвойствамиУНФ</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

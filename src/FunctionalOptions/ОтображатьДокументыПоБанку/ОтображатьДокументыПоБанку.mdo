@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ba879eb-c882-4e27-b7a7-aead884d5023">
+  <name>ОтображатьДокументыПоБанку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать документы по банку</value>
+  </synonym>
+  <location>Constant.ОтображатьДокументыПоБанку</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.ДокументыПоБанку.Command.ДокументыПоБанку</content>
+</mdclass:FunctionalOption>

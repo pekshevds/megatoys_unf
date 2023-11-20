@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06d96e3b-c3a6-4b6d-8309-18f597d7db19">
+  <name>ФормаОплатыЭСНСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата ЭС НСПК</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

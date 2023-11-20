@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="411a0dad-8a8f-4c7c-aec2-13f76267642f">
+  <name>РМКСкидкаНаЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидка на чек</value>
+  </synonym>
+</mdclass:CommonPicture>

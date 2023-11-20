@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd68e88d-2174-445c-9bd0-ee8128b37de0">
+  <producedTypes>
+    <managerType typeId="57d6c0ba-5eed-4166-8b0a-cede3b2309b7" valueTypeId="38281583-3cf4-41ec-adb7-f6395246f1d4"/>
+    <valueManagerType typeId="456018d9-05c0-44db-a3eb-5926a757b538" valueTypeId="61d316ed-162f-47da-9a13-1ee1536aa21a"/>
+    <valueKeyType typeId="5b0d17e0-3c0a-4ffb-b8de-5eac417ee319" valueTypeId="568ee67e-a1b5-44ee-8b0d-ba58b0568aab"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьОписьСдаваемыхДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция использовать опись сдаваемых денег</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67877a39-49c6-43db-ad8a-734dfc73beb2">
+  <producedTypes>
+    <objectType typeId="767fd5ed-12a4-47b9-ac0d-4cd1bd3c4845" valueTypeId="64506c42-2a68-486d-9550-2955776d1012"/>
+    <refType typeId="def61bfa-2602-4e07-a117-644c45437492" valueTypeId="ffb94923-1c3d-4ca7-8fac-ca7b82929a34"/>
+    <selectionType typeId="85fc496b-11cd-4ba0-9832-076c289b5531" valueTypeId="7e7c9d3f-0b64-4c6c-afc5-c938b0aeaf40"/>
+    <listType typeId="012fdb23-81fd-4742-bca8-c07b71484bb2" valueTypeId="101a05e3-d512-4ae9-934d-8979766e134c"/>
+    <managerType typeId="7c26c7fa-d15f-4f48-b52a-e6fe1738c096" valueTypeId="b0959e89-0c15-4612-9f98-0a5baf6afe66"/>
+  </producedTypes>
+  <name>УдалитьСотрудникиДляИнтеграцииБЗКБУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить сотрудники для интеграции БЗКБ УНФ</value>
+  </synonym>
+  <inputByString>Catalog.УдалитьСотрудникиДляИнтеграцииБЗКБУНФ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УдалитьСотрудникиДляИнтеграцииБЗКБУНФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

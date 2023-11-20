@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780b4df1-27b8-4a6f-9d7a-a821ceee3e2d">
+  <name>ОтображатьБыстрыеДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать быстрые действия</value>
+  </synonym>
+  <location>Constant.ОтображатьБыстрыеДействия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.БыстрыеДействия</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62337427-f483-411f-8288-93e5a11f4156">
+  <name>ИспользоватьПодсистемуЗарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Зарплата</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьПодсистемуЗарплата</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыРабочегоВремени</content>
+  <content>Catalog.ВидыНачисленийИУдержаний</content>
+  <content>Catalog.ПоказателиРасчетов</content>
+  <content>Document.КадровоеПеремещениеУНФ</content>
+  <content>Document.НачислениеЗарплатыУНФ</content>
+  <content>Document.ПлатежнаяВедомость</content>
+  <content>Document.ПриемНаРаботуУНФ</content>
+  <content>Document.Табель</content>
+  <content>Document.УвольнениеУНФ</content>
+  <content>DocumentJournal.ДокументыПоЗарплате</content>
+  <content>DocumentJournal.ДокументыПоКадрам</content>
+  <content>Report.НачисленияИУдержания</content>
+  <content>Report.ОтработанноеВремя</content>
+  <content>Report.РасчетнаяВедомость</content>
+  <content>Report.РасчетныеЛистки</content>
+  <content>Report.РасчетыСПерсоналом</content>
+  <content>Report.СпискиСотрудников</content>
+  <content>InformationRegister.ПлановыеНачисленияИУдержания</content>
+  <content>InformationRegister.Сотрудники</content>
+  <content>AccumulationRegister.Табель</content>
+  <content>Subsystem.Персонал.Subsystem.Персонал</content>
+  <content>Subsystem.Персонал.Subsystem.Зарплата</content>
+  <content>Catalog.Сотрудники.Attribute.СчетРасчетовСПерсоналом</content>
+  <content>Document.ЗаказПокупателя.Attribute.ИспользоватьЗарплатаИсполнителей</content>
+  <content>Document.ЗаказПокупателя.TabularSection.Исполнители</content>
+  <content>Subsystem.Персонал</content>
+  <content>Subsystem.Персонал.Subsystem.Аналитика</content>
+  <content>Report.ШтатноеРасписание</content>
+  <content>InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ</content>
+  <content>Report.ДействующиеПравилаРасчетаПремий</content>
+  <content>Report.РасшифровкаНачисленийПремийПродавцам</content>
+  <content>Report.ПланФактПоРабочемуВремениСотрудников</content>
+  <content>Report.ИспользованиеРабочегоВремени</content>
+</mdclass:FunctionalOption>

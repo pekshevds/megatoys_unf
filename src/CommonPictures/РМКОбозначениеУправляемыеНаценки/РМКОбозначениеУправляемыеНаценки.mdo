@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fdd287c-41da-4760-b092-6ea39ab525e9">
+  <name>РМКОбозначениеУправляемыеНаценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обозначение управляемые наценки</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="363d499b-f3fe-47ad-8a53-4b17864ba497">
+  <producedTypes>
+    <containerType typeId="7555d099-8652-49d9-814f-cf0869d937de" valueTypeId="2a671eee-f2cf-407b-9726-c860c93649fc"/>
+  </producedTypes>
+  <name>ДрайверОборудованияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер оборудования РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДрайверыОборудования</types>
+  </type>
+</mdclass:DefinedType>

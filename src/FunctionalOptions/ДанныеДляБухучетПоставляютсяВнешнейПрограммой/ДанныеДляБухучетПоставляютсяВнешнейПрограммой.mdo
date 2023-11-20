@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67425b80-ca70-41c7-8ed6-2310279b6f3f">
+  <name>ДанныеДляБухучетПоставляютсяВнешнейПрограммой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для бухучет поставляются внешней программой</value>
+  </synonym>
+  <location>Constant.ДанныеДляБухучетПоставляютсяВнешнейПрограммой</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>AccumulationRegister.НДФЛПеречисленный.Attribute.СтатьяРасходов</content>
+</mdclass:FunctionalOption>

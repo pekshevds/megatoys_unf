@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385aaa75-c39c-48c8-8ee8-6ae8e680c4ba">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Должности</content>
+  <content>Catalog.ВидыНачисленийИУдержаний</content>
+  <content>Catalog.ПоказателиРасчетов</content>
+  <content>Role.ЧтениеПерсональныхДанныхФизическихЛиц</content>
+  <content>Role.ЧтениеФизическихЛиц</content>
+  <content>Role.ДобавлениеИзменениеПерсональныхДанныхФизическихЛиц</content>
+  <content>Role.ДобавлениеИзменениеФизическихЛиц</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>InformationRegister.ДокументыФизическихЛиц</content>
+  <content>InformationRegister.ФИОФизическихЛиц</content>
+  <content>CommonModule.ДокументыФизическихЛицКлиентСервер</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ВидыДокументовФизическихЛиц</content>
+  <content>Catalog.ВидыРабочегоВремени</content>
+  <content>CommonCommand.ГрафикиРаботы_Сотрудники</content>
+  <content>Catalog.Подписи</content>
+  <content>Role.ДобавлениеИзменениеВидовНачисленийИУдержаний</content>
+  <content>Role.ДобавлениеИзменениеПараметровРасчетов</content>
+  <content>Role.ЧтениеПараметровРасчетов</content>
+  <content>Role.ДобавлениеИзменениеДолжностей</content>
+  <content>Role.ДобавлениеИзменениеВидовРабочегоВремени</content>
+  <content>Role.ЧтениеВидовРабочегоВремени</content>
+  <content>Role.РазделПерсоналСправочники</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.УсловияНачисленияПремийПоЛичнымПродажам</content>
+  <content>Catalog.ПравилаРасчетаПремийПоЛичнымПродажам</content>
+  <content>InformationRegister.ПланируемоеРабочееВремяСотрудников</content>
+  <content>Catalog.РабочиеСменыСтруктурныхЕдиниц</content>
+  <content>Role.ДобавлениеИзменениеРабочиеСменыСтруктурныхЕдиниц</content>
+  <parentSubsystem>Subsystem.Персонал</parentSubsystem>
+</mdclass:Subsystem>

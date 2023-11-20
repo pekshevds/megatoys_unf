@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df3ab554-47aa-4748-a174-bdcea4d886b2">
+  <name>ИспользоватьМаршрутныеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать маршрутные листы</value>
+  </synonym>
+  <location>Constant.ИспользоватьМаршрутныеЛисты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.МаршрутныйЛист</content>
+  <content>Catalog.ВидыЗаказовПокупателей.Attribute.СостояниеДоставлен</content>
+  <content>Catalog.ВидыЗаказовПокупателей.Attribute.СостояниеОтгружен</content>
+  <content>Catalog.ВидыЗаказовПокупателей.Attribute.СостояниеОжидаетОтгрузки</content>
+  <content>Subsystem.Продажи.Subsystem.Доставка</content>
+  <content>Catalog.ВидыЗаказовПокупателей.Attribute.НеИспользоватьДоставку</content>
+</mdclass:FunctionalOption>

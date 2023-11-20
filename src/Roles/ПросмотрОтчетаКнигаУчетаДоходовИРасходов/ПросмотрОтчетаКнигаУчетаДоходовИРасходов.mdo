@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b9927de-ea28-4020-a2fa-7b80b7f246a8">
+  <name>ПросмотрОтчетаКнигаУчетаДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета книга учета доходов и расходов</value>
+  </synonym>
+</mdclass:Role>

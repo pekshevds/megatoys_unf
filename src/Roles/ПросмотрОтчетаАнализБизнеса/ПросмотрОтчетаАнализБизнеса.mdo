@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edb9e9a8-0224-4118-9eca-902df81cbff6">
+  <name>ПросмотрОтчетаАнализБизнеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета анализ бизнеса</value>
+  </synonym>
+</mdclass:Role>

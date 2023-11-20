@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3dd2ab-e844-4502-adfe-c838d650f7c2">
+  <name>ПолучитьПредставлениеДокументаСВходящимНомером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить представление документа с входящим номером</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.ЗаказПоставщику</types>
+    <types>DocumentManager.РасходнаяНакладная</types>
+    <types>DocumentManager.РасходДСПлан</types>
+    <types>DocumentManager.ПриходныйОрдер</types>
+    <types>DocumentManager.КорректировкаПоступления</types>
+    <types>DocumentManager.ДополнительныеРасходы</types>
+    <types>DocumentManager.КорректировкаРеализации</types>
+    <types>DocumentManager.СчетФактура</types>
+    <types>DocumentManager.ДоговорКредитаИЗайма</types>
+    <types>DocumentManager.СчетНаОплатуПоставщика</types>
+    <types>DocumentManager.РасходСоСчета</types>
+    <types>DocumentManager.ПоступлениеНаСчет</types>
+    <types>DocumentManager.ПриходнаяНакладная</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.ДокументыУНФКлиентСервер.ПолучитьПредставлениеДокументаСВходящимНомером</handler>
+</mdclass:EventSubscription>

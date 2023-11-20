@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aec7723-fb18-49b0-a439-c9091e8962b3">
+  <producedTypes>
+    <containerType typeId="837b4692-f199-4d21-b353-8ddc9d8ceb42" valueTypeId="f3e4733d-0b73-48e6-8a65-3df6094c4069"/>
+  </producedTypes>
+  <name>ТипыСистемНалогообложенияККТРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы систем налогообложения ККТ РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыСистемНалогообложенияККТ</types>
+  </type>
+</mdclass:DefinedType>

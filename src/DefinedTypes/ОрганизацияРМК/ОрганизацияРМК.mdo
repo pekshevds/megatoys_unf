@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ed4d843-edbd-40f4-a16f-94fbdf270faf">
+  <producedTypes>
+    <containerType typeId="96774c19-3138-400a-a2ac-c2e9ddb794e7" valueTypeId="bd63abf2-da18-47d8-bd13-5af6e3af1325"/>
+  </producedTypes>
+  <name>ОрганизацияРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

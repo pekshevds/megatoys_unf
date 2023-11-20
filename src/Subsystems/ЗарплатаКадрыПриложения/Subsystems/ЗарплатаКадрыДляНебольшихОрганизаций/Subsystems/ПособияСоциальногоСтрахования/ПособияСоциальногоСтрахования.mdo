@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="446ca8ef-539c-4494-9dd4-ba38d735d0b1">
+  <name>ПособияСоциальногоСтрахования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пособия социального страхования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ПособияВыплачиваемыеФСС</content>
+  <content>Document.БольничныйЛист</content>
+  <content>CommonModule.УчетПособийСоциальногоСтрахованияНебольшихОрганизаций</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

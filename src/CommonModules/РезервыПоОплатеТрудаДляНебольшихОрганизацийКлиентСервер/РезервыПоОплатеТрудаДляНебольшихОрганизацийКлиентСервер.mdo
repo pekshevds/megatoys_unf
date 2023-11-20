@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7e37dc4-d861-45fc-85d6-cd17748101dc">
+  <name>РезервыПоОплатеТрудаДляНебольшихОрганизацийКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет резервов для небольших организаций (клиент, сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

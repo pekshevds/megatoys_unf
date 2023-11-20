@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc7454a6-ce57-4070-918a-77796a5b9e4d">
+  <producedTypes>
+    <managerType typeId="5e2b02df-6179-4f2d-b4aa-881c4ac77622" valueTypeId="8fb9b380-60a2-43c6-a81a-869910555ec1"/>
+    <valueManagerType typeId="1121be1a-f933-45fb-bdc0-e368d324d4a8" valueTypeId="032ffe1b-20eb-499e-a7d7-ca8db23670e7"/>
+    <valueKeyType typeId="d41add75-6140-4b75-91d8-832ae2997179" valueTypeId="62bacf52-f9e5-42b9-8a08-daa4d75fc0fa"/>
+  </producedTypes>
+  <name>ОбновленаИнформацияПоЦенамИзбранныеТовары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновлена информация по ценам избранные товары</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

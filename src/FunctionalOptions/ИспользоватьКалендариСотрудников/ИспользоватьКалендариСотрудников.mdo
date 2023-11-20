@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744c49b5-069e-4545-9d02-2952af70b36a">
+  <name>ИспользоватьКалендариСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать календари сотрудников</value>
+  </synonym>
+  <location>Constant.ИспользоватьКалендариСотрудников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КалендариСотрудников</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника</content>
+  <content>Catalog.КолонкиКалендарейСотрудников</content>
+  <content>InformationRegister.ОбновленныеЗаписиКалендаряСотрудника</content>
+  <content>CommonCommand.ОткрытьРабочееМестоКалендаря</content>
+  <content>Catalog.ЗаписиКалендаряСотрудника.Command.Календарь</content>
+</mdclass:FunctionalOption>

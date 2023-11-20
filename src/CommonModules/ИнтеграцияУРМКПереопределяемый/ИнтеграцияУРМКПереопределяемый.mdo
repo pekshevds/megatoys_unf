@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40981cab-0556-4f6f-8f68-55506bb847ef">
+  <name>ИнтеграцияУРМКПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция УРМК Переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

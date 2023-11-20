@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58bb1272-bff9-41d0-9bf6-4f0b5a7ca152">
+  <producedTypes>
+    <selectionType typeId="4566eeaf-8c90-4010-b7cc-c1eb03428027" valueTypeId="f572dcf3-dbab-4843-b5bd-34adae180941"/>
+    <listType typeId="3febf924-1ccd-4da5-8036-acec3cad5978" valueTypeId="cebfaba7-f060-4358-9b7f-7f0e51163d15"/>
+    <managerType typeId="4460ecb6-727a-4ef7-93ef-6b469fd25f0c" valueTypeId="309be586-6eb1-463c-93c1-0f6bd01fec22"/>
+    <recordSetType typeId="f96c6ad4-2f14-4f36-a39c-74719d6c51b2" valueTypeId="528596f3-f1b5-4a29-96fd-514e381bbcac"/>
+    <recordKeyType typeId="9b7ef1c6-d8f7-48fe-824f-6b2db2672946" valueTypeId="6420ebf7-f31a-446d-a9a4-d8af2452912f"/>
+    <recordType typeId="2c2f2c3a-ad7a-42b3-8f21-08955f23eaf9" valueTypeId="64e5b4a4-ab16-4136-9bd6-c1471706eb72"/>
+    <recordManagerType typeId="c3a6c398-90c5-444a-b23d-1e067d15beeb" valueTypeId="f4cd6277-9f65-44ab-99a9-85918e1b84cf"/>
+  </producedTypes>
+  <name>СодержимоеПочтовыхЯщиковУчетныхЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержимое почтовых ящиков учетных записей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6236ed99-8258-4251-a3c8-6097af4e6dab">
+    <name>ПочтовыйЯщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый ящик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПочтовыеЯщикиУчетныхЗаписей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b92911ad-1401-42cd-af2f-7b98f8d08feb">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f7e27c4-0a5a-483b-aeff-cbca1f1943da">
+  <name>ПросмотрОтчетаПримененныеСкидкиВДокументе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета примененные скидки в документе</value>
+  </synonym>
+</mdclass:Role>

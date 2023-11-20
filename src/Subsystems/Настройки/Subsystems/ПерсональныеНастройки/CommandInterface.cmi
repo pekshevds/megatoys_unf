@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.НастройкиПользователей.Command.НастройкиПользователя</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ПерсональныеНастройки.Command.МоиНастройки</commands>
+      <commands>DataProcessor.ПерсональныеНастройки.Command.ОбменСКалендарями</commands>
+      <commands>InformationRegister.НастройкиПользователей.Command.НастройкиПользователя</commands>
+      <commands>DataProcessor.ПерсональныеНастройки.Command.ПочтаSMS</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

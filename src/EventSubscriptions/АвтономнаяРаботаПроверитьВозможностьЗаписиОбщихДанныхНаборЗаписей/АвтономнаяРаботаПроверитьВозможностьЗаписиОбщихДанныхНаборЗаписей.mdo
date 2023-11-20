@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3893a258-a9c7-441a-b80c-1cc8c3f4735c">
+  <name>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа проверить возможность записи общих данных набор записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ПредельнаяВеличинаБазыСтраховыхВзносовУНФ</types>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.КоэффициентДефлятор</types>
+    <types>InformationRegisterRecordSet.РазмерВычетовНДФЛВторичный</types>
+    <types>InformationRegisterRecordSet.РазмерВычетовНДФЛ</types>
+    <types>InformationRegisterRecordSet.СтраховыеВзносыСкидкиКДоходам</types>
+    <types>InformationRegisterRecordSet.МаксимальныйРазмерЕжемесячнойСтраховойВыплаты</types>
+    <types>InformationRegisterRecordSet.МинимальнаяОплатаТрудаРФ</types>
+    <types>InformationRegisterRecordSet.ТарифыВзносовПоРезультатамСпециальнойОценкиУсловийТруда</types>
+    <types>InformationRegisterRecordSet.ТарифыВзносовЗаЗанятыхНаРаботахСДосрочнойПенсией</types>
+    <types>InformationRegisterRecordSet.НДФЛРазмерВычетов</types>
+    <types>InformationRegisterRecordSet.ВычетыПоДоходамНДФЛ</types>
+    <types>InformationRegisterRecordSet.РазмерФиксированныхВзносовОтНесчастныхСлучаевАУСН</types>
+    <types>InformationRegisterRecordSet.ТарифыСтраховыхВзносов</types>
+    <types>InformationRegisterRecordSet.ДопустимыеСочетанияКодовГруппСтажа</types>
+    <types>InformationRegisterRecordSet.ПредельнаяВеличинаБазыСтраховыхВзносов</types>
+    <types>InformationRegisterRecordSet.ТарифыСтраховыхВзносовУНФ</types>
+    <types>InformationRegisterRecordSet.БИКУчастниковСБП</types>
+    <types>InformationRegisterRecordSet.ДатыВступленияВСилуНА</types>
+    <types>InformationRegisterRecordSet.НастройкиУчастниковСБП</types>
+    <types>InformationRegisterRecordSet.ФиксированныеВзносыИП</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
+    <types>InformationRegisterRecordSet.МРОТ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.АвтономнаяРаботаОбменДаннымиСобытия.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписей</handler>
+</mdclass:EventSubscription>

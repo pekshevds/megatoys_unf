@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204a2192-2934-4842-9395-638e4dbabc72">
+  <name>ИнтеграцияГОСИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ГосИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.ФормаВыбораВидовПродукцииГосИС</content>
+  <content>FunctionalOption.ВестиУчетСредствИндивидуальнойЗащиты</content>
+  <content>Constant.ВестиУчетСредствИндивидуальнойЗащиты</content>
+  <content>CommonModule.АкцизныеМаркиУНФ</content>
+  <subsystems>ИнтеграцияВЕТИС</subsystems>
+  <subsystems>ИнтеграцияГИСМ</subsystems>
+  <subsystems>ИнтеграцияЕГАИС</subsystems>
+  <subsystems>ИнтеграцияИСМП</subsystems>
+  <subsystems>ИнтеграцияЗЕРНО</subsystems>
+  <subsystems>БазоваяФункциональностьИСВнедрение</subsystems>
+  <subsystems>ИнтеграцияШиныИПокрышки</subsystems>
+</mdclass:Subsystem>

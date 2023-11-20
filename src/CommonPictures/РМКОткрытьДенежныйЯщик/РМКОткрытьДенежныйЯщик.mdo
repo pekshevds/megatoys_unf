@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20cc2099-1fb3-4f5d-bb4a-a4339037b68f">
+  <name>РМКОткрытьДенежныйЯщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть денежный ящик</value>
+  </synonym>
+</mdclass:CommonPicture>

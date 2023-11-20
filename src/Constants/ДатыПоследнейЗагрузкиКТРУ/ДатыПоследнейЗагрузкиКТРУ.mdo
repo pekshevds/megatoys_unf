@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793cf369-7ccd-41b3-bd98-29594a81e005">
+  <producedTypes>
+    <managerType typeId="f5db5c27-9239-4cb3-a203-4cf14d330de7" valueTypeId="30b0cba2-7fde-4426-a1ca-e5cad3170def"/>
+    <valueManagerType typeId="abcda4e9-292e-4eec-b743-f7791c64acf4" valueTypeId="557c1718-8aad-45c6-aa2a-d0a0deb9816d"/>
+    <valueKeyType typeId="64452c29-a781-4ee3-be4f-06c41f11d59e" valueTypeId="2d1d4884-3ca6-443a-8ea3-7e01bcd8fcaa"/>
+  </producedTypes>
+  <name>ДатыПоследнейЗагрузкиКТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты последней загрузки КТРУ</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

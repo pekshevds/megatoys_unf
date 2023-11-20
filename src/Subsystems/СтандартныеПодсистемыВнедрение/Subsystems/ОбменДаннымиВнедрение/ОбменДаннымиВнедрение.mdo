@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cba92aa-9589-4a1d-8b71-2963f1c54a67">
+  <name>ОбменДаннымиВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными внедрение</value>
+  </synonym>
+  <content>Enum.РежимВыгрузкиКартинокНоменклатуры</content>
+  <content>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат</content>
+  <content>XDTOPackage.EnterpriseData_1_14_1i</content>
+  <content>EventSubscription.УстановитьПрефиксИнформационнойБазыНомеруДокумента</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

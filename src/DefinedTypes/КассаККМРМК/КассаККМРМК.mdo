@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db62536-6558-476a-b0e1-93f53f0fc210">
+  <producedTypes>
+    <containerType typeId="f1005aba-1f5f-483f-804c-e5f7e6ce2804" valueTypeId="91bd0f9e-47b9-4912-9423-043eb55f8f8d"/>
+  </producedTypes>
+  <name>КассаККМРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса ККМ РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КассыККМ</types>
+  </type>
+</mdclass:DefinedType>

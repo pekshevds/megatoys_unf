@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac71dc3-27e8-4e15-bd9f-c3fef91a4b5c">
+  <name>ПодготовкаНовогоSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка нового SMS</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

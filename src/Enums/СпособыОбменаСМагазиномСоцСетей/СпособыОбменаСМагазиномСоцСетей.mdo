@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb3bb7f-aebd-47c0-a035-f9e10165f8bb">
+  <producedTypes>
+    <refType typeId="8bc92c0f-1f7a-4f02-bb56-4a6eb749f70a" valueTypeId="edaabc78-295e-4321-a228-58a4ade579a1"/>
+    <listType typeId="a627f6f4-2416-41c3-9442-7867f1e6f912" valueTypeId="34a846c8-7bb1-4797-ad29-8398452c191a"/>
+    <managerType typeId="5ec676ee-bca5-46d9-9c1c-81beb18ff586" valueTypeId="f58856fd-b36d-4238-a07e-6c7d7945817e"/>
+  </producedTypes>
+  <name>СпособыОбменаСМагазиномСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы обмена с магазином соц сетей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0164f6ff-b57a-495c-b4c8-6379e18b6ce0">
+    <name>ТолькоЦеныИКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только цены и количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6c1eb44-f550-48ab-a9ac-f73fbc3eb68c">
+    <name>ВсеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все изменения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c16b4eb-9307-46e4-ba7b-1d30f3d02ecc">
+    <name>ПолныйОбмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный обмен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

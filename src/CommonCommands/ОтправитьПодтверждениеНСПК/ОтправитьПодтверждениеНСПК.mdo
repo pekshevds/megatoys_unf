@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="318c4048-1f0b-4e09-ab6f-0c84e0f07902">
+  <name>ОтправитьПодтверждениеНСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить подтверждение ЭС (ФЗ-491)</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ЧекККМВозврат</types>
+    <types>DocumentRef.ЧекККМ</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Отправить подтверждение ЭС (ФЗ-491)</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.НСПК_МИР</picture>
+  </picture>
+</mdclass:CommonCommand>

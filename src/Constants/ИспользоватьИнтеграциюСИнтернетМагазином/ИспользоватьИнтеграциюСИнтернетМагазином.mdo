@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="109e43b2-3daf-4791-bedd-99a40971df4c">
+  <producedTypes>
+    <managerType typeId="93704846-7448-4ba2-9737-a1e5e31e22fd" valueTypeId="3aadaed1-c43e-4045-8aee-1de376086a93"/>
+    <valueManagerType typeId="3aea28a0-e0bb-4bbc-80ef-2516e64da2f4" valueTypeId="7582bdcc-34c1-4a73-9253-332aa1542ee4"/>
+    <valueKeyType typeId="89fef9db-870f-435c-9d09-dc868fcb4263" valueTypeId="8f8adedb-6104-4ef0-a80e-cf37b7575a1c"/>
+  </producedTypes>
+  <name>ИспользоватьИнтеграциюСИнтернетМагазином</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с интернет магазинами</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

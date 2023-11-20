@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a273d2ec-b008-4ee6-8948-52873137195e">
+  <producedTypes>
+    <containerType typeId="332617ed-794d-4d5b-93a2-c98e19d1d131" valueTypeId="dc954dd3-8eb2-4e6e-9485-d89eedc25a5b"/>
+  </producedTypes>
+  <name>ПартияНоменклатурыШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партия номенклатуры штрихкода</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПартииНоменклатуры</types>
+  </type>
+</mdclass:DefinedType>

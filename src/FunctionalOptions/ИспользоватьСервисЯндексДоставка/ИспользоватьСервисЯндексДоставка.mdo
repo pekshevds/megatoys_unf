@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bef719c-58ea-470d-b578-9ac4b9a341ab">
+  <name>ИспользоватьСервисЯндексДоставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис яндекс доставка</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервисЯндексДоставка</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

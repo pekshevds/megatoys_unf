@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa3512e5-6a91-4161-ac9d-600b9917766f">
+  <producedTypes>
+    <refType typeId="d4ff6587-c6e4-4ab4-bb14-2521e818cd3d" valueTypeId="e58961aa-dca7-4c90-94a2-501e584b0397"/>
+    <listType typeId="5a8a172a-eaba-4326-b571-fdfa10833d4b" valueTypeId="278f142b-6940-4947-8e18-9f84e3be1d8a"/>
+    <managerType typeId="b4f82495-47c8-47aa-97bb-ced81becdd8b" valueTypeId="edaefd37-65b3-414a-a387-59ce398563c8"/>
+  </producedTypes>
+  <name>ТочкиВыдачиСообщенияКассиру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки выдачи сообщения кассиру</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="54870606-b2e6-4220-8435-f43b2edfd7ef">
+    <name>ВМоментРасчетаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>В момент расчета скидок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0698ff3a-3a33-4673-9a5c-23b1846b41fe">
+    <name>ПослеОформленияЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>После оформления чека</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

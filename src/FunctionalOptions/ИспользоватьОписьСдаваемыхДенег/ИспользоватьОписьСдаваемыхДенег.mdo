@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b72f199f-e61d-42f0-9c7e-de9a680e2dad">
+  <name>ИспользоватьОписьСдаваемыхДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать опись сдаваемых денег</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьОписьСдаваемыхДенег</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.РасходИзКассы.TabularSection.ОписьСдаваемыхНаличныхДенег</content>
+  <content>Catalog.Кассы.Attribute.ИндивидуальныйНомерОбъектаИнкассации</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ce42032-0a44-4cd5-8a9b-63abefaf036f">
+  <producedTypes>
+    <refType typeId="1b036775-a916-4b7b-b011-d62ed5401f42" valueTypeId="2975e20c-62a3-4006-bfd3-674d77aa7881"/>
+    <listType typeId="849f9e1d-0b79-4b80-8541-355bcc82deb1" valueTypeId="ec5cc17c-007e-41c2-9d29-291a6f180e07"/>
+    <managerType typeId="4f12c989-039f-4f47-a8df-c430803dd3c5" valueTypeId="bc3ac820-5c73-4a7a-a711-12d9ca5c7899"/>
+  </producedTypes>
+  <name>ВидыОперацийКомплектацияЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций &quot;Комплектация&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11c59b91-3592-497d-a362-5a09316fcbb2">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5ce6541-55c0-4c52-a4af-ca954e049e4f">
+    <name>Разборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разборка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

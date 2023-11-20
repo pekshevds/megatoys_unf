@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6970204-8ecb-4cc4-b686-2ad59a222c68">
+  <name>ВвестиКупон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввести купон</value>
+  </synonym>
+</mdclass:CommonPicture>

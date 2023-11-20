@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95bb165c-d15e-4bbd-a44f-83c3d1805652">
+  <name>СерыйЦветТекста1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серый цвет текста1</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.DarkGray</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

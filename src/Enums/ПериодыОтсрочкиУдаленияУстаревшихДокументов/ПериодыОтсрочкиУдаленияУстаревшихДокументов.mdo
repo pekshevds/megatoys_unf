@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="497ef937-e4de-48d7-837d-6b8ce572c1dc">
+  <producedTypes>
+    <refType typeId="ae61558a-296a-4878-bb7c-78f5d58cf673" valueTypeId="6edbcc59-d645-475d-a68c-8c0d1b62c671"/>
+    <listType typeId="d93ac572-d42c-4f7d-ba92-c04e83f9314a" valueTypeId="9f3d5c47-8989-43fc-a9f5-c7691e08d50a"/>
+    <managerType typeId="7cf66f2b-3952-4719-9e6a-99995bc17cb5" valueTypeId="917e5cff-b3a7-4564-9261-84537bf01697"/>
+  </producedTypes>
+  <name>ПериодыОтсрочкиУдаленияУстаревшихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды отсрочки удаления устаревших документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fb6a3dc5-291a-4e3c-a754-7a5f5257e9fa">
+    <name>Через1День</name>
+    <synonym>
+      <key>ru</key>
+      <value>На следующий день</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a90e0c6-2bf0-4356-a4cc-d6c179aa7d48">
+    <name>Через1Неделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старше 1 недели</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5fe0e34-7946-41c2-a786-4b565489db58">
+    <name>Через1Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старше 1 месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5cdbb83-191c-4048-9404-34830d6f1b82">
+    <name>Через3Месяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старше 3 месяцев</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

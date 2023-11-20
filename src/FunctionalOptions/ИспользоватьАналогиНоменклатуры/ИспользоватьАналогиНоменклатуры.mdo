@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8baa15a3-d05f-49ab-83cb-486a5797e8db">
+  <name>ИспользоватьАналогиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать аналоги номенклатуры</value>
+  </synonym>
+  <location>Constant.ИспользоватьАналогиНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.АналогиНоменклатуры</content>
+</mdclass:FunctionalOption>

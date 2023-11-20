@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff95204b-4b53-49b9-838c-f26d91e2f83a">
+  <name>ДобавлениеИзменениеКодовДоходовНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение кодов доходов НДФЛ</value>
+  </synonym>
+</mdclass:Role>

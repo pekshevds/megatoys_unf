@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a98578c5-09e3-4eb0-87e7-3e26c7ecb4db">
+  <producedTypes>
+    <objectType typeId="758556d7-aeb1-4113-aee7-4111a3f7c88e" valueTypeId="2f92cb72-625e-4814-8ac5-b714943e9b44"/>
+    <managerType typeId="95875c96-157c-431c-bc04-d81a812aed4e" valueTypeId="7a05f061-29f5-4296-b73d-684c9030084d"/>
+  </producedTypes>
+  <name>ПерсональныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПерсональныеНастройки.Form.МоиНастройки</defaultForm>
+  <forms uuid="e15bc2ba-c9fd-4bc9-9e7e-0b2c15cc7e57">
+    <name>ОбменСGoogle</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с Google</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0339bb8f-883d-404f-ab64-5eca88543785">
+    <name>ПочтаSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта SMS</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd65c3d6-df0b-4693-9d0f-3bf564cec89e">
+    <name>РаботаСФайлами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с файлами</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7282c1ff-b83e-404c-81a4-643bcbc5c5bb">
+    <name>МоиНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои настройки</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="419cb8b7-f164-4d74-b4f6-a7490ffdfe23">
+    <name>МоиНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои настройки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e3a5b763-a4ed-4f28-b7f6-0e0a8d2bfff1">
+    <name>ПочтаSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта и SMS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="d0efeb2f-16e6-4302-9353-de7cb8b4bc46">
+    <name>ОбменСКалендарями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календари</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5e7c53e-6b3b-4ff6-9767-32e47969845d">
+  <producedTypes>
+    <managerType typeId="4dee723c-ab6e-4803-8666-b32af0b47867" valueTypeId="c1ced5d7-937b-410f-81e1-9fd90820b02c"/>
+    <valueManagerType typeId="149775df-87f2-480b-8721-3101e6ada916" valueTypeId="54c73201-71b7-402a-bc5c-9e73c5e22ba5"/>
+    <valueKeyType typeId="be0de411-d0d6-4c1a-86c2-c8892cf5e322" valueTypeId="05588805-0e68-429f-aaa2-0e33fe399cf2"/>
+  </producedTypes>
+  <name>ИспользоватьЗагрузкуЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку электронной почты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

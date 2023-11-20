@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42555b91-ae9c-4f0b-bcab-0d58d648b634">
+  <name>ДобавлениеИзменениеУсловийНачисленияПремийПоЛичнымПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение условий начисления премий по личным продажам</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c61df695-6f61-4dcd-9665-c43ec04b88c9">
+  <name>ВыполнениеОбменаДанныхСПодключаемымОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение обмена данных с подключаемым оборудованием</value>
+  </synonym>
+</mdclass:Role>

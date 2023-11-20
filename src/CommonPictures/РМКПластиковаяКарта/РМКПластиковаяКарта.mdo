@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68f008f-6865-4a9b-a1a2-be609bb41cec">
+  <name>РМКПластиковаяКарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКПластиковая карта</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

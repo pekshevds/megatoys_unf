@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebe5ccbb-2e75-4394-8005-3e7a3d0774a5">
+  <name>УведомлениеОбОстаткахПрослеживаемыхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления для получения РНПТ</value>
+  </synonym>
+  <group>CommandGroup.Прослеживаемость</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

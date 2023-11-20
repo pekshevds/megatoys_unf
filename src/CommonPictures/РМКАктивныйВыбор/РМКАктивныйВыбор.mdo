@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b786ea8d-7cfe-4802-bb47-22d7f9ea5fae">
+  <name>РМКАктивныйВыбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активный выбор</value>
+  </synonym>
+</mdclass:CommonPicture>

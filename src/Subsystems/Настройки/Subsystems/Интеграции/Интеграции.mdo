@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310f92f4-0376-4f4a-8b80-3847cd0eacc8">
+  <name>Интеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияИнтеграцийУНФ</content>
+  <content>DataProcessor.РаботаСНоменклатурой</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>ExchangePlan.МобильноеПриложение</content>
+  <content>DataProcessor.ПомощникНастройкиОбменаУРМК</content>
+  <content>CommonCommand.СистемаБыстрыхПлатежей</content>
+  <content>DataProcessor.ОплатаСервисаУНФ</content>
+  <content>DataProcessor.ПанельАдминистрированияБРД</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

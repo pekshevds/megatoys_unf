@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f6f7686-884b-401c-bdd8-5ebd329547e1">
+  <name>РазделПродажиЦеныИСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел продажи цены и скидки</value>
+  </synonym>
+</mdclass:Role>

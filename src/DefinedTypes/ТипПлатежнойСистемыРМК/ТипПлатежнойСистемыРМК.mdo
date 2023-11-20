@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4970d8e8-0ae1-4564-bc72-c2bf2773e114">
+  <producedTypes>
+    <containerType typeId="184a3bd5-036d-4307-8e7c-6fbad257de60" valueTypeId="61e9f7ea-d1bd-4621-bee4-110c639dbcc4"/>
+  </producedTypes>
+  <name>ТипПлатежнойСистемыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип платежной системы РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыПлатежнойСистемыККТ</types>
+  </type>
+</mdclass:DefinedType>

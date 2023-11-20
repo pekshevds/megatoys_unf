@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e1faa44-422a-4cfc-bcde-2599963cad32">
+  <producedTypes>
+    <selectionType typeId="9ec7a6f7-435c-4bc7-8a36-ed706c2803f0" valueTypeId="a9ce0ec9-80fd-4e30-b600-34820b0ba7ea"/>
+    <listType typeId="c8c79a13-6f8d-45f8-ac14-002e47777b32" valueTypeId="5a94f74a-91ac-48d3-9ca7-8e99decfef36"/>
+    <managerType typeId="45ad5c2d-517d-4ce3-99d5-eb284768b9c2" valueTypeId="67df7007-76ff-428d-b7e6-9a298427bd91"/>
+    <recordSetType typeId="66db3023-ec99-42c1-ab4f-8f37dda294f8" valueTypeId="888e3387-e274-4c22-92a8-ee1c1638619a"/>
+    <recordKeyType typeId="17f52f33-21bb-4403-b46a-0d9e7608ca79" valueTypeId="8561bfdf-1663-4892-9c45-478ddb76c72b"/>
+    <recordType typeId="1ad55208-9563-45ab-8a02-8b517a423d8b" valueTypeId="a7ea059a-dbad-417e-82d8-e40298fe1d5a"/>
+    <recordManagerType typeId="aefd6512-0b2e-43a2-81c0-8344d701724c" valueTypeId="ca3dc859-6193-46a8-9512-48c3c1fa85f5"/>
+  </producedTypes>
+  <name>СоставСегментаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав сегмента контрагентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d102259d-8e1e-4186-a316-96ab54115544">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e306e115-46b9-4b79-90c6-a2e9fdfd9000">
+    <name>СпособДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ добавления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыДобавленияВСегмент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96a4592a-8228-44b2-8521-66daa71ac801">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

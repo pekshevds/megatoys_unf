@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf5c61cb-05a5-4081-842c-475d938dc44f">
+  <name>ИспользоватьСтаруюОбработкуПечатиЦенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать старую обработку печати ценников</value>
+  </synonym>
+  <location>Constant.ИспользоватьСтаруюОбработкуПечатиЦенников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

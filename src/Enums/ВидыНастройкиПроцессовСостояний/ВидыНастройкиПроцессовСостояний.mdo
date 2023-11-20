@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6c1ef4-94e9-451c-a4be-cca99cc4cd50">
+  <producedTypes>
+    <refType typeId="6e1142c6-a3b1-41bb-a479-962927bfcc6d" valueTypeId="14877d82-3eaa-4c0e-bc49-fa53db050de6"/>
+    <listType typeId="f14f3c4f-e596-4846-8c45-0cd8443c857a" valueTypeId="58aece8d-5692-4b3b-a5e3-84e627c8117a"/>
+    <managerType typeId="6ccb9a85-71d4-4cf4-8608-c1a29f21fcd3" valueTypeId="c9df4dba-ee45-4b10-a91d-5e1d95de0a23"/>
+  </producedTypes>
+  <name>ВидыНастройкиПроцессовСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды настройки процессов состояний</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="75ffbd78-b03f-45cb-9640-09b74790fae7">
+    <name>ТолькоВПервомСостоянии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в первом состоянии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="788f75e7-bebd-49c7-839a-7f7934df9dcf">
+    <name>ТолькоВПоследнемСостоянии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только в последнем состоянии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2518e8f7-39de-43b6-b1b7-eb8c41aa9941">
+    <name>ВоВсехСостояниях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Во всех состояниях</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

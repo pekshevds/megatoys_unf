@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eb58a87-f3ff-4689-b59f-13c1e9a2fecd">
+  <name>НомерИзбранногоТовара_7</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер избранного товара 7</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

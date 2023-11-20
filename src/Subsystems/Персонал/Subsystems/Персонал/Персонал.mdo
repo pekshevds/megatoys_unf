@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33401b58-44c3-4452-8792-d27262ce359c">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ШтатноеРасписание</content>
+  <content>Document.ПриемНаРаботуУНФ</content>
+  <content>DataProcessor.ГрафикиРаботы</content>
+  <content>Report.ЗаданияНаРаботу</content>
+  <content>Role.ДобавлениеИзменениеПланируемоеРабочееВремяСотрудников</content>
+  <content>Role.ДобавлениеИзменениеПриемовНаРаботу</content>
+  <content>Document.УвольнениеУНФ</content>
+  <content>Report.ДействующиеПравилаРасчетаПремий</content>
+  <content>DocumentJournal.ДокументыПоКадрам</content>
+  <content>Report.ШтатноеРасписание</content>
+  <content>Role.ЧтениеФактическоеРабочееВремяСотрудников</content>
+  <content>Document.КадровоеПеремещениеУНФ</content>
+  <content>Role.ЧтениеЕжедневныхОтчетов</content>
+  <content>Report.СпискиСотрудников</content>
+  <content>Catalog.Календари</content>
+  <content>Catalog.ШаблоныЗаполненияГрафиковРабочегоВремени</content>
+  <content>Catalog.Сотрудники</content>
+  <content>AccumulationRegister.ФактическоеРабочееВремяСотрудников</content>
+  <content>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>Role.ЧтениеПланируемоеРабочееВремяСотрудников</content>
+  <content>InformationRegister.ТекущиеКадровыеДанныеСотрудниковУНФ</content>
+  <content>Enum.УсловияНачисленияПремийПоЛичнымПродажам</content>
+  <content>CommonModule.ЗарплатаИПерсоналСлужебный</content>
+  <content>CommonModule.ЗащитаПерсональныхДанных</content>
+  <content>CommonModule.ЗарплатаИПерсоналКлиент</content>
+  <content>Role.ЧтениеЗарплатыИПерсонала</content>
+  <content>Document.ЕжедневныйОтчет</content>
+  <content>Role.РазделПерсонал</content>
+  <content>CommonModule.ЗарплатаИПерсоналСервер</content>
+  <content>Role.ИзменениеТекущихКадровыхДанныхСотрудников</content>
+  <content>Document.ПоложениеОПремировании</content>
+  <content>Role.ДобавлениеИзменениеКадровыхПеремещений</content>
+  <content>Role.ДобавлениеИзменениеУвольнений</content>
+  <content>Report.РасчетыСПодотчетниками</content>
+  <content>Role.ИзменениеШтатногоРасписания</content>
+  <content>Role.ЧтениеТекущихКадровыхДанныхСотрудников</content>
+  <content>Enum.СпособыРасчетаПремийПоЛичнымПродажам</content>
+  <content>Report.ПланФактПоРабочемуВремениСотрудников</content>
+  <content>Report.ИспользованиеРабочегоВремени</content>
+  <content>InformationRegister.ПланируемоеРабочееВремяСотрудников</content>
+  <content>Role.ДобавлениеИзменениеЕжедневныхОтчетов</content>
+  <content>CommonModule.ЗарплатаИПерсоналКлиентСервер</content>
+  <parentSubsystem>Subsystem.Персонал</parentSubsystem>
+</mdclass:Subsystem>

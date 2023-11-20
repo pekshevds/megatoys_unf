@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479f8197-df80-49b6-b05d-27dd15b97c23">
+  <producedTypes>
+    <selectionType typeId="0595ec54-8e43-423a-8e94-fc687f4eeaa2" valueTypeId="4be10fc3-3a26-4497-a43b-ea6c3cafe719"/>
+    <listType typeId="5b448d3f-5c15-4dbb-9ed9-bd81400a9f0e" valueTypeId="c7ba1499-3cf3-4b2e-b968-fb4c86cc9f53"/>
+    <managerType typeId="724608d6-c34f-4d13-9f17-9b1bc836c22b" valueTypeId="e2e0e44c-73f1-4f43-9dff-6188503cebb6"/>
+    <recordSetType typeId="bf82acd1-c3e9-4952-a864-3a218dd005d4" valueTypeId="7426c97a-672a-4f98-b635-d29e31600dcf"/>
+    <recordKeyType typeId="043ee08d-5c3a-43e0-a26c-ceca49791c3e" valueTypeId="ef5cd714-4e6c-4193-8fac-d2bd2aa18216"/>
+    <recordType typeId="ced59333-c8b4-42be-97a3-a0b0677483e7" valueTypeId="13e85d6b-b992-463a-9992-f55c00a4d8dc"/>
+    <recordManagerType typeId="3501faae-1455-4d93-91cb-5a43038c6b10" valueTypeId="22ca1514-aed6-4bab-9f6c-255076acea04"/>
+  </producedTypes>
+  <name>ГрафикиРаботыСтруктурныхЕдиниц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы структурных единиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ГрафикиРаботыСтруктурныхЕдиниц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ГрафикиРаботыСтруктурныхЕдиниц.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9ce02ee5-396e-45b3-8326-14c9c315f104">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f31d2b24-35f1-4118-a09d-5df5bca56205">
+    <name>СтруктурнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структурная единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d7ee3429-f358-47d5-b43f-bf8c84b827dc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2efa4e8a-0167-4315-9799-37740da0e46b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

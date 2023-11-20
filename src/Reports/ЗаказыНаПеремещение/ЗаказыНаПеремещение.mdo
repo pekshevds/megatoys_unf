@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b275663a-cbd1-4653-a978-7cc9ef946415">
+  <producedTypes>
+    <objectType typeId="f2f8b93a-afbe-4173-907f-e9bec9d70f33" valueTypeId="724298cc-6d37-4def-aa59-a5ff347051ca"/>
+    <managerType typeId="82d4dda7-fb16-45da-84ad-85555c7615c3" valueTypeId="5f472131-e162-44f1-abec-4c1ae523d033"/>
+  </producedTypes>
+  <name>ЗаказыНаПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы на перемещение</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ЗаказыНаПеремещение.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="36ae170b-5540-4f99-905b-51eb1a622415">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="e7d44c27-8df7-4170-9458-5dbc93b7a08f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="7a5ededd-1d17-4b61-a008-5e93dff7d0d6">
+    <name>ОбразецВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец ведомость</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7bb23736-9be0-4f91-9a9d-376c96aac177">
+    <name>ОбразецОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец остатки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="dbd072d2-2617-4e3a-9982-2e9b17712283">
+    <name>ОбразецВедомостьСокращенно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец ведомость сокращенно</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

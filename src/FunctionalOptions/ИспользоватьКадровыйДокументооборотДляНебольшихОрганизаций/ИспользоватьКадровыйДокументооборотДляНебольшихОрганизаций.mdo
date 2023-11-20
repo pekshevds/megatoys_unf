@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bb1fffa-89e8-4d36-9ad2-0ded95dcb13d">
+  <name>ИспользоватьКадровыйДокументооборотДляНебольшихОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кадровый документооборот для небольших организаций</value>
+  </synonym>
+  <location>Constant.ИспользоватьКадровыйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КадровыйПереводПрисоединенныеФайлы</content>
+  <content>Catalog.ПриемНаРаботуПрисоединенныеФайлы</content>
+  <content>Catalog.УвольнениеПрисоединенныеФайлы</content>
+  <content>Document.КадровыйПеревод</content>
+  <content>Document.ПриемНаРаботу</content>
+  <content>Document.Увольнение</content>
+  <content>DocumentJournal.КадровыеДокументы</content>
+</mdclass:FunctionalOption>

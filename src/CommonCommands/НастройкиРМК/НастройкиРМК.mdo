@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cc302a7-bb38-4b05-b3a0-351f79e20b0e">
+  <name>НастройкиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки РМК</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

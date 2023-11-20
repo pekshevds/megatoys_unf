@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95b7a338-c6ad-4790-a9c1-12c29488efe9">
+  <name>КонфигурацииЗарплатаКадрыВнутренний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации зарплата кадры внутренний</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

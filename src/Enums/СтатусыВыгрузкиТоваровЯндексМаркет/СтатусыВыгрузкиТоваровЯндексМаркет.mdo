@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0efbeab-2a16-45e8-bf46-dea30ddf3813">
+  <producedTypes>
+    <refType typeId="0f673fbc-1b1a-455f-b0dc-5bed9d8949fb" valueTypeId="d068d874-3141-4518-819c-17f50c93729c"/>
+    <listType typeId="ff025ef7-3991-4bdc-a21a-c4ff4e4ceca1" valueTypeId="65122292-ec6d-4c8f-8124-f68c74c5453f"/>
+    <managerType typeId="6089f6f9-5cf6-4d4d-aeff-a6b656fd1762" valueTypeId="342db763-d633-4287-82c0-f681d512aa1a"/>
+  </producedTypes>
+  <name>СтатусыВыгрузкиТоваровЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы выгрузки товаров Яндекс маркет</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Beru goods export statuses</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79113446-cf76-4af2-903b-722f00e8c108">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>New</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8de17ec-6ef2-438f-bdb4-e1a44b7befbc">
+    <name>ПолученаРекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получена рекомендация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recommendation is received</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d567b0cb-cde5-4773-9227-21fdb75ca4eb">
+    <name>ОшибкаПриПолученииРекомендации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при получении рекомендации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>An error occurred when receiving the recommendation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cffb545-ed30-4eb4-87b2-4ffb264a3100">
+    <name>РекомендацияНеНайдена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация не найдена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recommendation is not found</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b53a02df-1b49-47e8-8c1d-86b9120be4fb">
+    <name>УтвержденаРекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утверждена рекомендация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recommendation is approved</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de3c0e76-b8c4-4386-a99f-1101fe673e0d">
+    <name>НаМодерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>На модерации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Moderating</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ffb57c0-2cd1-46a0-949a-d4f14b22365a">
+    <name>ОшибкаПриОтправкеНаМодерацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при отправке на модерацию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>An error occurred when sending to moderation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d3e22d0-28c1-49e9-a6e4-88b8950958d2">
+    <name>МодерацияПройдена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модерация пройдена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Moderation completed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee8416ea-d399-4f77-8795-45240bbd18ba">
+    <name>МодерацияНеПройдена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модерация не пройдена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Moderation failed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db0b711c-1732-49f4-aa33-4ed5ee0077ca">
+    <name>НевернаяРекомендация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверно подобранная рекомендация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Incorrect recommendation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="193eb1da-15ed-4298-ba80-bdaee016557e">
+    <name>ОжидаетМодерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает модерации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pending moderation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0516ae7-aca5-4f00-abbe-7a29c07da4cd">
+    <name>СозданиеНового</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание связи без SKU</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Create link without SKU</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

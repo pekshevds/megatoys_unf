@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f87f9fb-4dc9-4cd6-b92c-e8d0cd7b410e">
+  <producedTypes>
+    <containerType typeId="de42469e-abac-4c91-a5c5-b7d77bdd9fad" valueTypeId="bbedb708-cb9e-4381-8a9c-509222490a7c"/>
+  </producedTypes>
+  <name>КассоваяСменаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовая смена РМК</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.КассоваяСмена</types>
+  </type>
+</mdclass:DefinedType>

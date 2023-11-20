@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cfb740e-6a9c-4f1c-bc1e-75f3456976f8">
+  <producedTypes>
+    <objectType typeId="04b9ff72-909c-4bcc-8e2f-0d25d2a5bd89" valueTypeId="173f8a0b-996b-43d4-8398-9257f6e221e1"/>
+    <managerType typeId="d8779036-3835-4039-a031-d2c85d788d1f" valueTypeId="9ffa4f87-1927-48f2-a1fb-156c6a47eec7"/>
+  </producedTypes>
+  <name>РасшифровкаНачисленийПремийПродавцам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премии продавцам</value>
+  </synonym>
+  <comment>АПК:58 - проектное решение</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасшифровкаНачисленийПремийПродавцам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <attributes uuid="75b361f3-346b-488a-80bb-941d29a44626">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="f9be3dfb-c237-4599-86d1-7d3502ce44a2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="70ac5dc9-9266-4c44-a04e-2adb37748f63">
+    <name>ОбразецРасшифровкаНачисленийПремийПродавцам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец расшифровка начислений премий продавцам</value>
+    </synonym>
+    <comment>АПК:497 - проектное решение</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16381d5a-791b-4e1d-b2c6-ca1126104b89">
+  <name>ОбменСВнешнимиСистемамиЛогирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет - магазины логирование</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

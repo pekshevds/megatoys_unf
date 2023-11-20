@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f10c14a-83f7-47f3-a648-70ce305b02d6">
+  <name>СПАРКРискиУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>СПАРК Риски УНФ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

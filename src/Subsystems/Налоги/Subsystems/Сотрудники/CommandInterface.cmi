@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonCommand.Налоги_Справки2НДФЛ</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.Налоги_СреднесписочнаяЧисленность</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.Налоги_СЗарплаты</commands>
+      <commands>CommonCommand.Налоги_СтраховыеВзносыСотрудников</commands>
+      <commands>CommonCommand.Налоги_Справки2НДФЛ</commands>
+      <commands>CommonCommand.Налоги_СреднесписочнаяЧисленность</commands>
+      <commands>CommonCommand.Налоги_ЕФС1_раздел2</commands>
+      <commands>CommonCommand.Налоги_Форма6НДФЛ</commands>
+      <commands>CommonCommand.Налоги_РасчетПоСтраховымВзносам</commands>
+      <commands>CommonCommand.Налоги_СЗВМ</commands>
+      <commands>CommonCommand.Налоги_СЗВСтаж</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

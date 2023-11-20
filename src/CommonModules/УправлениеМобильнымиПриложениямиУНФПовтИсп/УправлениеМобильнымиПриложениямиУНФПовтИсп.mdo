@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0007199e-656d-47c4-91ed-8a5f844a1c8b">
+  <name>УправлениеМобильнымиПриложениямиУНФПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление мобильными приложениями УНФ повторное использование</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f8b3f9-6660-4681-836c-1b6cb67595eb">
+  <producedTypes>
+    <containerType typeId="73c68a90-61b0-4a0a-95db-14f48739df10" valueTypeId="be6d159d-d66b-43cb-a516-0608c1f39c54"/>
+  </producedTypes>
+  <name>ДокументыСВыдачейПромокодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы с выдачей промокодов</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РасходнаяНакладная</types>
+    <types>DocumentRef.АктВыполненныхРабот</types>
+    <types>DocumentRef.ЧекККМ</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </type>
+</mdclass:DefinedType>

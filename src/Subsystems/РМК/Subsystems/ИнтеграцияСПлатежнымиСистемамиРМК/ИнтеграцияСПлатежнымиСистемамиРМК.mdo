@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d606755-148d-4871-8584-3d8a0a4058d1">
+  <name>ИнтеграцияСПлатежнымиСистемамиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с платежными системами РМК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиентСервер</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКПереопределяемый</content>
+  <content>InformationRegister.СоответствиеНастроекИнтеграцииРМК</content>
+  <content>DefinedType.ВидОплатыРМК</content>
+  <content>DefinedType.СпособОплатыПлатежныхСистемРМК</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКВызовСервера</content>
+  <content>DefinedType.ОрганизацияРМК</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиент</content>
+  <content>DefinedType.ТорговыйОбъектРМК</content>
+  <content>CommonPicture.УспешноРМК32</content>
+  <content>DefinedType.ТипПлатежнойСистемыРМК</content>
+  <content>DefinedType.НастройкиИнтеграцииСПлатежнымиСистемамиРМК</content>
+  <content>CommonPicture.ЮКассаЛоготипРМК</content>
+  <content>CommonPicture.СБПЛоготипРМК</content>
+  <content>CommonPicture.ОшибкаРМК32</content>
+  <content>CommonPicture.ДлительнаяОперацияРМК48</content>
+  <content>CommonPicture.ИнформацияРМК32</content>
+  <content>CommonPicture.Вопрос32РМК</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеПринтерЧеков32РМК</content>
+  <parentSubsystem>Subsystem.РМК</parentSubsystem>
+</mdclass:Subsystem>

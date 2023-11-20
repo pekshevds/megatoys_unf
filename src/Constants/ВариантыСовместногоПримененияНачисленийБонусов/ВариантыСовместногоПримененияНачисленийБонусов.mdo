@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd14275-91c8-43b0-aae5-498fc2147373">
+  <producedTypes>
+    <managerType typeId="24418792-ec71-4c21-b79b-3380e4692f22" valueTypeId="610b9d5c-3d49-4f78-aac4-c46dc5c56a2a"/>
+    <valueManagerType typeId="29253fb4-fd80-4099-b572-d55d82bca3ac" valueTypeId="a8ff5fba-c2cc-4f65-8342-a5a49dd34a6d"/>
+    <valueKeyType typeId="47c5d218-dd91-4d46-8f17-490cf5a60513" valueTypeId="d63c2c37-0805-4751-b824-258eebd545ac"/>
+  </producedTypes>
+  <name>ВариантыСовместногоПримененияНачисленийБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты совместного применения начислений бонусов</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыСовместногоПримененияСкидокНаценок</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

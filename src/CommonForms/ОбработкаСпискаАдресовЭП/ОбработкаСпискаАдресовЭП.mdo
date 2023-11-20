@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bccfe7f-c4e2-467c-9839-a1853fac17ab">
+  <name>ОбработкаСпискаАдресовЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка списка адресов ЭП</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

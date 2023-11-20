@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1fab0ab-0d8d-449e-bbbf-cb10459f27a9">
+  <name>ПросмотрОтчетаКнигаУчетаДоходовПатент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр отчета книга учета доходов патент</value>
+  </synonym>
+</mdclass:Role>

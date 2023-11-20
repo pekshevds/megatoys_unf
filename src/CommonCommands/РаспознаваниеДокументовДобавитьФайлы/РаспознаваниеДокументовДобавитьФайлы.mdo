@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aec180d-8145-4d0a-aabf-1cea5f82f0f5">
+  <name>РаспознаваниеДокументовДобавитьФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распознавание документов добавить файлы</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Распознать документы из сканов (фото)</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РаспознаваниеДокументов</picture>
+  </picture>
+</mdclass:CommonCommand>

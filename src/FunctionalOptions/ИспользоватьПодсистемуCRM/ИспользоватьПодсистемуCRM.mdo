@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e30a9e9-bc03-4bb1-848d-9831d0d7a455">
+  <name>ИспользоватьПодсистемуCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему CRM</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуCRM</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.CRM</content>
+  <content>Subsystem.АссистентУправления</content>
+  <content>DataProcessor.АссистентУправления</content>
+  <content>Catalog.Лиды</content>
+  <content>Catalog.ЛидыПрисоединенныеФайлы</content>
+  <content>Catalog.СостоянияЛидов</content>
+  <content>Catalog.ПричиныНеуспешногоЗавершенияРаботыСЛидом</content>
+  <content>Subsystem.CRM.Subsystem.CRMПодраздел</content>
+  <content>Report.АнализБазыКонтрагентов</content>
+  <content>Report.АнализБазыЛидов</content>
+  <content>Report.АнализРаботыМенеджеров</content>
+  <content>Report.ВоронкаПоЛидам</content>
+  <content>Report.ВоронкаПродаж</content>
+  <content>Report.КонтрольЗаполненияКонтактнойИнформации</content>
+  <content>Report.ПересеченияСегментов</content>
+  <content>Constant.ИспользоватьАссистентаУправления</content>
+  <content>Constant.ИспользоватьЗагрузкуЭлектроннойПочты</content>
+  <content>Constant.ИспользоватьЗадачиСотрудников</content>
+  <content>Constant.ИспользоватьКалендариСотрудников</content>
+  <content>Constant.ИспользоватьИсточникиПривлечения</content>
+  <content>Constant.ИспользоватьОбменСGoogleCalendar</content>
+  <content>Constant.ИспользоватьСобытия</content>
+  <content>Catalog.КонтактныеФормыGoogle</content>
+  <content>InformationRegister.НастройкиИнтеграцииКонтактныхФорм</content>
+  <content>DataProcessor.ПанельАдминистрированияИнтеграцийУНФ.Command.ОблачнаяТелефония</content>
+  <content>Catalog.ГруппыДоступаЛидов</content>
+  <content>Constant.ИспользоватьГруппыДоступаЛидов</content>
+  <content>Catalog.КонтактыЛидов</content>
+  <content>Enum.ВариантЗавершенияРаботыСЛидом</content>
+  <content>InformationRegister.ИсторияСостоянийЛидов</content>
+  <content>InformationRegister.КанбанЛидов</content>
+  <content>InformationRegister.СвязиКонтрагентЛид</content>
+  <content>InformationRegister.СоответствиеПолейЛидаИКонтрагента</content>
+  <content>Catalog.КонтактныеЛица.Command.События</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="067958fe-557d-4fb5-94c0-6fd9103f21c7">
+  <producedTypes>
+    <containerType typeId="725ee38a-2e76-4090-82f9-21853a25aa80" valueTypeId="00e6895f-3d70-4433-85ef-38d96c93787a"/>
+  </producedTypes>
+  <name>СтавкаНДСРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДС РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтавкиНДС</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d84ed0f4-5cda-4614-8e15-0ec0f993379d">
+  <producedTypes>
+    <containerType typeId="ff6f6455-3ba8-49bb-929c-b92a4182c61f" valueTypeId="ec35d3ed-3d93-4c92-b8f3-2db2c31b9f83"/>
+  </producedTypes>
+  <name>СтатусЧекаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус чека РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СтатусыЧековККМ</types>
+  </type>
+</mdclass:DefinedType>

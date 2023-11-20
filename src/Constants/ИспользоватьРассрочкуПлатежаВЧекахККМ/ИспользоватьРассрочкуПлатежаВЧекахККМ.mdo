@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5552d6b4-71cd-46c5-9a16-13cb0b2dd38b">
+  <producedTypes>
+    <managerType typeId="2ff9b0a1-930f-4d51-ade7-8e526e74a679" valueTypeId="3240c1d0-fbd2-46ac-954d-7a0b96615533"/>
+    <valueManagerType typeId="708d3626-c783-4958-8459-2d2132411c0c" valueTypeId="7c489de4-7c8a-4cb4-89c8-7bb1642159ee"/>
+    <valueKeyType typeId="0096d1a3-6b57-4f1c-a38c-a25d119dbdb0" valueTypeId="7f4de7e9-33f8-4463-a661-303c399a98d1"/>
+  </producedTypes>
+  <name>ИспользоватьРассрочкуПлатежаВЧекахККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать рассрочку платежа в чеках ККМ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7998cf9e-4cac-46a8-af6c-cca4e507c32a">
+  <producedTypes>
+    <containerType typeId="7eeb1088-8b16-46d1-a6d2-8f4ee38aa9c8" valueTypeId="c4bd9554-577e-4f43-b7e5-1ff05b0e523b"/>
+  </producedTypes>
+  <name>ШаблонШтрихкодаВесовыхТоваровРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон штрихкода весовых товаров РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

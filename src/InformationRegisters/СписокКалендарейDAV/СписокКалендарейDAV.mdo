@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f915d03-c5cc-4ba2-bc96-443662e05638">
+  <producedTypes>
+    <selectionType typeId="30fe8995-f490-4323-9a04-674c2b68e5ca" valueTypeId="f0510309-68f2-4bc9-9f10-aede18eb9c55"/>
+    <listType typeId="4a85191e-f766-485e-8c1d-82cc26caa03e" valueTypeId="6f3f8d61-c74c-464a-bfbc-0cc244af7617"/>
+    <managerType typeId="3f3e6e27-9e70-45bb-937b-4ae6c98bfce4" valueTypeId="54a76d06-24f0-477a-8d57-f389e3c0bc12"/>
+    <recordSetType typeId="ae842d4e-a3d8-43c2-b000-d629f75bfe7c" valueTypeId="cd11b6b6-a31b-464b-ac01-955b3989f4d8"/>
+    <recordKeyType typeId="c0930f56-d071-498b-8114-a5cd3c710d5b" valueTypeId="5a62a232-e616-4c99-b3ef-e79c4b773557"/>
+    <recordType typeId="f51000ba-bdfb-4100-8a75-ba1e0eed2b2f" valueTypeId="3b8884a5-fe71-4f89-93d1-1d653c5f426a"/>
+    <recordManagerType typeId="e709127a-65b9-4798-952e-2e4d976864cd" valueTypeId="0df02639-9fd0-4865-8fc9-45b831399aed"/>
+  </producedTypes>
+  <name>СписокКалендарейDAV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список календарей DAV</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>регистр используется для тестирования, может быть удален</value>
+  </explanation>
+  <dimensions uuid="6fa495b6-b57f-42a3-8996-91487fcfd596">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c452447e-7585-4c72-8ff7-b3044258ceca">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

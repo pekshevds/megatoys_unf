@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3049f5-cdc7-44fa-9cdc-2352899f3b5f">
+  <producedTypes>
+    <containerType typeId="9ba0f4c9-9bc5-4f9a-8588-9ac4959d0ca1" valueTypeId="d5a855c2-2156-486c-a021-31f9abdf38e4"/>
+  </producedTypes>
+  <name>НалогообложениеНДСРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налогообложение НДС РМК</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыНалогообложенияНДС</types>
+  </type>
+</mdclass:DefinedType>

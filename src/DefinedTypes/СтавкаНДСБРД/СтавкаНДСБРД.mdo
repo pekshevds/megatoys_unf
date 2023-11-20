@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acc68f44-667b-44ab-8011-97c3490a33f7">
+  <producedTypes>
+    <containerType typeId="93f3db54-546a-413f-9b5f-9f2cec8e13d8" valueTypeId="3de7772c-4786-4aed-8a28-b700cac7d5af"/>
+  </producedTypes>
+  <name>СтавкаНДСБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДС БРД</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтавкиНДС</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f898d813-c603-4a5b-bac1-9cb5812f4583">
+  <producedTypes>
+    <managerType typeId="5e4bf52a-cc71-4303-9374-691cac74cede" valueTypeId="6fe846a9-4cb1-47ed-9b71-7646d907ab9c"/>
+    <valueManagerType typeId="341a1181-f3e2-48e4-898d-68ec4d9219d7" valueTypeId="da4e58f1-b1e3-49bf-b3d7-cf8297e5def0"/>
+    <valueKeyType typeId="4f25e20a-f662-48a0-a4be-e9a56bceffb5" valueTypeId="6ed02aff-2d5a-4a82-ba68-cc7aad00ece4"/>
+  </producedTypes>
+  <name>ИспользоватьОплатуСертификатамиНСПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату сертификатами НСПК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

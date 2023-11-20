@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f43d92db-3a0f-4f04-ae2c-b6f450e620a9">
+  <producedTypes>
+    <containerType typeId="e118005d-c379-4991-b9b2-32a036cd9495" valueTypeId="d0ebb3bf-521e-42bf-a2f2-3b48cf29ae96"/>
+  </producedTypes>
+  <name>КассаККМЭТРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса ККМ и эквайринговый терминал РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КассыККМ</types>
+    <types>CatalogRef.СпособыОплаты</types>
+  </type>
+</mdclass:DefinedType>

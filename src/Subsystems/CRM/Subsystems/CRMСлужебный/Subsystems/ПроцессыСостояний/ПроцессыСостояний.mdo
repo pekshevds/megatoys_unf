@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9441fd9b-77dd-4a32-91b1-3a54daaa0465">
+  <name>ПроцессыСостояний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы состояний</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>FunctionalOption.ИспользоватьПроцессыСостояний</content>
+  <content>CommonPicture.КоллекцияФлаги</content>
+  <content>CommonPicture.ФлагВключен</content>
+  <content>CommonPicture.ФлагОтключен</content>
+  <content>Constant.ИспользоватьПроцессыСостояний</content>
+  <content>Catalog.ПричиныОтменыЗаказовПоставщикам</content>
+  <content>Catalog.ПроцессыСостоянийЗаказов</content>
+  <content>Enum.ИнициаторОтменыЗаказовПоставщикам</content>
+  <content>Enum.ВидыНастройкиПроцессовСостояний</content>
+  <content>Enum.ТипыНастройкиПроцессовСостояний</content>
+  <content>Report.ПричиныОтменыЗаказаПокупателя</content>
+  <content>Report.ПричиныОтменыЗаказаПоставщику</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.CRMСлужебный</parentSubsystem>
+</mdclass:Subsystem>

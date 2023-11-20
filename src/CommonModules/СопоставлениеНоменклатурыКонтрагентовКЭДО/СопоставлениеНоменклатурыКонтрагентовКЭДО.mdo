@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a8679d-1f7b-4bf9-a03d-5f7fc9a9ec1a">
+  <name>СопоставлениеНоменклатурыКонтрагентовКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление номенклатуры контрагентов КЭДО</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

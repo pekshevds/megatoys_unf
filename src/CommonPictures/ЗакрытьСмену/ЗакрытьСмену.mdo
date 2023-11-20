@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17641bb8-7353-42b1-8a17-a3e44c0de7b3">
+  <name>ЗакрытьСмену</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть смену</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

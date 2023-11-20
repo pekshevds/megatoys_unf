@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="751f1fec-50f4-4982-8a48-70c15ec7b4e4">
+  <name>РаспознаваниеДокументовУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распознавание документов УНФ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаспознаваниеДокументовУНФ</content>
+  <content>CommonModule.РаспознаваниеДокументовУНФКлиент</content>
+  <content>CommonCommand.РаспознаваниеДокументовУНФ</content>
+  <content>CommonCommand.РаспознаваниеДокументовДобавитьФайлы</content>
+</mdclass:Subsystem>

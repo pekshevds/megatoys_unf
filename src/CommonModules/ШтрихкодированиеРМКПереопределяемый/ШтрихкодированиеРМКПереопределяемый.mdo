@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7a21853-4651-4834-a9a3-2f9bb8ab0b34">
+  <name>ШтрихкодированиеРМКПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкодирование РМК переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

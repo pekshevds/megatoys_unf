@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df3e8794-a07d-4a34-b78a-cb313fa0304c">
+  <producedTypes>
+    <containerType typeId="516c7066-a28f-4f2b-ad33-e251c5a8ac2c" valueTypeId="09645548-2f74-4122-a498-a54e9d49be74"/>
+  </producedTypes>
+  <name>Промокод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промокод</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

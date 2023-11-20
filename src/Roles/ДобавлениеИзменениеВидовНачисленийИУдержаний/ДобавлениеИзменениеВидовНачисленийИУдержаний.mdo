@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f4ef50e-58c3-4b6a-a177-75bcadce39d2">
+  <name>ДобавлениеИзменениеВидовНачисленийИУдержаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение видов начислений и удержаний</value>
+  </synonym>
+</mdclass:Role>

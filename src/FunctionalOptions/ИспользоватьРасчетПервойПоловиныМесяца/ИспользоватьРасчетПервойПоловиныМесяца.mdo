@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35357788-795d-4cdc-944c-f35e1af8b9fb">
+  <name>ИспользоватьРасчетПервойПоловиныМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчет первой половины месяца</value>
+  </synonym>
+  <location>Constant.ИспользоватьРасчетПервойПоловиныМесяца</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.НачислениеЗарплаты.Attribute.ПерваяПоловинаМесяца</content>
+</mdclass:FunctionalOption>

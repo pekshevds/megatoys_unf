@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b2e65a-9de6-427d-92aa-0ce8213b06a5">
+  <name>ДоговорыРаботыУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры (работы, услуги)</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afb24b59-5b1a-412b-9863-0e03850071d6">
+  <producedTypes>
+    <managerType typeId="6bf810f6-f2aa-4a90-b047-06bb5bdd907c" valueTypeId="6eff210d-60a3-4b3c-ba94-538f68fbd9a9"/>
+    <valueManagerType typeId="e91c12c7-588e-4e80-b70d-69988b060132" valueTypeId="023626cc-4374-495c-a7ac-4792ffd9c39f"/>
+    <valueKeyType typeId="341570ca-129b-47ee-881f-52e38090a4d2" valueTypeId="e24968cb-c189-454c-a71a-1d29991e5299"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПромокоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция использовать промокоды</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

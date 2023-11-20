@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="494356fd-40a1-4ef8-a927-6ac41d3e5081">
+  <producedTypes>
+    <objectType typeId="2dad3fc7-4590-4d72-847e-c0d77c008361" valueTypeId="fba29f1d-a21c-47a8-add4-ee291334e5c0"/>
+    <managerType typeId="0f088252-249f-45d5-acdb-c6705bbb82d8" valueTypeId="92e34398-8034-4d9a-896c-ec1c6c6419f8"/>
+  </producedTypes>
+  <name>ПродажиОстаткиТовараВДняхТорговли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи, остатки товара в днях торговли</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПродажиОстаткиТовараВДняхТорговли.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет объединяет в себе информацию о продажах товаров за указанный период и о текущих остатках товаров на складах.</value>
+  </explanation>
+  <templates uuid="c26dbe92-fe21-4c37-bc4f-b3fa4b853da8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

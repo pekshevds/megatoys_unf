@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db934325-e68b-4a18-9582-5b208c8b37c1">
+  <producedTypes>
+    <containerType typeId="0b57c005-d431-4730-a29f-3b4e8a0fa873" valueTypeId="a845cd1a-4128-4ba0-862b-2a3f7f327ab5"/>
+  </producedTypes>
+  <name>ВидЦенУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид цен УРМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e839fcac-e845-4c7b-ba64-bd2a53492073">
+  <name>ЧтениеВычетовНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение вычетов НДФЛ</value>
+  </synonym>
+</mdclass:Role>

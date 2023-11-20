@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e70acba-05b0-4896-90ea-40e143ef5df8">
+  <producedTypes>
+    <containerType typeId="1da9bba8-773d-4699-a36a-a4345ab62e51" valueTypeId="3cb06398-48bd-48c3-9447-bbc0c586ed1c"/>
+  </producedTypes>
+  <name>ХранилищеШаблоновРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище шаблонов РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ХранилищеШаблонов</types>
+  </type>
+</mdclass:DefinedType>

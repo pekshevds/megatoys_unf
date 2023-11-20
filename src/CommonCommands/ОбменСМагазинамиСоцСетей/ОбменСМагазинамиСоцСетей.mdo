@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50304fc7-ebf8-4a5e-9aa1-2eaa0cd7982f">
+  <name>ОбменСМагазинамиСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазин ВКонтакте</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

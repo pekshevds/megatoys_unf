@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ffd6940-088e-4438-8220-f60cc604095f">
+  <producedTypes>
+    <refType typeId="2b43b994-372e-406b-a8ca-23a3564a59e2" valueTypeId="3979ca85-dcfa-4939-8c1b-09c6362f85b3"/>
+    <listType typeId="20dec874-1482-4e57-90d5-373993fcb28d" valueTypeId="e74466b3-43c0-4036-9b6a-27f69e0018d6"/>
+    <managerType typeId="2aff8816-26a5-4a1f-bea2-e8eef0c247a2" valueTypeId="4c3aea89-8ffe-4492-afe2-f853cb970f0f"/>
+  </producedTypes>
+  <name>ВариантыСбросаКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты сброса количества</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ef4bb494-7193-49f6-8a10-497bb91cc675">
+    <name>НеСбрасывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не сбрасывать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78ee2245-345d-44fc-b0b7-dc2fa96b353d">
+    <name>ДоНуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>До нуля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1899c90-3170-4110-b37e-3c64ec8e5f6d">
+    <name>ДоЕдиницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>До единицы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

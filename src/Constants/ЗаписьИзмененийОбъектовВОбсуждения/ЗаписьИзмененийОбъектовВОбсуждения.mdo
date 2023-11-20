@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0376e72-79eb-47e2-8fba-3a341667b633">
+  <producedTypes>
+    <managerType typeId="7d769565-c4c1-44b0-a625-a4ad249920fb" valueTypeId="e6c6348e-4a7c-4306-b1f5-92832356290d"/>
+    <valueManagerType typeId="f10ebee9-302d-466f-922c-c6fc2b415ea9" valueTypeId="4fb109d0-5372-4ad8-8fe9-66670ada44d5"/>
+    <valueKeyType typeId="67481178-df9a-4b05-b0b0-97e88d7cb330" valueTypeId="d7744171-afd1-4a5c-8bdb-99708ce7833e"/>
+  </producedTypes>
+  <name>ЗаписьИзмененийОбъектовВОбсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись изменений объектов в обсуждения</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ЗаписьИзмененийОбъектовВОбсуждения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

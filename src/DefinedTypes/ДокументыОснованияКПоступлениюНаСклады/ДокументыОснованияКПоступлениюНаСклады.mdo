@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448a3b15-15f3-4832-a546-a48679be32c2">
+  <producedTypes>
+    <containerType typeId="93a16cae-a6bb-4747-90fb-b64d1174cacc" valueTypeId="b90e47e5-d714-40b1-a3fe-c1514f6efebf"/>
+  </producedTypes>
+  <name>ДокументыОснованияКПоступлениюНаСклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы основания к поступлению на склады</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.КомплектацияЗапасов</types>
+    <types>DocumentRef.ПеремещениеЗапасов</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+    <types>DocumentRef.СборкаЗапасов</types>
+    <types>DocumentRef.ОтчетПереработчика</types>
+    <types>DocumentRef.ПересортицаЗапасов</types>
+    <types>DocumentRef.ПриходныйОрдер</types>
+    <types>DocumentRef.ОприходованиеЗапасов</types>
+    <types>DocumentRef.ПередачаТоваровМеждуОрганизациями</types>
+  </type>
+</mdclass:DefinedType>

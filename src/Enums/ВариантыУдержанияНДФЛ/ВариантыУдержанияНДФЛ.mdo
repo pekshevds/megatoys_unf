@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f032181a-eeab-4df9-861d-480ca0dfe62d">
+  <producedTypes>
+    <refType typeId="497258cb-9cba-44b4-9b00-9c5860e72d85" valueTypeId="666e520c-3940-459f-a639-0551ab223c11"/>
+    <listType typeId="129a7594-4e76-4622-88ce-83b9a1f647ab" valueTypeId="585bed38-c9c7-4793-90b5-b55999447ae1"/>
+    <managerType typeId="ee49ac9e-1149-4440-a9ca-26f495f380d5" valueTypeId="4a85141e-ff1b-4d08-9a63-3dcd52dc227a"/>
+  </producedTypes>
+  <name>ВариантыУдержанияНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты удержания НДФЛ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="612ddf24-d4b3-4639-b6a3-263ec25a4492">
+    <name>Удержано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7403c36-5070-49da-b316-356bfb4b9367">
+    <name>ПереданоНаВзысканиеВНалоговыйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано на взыскание в налоговый орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d962b193-58e9-4dc3-97c6-1a3de173e35a">
+    <name>ВозвращеноНалоговымАгентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращено налоговым агентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="259a4af0-d016-46ee-937c-2988e085550d">
+    <name>ЗачетАвансовыхПлатежей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет авансовых платежей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

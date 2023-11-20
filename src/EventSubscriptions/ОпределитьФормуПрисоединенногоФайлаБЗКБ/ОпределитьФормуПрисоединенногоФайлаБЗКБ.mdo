@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b31ffb2e-45ce-41f2-a0f2-5573875cf212">
+  <name>ОпределитьФормуПрисоединенногоФайлаБЗКБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла БЗК (для небольших организаций)</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.ВедомостьНаВыплатуЗарплатыПрисоединенныеФайлы</types>
+    <types>CatalogManager.УвольнениеПрисоединенныеФайлы</types>
+    <types>CatalogManager.БольничныйЛистПрисоединенныеФайлы</types>
+    <types>CatalogManager.ОтпускПрисоединенныеФайлы</types>
+    <types>CatalogManager.ДоговорРаботыУслугиПрисоединенныеФайлы</types>
+    <types>CatalogManager.КадровыйПереводПрисоединенныеФайлы</types>
+    <types>CatalogManager.ОтпускБезСохраненияОплатыПрисоединенныеФайлы</types>
+    <types>CatalogManager.ОтражениеЗарплатыВБухучетеПрисоединенныеФайлы</types>
+    <types>CatalogManager.НачислениеЗарплатыПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПриемНаРаботуПрисоединенныеФайлы</types>
+    <types>CatalogManager.ИсполнительныйЛистПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f19a2caa-bc6e-467e-a9fe-4b6c897b48c8">
+  <producedTypes>
+    <containerType typeId="07844468-4612-4609-a5ef-c0df7305f3f9" valueTypeId="cf3c49bc-2d5d-4f3d-88c4-bf8f91f574f8"/>
+  </producedTypes>
+  <name>ТомХраненияФайлаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Том хранения файла РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ТомаХраненияФайлов</types>
+  </type>
+</mdclass:DefinedType>

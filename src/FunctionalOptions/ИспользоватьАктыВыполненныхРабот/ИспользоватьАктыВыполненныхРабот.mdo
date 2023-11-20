@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb2083d2-e825-4b25-a03f-a69da1647176">
+  <name>ИспользоватьАктыВыполненныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать акты выполненных работ</value>
+  </synonym>
+  <location>Constant.ИспользоватьАктыВыполненныхРабот</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.АктВыполненныхРабот</content>
+</mdclass:FunctionalOption>

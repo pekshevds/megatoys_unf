@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88434712-fc00-46fd-a416-3dac317434a4">
+  <name>ЦветИмитацииПанелиФонаФормыРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет имитации панели фона формы РМК</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>241</red>
+      <green>237</green>
+      <blue>224</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

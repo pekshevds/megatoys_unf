@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52d8c817-9282-49db-9c42-f3ae16399dd5">
+  <producedTypes>
+    <managerType typeId="7056a7cc-e585-4a0b-9bf0-3dcf1b3782b8" valueTypeId="3aeaae8e-3793-496e-bebe-c6a38b217b85"/>
+    <valueManagerType typeId="ac16e3eb-8e46-42a5-8838-277d317add16" valueTypeId="814fa4cb-005c-49ce-98d1-34da712d4226"/>
+    <valueKeyType typeId="01f1e2e0-9ef1-4c5d-9b04-bf1611c478c8" valueTypeId="6ccec7eb-e597-4268-8484-dfc6d665e2a3"/>
+  </producedTypes>
+  <name>НалогВСуммеПоУмолчаниюМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>В сумме</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

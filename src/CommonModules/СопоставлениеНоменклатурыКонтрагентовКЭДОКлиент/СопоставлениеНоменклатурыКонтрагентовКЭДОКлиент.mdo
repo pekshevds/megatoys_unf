@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7be206c9-a20b-4fd6-b58e-1bd9e4ca6874">
+  <name>СопоставлениеНоменклатурыКонтрагентовКЭДОКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление номенклатуры контрагентов Клиент ЭДО (клиент)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

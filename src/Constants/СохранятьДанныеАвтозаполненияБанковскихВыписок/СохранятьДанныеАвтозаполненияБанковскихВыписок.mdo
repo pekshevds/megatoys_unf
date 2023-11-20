@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6fbb4a9-94ea-4a2e-8220-69243696acef">
+  <producedTypes>
+    <managerType typeId="d80fbee4-95f1-40fb-a6bc-8193e52da2da" valueTypeId="9fc884be-29fe-4cb3-819b-b83fc4f4d56e"/>
+    <valueManagerType typeId="45ccae90-3c54-4f03-a799-71f3536cde35" valueTypeId="5cc96912-67b0-48ff-8253-e8eafedadea4"/>
+    <valueKeyType typeId="d1ab757d-9ef8-4dac-b899-9a6e95814629" valueTypeId="4262acab-d1bf-41c7-ba87-454188a308ea"/>
+  </producedTypes>
+  <name>СохранятьДанныеАвтозаполненияБанковскихВыписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранять данные автозаполнения банковских выписок</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0515984c-bba1-4f4d-80b1-4c45e233abd0">
+  <name>ОбщегоНазначенияРМКПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения РМК клиент-сервер (повторного использования)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>General-purpose TM client server</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

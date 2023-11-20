@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cce10c55-ddc9-4ef9-9a5c-8ac7798db8c2">
+  <name>ИспользоватьЗапретПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать запрет продаж</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗапретПродаж</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.УсловияЗапретаПродажРМК</content>
+  <content>Catalog.НастройкиРабочегоМестаКассира.Attribute.ЗапрещеноРедактированиеУсловийОграниченийПродаж</content>
+</mdclass:FunctionalOption>

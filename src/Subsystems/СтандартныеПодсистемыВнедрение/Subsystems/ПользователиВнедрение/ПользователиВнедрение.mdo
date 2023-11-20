@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29b5a6d5-1735-4e06-9654-af5e411a5013">
+  <name>ПользователиВнедрение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи внедрение</value>
+  </synonym>
+  <content>Catalog.Пользователи</content>
+  <content>CommonModule.ПользователиУНФ</content>
+  <content>CommonModule.ПользователиУНФКлиент</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыВнедрение</parentSubsystem>
+</mdclass:Subsystem>

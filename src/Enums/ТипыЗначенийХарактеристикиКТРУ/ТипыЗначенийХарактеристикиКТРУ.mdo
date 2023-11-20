@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c9f2202-a28d-475a-bced-8389bd05edc8">
+  <producedTypes>
+    <refType typeId="7c050459-9f33-48f7-99de-fb96e9f8fffe" valueTypeId="03ea4755-379b-481c-9b53-6e75c5d36d0f"/>
+    <listType typeId="4aea0e6b-b6ac-4038-b06b-3d6ba007db8e" valueTypeId="7926dd63-44e3-4327-9b0b-5552e6303a38"/>
+    <managerType typeId="0f00a787-827f-4283-a99e-2b9eb1b1303a" valueTypeId="df252819-5042-4ef9-825f-252e06435091"/>
+  </producedTypes>
+  <name>ТипыЗначенийХарактеристикиКТРУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений характеристики КТРУ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="116b80ab-f284-49fb-bac9-56979e39c979">
+    <name>ФиксированноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированное значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="851ead8e-e0ab-4f0f-a7e8-527cfee1444f">
+    <name>Диапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

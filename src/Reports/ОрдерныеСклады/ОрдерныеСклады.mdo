@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80232209-ca02-4fef-880c-288f2489a1d8">
+  <producedTypes>
+    <objectType typeId="0ad4d583-1050-40d4-9348-7e4dfa97f586" valueTypeId="a95f8389-a30b-4527-ae97-32634899e164"/>
+    <managerType typeId="69410d86-e01f-487e-8a4c-c7f08a44f844" valueTypeId="e3f4475e-7662-481b-a818-f378d4e98a6a"/>
+  </producedTypes>
+  <name>ОрдерныеСклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ордерные склады</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОрдерныеСклады.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет отображает состояние склада, информацию для кладовщика.</value>
+  </explanation>
+  <attributes uuid="b72ef872-a031-4469-949c-2a9ad0765755">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это отчет УНФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="5f0c6406-60d7-42e6-91fe-095d928b77e8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="ffa14c0e-f4a4-4be5-9bbc-b39579802d48">
+    <name>ОбразецВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец ведомость</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f6d20344-a648-40a0-b436-d721b822f313">
+    <name>ОбразецОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец остатки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d0e2cafb-b7b2-433b-9221-3fc551d7cab6">
+    <name>ОбразецРасхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец расхождения</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="3bd8bdfd-31f6-424c-a4ba-5c25e22f663a">
+    <name>ОбразецОстаткиПоЯчейкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец остатки по ячейкам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

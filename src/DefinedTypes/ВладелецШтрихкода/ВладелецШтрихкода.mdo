@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8aeed7-9394-4a67-83c6-af5924d92480">
+  <producedTypes>
+    <containerType typeId="0fc6a7cf-96c3-4558-9f88-23ef43114ad4" valueTypeId="8eeab394-e2c8-4b45-b16d-0867a71b36ae"/>
+  </producedTypes>
+  <name>ВладелецШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец штрихкода</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШтрихкодыУпаковокТоваров</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.СерииНоменклатуры</types>
+    <types>CatalogRef.ПартииНоменклатуры</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ДисконтныеКарты</types>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+</mdclass:DefinedType>

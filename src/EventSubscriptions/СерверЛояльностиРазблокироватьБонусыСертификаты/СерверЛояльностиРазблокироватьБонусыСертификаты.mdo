@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="898eacd5-3f56-49ef-9727-d65170921d26">
+  <name>СерверЛояльностиРазблокироватьБонусыСертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис лояльности разблокировать бонусы сертификаты</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ДокументПродажиСерверЛояльности</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СерверЛояльностиПоставщикДанных.РазблокироватьБонусыПодарочныеСертификатыПриЗаписи</handler>
+</mdclass:EventSubscription>

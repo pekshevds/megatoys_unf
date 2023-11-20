@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcbd3c5e-8c26-4f2b-9ffb-1fa76b838a01">
+  <producedTypes>
+    <objectType typeId="aa3e2798-2151-4fa9-a996-831d659c131b" valueTypeId="69055722-2412-4245-be1c-489b8d075302"/>
+    <managerType typeId="8d62104c-0038-43d7-9a8d-67e252975e3e" valueTypeId="9614f062-9777-4ed5-ae58-3428d7e95cb6"/>
+  </producedTypes>
+  <name>ЗаполнениеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеБюджета.Form.ФормаВыбора</defaultForm>
+  <attributes uuid="a3874b3a-b0a9-47dd-82aa-b6be2f94c8b0">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="189db8a2-8d10-4f29-ade9-759b6c98e890">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="46ca36c3-c48c-4143-915c-b174682c1ba4">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9fd94c3f-cc57-4541-bd3f-b983a6ba24aa">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8205d1a0-bd10-499a-a851-fed176654281">
+    <name>СдвигДатПериодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдвиг дат периодичность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8799f93e-514d-47e7-935f-ae09a50aedc3">
+    <name>СдвигДат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдвиг дат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9245bb73-ef11-4851-ba16-0ba127d7f70b">
+    <name>ПланОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>План остатки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПланОстатки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b969433e-dff2-475c-a2d8-3e85b40f928f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

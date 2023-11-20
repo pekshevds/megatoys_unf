@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95887042-ecff-47bd-9496-5ec39bdbc9cc">
+  <producedTypes>
+    <managerType typeId="048a4c2e-4d44-41e5-9011-1cff4ba08500" valueTypeId="847e6518-9dcc-41f8-9e5b-6ad74dda70c4"/>
+    <valueManagerType typeId="2ab04929-f41e-4687-ae2e-4323240a42b1" valueTypeId="a5680c4e-c597-4d6d-975e-6ce9b556e603"/>
+    <valueKeyType typeId="2583f82c-64b5-4d69-bef7-630734891917" valueTypeId="1afcb883-bfa9-4dbb-b2f3-f1573711ce18"/>
+  </producedTypes>
+  <name>ИспользоватьФормуВиджетаНаНачальнойСтранице</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать форму виджета на начальной странице</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

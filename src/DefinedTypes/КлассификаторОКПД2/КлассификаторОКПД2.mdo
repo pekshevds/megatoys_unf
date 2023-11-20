@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744a9fab-9d22-4bea-a6f0-80a6e42c3cad">
+  <producedTypes>
+    <containerType typeId="d3e15126-6455-42a0-9849-ba0e83e545d6" valueTypeId="5e49729f-6e32-407a-afe5-c206dc64ee8d"/>
+  </producedTypes>
+  <name>КлассификаторОКПД2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор ОКПД2</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

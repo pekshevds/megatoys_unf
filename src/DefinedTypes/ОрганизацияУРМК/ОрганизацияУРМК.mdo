@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd0fe4a6-ee5c-48a8-ad35-c5ba3a29d3bc">
+  <producedTypes>
+    <containerType typeId="21292a83-e83a-410d-94ee-2fdb1ced8baa" valueTypeId="6a7063de-0d86-44e7-9e3f-bb906bf95559"/>
+  </producedTypes>
+  <name>ОрганизацияУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация УРМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7c7146f-5e2d-4ee1-8196-20db0ac09d5a">
+  <name>ИерархияГоловнойКонечноеПодразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иерархия головной конечное подразделение</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7abfe776-e965-4c8f-807a-76a527a3a3aa">
+  <name>ИнтеграцияСПлатежнымиСистемамиУНФКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с платежными системами УНФ Клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

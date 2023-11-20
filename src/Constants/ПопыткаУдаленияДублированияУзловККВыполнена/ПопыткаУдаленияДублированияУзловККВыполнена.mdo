@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef34c781-cd0b-4394-9c85-4bc1dee49ef3">
+  <producedTypes>
+    <managerType typeId="e7db23fd-4254-4587-8531-00a624ddaa18" valueTypeId="bf02c872-c2cb-41d4-ae51-efad7d1b4cf6"/>
+    <valueManagerType typeId="66deaad7-9fce-44c3-9a92-e5062e3b7465" valueTypeId="0371ea76-e20b-4561-9dce-1e6c89e62af4"/>
+    <valueKeyType typeId="6afc9f67-5fc0-4f59-8d52-83da237b3308" valueTypeId="508490fd-61d6-4742-ab19-605308a3705b"/>
+  </producedTypes>
+  <name>ПопыткаУдаленияДублированияУзловККВыполнена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Попытка удаления дублирования узлов кабинета клиента выполнена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

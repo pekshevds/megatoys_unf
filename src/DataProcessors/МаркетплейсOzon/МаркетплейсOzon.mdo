@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e907963d-af58-4db2-92ad-e6e1c6040f33">
+  <producedTypes>
+    <objectType typeId="41d86264-4ebe-4648-a1a0-2f370c824b12" valueTypeId="12950106-fe76-4cba-b3f2-8e25fc28c346"/>
+    <managerType typeId="ba6a2bcb-237e-4138-be83-18874fdd19c3" valueTypeId="ef054b9c-8efc-44ef-90b3-0a87c5b5492d"/>
+  </producedTypes>
+  <name>МаркетплейсOzon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетплейс Ozon</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="9ce3e6fe-01f9-42af-a015-2a6c53dca88d">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Export goods directory</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6a881511-142e-4690-9874-3b92c76d8f9f">
+    <name>СопоставлениеКатегорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление категорий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e314f8f-f975-4d61-b6ff-9f4b0b5f22fd">
+    <name>ВыборКатегорииМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор категории маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e153063a-9197-4fa1-9f0e-8ed14e52a14c">
+    <name>ВыборРеквизита1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор реквизита 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select report field</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="609f5739-b1fe-4d7f-a120-d12f5d635bd6">
+    <name>СопоставлениеЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="61fdd3d6-0d15-42fe-bc19-665fec26c42a">
+    <name>ВыборЗначенияМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор значения маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="947c462d-f227-4fcb-9afc-7160a1616c46">
+    <name>ВыборСпискаЗначенийМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор списка значений маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

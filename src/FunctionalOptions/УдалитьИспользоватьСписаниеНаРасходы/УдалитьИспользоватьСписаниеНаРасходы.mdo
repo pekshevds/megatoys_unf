@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20d9e352-c69b-4e60-9a81-b8b56a89c9a7">
+  <name>УдалитьИспользоватьСписаниеНаРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) Использовать списание на расходы</value>
+  </synonym>
+  <location>Constant.УдалитьИспользоватьСписаниеНаРасходы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

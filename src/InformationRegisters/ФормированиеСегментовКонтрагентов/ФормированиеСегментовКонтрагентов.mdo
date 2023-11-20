@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4ff8c2f-0013-4b1f-a111-5cd9f44115ec">
+  <producedTypes>
+    <selectionType typeId="0ea515fc-0626-4801-9f24-c908917d7ea2" valueTypeId="9844733c-3063-427e-b069-c6a0f65ee231"/>
+    <listType typeId="8a3751f1-efec-40c8-acfe-f8231e8f4777" valueTypeId="ebd01407-68e4-4d82-bbdb-73f338c62e28"/>
+    <managerType typeId="ee7f5a6c-e819-4a0f-b92e-afd22269ddc7" valueTypeId="78b106aa-2ffc-49c7-8d67-1a7f2125deeb"/>
+    <recordSetType typeId="4eda3442-1002-4c87-8629-abc105e2772f" valueTypeId="720a6f01-b634-4ef4-a1a7-ea11d43c9894"/>
+    <recordKeyType typeId="bd17010c-1c7b-490d-86c3-fd635df0a24f" valueTypeId="69d56945-c4fc-44c4-aae3-93e20c339b0a"/>
+    <recordType typeId="3ee25333-24aa-46b6-bcf5-b2a97385d3d6" valueTypeId="ae11d489-acf6-465c-9559-1967ffba6fb3"/>
+    <recordManagerType typeId="97c8104e-2bd8-45e9-887c-d0f14f37b962" valueTypeId="bcbd7582-80de-40f9-b69a-c7828ceb95ad"/>
+  </producedTypes>
+  <name>ФормированиеСегментовКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование сегментов контрагентов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf82b44b-6d8c-4e5b-bede-f4273dae59a6">
+    <name>ДатаПоследнегоФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего формирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a3cc3ed5-6242-4941-b949-f5083ca032de">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

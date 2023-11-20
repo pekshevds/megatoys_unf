@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="723417fb-43bd-43bb-97b1-87e47c9ab31d">
+  <producedTypes>
+    <selectionType typeId="65d2373c-1e49-44e1-ac09-da96a8702ce3" valueTypeId="ddb727e0-74f8-4121-b71f-38b9e57103d6"/>
+    <listType typeId="d484257e-f6c2-460c-bdbb-baa9f925d95d" valueTypeId="67d62200-b954-4cd2-b334-6b934a9dd334"/>
+    <managerType typeId="e99bb1ef-09f2-424d-8df9-38b5490555b2" valueTypeId="fff4a4e5-83db-4335-ba39-d8ee7d8c68ab"/>
+    <recordSetType typeId="948a5f6f-d606-4131-824d-178feefa82b6" valueTypeId="4ea5a3fd-a064-458c-953a-835e4d1bde2e"/>
+    <recordKeyType typeId="4e908887-3a3d-4d91-a999-78e252cadb63" valueTypeId="7c5c3b0d-d7c1-4a7d-bd26-0aae2c10c3c7"/>
+    <recordType typeId="3105d506-bf8f-4e9d-959e-75df87021554" valueTypeId="eef2a252-0d2d-449d-a548-834e7bef9e06"/>
+    <recordManagerType typeId="85826edb-0476-48a3-9c9d-82564e266a3b" valueTypeId="8fbcb042-7adc-4242-a776-d09b428e99f5"/>
+  </producedTypes>
+  <name>ОплатыПокупателейИнтернетМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплаты покупателей интернет магазина</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Оплаты покупателя с сайта</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Оплаты покупателей с сайта</value>
+  </listPresentation>
+  <resources uuid="9021e8e2-1799-4b05-a737-2bd93ddabe81">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="16dd8441-fd9b-4a3d-863d-dae9fb51e6bb">
+    <name>КлючИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиИнтеграцийСИнтернетМагазином</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, в разрезе которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+  </attributes>
+  <attributes uuid="19e40997-6d15-4281-9e39-8e49616cc4fd">
+    <name>НастройкаИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиИнтеграцииСИнтернетМагазином</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8cf1e150-5688-4cad-9945-46ef2209794c">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор объекта, полученный от сайта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="22987b96-ff43-4ca5-b3da-07c66e41d2d9">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2ece143d-21e1-40a7-8d5e-bd73e3f47b13">
+    <name>ДокументОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ оплаты</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОперацияПоПлатежнымКартам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

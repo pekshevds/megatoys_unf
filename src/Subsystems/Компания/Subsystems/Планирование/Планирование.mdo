@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5531126-65a4-47c1-96b3-aceacf874bdc">
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПланПродаж</content>
+  <content>Catalog.СценарииПланирования</content>
+  <content>Report.ПланыПродаж</content>
+  <content>Report.ПланФактныйАнализПродаж</content>
+  <content>Enum.ИзмеренияПланирования</content>
+  <content>Role.РазделКомпанияПланирование</content>
+  <content>Report.БюджетПрибылейИУбытков</content>
+  <content>Report.БюджетДвиженияДенежныхСредств</content>
+  <content>Report.ДенежныеСредстваПрогноз</content>
+  <content>Report.ДоходыИРасходыПрогноз</content>
+  <content>Report.ПрогнозныйБаланс</content>
+  <content>Report.РезервыТоваровОрганизаций</content>
+  <content>Report.ФинансовыйРезультатПрогноз</content>
+  <content>Role.ДобавлениеИзменениеСценариевПланирования</content>
+  <content>Enum.СпособЗаполненияБюджета</content>
+  <content>Enum.ПланОстатки</content>
+  <content>DataProcessor.ЗаполнениеБюджета</content>
+  <parentSubsystem>Subsystem.Компания</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="509b4942-6c4f-4724-aae6-a73c06bd4a7f">
+  <producedTypes>
+    <containerType typeId="fe871ea9-bbb2-44e2-b84f-b60946e6546b" valueTypeId="7c0dd5f3-b812-49d0-9996-d38497172ab0"/>
+  </producedTypes>
+  <name>РабочееМестоРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место РМК</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.РабочиеМеста</types>
+  </type>
+</mdclass:DefinedType>

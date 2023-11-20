@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe3730ac-9ecf-4480-b6bf-ab7a05b00f19">
+  <producedTypes>
+    <refType typeId="e848e445-f203-4cec-a8ec-5fc15e91eaea" valueTypeId="5816740d-d4a2-4219-b4fa-ba6cabe49542"/>
+    <listType typeId="36b27efe-3adb-447b-a2e3-e64cff29b73c" valueTypeId="1295ed1c-d2da-4fd4-ba84-29be8e1eb97d"/>
+    <managerType typeId="fae627c6-54ee-403a-9955-51d1350ae0b6" valueTypeId="ad537549-0df4-4c26-bd6c-5060e9f005ee"/>
+  </producedTypes>
+  <name>ТипыПолитикУказанияСерий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы политик указания серий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dda85f5c-3640-4c6d-bc38-f34105e335ae">
+    <name>СправочноеУказаниеСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочное указание серий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25d2c29c-2b76-49f1-accf-0a769b006292">
+    <name>АвторасчетОстатковСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторасчет остатков серий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7aef60f1-adc3-44d6-8806-b08530a1a940">
+    <name>УправлениеОстаткамиСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление остатками серий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3894aa56-e870-4ea9-b2fc-6179c6169a8e">
+  <producedTypes>
+    <selectionType typeId="10ba4cd5-67d3-4946-9ea6-7cc935207374" valueTypeId="863717bb-15e7-4f29-bdeb-147e90708213"/>
+    <listType typeId="c8c21124-a8e3-41fb-a265-c5be1f4f5a0e" valueTypeId="6e6f8036-bdfa-46c5-ae42-21054e4d8909"/>
+    <managerType typeId="d97a9be1-ebd7-4393-8f15-073f2dd953a2" valueTypeId="ab0438a9-1167-4af4-93ce-6f392c03476f"/>
+    <recordSetType typeId="7413f6ae-9ed8-4b1d-a9eb-7addad1de8c7" valueTypeId="a5f7fd20-712f-4ede-a9f7-93689041c532"/>
+    <recordKeyType typeId="57a5b26e-5a27-465b-b448-6ce4f61130e3" valueTypeId="616d6bf1-4a5f-4467-bbf8-eb856af75f73"/>
+    <recordType typeId="bf603096-d92e-4925-a671-e231dc3c933e" valueTypeId="0aa8384a-a912-45f3-9fc9-63bcfbf7c76d"/>
+    <recordManagerType typeId="651b6811-9e56-46d5-9211-7baee5605c37" valueTypeId="2c14de41-a26f-4cdd-8073-1e2ff5a0adac"/>
+  </producedTypes>
+  <name>СтатусыПубликацииТоваровЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы публикации товаров Яндекс Маркета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statuses of Yandex.Market goods publication</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтатусыПубликацииТоваровЯндексМаркет.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3573308a-dc25-44a9-9ef3-3739b2d16372">
+    <name>ИдентификаторПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор публикации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Publication ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="af7d2914-81c3-4cd9-bffe-6efe28b76dad">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВыгрузкиТоваровЯндексМаркет</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="1dac76a1-0cfe-4254-9f3e-76698a4353dd">
+    <name>ПредставлениеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление товара</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Goods presentation</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="09a33ce6-4590-491b-a59f-32608294575e">
+    <name>ИдентификаторТовараПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор товара площадки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Platform goods ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="c1eb5208-149a-452a-8527-0eb605bbb152">
+    <name>НаименованиеТовараПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование товара площадки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Platform goods name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="48325801-7238-4a85-9982-6d4d743b943b">
+    <name>НаименованиеКатегорииПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование категории площадки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Platform category name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="d9b8034a-93a5-4315-8411-bb7071cd56f1">
+    <name>НаименованиеМоделиПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование модели площадки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Platform model name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="f4ef9014-6a72-4f16-a6d7-c2c1afc1e588">
+    <name>КодОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ошибки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Error code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="264e1c26-2aa2-4690-be2b-86603aa13dee">
+    <name>ОписаниеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание ошибки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Error details</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="94775260-a3b0-4685-bcae-313e16f2c60d">
+    <name>КатегорияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория номенклатуры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Product category</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="85462861-c138-4c8b-940e-c3b8e44e0e93">
+    <name>ГиперссылкаНаРекомендованныеТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гиперссылка на рекомендованные товар</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recommended goods hyperlink</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="c63c17dc-f85e-4526-9744-ea4aede06269">
+    <name>БазоваяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая цена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Base price</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5886438d-142e-4a76-a7f7-c08bafc65a6a">
+    <name>МаркерСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркер статуса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status token</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb4ce75a-e1c8-4924-a969-76c65bdad82c">
+    <name>ЕстьИдентификаторПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть идентификатор площадки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>There is a platform ID</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e5ee19af-512a-44d2-90f1-42fd8f226896">
+    <name>ДатаУстановкиЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки цены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price setting date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07e9a86e-2f92-402b-9e0a-feccb475b170">
+    <name>ОстатокВУпаковках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток в упаковках</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Stock balance in packaging units</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="34c9c394-6498-49e2-b03a-05026e1765be">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Items</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4cb77832-ac7b-4eff-a458-6d5898e35afd">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>InformationRegister.СтатусыПубликацииТоваровЯндексМаркет.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="91a894fc-e178-467e-9dce-1a951c387cb3">
+    <name>УчетнаяЗаписьМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись маркетплейса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиМаркетплейсов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ВидМаркетплейса</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыМаркетплейсов.EnumValue.МаркетплейсЯндексМаркет</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aa25dab7-ab26-4b14-81bd-850d6c4f2ea3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

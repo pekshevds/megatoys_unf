@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de684021-ba9f-49e5-b4e5-b72580d585eb">
+  <producedTypes>
+    <managerType typeId="c4c397ca-3104-49ca-918d-1a9628aadec6" valueTypeId="fc03b5ed-9c33-49f0-bd7c-5312ce9796f5"/>
+    <valueManagerType typeId="3ee70a97-3416-4537-973c-82474f3f966a" valueTypeId="1c9c83af-efd5-4342-ba57-a13fbb70a311"/>
+    <valueKeyType typeId="a7f8c854-c9ec-4f50-a498-86447af28404" valueTypeId="8f0517d0-a244-4ea1-bb2f-c92b4cfa8d8b"/>
+  </producedTypes>
+  <name>ИспользоватьАссистентаУправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ассистента управления</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

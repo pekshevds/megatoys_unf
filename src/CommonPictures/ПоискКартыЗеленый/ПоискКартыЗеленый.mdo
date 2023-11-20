@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb15355a-f0a7-46d9-8c2c-b8a9c3971e79">
+  <name>ПоискКартыЗеленый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск карты зеленый</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

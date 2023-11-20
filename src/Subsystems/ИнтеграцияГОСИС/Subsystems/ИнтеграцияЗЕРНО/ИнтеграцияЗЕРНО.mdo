@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe63e7d-f787-4e81-9b03-0f3991768090">
+  <name>ИнтеграцияЗЕРНО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЗЕРНО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияЗЕРНОУНФ</content>
+  <content>CommonModule.ИнтеграцияЗЕРНОУНФКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияЗЕРНОУНФВызовСервера</content>
+  <parentSubsystem>Subsystem.ИнтеграцияГОСИС</parentSubsystem>
+</mdclass:Subsystem>

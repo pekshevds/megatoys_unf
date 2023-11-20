@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bee7af2-f447-4eff-a81b-d93759491274">
+  <name>ИспользоватьПромокоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать промокоды</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьПромокоды</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.БонусныеПрограммы</content>
+  <content>DataProcessor.БонусныеПрограммы</content>
+  <content>Document.НачислениеСписаниеБонусныхБаллов</content>
+  <content>Report.АнализНачисленийБонусныхБаллов</content>
+  <content>Report.ОстаткиБонусныхБаллов</content>
+  <content>Report.ДвиженияБонусныхБаллов</content>
+  <content>DataProcessor.БонусныеПрограммы.Command.ОткрытьОсновнуюФорму</content>
+  <content>Document.ЧекККМ.TabularSection.Запасы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.ЧекККМВозврат.TabularSection.Запасы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Запасы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Catalog.ВидыДисконтныхКарт.Attribute.БонуснаяПрограмма</content>
+  <content>Document.РасходнаяНакладная.TabularSection.Запасы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.АктВыполненныхРабот.TabularSection.РаботыИУслуги.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.ЗаказПокупателя.TabularSection.Работы.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.АктивацияПромокодов</content>
+  <content>Catalog.ШаблоныГенерацииПромокодов</content>
+</mdclass:FunctionalOption>

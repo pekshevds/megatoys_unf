@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a69898e-5f64-47ae-81ac-a58d3d3c5285">
+  <name>ИспользоватьВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды цен</value>
+  </synonym>
+  <location>Constant.ИспользоватьВидыЦен</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыЦен</content>
+</mdclass:FunctionalOption>

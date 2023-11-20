@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44707557-fbc7-4524-8d6a-945c8a67a80b">
+  <producedTypes>
+    <managerType typeId="ed0b5253-2670-4b1c-ab56-b78b14ed5e0e" valueTypeId="564fcc1b-dd8c-412d-8840-a853ca5e0d29"/>
+    <valueManagerType typeId="c25ad91e-ac78-48c4-b6ba-09e0a6a133aa" valueTypeId="50b3127f-f4c2-4ca7-a0df-da1563ab7679"/>
+    <valueKeyType typeId="55ee2586-6366-4a73-b402-00e9406a2baa" valueTypeId="6691f984-b28e-402d-add3-38311acce65e"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьМинимальныеЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать минимальные цены</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

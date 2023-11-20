@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4db5e9ee-8e13-4e3d-a1d2-66621a228320">
+  <producedTypes>
+    <containerType typeId="8ff84deb-15bb-47eb-bfc6-9f8c036f41a5" valueTypeId="8c85ecbb-242b-49ee-8f1e-3df60ed7ea9c"/>
+  </producedTypes>
+  <name>НомерСертификатаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер сертификата РМК</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

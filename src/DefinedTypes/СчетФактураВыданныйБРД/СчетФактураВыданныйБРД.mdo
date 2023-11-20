@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe2bfbc-e902-43f4-bc74-8345d73815fc">
+  <producedTypes>
+    <containerType typeId="e183f242-e049-44bd-a938-66390288431b" valueTypeId="50f802c0-81fc-4646-a18b-427cb10bb6e6"/>
+  </producedTypes>
+  <name>СчетФактураВыданныйБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет фактура выданный БРД</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СчетФактура</types>
+  </type>
+</mdclass:DefinedType>

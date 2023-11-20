@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b1c45e-b5c8-4200-a36f-7a20ba075e1c">
+  <producedTypes>
+    <managerType typeId="554d56c0-975d-4c20-b4f8-a34c1962e175" valueTypeId="2aef553a-2333-46b8-afbb-8a77e86c2c33"/>
+    <valueManagerType typeId="4db981a9-8df4-4858-992c-dae8b40f5a63" valueTypeId="81d050be-956b-43c7-b852-c2557667b2de"/>
+    <valueKeyType typeId="0de2274d-dd93-456d-8818-c6651a860c77" valueTypeId="14254ed0-d81e-4998-991a-86fb8b31d51f"/>
+  </producedTypes>
+  <name>ОтображатьМакетОписанияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать макет описания изменений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="345d510b-34ea-47ae-af90-e08d5c554d63">
+  <name>МастерНастройкиШрифтЗаголовкаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт заголовка текста</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontDef">
+      <faceName>Verdana</faceName>
+      <height>18.0</height>
+    </value>
+  </value>
+</mdclass:StyleItem>

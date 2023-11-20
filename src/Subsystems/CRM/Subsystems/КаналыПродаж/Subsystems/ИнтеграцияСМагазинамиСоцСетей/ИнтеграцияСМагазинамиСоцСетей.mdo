@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e83ac0c-6d3f-4bc8-9a7e-c0e97972b843">
+  <name>ИнтеграцияСМагазинамиСоцСетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с магазинами соц сетей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияСМагазинамиСоцСетейСервер</content>
+  <content>ExchangePlan.ИнтеграцияСМагазинамиСоцСетей</content>
+  <content>Enum.МагазиныСоцСетейДляИнтеграции</content>
+  <content>InformationRegister.СопоставлениеКаталоговДляМагазинаСоцСетей</content>
+  <content>InformationRegister.СопоставлениеИдентификаторовМагазиновСоцСетей</content>
+  <content>InformationRegister.ОстаткиТоваровМагазинаСоцСетей</content>
+  <content>InformationRegister.ХешКонтролируемыхРеквизитовДляМагазинаСоцСетей</content>
+  <content>InformationRegister.ХарактеристикаИсключеннаяИзНабораСвойствДляМагазинаСоцСетей</content>
+  <content>InformationRegister.СопоставлениеФайловДляМагазинаСоцСетей</content>
+  <content>InformationRegister.ЗначениеДополнительныхПолейОбъектовДляМагазинаСоцСетей</content>
+  <content>Enum.СпособыОбменаСМагазиномСоцСетей</content>
+  <content>CommonPicture.ВКонтактеЗаставка</content>
+  <content>InformationRegister.НоменклатураХарактеристикаИсключеннаяИзОбменаДляМагазинаСоцСетей</content>
+  <content>InformationRegister.ПоследняяУспешнаяОперацияОбменаДляМагазинаСоцСетей</content>
+  <content>ScheduledJob.ОбменСМагазинамиСоцСетей</content>
+  <content>InformationRegister.ДополнительныеПоляФайловДляМагазинаСоцСетей</content>
+  <content>InformationRegister.НоменклатураХарактеристикаУдаленнаяИзОбменаДляМагазинаСоцСетей</content>
+  <content>CommonCommand.ОбменСМагазинамиСоцСетей</content>
+  <content>Catalog.ВиртуальныеКаталогиТоваровМагазиновСоцСетей</content>
+  <content>CommonPicture.ВКонтактеПримерОсновнаяЦена</content>
+  <content>CommonPicture.ВКонтактеПримерСтараяЦена</content>
+  <content>CommonPicture.ВКонтактеПримерЦены</content>
+  <content>CommonPicture.ВКонтактеПримерОстаток</content>
+  <content>CommonPicture.ВКонтактеПримерНаборыСвойств</content>
+  <content>CommonPicture.ВКонтактеПримерПодборкиТовара</content>
+  <content>CommonPicture.ВКонтактеУспешно</content>
+  <content>CommonPicture.ВКонтактеЭлектронноеПисьмоОткрытое</content>
+  <content>InformationRegister.НоменклатураХарактеристикДляМагазинаСоцСетей</content>
+  <content>InformationRegister.НоменклатураХарактеристикДляМагазинаСоцСетейВиртуальныеКаталоги</content>
+  <content>CommonPicture.ВКонтактеПримерКодПриложения</content>
+  <content>CommonPicture.ВКонтактеПочтиВсе</content>
+  <content>CommonPicture.ВКонтактеАвторизация</content>
+  <content>Enum.СпособыУстановкиДатыДляМагазинаСоцСетей</content>
+  <content>Enum.ВариантыВыгрузкиХарактеристикДляМагазинаСоцСетей</content>
+  <content>Catalog.ВиртуальныеКаталогиТоваровМагазиновСоцСетейПрисоединенныеФайлы</content>
+  <content>StyleItem.МастерНастройкиШрифтЗаголовкаТекста</content>
+  <content>CommonPicture.ВКонтактеПримерКолФото</content>
+  <content>CommonPicture.ВКонтактеПримерЧат</content>
+  <content>Role.ИспользованиеИнтеграцииСМагазинамиСоцСетей</content>
+  <content>CommonTemplate.ИнтеграцияССайтамиИМаркетплейсамиОшибкиРасшифровка</content>
+  <parentSubsystem>Subsystem.CRM.Subsystem.КаналыПродаж</parentSubsystem>
+</mdclass:Subsystem>

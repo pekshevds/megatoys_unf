@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0c8bb32-4bf7-4474-af31-4761adecb2f5">
+  <name>ЯчейкаРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ячейка РМК</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

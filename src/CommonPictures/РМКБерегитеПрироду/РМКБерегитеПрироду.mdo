@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f80d8b0-2f59-4916-a268-66a47af22dcd">
+  <name>РМКБерегитеПрироду</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКБерегите природу</value>
+  </synonym>
+</mdclass:CommonPicture>

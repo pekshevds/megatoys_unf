@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="504dd571-e8aa-4076-a9d6-b073f92522a6">
+  <producedTypes>
+    <selectionType typeId="6fad647b-8485-4184-9e9f-ef9e9715efff" valueTypeId="2bb5ae14-5ae9-43a9-9355-48677bcbeb0f"/>
+    <listType typeId="c67235bf-8a93-4c21-ad23-6bcef400e78b" valueTypeId="37a64316-0ad2-4815-a306-f9af8fe62ec8"/>
+    <managerType typeId="7837391a-64e7-447c-a135-d12ffd7d3f98" valueTypeId="40766481-1901-44b3-906e-21f5f7479bd3"/>
+    <recordSetType typeId="883fefb8-9223-4c81-b742-580175487ed5" valueTypeId="6fca8bf7-543b-4303-b38f-3d7eb7349925"/>
+    <recordKeyType typeId="94997b27-215d-43b3-bd24-88e26809424f" valueTypeId="c6233d6d-97c0-4eb5-98c8-6a090827651e"/>
+    <recordType typeId="bd70ca58-db70-42e3-9ebd-3cfe53d0e529" valueTypeId="5c6102e3-df71-41b6-8fed-9cb459a3190e"/>
+    <recordManagerType typeId="10aaac72-4c64-414d-9e26-1a4e7f449b11" valueTypeId="b5e343c7-c417-4296-93b2-ade1d2761eff"/>
+  </producedTypes>
+  <name>ПоследовательностьПартийДляКУДиР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последовательность партий для КУДиР</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПоследовательностьПартийДляКУДиР.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="907e0c56-60d2-4282-8aaf-65a9876f59c8">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d18bfd26-20db-4d74-9fd1-c214ca9d5c4c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03a8018e-0fb7-4670-820c-8367789807b4">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be882d2f-2002-49a1-abd6-a8bb8609ff7a">
+    <name>НачалоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало месяца</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="46a36952-bd46-49e0-8dab-7467b78dde46">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="71973229-268b-4fa6-bdf7-a86f5fffd040">
+    <name>ОткрытьПоследовательностьПартийДляКУДиР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последовательность партий для КУДиР</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

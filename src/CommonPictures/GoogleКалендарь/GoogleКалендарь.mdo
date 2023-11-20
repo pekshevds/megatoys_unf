@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e76f255d-6db4-454d-968b-4e30b52c6d93">
+  <name>GoogleКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Google календарь</value>
+  </synonym>
+</mdclass:CommonPicture>

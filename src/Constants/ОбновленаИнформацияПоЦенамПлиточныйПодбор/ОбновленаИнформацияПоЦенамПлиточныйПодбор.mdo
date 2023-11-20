@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a74d8b-7bd1-4579-88ee-c31c08271bbf">
+  <producedTypes>
+    <managerType typeId="0c481424-0534-444b-a53a-8167c86d4ffb" valueTypeId="daf41b44-dd3a-466c-b766-91493b1b9638"/>
+    <valueManagerType typeId="9a3e2467-9ac6-4d30-a694-18dda4b74108" valueTypeId="325af2e1-bc7d-4a43-9bb0-13471540c8aa"/>
+    <valueKeyType typeId="523f9a4b-fab6-4f23-9015-54436aed8299" valueTypeId="3a18530f-f0b9-48db-9d7d-54adcb1afa57"/>
+  </producedTypes>
+  <name>ОбновленаИнформацияПоЦенамПлиточныйПодбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновлена информация по ценам плиточный подбор</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3a3df17-5b1b-456b-ba91-5984b88a9f85">
+  <name>ДобавлениеИзменениеКлассификатораТНВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение классификатора ТНВЭД</value>
+  </synonym>
+</mdclass:Role>

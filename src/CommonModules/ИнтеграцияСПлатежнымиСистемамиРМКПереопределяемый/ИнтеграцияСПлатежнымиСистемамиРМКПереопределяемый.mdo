@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df5157c0-bdb6-4eb6-baa9-3f28852eb67a">
+  <name>ИнтеграцияСПлатежнымиСистемамиРМКПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с платежными системами РМК</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

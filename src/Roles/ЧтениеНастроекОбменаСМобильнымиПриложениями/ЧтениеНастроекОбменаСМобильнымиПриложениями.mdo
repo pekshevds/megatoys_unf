@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="628313ee-995c-4958-9282-a84c11b5070b">
+  <name>ЧтениеНастроекОбменаСМобильнымиПриложениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек обмена с мобильными приложениями</value>
+  </synonym>
+</mdclass:Role>

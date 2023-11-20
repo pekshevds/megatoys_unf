@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f448404d-005d-4c04-b58c-dbaa7b8e40f4">
+  <producedTypes>
+    <managerType typeId="aad6acbd-03f2-4274-87d9-f2e0128ce4af" valueTypeId="a26e9bda-ea58-4ec7-9dfe-c66cafc7d070"/>
+    <valueManagerType typeId="eee5d236-2a21-4d49-9fb4-e63289310774" valueTypeId="91d72fe5-f503-4b9e-af0a-4fd99702826c"/>
+    <valueKeyType typeId="b993cfa8-42b6-4dfa-890c-fb1a2fb06134" valueTypeId="ec96f5e8-5514-40c9-8fc7-e1dc330fd116"/>
+  </producedTypes>
+  <name>ВидЦеныОтходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид цены отходов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

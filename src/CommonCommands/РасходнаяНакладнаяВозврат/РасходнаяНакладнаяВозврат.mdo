@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040ce39f-5c59-4de9-bcc8-6a4f5776f949">
+  <name>РасходнаяНакладнаяВозврат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат поставщику</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.ПриходнаяНакладная</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

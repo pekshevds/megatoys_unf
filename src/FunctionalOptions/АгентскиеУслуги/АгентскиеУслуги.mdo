@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="356a6404-2b22-4d1b-b569-765aed3e2eb9">
+  <name>АгентскиеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агентские услуги</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияИспользоватьАгентскиеУслуги</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетКомитенту</content>
+  <content>Report.РасчетыСКомитентами</content>
+  <content>Document.СчетФактура</content>
+  <content>Document.СчетФактураПолученный</content>
+  <content>Catalog.Номенклатура.Attribute.ЭтоАгентскаяУслуга</content>
+  <content>Report.ЗапасыПринятые</content>
+  <content>DocumentJournal.КомиссионныеЗакупки</content>
+</mdclass:FunctionalOption>

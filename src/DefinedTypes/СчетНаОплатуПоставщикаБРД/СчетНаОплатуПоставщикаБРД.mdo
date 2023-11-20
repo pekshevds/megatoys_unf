@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb582d40-09c5-4fad-84a8-2077cf423665">
+  <producedTypes>
+    <containerType typeId="ebf82ae5-7611-4bbd-aeb5-067396061017" valueTypeId="8acb6396-0b5f-49a7-860f-2ff865e97faa"/>
+  </producedTypes>
+  <name>СчетНаОплатуПоставщикаБРД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет на оплату поставщика БРД</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СчетНаОплатуПоставщика</types>
+  </type>
+</mdclass:DefinedType>

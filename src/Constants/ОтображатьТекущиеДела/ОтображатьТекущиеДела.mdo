@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a5b54e3-1fc6-4b0f-b409-dab2b1af3989">
+  <producedTypes>
+    <managerType typeId="9db95cd2-812d-44f5-84b7-26332a464aef" valueTypeId="685f86d3-6af3-4b09-b91b-df37306437ac"/>
+    <valueManagerType typeId="e685fbb4-5647-4b5e-bd18-bff225863aa1" valueTypeId="bbd4b833-1939-4480-b59b-be4416f10ad1"/>
+    <valueKeyType typeId="8c7c0b0b-c174-41dc-94f8-e93ec09288d9" valueTypeId="d9a7435e-c6bc-4471-9586-8b1caef05687"/>
+  </producedTypes>
+  <name>ОтображатьТекущиеДела</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать текущие дела</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

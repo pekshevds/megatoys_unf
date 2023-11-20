@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9102143e-68f5-4403-9a19-5202f9152764">
+  <name>ДобавлениеИзменениеРасходовДСПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение заявок на расход денег</value>
+  </synonym>
+</mdclass:Role>

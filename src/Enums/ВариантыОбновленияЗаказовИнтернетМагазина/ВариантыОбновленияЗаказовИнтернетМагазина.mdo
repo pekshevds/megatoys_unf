@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce575de2-382c-4c5a-8a31-51859b66ca2a">
+  <producedTypes>
+    <refType typeId="9b1ec5b5-57d6-4e19-be72-b3f29b5d2181" valueTypeId="7cad567b-aea4-417b-bf25-c0c36d21c62d"/>
+    <listType typeId="0062757b-a597-4b80-bcd5-833254fab19a" valueTypeId="a11f4e91-906d-4159-b42b-6e7db37938f4"/>
+    <managerType typeId="81dee3a2-ccec-48ce-afd7-f3067c2f1c58" valueTypeId="5566cafb-43d5-4777-b8b1-e4bb33b70397"/>
+  </producedTypes>
+  <name>ВариантыОбновленияЗаказовИнтернетМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты обновления заказов интернет магазина</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5bbd60c6-4a38-4e8d-983a-5ae6e093f0d6">
+    <name>НеОбновлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обновлять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43581d6d-16f4-4dbe-9b10-1d8d95165d5f">
+    <name>ОбновлятьТолькоНеПроведенные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять только не проведенные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bc5e647-4a61-46bf-8656-7389525811ad">
+    <name>ВсегдаОбновлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда обновлять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

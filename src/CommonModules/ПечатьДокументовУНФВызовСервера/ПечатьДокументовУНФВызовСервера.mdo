@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eee1c5c3-2128-47cf-9aab-05e8e0955327">
+  <name>ПечатьДокументовУНФВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать документов УНФ (вызов сервера)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c102051d-95f7-435a-8e23-096a3f8eafad">
+  <name>ПрослеживаемостьФормыКлиентСерверУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прослеживаемость формы клиент сервер УНФ</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

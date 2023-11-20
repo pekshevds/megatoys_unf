@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a46e574-a906-46c2-867a-3c2ac558b391">
+  <name>ДобавлениеИзменениеРеестровСЗВ_6_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение реестров СЗВ 6 2</value>
+  </synonym>
+</mdclass:Role>

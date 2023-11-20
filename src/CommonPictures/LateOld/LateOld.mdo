@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9e00cf0-d40e-4acf-a14c-7065b78426b0">
+  <name>LateOld</name>
+  <synonym>
+    <key>ru</key>
+    <value>Late old</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

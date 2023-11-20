@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8096c5-9b60-4b11-bcfa-41d9e2c42de6">
+  <producedTypes>
+    <refType typeId="1b29760a-7f89-4320-96ee-28c4f6db361e" valueTypeId="b9a45982-35c5-47a2-bd05-3852c964f2ee"/>
+    <listType typeId="bb25a27a-77e3-4d44-bd8e-8727601050bd" valueTypeId="4654ddd3-09c0-4310-8130-57e0c26e478b"/>
+    <managerType typeId="93d6c4ad-acb8-4382-96cd-ea2894207a64" valueTypeId="da8afc12-560d-4dee-8064-d5eb60227621"/>
+  </producedTypes>
+  <name>ВариантыОграниченийСкидокПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ограничений скидок по контрагентам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10c43b11-0e2d-4b29-8988-1d5529d49c3b">
+    <name>ПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По контрагентам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86c2c363-5e2f-4127-8e48-1a6dd54d57aa">
+    <name>ПоСегментуКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сегменту контрагентов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

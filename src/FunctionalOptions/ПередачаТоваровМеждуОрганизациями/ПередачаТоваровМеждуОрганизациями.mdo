@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ee49946-da91-4510-adc3-e26f60edd46b">
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача товаров между организациями</value>
+  </synonym>
+  <location>Constant.ПередачаТоваровМеждуОрганизациями</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПередачаТоваровМеждуОрганизациями</content>
+  <content>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями</content>
+  <content>AccumulationRegister.РезервыТоваровОрганизаций</content>
+  <content>Catalog.Организации.Attribute.КонтрагентИнтеркампани</content>
+  <content>AccumulationRegister.РасчетыСПокупателями.Resource.СуммаИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыОтложенные.Resource.СуммаДоходовИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходы.Resource.СуммаРасходовИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходы.Resource.СуммаДоходовИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыНераспределенные.Resource.СуммаДоходовИнт</content>
+  <content>AccumulationRegister.РасчетыСПоставщиками.Resource.СуммаИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыКассовыйМетод.Resource.СуммаДоходовИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.СебестоимостьБезНДСИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.КоличествоИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыОтложенные.Resource.СуммаРасходовИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.СуммаИнт</content>
+  <content>AccumulationRegister.РасчетыСПокупателями.Resource.СуммаВалИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.СуммаБезСкидкиИнт</content>
+  <content>AccumulationRegister.РасчетыСПоставщиками.Resource.СуммаВалИнт</content>
+  <content>AccumulationRegister.ЗапасыНаСкладах.Resource.КоличествоИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.СебестоимостьИнт</content>
+  <content>AccountingRegister.Управленческий.Resource.СуммаВалИнт</content>
+  <content>AccumulationRegister.Продажи.Resource.СуммаНДСИнт</content>
+  <content>AccumulationRegister.РасчетыСПокупателями.Resource.СуммаРегИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыКассовыйМетод.Resource.СуммаРасходовИнт</content>
+  <content>AccumulationRegister.РасчетыСПоставщиками.Resource.СуммаРегИнт</content>
+  <content>AccumulationRegister.ДоходыИРасходыНераспределенные.Resource.СуммаРасходовИнт</content>
+  <content>AccumulationRegister.Запасы.Resource.КоличествоИнт</content>
+  <content>AccountingRegister.Управленческий.Resource.СуммаИнт</content>
+  <content>AccumulationRegister.Запасы.Resource.СуммаИнт</content>
+  <content>AccumulationRegister.Запасы.Resource.СуммаБезНДСИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.Запасы.Attribute.СуммаБезНДСИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.Запасы.Attribute.СуммаИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.Запасы.Attribute.КоличествоИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПоставщиками.Attribute.СуммаВалИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПоставщиками.Attribute.СуммаИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПоставщиками.Attribute.СуммаРегИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПокупателями.Attribute.СуммаВалИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПокупателями.Attribute.СуммаИнт</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.РасчетыСПокупателями.Attribute.СуммаРегИнт</content>
+</mdclass:FunctionalOption>

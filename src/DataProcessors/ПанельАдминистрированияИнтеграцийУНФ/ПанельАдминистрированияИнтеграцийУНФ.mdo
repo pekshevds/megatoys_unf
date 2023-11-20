@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33fdce9f-1045-49b9-a3cb-fa9909fa3918">
+  <producedTypes>
+    <objectType typeId="538c3910-00d0-47f9-9a30-a25a4071aaf1" valueTypeId="b6b57df0-974a-42af-9db3-310fc1a4b98a"/>
+    <managerType typeId="df7513d9-a7c7-4c0d-8dfe-44c08c86291a" valueTypeId="b91ea120-4816-49cc-b1e6-1e580dfd1bfc"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияИнтеграцийУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования интеграций УНФ</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияИнтеграцийУНФ.Form.Форма</defaultForm>
+  <forms uuid="74f54a5e-5526-4849-9601-2a52943bbc2d">
+    <name>КаналыПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы продаж</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23fde5cc-9bc4-4df3-a2c1-526aa9c98664">
+    <name>ОбменССайтом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с сайтом</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88799aa0-a4c3-4174-92af-bc7b97f88730">
+    <name>ПочтаРассылкиSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта, рассылки и SMS</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2922f379-d63a-4f6d-bf31-8bc9034373e8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="375012b4-a73c-4baf-9aa8-03f694555f9c">
+    <name>ЧатИнтеграцияСМессенджерами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат, интеграция с мессенджерами</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="69199274-5f46-4390-b625-6a9ece549925">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="65b2a643-6d7a-4192-9b30-133456bc4e48">
+    <name>БизнесСеть</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Бизнес-сеть</value>
+    </synonym>
+    <comment>// АПК:58 Синоним отличается от имени ради более точного отображения в интерфейсе</comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="7617c492-39da-4769-8712-0573e81ef6df">
+    <name>КаналыПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы продаж</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="634a37b2-bb87-44e0-bbc3-877b9866f742">
+    <name>ОблачнаяТелефония</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облачная телефония</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="f4b13c8c-5514-4840-be05-ee3ff947158a">
+    <name>ОбменСБанками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с банками</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="3846398b-e419-425a-8b4b-cd78eef263c0">
+    <name>ОбменССайтом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с сайтом</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e0774ace-babf-406d-a76d-08b4437e1aad">
+    <name>ОбменЭлектроннымиДокументами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен электронными документами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="5f4b83a6-1e70-4aef-93ba-1e71707d0dde">
+    <name>ПочтаРассылкиSMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта, рассылки и SMS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a4979f00-26bc-47e7-8bf5-c9002a2b2722">
+    <name>ЧатИнтеграцияСМессенджерами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат, интеграция с мессенджерами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b042dcbf-4ce6-4eec-9bf3-1fa60c0cdcb3">
+    <name>ЮКасса</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЮKassa</value>
+    </synonym>
+    <comment>// АПК:58 оригинальное название содержит кириллицу и латиницу</comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a9aef30a-7b8a-4068-b9ab-532dcece0f67">
+    <name>ЯндексДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Яндекс.Доставка</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="e3898607-8ced-4da2-a6c6-1aeb0e281af5">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="08ef89ec-aaaf-4795-8e72-f87c4a732a6d">
+    <name>ОбменСМагазинамииСоцСетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин ВКонтакте</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

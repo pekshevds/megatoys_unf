@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9ebcfc9-3781-41b2-b5f0-55700d01b91f">
+  <name>ВводПараметровВыемкиДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод параметров выемки денежных средств</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

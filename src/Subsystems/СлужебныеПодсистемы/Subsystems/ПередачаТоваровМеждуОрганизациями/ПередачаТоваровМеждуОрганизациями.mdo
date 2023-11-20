@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80672f10-10e4-46fd-a7b7-3e8a656af14e">
+  <name>ПередачаТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача товаров между организациями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкаПередачиТоваровМеждуОрганизациями</content>
+  <content>CommonModule.ИнтеркампаниСервер</content>
+  <content>CommonModule.ИнтеркампаниКлиентСервер</content>
+  <content>AccumulationRegister.РезервыТоваровОрганизаций</content>
+  <content>Document.ПередачаТоваровМеждуОрганизациями</content>
+  <content>Constant.ПередачаТоваровМеждуОрганизациями</content>
+  <content>FunctionalOption.ПередачаТоваровМеждуОрганизациями</content>
+  <content>Enum.СпособыВозвратаТоваров</content>
+  <parentSubsystem>Subsystem.СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

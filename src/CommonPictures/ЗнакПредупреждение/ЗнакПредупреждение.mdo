@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f43828-5ac9-4130-acd9-86f705bff562">
+  <name>ЗнакПредупреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знак предупреждение</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

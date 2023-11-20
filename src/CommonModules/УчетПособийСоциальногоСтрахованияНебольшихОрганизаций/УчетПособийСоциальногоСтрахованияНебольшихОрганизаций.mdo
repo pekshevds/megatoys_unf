@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92354137-45d1-4b8d-b2ca-2a0f695a8ad7">
+  <name>УчетПособийСоциальногоСтрахованияНебольшихОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет пособий социального страхования небольших организаций</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

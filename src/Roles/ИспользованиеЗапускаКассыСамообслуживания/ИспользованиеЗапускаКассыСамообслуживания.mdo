@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4802c41f-a4e6-4ecd-8b74-aa4cec9c4a9b">
+  <name>ИспользованиеЗапускаКассыСамообслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование запуска кассы самообслуживания</value>
+  </synonym>
+</mdclass:Role>

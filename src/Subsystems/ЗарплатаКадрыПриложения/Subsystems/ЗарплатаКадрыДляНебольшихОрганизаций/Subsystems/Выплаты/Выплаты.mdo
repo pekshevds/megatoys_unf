@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fefcb1e0-0a68-497a-a666-5cf7be3903d0">
+  <name>Выплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплаты</value>
+  </synonym>
+  <content>Document.ВедомостьНаВыплатуЗарплаты</content>
+  <content>Enum.ВыплаченностьЗарплаты</content>
+  <content>Enum.УдалитьСпособыВыплатыЗарплаты</content>
+  <content>CommonModule.ВыплатаЗарплатыДляНебольшихОрганизаций</content>
+  <content>DefinedType.БанковскиеСчетаФизическихЛиц</content>
+  <content>Catalog.ВедомостьНаВыплатуЗарплатыПрисоединенныеФайлы</content>
+  <content>Role.ДобавлениеИзменениеВедомостейНаВыплатуЗарплатыВнешних</content>
+  <content>Role.ЧтениеВедомостейНаВыплатуЗарплатыВнешних</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ЗарплатаКадрыДляНебольшихОрганизаций</parentSubsystem>
+</mdclass:Subsystem>

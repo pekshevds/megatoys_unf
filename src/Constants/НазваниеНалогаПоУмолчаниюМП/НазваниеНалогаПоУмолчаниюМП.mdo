@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506a6131-33df-4a34-a8c7-e33b52eb271d">
+  <producedTypes>
+    <managerType typeId="9a669842-a950-4160-958b-3542aebc88cd" valueTypeId="9921338a-4327-4347-b02a-85f4ffb01eea"/>
+    <valueManagerType typeId="2ddaf078-606a-41f1-a2d3-350b4217445c" valueTypeId="06a11c7b-6cf6-4510-ae2f-d1492a59f445"/>
+    <valueKeyType typeId="a359e100-7fdd-449b-8153-832bf195f639" valueTypeId="36b7d1fb-2800-49a1-9999-3f0e72824235"/>
+  </producedTypes>
+  <name>НазваниеНалогаПоУмолчаниюМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заголовок</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

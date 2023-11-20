@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760780b0-361f-4255-a409-98dd78a02def">
+  <name>ИспользоватьЗагрузкуЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать загрузку электронной почты</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗагрузкуЭлектроннойПочты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.НастройкиЗагрузкиПисем</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f13b5ff-80ae-4d01-a626-57f4677c3847">
+  <producedTypes>
+    <managerType typeId="1410190b-7c0d-4031-99b6-ec9db7fa276f" valueTypeId="97a7437d-a936-49e9-a89d-ac4fd4d14fd7"/>
+    <valueManagerType typeId="296068aa-3864-4c01-a8c6-37486b04a3db" valueTypeId="db30a0f9-2bec-4df0-9f34-014826134eab"/>
+    <valueKeyType typeId="1c6abad6-22f1-4cd4-80d2-98920ec3de06" valueTypeId="6323f0a0-ffc1-4de9-b132-7b64806226ff"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияСуммовойУчетВРознице</name>
+  <synonym>
+    <key>ru</key>
+    <value>Суммовой учет в рознице</value>
+  </synonym>
+  <comment>АПК:58</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

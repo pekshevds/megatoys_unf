@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62af2bff-37df-4a2f-a9d6-63bf393f04e4">
+  <name>ИспользоватьПодсистемуПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему Продажи</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодсистемуПродажи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Продажи</content>
+</mdclass:FunctionalOption>

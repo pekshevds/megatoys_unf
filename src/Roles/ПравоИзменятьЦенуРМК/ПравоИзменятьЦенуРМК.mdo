@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02d58c86-70a0-4a63-99b9-fcda5ee61802">
+  <name>ПравоИзменятьЦенуРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право изменять цену РМК</value>
+  </synonym>
+</mdclass:Role>

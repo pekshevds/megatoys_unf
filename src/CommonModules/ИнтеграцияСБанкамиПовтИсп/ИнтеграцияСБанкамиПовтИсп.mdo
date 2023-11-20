@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab49fbd1-844b-443e-a270-172c7ca6add4">
+  <name>ИнтеграцияСБанкамиПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с банками (повторное использование)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

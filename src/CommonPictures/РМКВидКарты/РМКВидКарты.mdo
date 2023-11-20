@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4839b1d0-9cad-4660-9089-437a5439c363">
+  <name>РМКВидКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМКВид карты</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25192ec0-bf43-4d21-8387-8c684f1017fa">
+  <producedTypes>
+    <managerType typeId="a6bab8e8-9597-4849-a8a5-813023492ad9" valueTypeId="54c2c16f-6494-4040-a7b1-cc356fe50f55"/>
+    <valueManagerType typeId="a5416c4e-32de-40cc-a310-a331d5adfe78" valueTypeId="f353a273-8816-47e1-9f8d-91df8d4b0fca"/>
+    <valueKeyType typeId="291f97a9-2f3d-4192-8376-6eb0088d62b1" valueTypeId="41f8d0c0-c8ae-421c-9362-76112af2d32e"/>
+  </producedTypes>
+  <name>КоличествоМесяцевОчисткиВложенийЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество месяцев очистки вложений электронных писем</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
