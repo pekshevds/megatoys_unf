@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3644659b-c23f-4cbe-aaa2-e2cca4434aa3">
+  <producedTypes>
+    <refType typeId="bb30f0da-30d0-4093-9112-781837062efd" valueTypeId="ad31c2c5-5d68-4ed7-8bb1-36dd9bc9cec7"/>
+    <listType typeId="60a0fc17-4c22-4974-ad34-c0b2d9db01f8" valueTypeId="54960795-4304-4c5b-8ed8-778124582971"/>
+    <managerType typeId="a9be5099-8507-41cf-a100-c6d3e25a0f11" valueTypeId="d56069fc-cdc8-4919-b0fc-066365955d85"/>
+  </producedTypes>
+  <name>mega_ВидыПоддонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды поддонов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12715e23-9774-4372-821d-7e27a8f3f85e">
+    <name>Высота1600Низкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>1600 мм. низкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38923f1e-174f-49c1-ae9e-2b7b523a2b63">
+    <name>Высота1800Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>1800 мм. стандарт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82f79fb0-1a17-43a3-bf20-239b0cfdad12">
+    <name>Высота2100СверхНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>2100 мм. сверх нормы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

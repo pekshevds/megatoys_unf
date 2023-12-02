@@ -11074,6 +11074,7 @@
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <documentJournals>DocumentJournal.ЧекиККМ</documentJournals>
   <documentJournals>DocumentJournal.ЭлектронныеТрудовыеКнижки</documentJournals>
+  <enums>Enum.mega_ВидыПоддонов</enums>
   <enums>Enum.АналитикаПлатежногоКалендаря</enums>
   <enums>Enum.БазыРаспределенияРасходов</enums>
   <enums>Enum.БиллингПериодичностьДоговораОбслуживания</enums>
