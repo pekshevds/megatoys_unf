@@ -10112,6 +10112,8 @@
   <commonForms>CommonForm.ШаблонДоверенностиНалогоплательщика</commonForms>
   <commonForms>CommonForm.ШапкаТабличнаяЧасть</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <catalogs>Catalog.mega_ЛичныеКабинеты_OZON</catalogs>
+  <catalogs>Catalog.mega_Номенклатура_OZON</catalogs>
   <catalogs>Catalog.АвансовыйОтчетПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.АвансовыйПлатежИностранцаПоНДФЛПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
@@ -10741,6 +10743,7 @@
   <catalogs>Catalog.ЭтапыРемонта</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
   <catalogs>Catalog.Ячейки</catalogs>
+  <documents>Document.mega_ЗаказПокупателя_FBS_OZON</documents>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.АвансовыйПлатежИностранцаПоНДФЛ</documents>
   <documents>Document.АктВыполненныхРабот</documents>
@@ -13658,6 +13661,7 @@
   <informationRegisters>InformationRegister.ЭлектронныеПодписиКЭДО</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписиПоМЧД</informationRegisters>
   <informationRegisters>InformationRegister.ЯндексДоставка</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.mega_ВыработкаСотрудников_OZON</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.АвансовыеПлатежиИностранцевПоНДФЛ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БухгалтерскиеВзаиморасчетыССотрудниками</accumulationRegisters>

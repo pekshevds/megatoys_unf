@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="480ea75b-3a03-429f-b98d-6f28cb60e001">
+  <producedTypes>
+    <selectionType typeId="214cdabb-5ca9-47b6-9f14-2118c4d40396" valueTypeId="47b735c1-a188-4439-b3d7-838c48faab07"/>
+    <listType typeId="f28b36be-c125-4019-8a55-e5e5d1fdc762" valueTypeId="f90d5f33-d863-478b-b418-9b450b2ecab1"/>
+    <managerType typeId="1e6458b5-34fc-41bb-adb1-95ce961b9c07" valueTypeId="4cf6d648-1994-4715-9fec-890edfd63c59"/>
+    <recordSetType typeId="3660033e-a8af-4c93-abc2-c46035bb4335" valueTypeId="3dbbee49-2ead-4dbc-8835-5e14f34e9679"/>
+    <recordKeyType typeId="2a846316-3b5a-4bac-b583-bde9f422ea7f" valueTypeId="3e4f5bb4-76c5-4855-87f0-9c709550dc43"/>
+    <recordType typeId="2612f8a6-2d2e-420e-b21f-187b6bca95d0" valueTypeId="0e51e19c-8edc-4953-977c-6d87e151ebb8"/>
+  </producedTypes>
+  <name>mega_ВыработкаСотрудников_OZON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка сотрудников (сборка заказа OZON)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3717484f-3199-4202-8004-be2e088b61e8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b26758ad-32ec-48d7-94bb-0a56f0f59fff">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="9b18d20d-ca9e-45f1-8156-51304d07a481">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="502743b5-c80b-496d-a894-13fd8f94b125">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="eb030507-f3cc-46d1-bbbd-c2b2316255c3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9803766a-dfe2-448c-9985-d6b1b91b6916">
+    <name>ДокументСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ сборки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.mega_ЗаказПокупателя_FBS_OZON</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

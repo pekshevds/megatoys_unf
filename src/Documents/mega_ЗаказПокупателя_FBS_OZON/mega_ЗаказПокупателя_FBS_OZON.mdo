@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fb27212-d1e6-4489-84c4-0a8c65d6790d">
+  <producedTypes>
+    <objectType typeId="f92ec4f6-0e42-4b05-bcf0-3d94c254d28c" valueTypeId="de4063b6-2165-4416-a9d5-40dd3866affb"/>
+    <refType typeId="59bd4e52-5ea8-4756-a77c-82cce63841d2" valueTypeId="f8fffbce-0709-4bfa-9f87-44605bbe9f1f"/>
+    <selectionType typeId="c25218ab-3a3a-4c0c-81c3-44f155b25525" valueTypeId="d28cf62f-fe0f-4ffd-a045-0b2ecce915cb"/>
+    <listType typeId="9d7869aa-9ab0-4c88-86cb-1389cee86bc8" valueTypeId="35ccc56f-be26-48b3-8775-03bb6181d6fa"/>
+    <managerType typeId="0ffff1be-45e6-47bc-9380-ca5be8db2696" valueTypeId="a50ea4ee-2676-4e66-a233-dcc7bee80ea1"/>
+  </producedTypes>
+  <name>mega_ЗаказПокупателя_FBS_OZON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ покупателя (сборка заказа OZON)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.mega_ЗаказПокупателя_FBS_OZON.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.mega_ЗаказПокупателя_FBS_OZON.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.mega_ВыработкаСотрудников_OZON</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e076cd8d-71f4-4c59-86c6-446037f8ef6c">
+    <name>ЛичныйКабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный кабинет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ЛичныеКабинеты_OZON</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64448f96-9dd5-44cc-b10a-6d7cd85ccf7c">
+    <name>НачалоСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36d9724b-e9ba-4346-a085-07025ffbd45a">
+    <name>ОкончаниеСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание сборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0df7a94-7f97-4cb4-a8d7-3463d1c9d545">
+    <name>СборкаОкончена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка окончена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="163b8435-c3f8-4b22-8646-5925f76a22b2">
+    <name>ВремяСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время сборки, мин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e676e16e-939a-41f9-ad55-4cd52aa529ff">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="269bc866-acbb-4c59-b26a-f6d0608b16d6">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eb55a741-cc1e-49e7-add5-d614d4aec8ef">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ca339d7b-d465-4b97-aaab-3665a8466c6b">
+    <producedTypes>
+      <objectType typeId="1e33db1c-f5e9-4351-9349-c0d5e5f7cba2" valueTypeId="024462c1-11f9-44eb-bae8-779be548c045"/>
+      <rowType typeId="3998095b-2284-4f5b-8951-81cf5a1889db" valueTypeId="a0b5163a-9f82-4b26-b1d6-c766599d2808"/>
+    </producedTypes>
+    <name>Запасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запасы</value>
+    </synonym>
+    <attributes uuid="824b7304-8cf6-497d-86a8-49d765d8146c">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Номенклатура_OZON</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b66daf4-60dc-4a8e-a4b6-838d71353ab3">
+      <name>НомерВходящегоДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер входящего документа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e53e03c-623a-4b04-be95-84ffc76526ea">
+      <name>ДатаПечати</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата печати</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="d15cfe08-3bcf-4027-ac06-d5aeddb9a085">
+    <name>ПФ_MXL_СтикерПоДаннымОзон</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL стикер по данным озон</value>
+    </synonym>
+  </templates>
+  <templates uuid="b75c791d-fd00-4e15-b6f7-776364db7776">
+    <name>ПФ_MXL_Стикер</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL стикер</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

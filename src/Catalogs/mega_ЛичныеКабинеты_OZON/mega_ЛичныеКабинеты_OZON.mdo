@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e0f102e-6d2f-4bb9-8bc4-c3563ac4dc3c">
+  <producedTypes>
+    <objectType typeId="a5ff97fc-26e8-45d5-8c78-d0686cfd93b0" valueTypeId="9849f925-5675-423f-a5e0-e2941fb0fbb0"/>
+    <refType typeId="e36625ec-a4da-4c0d-b9e4-bc0481435f02" valueTypeId="83438988-327f-4b17-8d43-1cf31b916306"/>
+    <selectionType typeId="8221bf67-46d0-453b-a89c-920021aeec44" valueTypeId="89b1da93-2d20-4aba-a3f2-169c9aa7be5e"/>
+    <listType typeId="94d8286f-b3b3-451a-bd45-82c4ead42ca8" valueTypeId="23b1fce7-1576-415d-a72a-e1f06834681e"/>
+    <managerType typeId="64d502c4-058a-4f46-a615-e42b42015ecd" valueTypeId="43ed46fc-fd42-4c61-8808-ea7a8532ccbe"/>
+  </producedTypes>
+  <name>mega_ЛичныеКабинеты_OZON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личные кабинеты OZON</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ЛичныеКабинеты_OZON.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_ЛичныеКабинеты_OZON.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="577b9620-c6ad-4c6f-9745-c3dc314b211a">
+    <name>Client_Id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client-id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bae72f06-2811-4d04-a693-fec1d815f395">
+    <name>Api_Key</name>
+    <synonym>
+      <key>ru</key>
+      <value>Api-key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
