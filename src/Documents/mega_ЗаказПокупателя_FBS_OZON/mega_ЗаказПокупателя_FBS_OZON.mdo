@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.mega_ЗаказПокупателя_FBS_OZON.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_ЗаказПокупателя_FBS_OZON.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ВыработкаСотрудников_OZON</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -153,6 +154,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="eed55f2f-7291-4cbd-a2ca-854b2d2f704b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="ca339d7b-d465-4b97-aaab-3665a8466c6b">
     <producedTypes>
       <objectType typeId="1e33db1c-f5e9-4351-9349-c0d5e5f7cba2" valueTypeId="024462c1-11f9-44eb-bae8-779be548c045"/>
@@ -170,7 +180,7 @@
         <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.mega_Номенклатура_OZON</types>
+        <types>CatalogRef.Номенклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

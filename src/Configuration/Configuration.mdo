@@ -10113,7 +10113,6 @@
   <commonForms>CommonForm.ШапкаТабличнаяЧасть</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <catalogs>Catalog.mega_ЛичныеКабинеты_OZON</catalogs>
-  <catalogs>Catalog.mega_Номенклатура_OZON</catalogs>
   <catalogs>Catalog.АвансовыйОтчетПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.АвансовыйПлатежИностранцаПоНДФЛПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
