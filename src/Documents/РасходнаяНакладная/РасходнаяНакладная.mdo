@@ -4461,6 +4461,13 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <templates uuid="f9e69853-2591-4168-816e-f82e1de12c0e">
+    <name>mega_ПФ_MXL_ПриложениеДляЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение для загрузки</value>
+    </synonym>
+  </templates>
   <commands uuid="acbdaaeb-85a1-4825-af6f-9eb3dfee113f">
     <name>СоздатьИзНоменклатуры</name>
     <synonym>

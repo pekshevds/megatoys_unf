@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b75c487-f7a1-4a95-ab13-58860489c9d0">
+  <name>mega_Маркеплейсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркеплейсы</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

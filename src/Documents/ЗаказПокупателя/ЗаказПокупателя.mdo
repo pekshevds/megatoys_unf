@@ -3995,11 +3995,33 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="57640f5c-c325-4faf-a18f-049618545e66">
-      <name>mega_НомерВходящегоДокумента</name>
+    <attributes uuid="2ee2b633-fe92-4246-b438-4e5689c25e98">
+      <name>mega_НоменклатураПокупателя</name>
       <synonym>
         <key>ru</key>
-        <value>Номер входящего документа</value>
+        <value>Номенклатура покупателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураПоставщиков</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Номенклатура</name>
+        <field>Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b53fe71a-c555-4c3e-9953-19eee586c927">
+      <name>mega_НомерЗаказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер заказа</value>
       </synonym>
       <type>
         <types>String</types>
@@ -4012,24 +4034,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="174dac43-8d83-40d9-80ec-859bd47b226e">
-      <name>mega_ДатаВходящегоДокумента</name>
+    <attributes uuid="998f7c0a-decf-4e6b-9062-c0c97e4a8350">
+      <name>mega_ДатаЗаказа</name>
       <synonym>
         <key>ru</key>
-        <value>Дата входящего документа</value>
+        <value>Дата заказа</value>
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="97593774-8fb1-4dcc-b279-bae7648c38e7">
+    <attributes uuid="23f82b72-8063-4259-b66d-e67389f7bd4e">
       <name>mega_Собран</name>
       <synonym>
         <key>ru</key>
@@ -8927,6 +8948,48 @@
       <value>Образец загрузки данных материалы заказчика xlsx</value>
     </synonym>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ef05dcf4-a255-44c8-a384-33d2ecbf103e">
+    <name>mega_ПФ_MXL_СборочныйЛист_WB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборочный лист WB</value>
+    </synonym>
+  </templates>
+  <templates uuid="87b8d9aa-5ade-4b49-893e-ce94f1cb9d6d">
+    <name>mega_ПФ_MXL_СборочныйЛист_OZON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборочный лист OZON</value>
+    </synonym>
+  </templates>
+  <templates uuid="59fa3454-bd79-49d3-ae23-afb44dc15bf4">
+    <name>mega_ПФ_MXL_СброчныйЛист_Опт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сброчный лист (опт)</value>
+    </synonym>
+  </templates>
+  <templates uuid="f346d23a-d1e8-4964-a778-6262c2e2c9eb">
+    <name>mega_ПФ_MXL_СборочныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборочный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="d3792e19-80b8-4f25-944a-6ade36bd744a">
+    <name>mega_ПФ_MXL_Протокол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол</value>
+    </synonym>
+  </templates>
+  <templates uuid="1f2f4342-8e51-4790-89cc-93e75c9170d5">
+    <name>mega_ПФ_MXL_РеестрНеотгруженныхПозиций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр неотгруженных позиций</value>
+    </synonym>
   </templates>
   <commands uuid="33869677-42fb-46c2-9751-4996b4a74962">
     <name>ВвестиФактическийПлатеж</name>

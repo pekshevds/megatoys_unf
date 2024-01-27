@@ -2479,6 +2479,121 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b6707403-b23c-4058-91c8-b701f33ef08b">
+    <name>mega_ЕдиницаИзмеренияМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения мест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В отчетах можно сопоставить между собой количества товаров, пересчитанные в эту единицу из единицы хранения с указанным коэффициентом.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58176c86-c8c4-42d5-a3fe-3bb8f31c8a2f">
+    <name>mega_КоэффициентЕдиницыМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент единицы мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Коэффициент пересчета единицы хранения в единицу мест.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59267035-4296-4818-8be8-9e808c22af1a">
+    <name>mega_ВесНетто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес нетто (кг)</value>
+    </synonym>
+    <comment>Вес нетто (кг)</comment>
+    <type>
+      <types>DefinedType.Вес</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dcf0714f-52fe-46dd-af9a-0e600f12b002">
+    <name>mega_ВидПоддона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид поддона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.mega_ВидыПоддонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5af10e0-3eb0-4c73-b41d-866ad95f1f6d">
+    <name>mega_КоличествоНаПоддоне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество на поддоне</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поддон для расчета брать стандартный — 120см на 80см, высота 1,8м</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ebed2382-9c8b-4085-9840-eff635fca78f">
+    <name>mega_Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_СертификатыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="bd8e047b-adf8-40d6-bb50-46e0d3ab9614">
     <producedTypes>
       <objectType typeId="c27a3f5a-2fa0-4c2a-a41b-fb677c964036" valueTypeId="64206f6d-f18a-4e13-9762-94e97f5f06dc"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="191bd813-655c-4ab7-87a5-33f25596eeee">
+  <producedTypes>
+    <objectType typeId="411f795e-a54c-44ba-a0f8-2fd58db5cdba" valueTypeId="379a139e-f232-4108-8d0e-81f15a4feaed"/>
+    <managerType typeId="991892ba-fd62-4551-80e1-a84b8ed5a33e" valueTypeId="3fd22b4e-3e1f-4c89-8a16-6f0ddd3364ee"/>
+  </producedTypes>
+  <name>mega_ЗаказыПокупателейВРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы покупателей в работе</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.mega_ЗаказыПокупателейВРаботе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d50bb2c3-9288-4dac-a87d-9e449ff1a874">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="b84cb187-f55f-49fe-8680-8dc54ee6a849">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

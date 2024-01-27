@@ -24,6 +24,7 @@
   <content>Role.ПодсистемаПроизводство</content>
   <content>DataProcessor.ПанельОбменЗЕРНО</content>
   <content>CommonPicture.ЗадачаРазделПроизводство</content>
+  <content>Report.mega_ПланФактныйАнализПроизводстваРасширенный</content>
   <subsystems>Производство</subsystems>
   <subsystems>Наряды</subsystems>
   <subsystems>Переработка</subsystems>

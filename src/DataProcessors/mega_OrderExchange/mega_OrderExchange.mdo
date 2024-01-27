@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="886ac980-e479-4949-99d2-721683e2dd43">
+  <producedTypes>
+    <objectType typeId="e0027745-cb5f-4ee5-a1d8-1aed076fbfe7" valueTypeId="5dcd9677-f476-485a-8a1e-5ac763ba738d"/>
+    <managerType typeId="a922accd-4f17-4811-ac2a-d5746b4d7317" valueTypeId="0f46bf15-eb69-474e-b684-fd7ca44367d7"/>
+  </producedTypes>
+  <name>mega_OrderExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order exchange</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

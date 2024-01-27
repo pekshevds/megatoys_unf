@@ -2648,6 +2648,36 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
+          <name>ЗаполнитьСтруктурныеЕдиницыТабличнойЧастиЗапасы</name>
+          <id>1323</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ЗаполнитьСтруктурныеЕдиницыТабличнойЧастиЗапасыРасширеннаяПодсказка</name>
+            <id>1324</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.mega_ЗаполнитьСтруктурныеЕдиницыТабличнойЧастиЗапасы</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
           <name>ОстаткиИРезервы</name>
           <id>874</id>
           <visible>true</visible>
@@ -19237,6 +19267,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьРасходныеОрдераПоНоменклатуре</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>mega_ЗаполнитьСтруктурныеЕдиницыТабличнойЧастиЗапасы</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить склады</value>
+    </title>
+    <id>58</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить структурные единицы табличной части &quot;Запасы&quot;</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>mega_ЗаполнитьСтруктурныеЕдиницыТабличнойЧастиЗапасы</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

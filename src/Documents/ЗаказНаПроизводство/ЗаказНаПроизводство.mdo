@@ -888,6 +888,35 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c136118f-f6d8-4eec-9ae1-2000198cf566">
+    <name>mega_СтруктурнаяЕдиницаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структурная единица остатков</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В этом поле необходимо указать склад, на котором будут анализироваться остатки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСтруктурнойЕдиницы</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Склад</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтруктурныеЕдиницы.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="98ba2ae6-d840-4cbc-83d2-51be79de6b49">
     <name>ФормаДокумента</name>
     <synonym>
@@ -1281,6 +1310,44 @@
           <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Подразделение</value>
         </value>
       </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="99c7839d-1649-4c8b-a51c-afb6d2e3f4f1">
+      <name>mega_Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Произвольный комментарий к документу</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e24f0d5c-586d-437e-9ded-024d485aa09d">
+      <name>mega_Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сотрудник, которому назначается задание</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -2919,6 +2986,20 @@
       <value>Образец загрузки данных csv</value>
     </synonym>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ecdf10a7-15bd-4b5d-ad4f-d63beee679e2">
+    <name>mega_ПФ_MXL_АнализВозможностиОбеспеченияПотребности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ возможности обеспечения потребности</value>
+    </synonym>
+  </templates>
+  <templates uuid="1b385d63-1f6d-4d3d-8b9e-e1bd1a14caa7">
+    <name>mega_ПФ_MXL_ЗаданиеНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на производство</value>
+    </synonym>
   </templates>
   <commands uuid="bd4e0cbc-d0f5-40b1-a03b-d83204973dc3">
     <name>СоздатьИзСписка</name>

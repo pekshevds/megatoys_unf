@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3644659b-c23f-4cbe-aaa2-e2cca4434aa3">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22eda43d-e3d5-43fc-a4aa-e672542fb552">
   <producedTypes>
-    <refType typeId="bb30f0da-30d0-4093-9112-781837062efd" valueTypeId="ad31c2c5-5d68-4ed7-8bb1-36dd9bc9cec7"/>
-    <listType typeId="60a0fc17-4c22-4974-ad34-c0b2d9db01f8" valueTypeId="54960795-4304-4c5b-8ed8-778124582971"/>
-    <managerType typeId="a9be5099-8507-41cf-a100-c6d3e25a0f11" valueTypeId="d56069fc-cdc8-4919-b0fc-066365955d85"/>
+    <refType typeId="5bc4f72d-b29d-4ab4-b3e0-0b3e7c74a368" valueTypeId="6d0f1028-b27a-488f-877c-addf71e9da1b"/>
+    <listType typeId="2748d887-d399-4623-ba45-60f359497a5e" valueTypeId="f84759ee-0b72-4157-bb2a-ac4be2c93ce2"/>
+    <managerType typeId="ef87efad-9710-4b86-9c5d-b9925f1a3548" valueTypeId="c7449bb3-1976-481b-a96b-a6fc97dd666f"/>
   </producedTypes>
   <name>mega_ВидыПоддонов</name>
   <synonym>
     <key>ru</key>
     <value>Виды поддонов</value>
   </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="12715e23-9774-4372-821d-7e27a8f3f85e">
+  <enumValues uuid="ca4d6291-cf73-4c8a-a89a-4dc815c4f626">
     <name>Высота1600Низкий</name>
     <synonym>
       <key>ru</key>
       <value>1600 мм. низкий</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="38923f1e-174f-49c1-ae9e-2b7b523a2b63">
+  <enumValues uuid="628950b6-db37-43be-b893-9dbbcb049bbb">
     <name>Высота1800Стандарт</name>
     <synonym>
       <key>ru</key>
-      <value>1800 мм. стандарт</value>
+      <value>1800 мм. стандарт </value>
     </synonym>
   </enumValues>
-  <enumValues uuid="82f79fb0-1a17-43a3-bf20-239b0cfdad12">
+  <enumValues uuid="09f90a06-115c-4251-9636-91803d5621eb">
     <name>Высота2100СверхНормы</name>
     <synonym>
       <key>ru</key>

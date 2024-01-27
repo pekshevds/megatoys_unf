@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa5e0a51-03d8-4acb-b6d9-f463d9731edd">
+  <name>mega_OrderExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Order exchange</value>
+  </synonym>
+  <rootURL>mega</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="266d6e89-f577-4d1f-a069-82c776ab175c">
+    <name>Opt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Opt</value>
+    </synonym>
+    <template>/api/v1/opt/*</template>
+    <methods uuid="39b562b0-2f11-4640-b41a-512bd516c5b6">
+      <name>getorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Getorder</value>
+      </synonym>
+      <handler>getOrderOptByID</handler>
+    </methods>
+    <methods uuid="40d28f9b-3ca5-4d44-a511-c015d7059ed8">
+      <name>devideorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Devideorder</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>devideOrderOptByID</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6e90a256-700b-41df-9ca2-7c388c589773">
+    <name>Wildberries</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wildberries</value>
+    </synonym>
+    <template>/api/v1/wildberries/*</template>
+    <methods uuid="7c3b4de0-91b8-4ef9-9b5c-0c26c54aa8b4">
+      <name>getorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Getorder</value>
+      </synonym>
+      <handler>getOrderWildberriesByID</handler>
+    </methods>
+    <methods uuid="ea4d2f33-3e59-4bb7-99cb-65f335807e5c">
+      <name>devideorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Devideorder</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>devideOrderWildberriesByID</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f454d1ec-27c3-4694-bec9-b0d831b7f3ed">
+    <name>Ozon</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ozon</value>
+    </synonym>
+    <template>/api/v1/ozon/*</template>
+    <methods uuid="33740529-b377-45d7-82d3-4cc881f0ff5e">
+      <name>getorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Getorder</value>
+      </synonym>
+      <handler>getOrderOzonByID</handler>
+    </methods>
+    <methods uuid="3f7edbae-58bf-447d-93ec-6f7d2c73afdd">
+      <name>devideorder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Devideorder</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>devideOrderOzonByID</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

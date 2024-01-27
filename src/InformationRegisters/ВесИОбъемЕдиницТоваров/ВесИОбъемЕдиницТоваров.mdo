@@ -79,6 +79,121 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="8ab12a74-a8b2-466f-9101-76ee55b7be0b">
+    <name>mega_ВесНетто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес нетто (кг)</value>
+    </synonym>
+    <comment>Вес нетто (кг)</comment>
+    <type>
+      <types>DefinedType.Вес</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8a1bfb2-c19f-49c3-bcba-d33cf769bb9f">
+    <name>mega_Высота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота (см)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3597221b-17d0-4d49-860d-8b8084dc38af">
+    <name>mega_Ширина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина (см)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9e91ab8c-c329-4332-aaef-2c53006a4fbd">
+    <name>mega_Длина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина (см)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a0e49737-6e59-40c8-8372-d73ec49bf25b">
+    <name>mega_КоличествоНаПоддоне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество на поддоне</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поддон для расчета брать стандартный — 120см на 80см, высота 1,8м</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7f6de44-a961-4c0f-bca3-02b572b8958e">
+    <name>mega_ВидПоддона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид поддона</value>
+    </synonym>
+    <type>
+      <types>EnumRef.mega_ВидыПоддонов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="1dc6892f-d17a-4153-82e2-8da359c5472a">
     <name>Номенклатура</name>
     <synonym>

@@ -33,4 +33,6 @@
   <content>Report.РаспределениеМатериалов</content>
   <content>Report.Себестоимость</content>
   <content>Report.ВыпускПродукции</content>
+  <content>Report.mega_ПланФактныйАнализПроизводстваРасширенный</content>
+  <content>Report.mega_ВыпускПродукции</content>
 </mdclass:FunctionalOption>

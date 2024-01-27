@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa468218-5620-4075-b168-a45027c76d90">
+  <name>mega_УправлениеНачальнымИнтерфесом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление начальным интерфесом</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

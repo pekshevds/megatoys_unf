@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="799a3161-1973-4b14-a51a-d911167b2b7b">
+  <producedTypes>
+    <objectType typeId="ed873a93-3efa-4e23-a0d9-050274c8e8a9" valueTypeId="63a56761-7fb9-4552-a3e2-d6cb22ee1507"/>
+    <managerType typeId="60dc8408-1e09-4757-b2cc-793e37116dd3" valueTypeId="1e59a1fb-8556-4e81-bd24-92b85fcc663f"/>
+  </producedTypes>
+  <name>mega_ПланФактныйАнализПроизводстваРасширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>План-фактный анализ производства (расширенный)</value>
+  </synonym>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.mega_ПланФактныйАнализПроизводстваРасширенный.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="cd0af6d2-5421-4bd2-9eb7-3911ce204e55">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="6e202cee-364e-4ac1-9c51-83a66a276be4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

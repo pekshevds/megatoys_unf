@@ -3230,6 +3230,20 @@
       <value>Накладная</value>
     </synonym>
   </templates>
+  <templates uuid="d1b6ee9b-3064-4dce-9548-a9cbc91a0cf2">
+    <name>mega_ПФ_MXL_ТаблицаНеизвестныхАктикулов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица неизвестных актикулов</value>
+    </synonym>
+  </templates>
+  <templates uuid="f2fcb5ba-a6e3-4b4a-9db5-7c2b78f75345">
+    <name>mega_ПФ_MXL_ДанныеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные документа</value>
+    </synonym>
+  </templates>
   <commands uuid="495018fb-e937-41e6-b3d3-c9d0746b1da8">
     <name>СчетФактураСГТДДСоздатьНаОсновании</name>
     <synonym>
