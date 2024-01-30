@@ -4066,6 +4066,7 @@
   <filterCriteria>FilterCriterion.ФайлыВТоме</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
   <commonModules>CommonModule.mega_Маркеплейсы</commonModules>
+  <commonModules>CommonModule.mega_ПроцедурыФормированияПередачТоваровМеждуОрганизациями</commonModules>
   <commonModules>CommonModule.mega_УправлениеНачальнымИнтерфесом</commonModules>
   <commonModules>CommonModule.RFIDКлиент</commonModules>
   <commonModules>CommonModule.RFIDКлиентСервер</commonModules>
@@ -7612,6 +7613,7 @@
   <eventSubscriptions>EventSubscription.ФункциональностьПриложенияПриИзмененииПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЦенообразованиеДобавитьЗаписиОчередиЦен</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЦенообразованиеПриИзмененииКурсаВалюты</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.mega_ФормированиеПередачТоваровМеждуОрганизациями</scheduledJobs>
   <scheduledJobs>ScheduledJob.АвтоматическоеНачислениеИСписаниеБонусныхБаллов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВсеОбновленияНовостей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ВыгрузкаНоменклатурыРаботаСНоменклатурой</scheduledJobs>

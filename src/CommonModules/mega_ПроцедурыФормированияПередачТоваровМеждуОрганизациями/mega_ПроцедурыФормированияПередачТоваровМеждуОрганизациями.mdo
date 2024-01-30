@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26814618-dbd3-4403-8d70-b49f7d7e454c">
+  <name>mega_ПроцедурыФормированияПередачТоваровМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедуры формирования передач товаров между организациями</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
