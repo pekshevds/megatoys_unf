@@ -134,6 +134,7 @@
   </characteristics>
   <basedOn>Document.ИнвентаризацияЗапасов</basedOn>
   <basedOn>Document.РасходныйОрдер</basedOn>
+  <basedOn>Document.ПриходнаяНакладная</basedOn>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
